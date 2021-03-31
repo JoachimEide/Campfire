@@ -1,0 +1,30 @@
+* {
+  background-color: #111820;
+  font-family: din-2014, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+a,
+p,
+h3,
+h2 {
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+}
+
+.content-header {
+  color: #e59740;
+  font-size: 1.3rem;
+}
+
+.thin-text {
+  font-weight: 100;
+}

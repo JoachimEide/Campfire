@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  margin-top: 50px;
+  flex-direction: row;
+}
+
+.logoBox {
+  display: flex;
+  border: 1px solid;
+  border-color: #3ffefb;
+  border-radius: 14px;
+  margin: 0 10px;
+  width: 125px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 40px;
+}

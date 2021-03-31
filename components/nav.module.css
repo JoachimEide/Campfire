@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #111820;
+  height: 85px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-bottom: 2.5px;
+  margin-left: 40px;
+}
+
+.searchIcon {
+  height: 20px;
+}
+
+.settingsIcon,
+.notificationIcon {
+  margin-top: 5px;
+  height: 24px;
+}
+
+.notificationIcon {
+  margin-right: 10px;
+}

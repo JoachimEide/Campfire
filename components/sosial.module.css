@@ -1,0 +1,64 @@
+.container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18%;
+  height: 100%;
+  right: 0;
+  border-left: 1px solid #e59740;
+  z-index: 1;
+}
+
+.yourProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.profilePic {
+  display: flex;
+  overflow: hidden;
+  border: 2px solid #3ffefb;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.status {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  border: 1px solid #3ffefb;
+  width: 60%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.friendProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.friendPic {
+  display: flex;
+  overflow: hidden;
+  border: 2px solid #3ffefb;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.friendName {
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.friendInfo {
+  font-weight: 100;
+}
