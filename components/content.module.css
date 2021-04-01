@@ -1,11 +1,17 @@
 .container {
   margin-left: 30px;
-  height: 140px;
+  border-radius: 6px;
+  border: 1px solid #111820;
+  overflow: hidden;
 }
 
 .container:hover {
   border: 1px solid #3ffefb;
-  border-radius: 6px;
+}
+
+.container:hover .image {
+  transition: all 1s ease-out;
+  transform: scale(1.1);
 }
 
 .image {
@@ -18,8 +24,8 @@
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
-  margin-top: -20px;
   margin-left: 30px;
+  margin-top: -18px;
 }
 
 .circle {

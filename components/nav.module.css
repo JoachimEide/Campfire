@@ -1,11 +1,13 @@
 .nav {
+  position: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 82%;
   background-color: #111820;
   height: 85px;
+  z-index: 1;
 }
 
 .search {
