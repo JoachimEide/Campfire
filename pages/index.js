@@ -8,7 +8,7 @@ export default function Home() {
     <Layout>
       <Topcarousel />
       <Services />
-      <ContentRow title="Friends are watching" />
+      <ContentRow title="Popular now" />
       <ContentRow title="Friends are watching" />
       <ContentRow title="Friends are watching" />
     </Layout>
