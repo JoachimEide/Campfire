@@ -45,9 +45,13 @@ export default function ContentRow(props) {
       </Slider>
       <style jsx>{`
         .content-row {
-          width: 84%;
+          width: 90%;
           margin: auto;
-          margin-top: 50px;
+          margin-top: 30px;
+        }
+        h2 {
+          margin-left: 10px;
+          margin-bottom: 10px;
         }
       `}</style>
     </div>

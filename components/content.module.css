@@ -1,8 +1,9 @@
 .container {
-  margin-left: 30px;
+  margin-left: 40px;
   border-radius: 6px;
   border: 1px solid #111820;
   overflow: hidden;
+  transition: all 0.3s ease-out;
 }
 
 .container:hover {
@@ -10,12 +11,12 @@
 }
 
 .container:hover .image {
-  transition: all 1s ease-out;
   transform: scale(1.1);
 }
 
 .image {
   border-radius: 6px;
+  transition: all 0.3s ease-out;
 }
 
 .titleService {
@@ -24,7 +25,7 @@
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
-  margin-left: 30px;
+  margin-left: 40px;
   margin-top: -18px;
 }
 
@@ -37,7 +38,7 @@
   width: 50px;
   height: 50px;
   z-index: 1;
-  margin-right: 15px;
+  margin-right: 30px;
 }
 
 .circle img {

@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  width: 84%;
+  width: 90%;
   margin: auto;
   margin-top: 50px;
   flex-direction: row;
@@ -12,7 +12,7 @@
   border-color: #3ffefb;
   border-radius: 14px;
   margin: 0 10px;
-  width: 125px;
+  width: 130px;
   height: 80px;
   justify-content: center;
   align-items: center;

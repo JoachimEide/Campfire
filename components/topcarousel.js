@@ -61,7 +61,7 @@ export default function Topcarousel() {
       </Slider>
       <style jsx>{`
         .title-container {
-          width: 84%;
+          width: 90%;
           margin: auto;
         }
       `}</style>
