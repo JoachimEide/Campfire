@@ -8,29 +8,38 @@ import ContentRowStyle from "./content-row.module.css";
 function SampleNextArrow(props) {
   const { onClick } = props;
   return (
-    <div
-      className={ContentRowStyle.arrow}
-      style={{ transform: "rotate(225deg)", left: "100%" }}
-      onClick={onClick}
-    />
+    <div className={ContentRowStyle.backgroundFadeRight}>
+      <div
+        className={ContentRowStyle.arrow}
+        style={{ transform: "rotate(225deg)" }}
+        onClick={onClick}
+      />
+    </div>
   );
 }
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={ContentRowStyle.arrow}
-      style={{ transform: "rotate(45deg)", left: "-1%" }}
-      onClick={onClick}
-    />
-  );
+  const { currentSlide, onClick } = props;
+  if (currentSlide === 0) {
+    return false;
+  } else {
+    return (
+      <div className={ContentRowStyle.backgroundFadeLeft}>
+        <div
+          className={ContentRowStyle.arrow}
+          style={{ transform: "rotate(45deg)", left: "-2%" }}
+          onClick={onClick}
+        />
+      </div>
+    );
+  }
 }
 
 export default function ContentRow(props) {
   var settings = {
-    slidesToShow: 3.1,
+    slidesToShow: 3.2,
     slidesToScroll: 1,
+    infinite: false,
     arrows: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -75,7 +84,6 @@ export default function ContentRow(props) {
           margin-top: 30px;
         }
         h2 {
-          margin-left: 10px;
           margin-bottom: 10px;
         }
       `}</style>

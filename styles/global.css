@@ -54,3 +54,7 @@ h2 {
 .slick-dots li div {
   opacity: 0 !important;
 }
+
+.slick-disabled {
+  opacity: 0% !important;
+}
