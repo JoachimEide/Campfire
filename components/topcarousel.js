@@ -20,7 +20,6 @@ export default function Topcarousel() {
     customPaging: (i) => (
       <div
         style={{
-          marginTop: "10px",
           width: "7px",
           height: "7px",
           border: "1px solid white",

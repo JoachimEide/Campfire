@@ -16,6 +16,7 @@
 
 .image {
   border-radius: 6px;
+  width: 264px;
   transition: all 0.3s ease-out;
 }
 
