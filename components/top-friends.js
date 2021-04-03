@@ -1,7 +1,7 @@
 import Link from "next/link";
 import TopFriendsStyle from "./top-friends.module.css";
 
-export default function Nav() {
+export default function TopFriends() {
   return (
     <div className={TopFriendsStyle.container}>
       <h2 className="content-header">Top friends</h2>
