@@ -1,0 +1,55 @@
+.nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 82%;
+  height: 100px;
+  z-index: 2;
+  margin-top: 10px;
+}
+
+.backContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.backContainer p {
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+.backIcon {
+  height: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.serviceLogo {
+  height: 70px;
+  margin-left: -25px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.settingsIcon,
+.notificationIcon {
+  margin: 5px 10px 0 10px;
+  height: 24px;
+}
+
+.notificationIcon {
+  margin-right: 10px;
+}

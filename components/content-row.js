@@ -49,30 +49,30 @@ export default function ContentRow(props) {
       <h2 className="content-header">{props.title}</h2>
       <Slider {...settings}>
         <Content
-          link="/wandavision"
+          link="/series/wandavision"
           alt="Wandavision"
-          src="/images/WandaVision.jpeg"
+          src="/images/WandaVision.png"
           serviceSrc="/images/DisneyPlusLogo.svg"
           serviceAlt="Disney"
         />
         <Content
-          link="/wandavision"
+          link="/series/wandavision"
           alt="Wandavision"
-          src="/images/WandaVision.jpeg"
+          src="/images/WandaVision.png"
           serviceSrc="/images/DisneyPlusLogo.svg"
           serviceAlt="Disney"
         />
         <Content
-          link="/wandavision"
+          link="/series/wandavision"
           alt="Wandavision"
-          src="/images/WandaVision.jpeg"
+          src="/images/WandaVision.png"
           serviceSrc="/images/DisneyPlusLogo.svg"
           serviceAlt="Disney"
         />
         <Content
-          link="/wandavision"
+          link="/series/wandavision"
           alt="Wandavision"
-          src="/images/WandaVision.jpeg"
+          src="/images/WandaVision.png"
           serviceSrc="/images/DisneyPlusLogo.svg"
           serviceAlt="Disney"
         />

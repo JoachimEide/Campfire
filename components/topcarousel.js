@@ -35,27 +35,27 @@ export default function Topcarousel() {
         <Titlecard
           link="/wandavision"
           alt="wandavision"
-          src="/images/WandaVision.jpeg"
+          src="/images/WandaVision.png"
         />
         <Titlecard
           link="/wandavision"
           alt="wandavision"
-          src="/images/WandaVision.jpeg"
+          src="/images/WandaVision.png"
         />
         <Titlecard
           link="/wandavision"
           alt="wandavision"
-          src="/images/WandaVision.jpeg"
+          src="/images/WandaVision.png"
         />
         <Titlecard
           link="/wandavision"
           alt="wandavision"
-          src="/images/WandaVision.jpeg"
+          src="/images/WandaVision.png"
         />
         <Titlecard
           link="/wandavision"
           alt="wandavision"
-          src="/images/WandaVision.jpeg"
+          src="/images/WandaVision.png"
         />
       </Slider>
       <style jsx>{`
