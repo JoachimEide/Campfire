@@ -56,9 +56,9 @@ export default function ContentRow(props) {
           serviceAlt="Disney"
         />
         <Content
-          link="/series/wandavision"
-          alt="Wandavision"
-          src="/images/WandaVision.png"
+          link="/series/mandalorian"
+          alt="Mandalorian"
+          src="/images/mandalorianthumb.jpg"
           serviceSrc="/images/DisneyPlusLogo.svg"
           serviceAlt="Disney"
         />

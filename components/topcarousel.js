@@ -33,29 +33,29 @@ export default function Topcarousel() {
     <div className="title-container">
       <Slider {...settings}>
         <Titlecard
-          link="/wandavision"
+          link="/series/mandalorian"
+          alt="wandavision"
+          src="/images/Mandalorianthumb.jpg"
+        />
+        <Titlecard
+          link="/series/wandavision"
           alt="wandavision"
           src="/images/WandaVision.png"
         />
         <Titlecard
-          link="/wandavision"
+          link="/series/mandalorian"
+          alt="wandavision"
+          src="/images/Mandalorianthumb.jpg"
+        />
+        <Titlecard
+          link="/series/wandavision"
           alt="wandavision"
           src="/images/WandaVision.png"
         />
         <Titlecard
-          link="/wandavision"
+          link="/series/mandalorian"
           alt="wandavision"
-          src="/images/WandaVision.png"
-        />
-        <Titlecard
-          link="/wandavision"
-          alt="wandavision"
-          src="/images/WandaVision.png"
-        />
-        <Titlecard
-          link="/wandavision"
-          alt="wandavision"
-          src="/images/WandaVision.png"
+          src="/images/Mandalorianthumb.jpg"
         />
       </Slider>
       <style jsx>{`
