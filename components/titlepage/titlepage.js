@@ -14,7 +14,8 @@ export default function Layout(props) {
               rgba(0, 0, 0, 0),
               rgba(0, 0, 0, 0),
               rgba(0, 0, 0, 0),
-              rgba(17, 24, 32, 0.73),
+              rgba(0, 0, 0, 0),
+              rgba(17, 24, 32, 0.7),
               rgba(17, 24, 32, 1)
             ),
             url(${props.backgroundSrc});

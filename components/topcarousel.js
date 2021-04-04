@@ -34,7 +34,7 @@ export default function Topcarousel() {
       <Slider {...settings}>
         <Titlecard
           link="/series/mandalorian"
-          alt="wandavision"
+          alt="mandalorian"
           src="/images/Mandalorianthumb.jpg"
         />
         <Titlecard
@@ -44,7 +44,7 @@ export default function Topcarousel() {
         />
         <Titlecard
           link="/series/mandalorian"
-          alt="wandavision"
+          alt="mandalorian"
           src="/images/Mandalorianthumb.jpg"
         />
         <Titlecard
@@ -54,7 +54,7 @@ export default function Topcarousel() {
         />
         <Titlecard
           link="/series/mandalorian"
-          alt="wandavision"
+          alt="mandalorian"
           src="/images/Mandalorianthumb.jpg"
         />
       </Slider>
