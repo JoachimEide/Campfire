@@ -1,12 +1,62 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 700px;
+    width: 750px;
     height: 300px;
-    background-color: #070000;
-    margin-left: 400px;
+    background-color: #0D0F14;
+    margin-left: 350px;
     margin-top: 20px;
     border-radius: 24px;
     padding-top: 25px;
     padding-left: 20px;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.subRow {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.subProvider {
+    display: flex;
+    align-items: center;
+    width: 210px;
+    border: solid 0.5px #2cfffc;
+    border-radius: 50px;
+    padding: 7px;
+    margin-right: 20px;
+}
+
+.subLogo {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: #1E2162;
+    border-radius: 50%;
+}
+
+.subNamePrice {
+    margin-left: 10px;
+    line-height: 1.5;
+}
+
+.subActiveEdit {
+    margin-left: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.subActiveEditNRK {
+    margin-left: 60px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.subActiveState {
+    color: #2cfffc;
 }
