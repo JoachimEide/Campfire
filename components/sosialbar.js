@@ -1,9 +1,12 @@
+import { useState } from "react";
 import Link from "next/link";
 import SosialbarStyle from "./sosial.module.css";
 import Image from "next/image";
 import Buble from "./buble";
 
 export default function Sosialbar() {
+  const [clickFriend, setClickFriend] = useState(false);
+
   return (
     <div className={SosialbarStyle.container}>
       <div className={SosialbarStyle.yourProfile}>
@@ -24,7 +27,12 @@ export default function Sosialbar() {
         <h3>Social</h3>
       </div>
       <div className={SosialbarStyle.friendProfile}>
-        <div className={SosialbarStyle.friendPic} classNameA>
+        <div
+          className={SosialbarStyle.friendPic}
+          onClick={() => {
+            setClickFriend(!clickFriend);
+          }}
+        >
           <Image
             alt="profile pic"
             src="/images/Joachim90.jpg"
@@ -40,7 +48,13 @@ export default function Sosialbar() {
         </div>
       </div>
 
-      <div className={SosialbarStyle.friendClick}>
+      <div
+        className={
+          clickFriend
+            ? SosialbarStyle.friendClickActive
+            : SosialbarStyle.friendClick
+        }
+      >
         <Buble className={SosialbarStyle.buble} />
         <button className={SosialbarStyle.joinButton}>Join</button>
         <button className={SosialbarStyle.profileButton}>Profile</button>
