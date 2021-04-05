@@ -1,6 +1,7 @@
 import Link from "next/link";
 import SosialbarStyle from "./sosial.module.css";
 import Image from "next/image";
+import Buble from "./buble";
 
 export default function Sosialbar() {
   return (
@@ -23,22 +24,26 @@ export default function Sosialbar() {
         <h3>Social</h3>
       </div>
       <div className={SosialbarStyle.friendProfile}>
-        <Link href="/my-profile">
-          <a className={SosialbarStyle.friendPic}>
-            <Image
-              alt="profile pic"
-              src="/images/Joachim90.jpg"
-              width={50}
-              height={50}
-              layout="intrinsic"
-            />
-          </a>
-        </Link>
-        <div className={SosialbarStyle.friendWatch}>
+        <div className={SosialbarStyle.friendPic} classNameA>
+          <Image
+            alt="profile pic"
+            src="/images/Joachim90.jpg"
+            width={50}
+            height={50}
+            layout="intrinsic"
+          />
+        </div>
+        <div className={SosialbarStyle.friendText}>
           <p className={SosialbarStyle.friendName}>Thomas Lund</p>
           <p className={SosialbarStyle.friendInfo}>Mandalorian - S2E6</p>
           <p className={SosialbarStyle.friendInfo}>Disney +</p>
         </div>
+      </div>
+
+      <div className={SosialbarStyle.friendClick}>
+        <Buble className={SosialbarStyle.buble} />
+        <button className={SosialbarStyle.joinButton}>Join</button>
+        <button className={SosialbarStyle.profileButton}>Profile</button>
       </div>
       <style jsx>{`
         h2 {
