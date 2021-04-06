@@ -11,6 +11,10 @@
   width: 300px;
 }
 
+.space {
+  height: 90px;
+}
+
 .titleTop button {
   font-family: din-2014, sans-serif;
   font-size: 1.2rem;
@@ -35,4 +39,34 @@
 .watchlistButton {
   border: 2px solid #e59740;
   margin-top: 7px;
+}
+
+.episodeReviewContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 50%;
+  width: 90%;
+}
+
+.episodesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.episode {
+  display: flex;
+  flex-direction: row;
+}
+
+.episodeText {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewsContainer {
+}
+
+.reviews {
 }

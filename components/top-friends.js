@@ -11,7 +11,7 @@ export default function TopFriends() {
           <img
             className={TopFriendsStyle.friendProfilePic}
             alt="friend profile pic"
-            src="/images/joachim90.jpg"
+            src="/images/Joachim90.jpg"
           />
 
           <div>
