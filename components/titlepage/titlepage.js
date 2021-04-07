@@ -1,7 +1,7 @@
 import TitleNav from "./titleNav";
 import Sosialbar from "./titleSosial";
+import Episode from "./episode";
 import TitlePageStyle from "./titlepage.module.css";
-import Image from "next/image";
 
 const OptionalLogo = (props) => {
   if (props.logo) {
@@ -32,23 +32,10 @@ export default function Layout(props) {
         </div>
         <div className={TitlePageStyle.episodeReviewContainer}>
           <div className={TitlePageStyle.episodesContainer}>
-            <h2>Episodes</h2>
-            <div className={TitlePageStyle.episode}>
-              <div>
-                <Image
-                  src="/images/mandoS2E16.jpg"
-                  alt="mandalorian"
-                  width={254}
-                  height={144}
-                  layout="intrinsic"
-                />
-                <div className={TitlePageStyle.progressBar}></div>
-              </div>
-              <div className={TitlePageStyle.episodeText}>
-                <h3>Chapter 16: The rescue</h3>
-                <p>The Mandalorian and his allies attempt a daring rescue.</p>
-              </div>
-            </div>
+            <h2>Season 2</h2>
+            <Episode />
+            <Episode />
+            <Episode />
           </div>
           <div className={TitlePageStyle.reviewsContainer}>
             <h2>Reviews</h2>

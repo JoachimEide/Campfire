@@ -53,20 +53,5 @@
 .episodesContainer {
   display: flex;
   flex-direction: column;
-}
-
-.episode {
-  display: flex;
-  flex-direction: row;
-}
-
-.episodeText {
-  display: flex;
-  flex-direction: column;
-}
-
-.reviewsContainer {
-}
-
-.reviews {
+  margin-right: 7%;
 }

@@ -1,5 +1,5 @@
 .nav {
-  position: fixed;
+  position: absolute;
   display: flex;
   flex-direction: row;
   align-items: center;

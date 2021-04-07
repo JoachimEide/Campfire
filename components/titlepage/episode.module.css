@@ -1,0 +1,37 @@
+.episode {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.image {
+  border-radius: 6px;
+  border: 1px solid #111820;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  letter-spacing: 0;
+  word-spacing: 0;
+  font-size: 0;
+}
+
+.image:hover {
+  border: 1px solid #3ffefb;
+}
+
+.episodeText {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 2rem;
+}
+
+.progressBar {
+  position: relative;
+  margin: auto;
+  bottom: 10px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 1px;
+  height: 4px;
+  width: 90%;
+}
