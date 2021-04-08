@@ -1,6 +1,7 @@
 import TitleNav from "./titleNav";
 import Socialbar from "./titleSocial";
 import Episode from "./episode";
+import Review from "./review";
 import TitlePageStyle from "./titlepage.module.css";
 
 const OptionalLogo = (props) => {
@@ -42,6 +43,9 @@ export default function Layout(props) {
             <button className={TitlePageStyle.reviewButton}>
               Write review
             </button>
+            <Review />
+            <Review />
+            <Review />
           </div>
         </div>
       </div>
