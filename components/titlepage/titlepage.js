@@ -39,6 +39,9 @@ export default function Layout(props) {
           </div>
           <div className={TitlePageStyle.reviewsContainer}>
             <h2>Reviews</h2>
+            <button className={TitlePageStyle.reviewButton}>
+              Write review
+            </button>
           </div>
         </div>
       </div>

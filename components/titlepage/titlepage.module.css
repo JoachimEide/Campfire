@@ -15,9 +15,9 @@
   height: 90px;
 }
 
-.titleTop button {
+.titleTop button,
+.episodeReviewContainer button {
   font-family: din-2014, sans-serif;
-  font-size: 1.2rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -25,20 +25,32 @@
   background-color: #111820;
   color: white;
   text-align: center;
-  padding: 7px 40px;
-  width: 200px;
-  border-radius: 10px;
   z-index: 2;
 }
 
 .playButton {
+  font-size: 1.2rem;
   border: 2px solid #3ffefb;
   margin-top: 30px;
+  padding: 7px 40px;
+  width: 200px;
+  border-radius: 10px;
 }
 
 .watchlistButton {
+  font-size: 1.2rem;
   border: 2px solid #e59740;
   margin-top: 7px;
+  padding: 7px 40px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.reviewButton {
+  border: 2px solid #3ffefb;
+  padding: 7px 10px;
+  border-radius: 30px;
+  margin-top: 2rem;
 }
 
 .episodeReviewContainer {

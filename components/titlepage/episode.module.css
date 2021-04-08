@@ -5,6 +5,7 @@
 }
 
 .image {
+  cursor: pointer;
   border-radius: 6px;
   border: 1px solid #111820;
   overflow: hidden;
