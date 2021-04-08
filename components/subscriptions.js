@@ -62,8 +62,71 @@ export default function Subscriptions() {
           </div>
         </div>
 
-        <div className={SubscriptionsStyle.subRow}></div>
-        <div className={SubscriptionsStyle.subAddTotalRow}></div>
+        <div className={SubscriptionsStyle.subRow}>
+        <div className={SubscriptionsStyle.subProvider}>
+            <img
+              className={SubscriptionsStyle.subLogo}
+              alt="Disney+ logo"
+              src="/images/DisneyPlusLogo.svg"
+            />
+
+            <div className={SubscriptionsStyle.subNamePrice}>
+              <p>Disney+</p>
+              <p>89,- per month</p>
+            </div>
+
+            <div className={SubscriptionsStyle.subActiveEditDisney}>
+              <p className={SubscriptionsStyle.subActiveState}>Active</p>
+              <p>Edit</p>
+            </div>
+          </div>
+
+          <div className={SubscriptionsStyle.subProvider}>
+            <img
+              className={SubscriptionsStyle.subLogo}
+              alt="TV2 Sumo logo"
+              src="/images/DisneyPlusLogo.svg"
+            />
+
+            <div className={SubscriptionsStyle.subNamePrice}>
+              <p>TV2 Sumo</p>
+              <p>109,- per month</p>
+            </div>
+
+            <div className={SubscriptionsStyle.subActiveEdit}>
+              <p className={SubscriptionsStyle.subActiveState}>Active</p>
+              <p>Edit</p>
+            </div>
+          </div>
+
+          <div className={SubscriptionsStyle.subProviderHbo}>
+            <img
+              className={SubscriptionsStyle.subLogo}
+              alt="HBO logo"
+              src="/images/DisneyPlusLogo.svg"
+            />
+
+            <div className={SubscriptionsStyle.subNamePrice}>
+              <p>HBO Nordic</p>
+              <p>0,- per month</p>
+            </div>
+
+            <div className={SubscriptionsStyle.subActiveEditHbo}>
+              <p className={SubscriptionsStyle.subActiveStateHbo}>Paused</p>
+              <p>Edit</p>
+            </div>
+          </div>
+        </div>
+        <div className={SubscriptionsStyle.subAddTotalRow}>
+          <div className={SubscriptionsStyle.addSub}>
+            <p>Add streaming service +</p>
+          </div>
+          <div className={SubscriptionsStyle.totalPrice}>
+            <p>Total: 416,- NOK</p>
+            <p className={SubscriptionsStyle.smallerText}>per month</p>
+            
+          </div>
+        </div>
       </div>
     </div>
   );
