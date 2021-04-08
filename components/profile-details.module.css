@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 420px;
+    background-color: #0D0F14;
+    margin-left: 40px;
+    margin-top: -550px;
+    border-radius: 24px;
+    padding-top: 40px;
+    
+}
+
+.profilePic {
+    overflow: hidden;
+    border: 2px solid #FBAB29;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
