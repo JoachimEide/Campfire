@@ -11,8 +11,8 @@ export default function Content(props) {
             className={ContentStyle.image}
             alt={props.alt}
             src={props.src}
-            width={254}
-            height={144}
+            width={508}
+            height={288}
             layout="intrinsic"
           />
         </div>

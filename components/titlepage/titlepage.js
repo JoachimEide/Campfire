@@ -58,6 +58,7 @@ export default function Layout(props) {
             ),
             url(${props.backgroundSrc});
           background-size: cover;
+          background-position: center;
           width: 82%;
           height: 90%;
           position: absolute;
