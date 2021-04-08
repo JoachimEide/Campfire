@@ -1,13 +1,13 @@
 import Link from "next/link";
-import SosialbarStyle from "./titlesosial.module.css";
+import SocialbarStyle from "./titlesosial.module.css";
 import Image from "next/image";
 
-export default function Sosialbar() {
+export default function Socialbar() {
   return (
-    <div className={SosialbarStyle.container}>
-      <div className={SosialbarStyle.yourProfile}>
+    <div className={SocialbarStyle.container}>
+      <div className={SocialbarStyle.yourProfile}>
         <Link href="/my-profile">
-          <a className={SosialbarStyle.profilePic}>
+          <a className={SocialbarStyle.profilePic}>
             <Image
               alt="profile pic"
               src="/images/Joachim90.jpg"
@@ -19,13 +19,13 @@ export default function Sosialbar() {
         </Link>
         <h2>Joachim Woll Eide</h2>
       </div>
-      <div className={SosialbarStyle.status}>
+      <div className={SocialbarStyle.status}>
         <h3>Social</h3>
       </div>
       <h3 className="title-watch">Watching now:</h3>
-      <div className={SosialbarStyle.friendProfile}>
+      <div className={SocialbarStyle.friendProfile}>
         <Link href="/my-profile">
-          <a className={SosialbarStyle.friendPic}>
+          <a className={SocialbarStyle.friendPic}>
             <Image
               alt="profile pic"
               src="/images/Joachim90.jpg"
@@ -35,16 +35,16 @@ export default function Sosialbar() {
             />
           </a>
         </Link>
-        <div className={SosialbarStyle.friendWatch}>
-          <p className={SosialbarStyle.friendName}>Thomas Lund</p>
-          <p className={SosialbarStyle.friendInfo}>Mandalorian - S2E6</p>
-          <p className={SosialbarStyle.friendInfo}>Disney +</p>
+        <div className={SocialbarStyle.friendWatch}>
+          <p className={SocialbarStyle.friendName}>Thomas Lund</p>
+          <p className={SocialbarStyle.friendInfo}>Mandalorian - S2E6</p>
+          <p className={SocialbarStyle.friendInfo}>Disney +</p>
         </div>
       </div>
       <h3 className="title-watch">Watched this:</h3>
-      <div className={SosialbarStyle.friendProfile}>
+      <div className={SocialbarStyle.friendProfile}>
         <Link href="/my-profile">
-          <a className={SosialbarStyle.friendPic}>
+          <a className={SocialbarStyle.friendPic}>
             <Image
               alt="profile pic"
               src="/images/Joachim90.jpg"
@@ -54,10 +54,10 @@ export default function Sosialbar() {
             />
           </a>
         </Link>
-        <div className={SosialbarStyle.friendWatch}>
-          <p className={SosialbarStyle.friendName}>Thomas Lund</p>
-          <p className={SosialbarStyle.friendInfo}>Mandalorian - S2E6</p>
-          <p className={SosialbarStyle.friendInfo}>Disney +</p>
+        <div className={SocialbarStyle.friendWatch}>
+          <p className={SocialbarStyle.friendName}>Thomas Lund</p>
+          <p className={SocialbarStyle.friendInfo}>Mandalorian - S2E6</p>
+          <p className={SocialbarStyle.friendInfo}>Disney +</p>
         </div>
       </div>
       <style jsx>{`

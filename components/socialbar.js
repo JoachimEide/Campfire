@@ -1,17 +1,17 @@
 import { useState } from "react";
 import Link from "next/link";
-import SosialbarStyle from "./sosial.module.css";
+import SocialbarStyle from "./social.module.css";
 import Image from "next/image";
 import Buble from "./buble";
 
-export default function Sosialbar() {
+export default function Socialbar() {
   const [clickFriend, setClickFriend] = useState(false);
 
   return (
-    <div className={SosialbarStyle.container}>
-      <div className={SosialbarStyle.yourProfile}>
+    <div className={SocialbarStyle.container}>
+      <div className={SocialbarStyle.yourProfile}>
         <Link href="/my-profile">
-          <a className={SosialbarStyle.profilePic}>
+          <a className={SocialbarStyle.profilePic}>
             <Image
               alt="profile pic"
               src="/images/Joachim90.jpg"
@@ -23,12 +23,12 @@ export default function Sosialbar() {
         </Link>
         <h2>Joachim Woll Eide</h2>
       </div>
-      <div className={SosialbarStyle.status}>
+      <div className={SocialbarStyle.status}>
         <h3>Social</h3>
       </div>
-      <div className={SosialbarStyle.friendProfile}>
+      <div className={SocialbarStyle.friendProfile}>
         <div
-          className={SosialbarStyle.friendPic}
+          className={SocialbarStyle.friendPic}
           onClick={() => {
             setClickFriend(!clickFriend);
           }}
@@ -41,23 +41,23 @@ export default function Sosialbar() {
             layout="intrinsic"
           />
         </div>
-        <div className={SosialbarStyle.friendText}>
-          <p className={SosialbarStyle.friendName}>Thomas Lund</p>
-          <p className={SosialbarStyle.friendInfo}>Mandalorian - S2E6</p>
-          <p className={SosialbarStyle.friendInfo}>Disney +</p>
+        <div className={SocialbarStyle.friendText}>
+          <p className={SocialbarStyle.friendName}>Thomas Lund</p>
+          <p className={SocialbarStyle.friendInfo}>Mandalorian - S2E6</p>
+          <p className={SocialbarStyle.friendInfo}>Disney +</p>
         </div>
       </div>
 
       <div
         className={
           clickFriend
-            ? SosialbarStyle.friendClickActive
-            : SosialbarStyle.friendClick
+            ? SocialbarStyle.friendClickActive
+            : SocialbarStyle.friendClick
         }
       >
-        <Buble className={SosialbarStyle.buble} />
-        <button className={SosialbarStyle.joinButton}>Join</button>
-        <button className={SosialbarStyle.profileButton}>Profile</button>
+        <Buble className={SocialbarStyle.buble} />
+        <button className={SocialbarStyle.joinButton}>Join</button>
+        <button className={SocialbarStyle.profileButton}>Profile</button>
       </div>
       <style jsx>{`
         h2 {

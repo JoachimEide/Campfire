@@ -1,5 +1,5 @@
 import TitleNav from "./titleNav";
-import Sosialbar from "./titleSosial";
+import Socialbar from "./titleSocial";
 import Episode from "./episode";
 import TitlePageStyle from "./titlepage.module.css";
 
@@ -21,7 +21,7 @@ export default function Layout(props) {
   return (
     <div className="wrapper">
       <TitleNav serviceSrc="/images/DisneyPlusLogo.svg" />
-      <Sosialbar />
+      <Socialbar />
       <div className="content">
         <div className={TitlePageStyle.titleTop}>
           {OptionalLogo(props)}
