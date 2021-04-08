@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 210px;
+    background-color: #0D0F14;
+    border-radius: 24px;
+    margin-left: 350px;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.timeRow {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeRow2 {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.subLogo {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: #1E2162;
+    border-radius: 50%;
+}
+
+.text {
+    margin-left: 10px;
+    margin-right: 55px;
+    line-height: 1.3;
+}

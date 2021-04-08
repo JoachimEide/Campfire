@@ -63,7 +63,7 @@ export default function Subscriptions() {
         </div>
 
         <div className={SubscriptionsStyle.subRow}>
-        <div className={SubscriptionsStyle.subProvider}>
+          <div className={SubscriptionsStyle.subProvider}>
             <img
               className={SubscriptionsStyle.subLogo}
               alt="Disney+ logo"
@@ -124,7 +124,6 @@ export default function Subscriptions() {
           <div className={SubscriptionsStyle.totalPrice}>
             <p>Total: 416,- NOK</p>
             <p className={SubscriptionsStyle.smallerText}>per month</p>
-            
           </div>
         </div>
       </div>
