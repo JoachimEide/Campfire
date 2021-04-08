@@ -16,7 +16,7 @@ export default function ProfileDetails() {
           <p>pia.henriksen@gmail.com</p>
           <img
             className={ProfileDetailsStyle.pencilIcon}
-            alt="profile pic"
+            alt="edit email adress icon"
             src="/images/pencil.svg"
           />
         </div>
@@ -24,7 +24,7 @@ export default function ProfileDetails() {
           <p>Password: ********</p>
           <img
             className={ProfileDetailsStyle.pencilIcon}
-            alt="profile pic"
+            alt="edit password icon"
             src="/images/pencil.svg"
           />
         </div>

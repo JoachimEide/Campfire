@@ -78,6 +78,11 @@ export default function TopFriends() {
           </div>
           <div className={TopFriendsStyle.addFriends}>
             <p>Add friends</p>
+            <img
+            className={TopFriendsStyle.addIcon}
+            alt="add icon"
+            src="/images/addIcon.svg" 
+            />
           </div>
         </div>
       </div>
