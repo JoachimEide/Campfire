@@ -1,5 +1,5 @@
 import Nav from "./nav";
-import Socialbar from "./socialbar";
+import Socialbar from "./socialbar/socialbar";
 
 export default function Layout({ children }) {
   return (

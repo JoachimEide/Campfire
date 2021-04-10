@@ -1,7 +1,7 @@
 import Layout from "../components/layout";
-import Topcarousel from "../components/topcarousel";
-import Services from "../components/services";
-import ContentRow from "../components/content-row";
+import Topcarousel from "../components/content/topcarousel";
+import Services from "../components/content/services";
+import ContentRow from "../components/content/content-row";
 
 export default function Home() {
   return (
