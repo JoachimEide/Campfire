@@ -5,7 +5,7 @@ import SocialbarStyle from "./social.module.css";
 import Image from "next/image";
 import Buble from "./buble";
 
-export default function Socialbar({ href }) {
+export default function Socialbar(props) {
   const [clickFriend, setClickFriend] = useState(false);
   const [inSettings, setInSettings] = useState(false);
   const router = useRouter();
@@ -15,16 +15,28 @@ export default function Socialbar({ href }) {
     } else {
       setInSettings(false);
     }
-  });
+  }, []);
+  const statusColor = !props.status ? "#d3381e" : "#e59740";
 
   return (
     <div
       className={SocialbarStyle.container}
-      style={inSettings ? { width: "8%" } : { width: "18%" }}
+      style={
+        inSettings || !props.status
+          ? { width: "8%", borderLeft: `1px solid ${statusColor}` }
+          : { width: "18%" }
+      }
     >
       <div className={SocialbarStyle.yourProfile}>
         <Link href="/my-profile">
-          <a className={SocialbarStyle.profilePic}>
+          <a
+            className={SocialbarStyle.profilePic}
+            style={
+              !props.status
+                ? { borderColor: "#d3381e" }
+                : { borderColor: "#3ffefb" }
+            }
+          >
             <Image
               alt="profile pic"
               src="/images/Joachim90.jpg"
@@ -36,9 +48,19 @@ export default function Socialbar({ href }) {
         </Link>
         <h2>Joachim Woll Eide</h2>
       </div>
-      <div className={SocialbarStyle.status}>
-        <h3>Social</h3>
-      </div>
+      <button
+        className={SocialbarStyle.status}
+        onClick={() => {
+          props.event(null);
+        }}
+        style={
+          !props.status
+            ? { borderColor: "#d3381e" }
+            : { borderColor: "#3ffefb" }
+        }
+      >
+        <h3>{!props.status ? "Private" : "Social"}</h3>
+      </button>
       <div className={SocialbarStyle.friendProfile}>
         <div
           className={SocialbarStyle.friendPic}
@@ -56,7 +78,7 @@ export default function Socialbar({ href }) {
         </div>
         <div
           className={
-            inSettings
+            inSettings || !props.status
               ? SocialbarStyle.friendTextHidden
               : SocialbarStyle.friendText
           }

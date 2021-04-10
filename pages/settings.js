@@ -3,9 +3,9 @@ import Subscriptions from "../components/settings/subscriptions";
 import TimeUsed from "../components/settings/time-used";
 import ProfileDetails from "../components/settings/profile-details";
 
-export default function Home() {
+export default function Home({ socialStatus, event }) {
   return (
-    <Layout>
+    <Layout socialStatus={socialStatus} event={event}>
       <Subscriptions />
       <TimeUsed />
       <ProfileDetails />

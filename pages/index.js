@@ -3,9 +3,9 @@ import Topcarousel from "../components/content/topcarousel";
 import Services from "../components/content/services";
 import ContentRow from "../components/content/content-row";
 
-export default function Home() {
+export default function Home({ socialStatus, event }) {
   return (
-    <Layout>
+    <Layout socialStatus={socialStatus} event={event}>
       <Topcarousel />
       <Services />
       <ContentRow title="Popular now" />
