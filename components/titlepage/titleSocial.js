@@ -2,12 +2,24 @@ import Link from "next/link";
 import SocialbarStyle from "./titlesosial.module.css";
 import Image from "next/image";
 
-export default function Socialbar() {
+export default function Socialbar(props) {
   return (
-    <div className={SocialbarStyle.container}>
+    <div
+      className={SocialbarStyle.container}
+      style={
+        !props.status ? { borderColor: "#d3381e" } : { borderColor: "#e59740" }
+      }
+    >
       <div className={SocialbarStyle.yourProfile}>
         <Link href="/my-profile">
-          <a className={SocialbarStyle.profilePic}>
+          <a
+            className={SocialbarStyle.profilePic}
+            style={
+              !props.status
+                ? { borderColor: "#d3381e" }
+                : { borderColor: "#3ffefb" }
+            }
+          >
             <Image
               alt="profile pic"
               src="/images/Joachim90.jpg"
@@ -19,8 +31,15 @@ export default function Socialbar() {
         </Link>
         <h2>Joachim Woll Eide</h2>
       </div>
-      <div className={SocialbarStyle.status}>
-        <h3>Social</h3>
+      <div
+        className={SocialbarStyle.status}
+        style={
+          !props.status
+            ? { borderColor: "#d3381e" }
+            : { borderColor: "#3ffefb" }
+        }
+      >
+        <h3>{!props.status ? "Private" : "Social"}</h3>
       </div>
       <h3 className="title-watch">Watching now:</h3>
       <div className={SocialbarStyle.friendProfile}>

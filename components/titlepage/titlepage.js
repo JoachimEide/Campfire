@@ -22,7 +22,7 @@ export default function Layout(props) {
   return (
     <div className="wrapper">
       <TitleNav serviceSrc="/images/DisneyPlusLogo.svg" />
-      <Socialbar />
+      <Socialbar status={props.status} event={props.event} />
       <div className="content">
         <div className={TitlePageStyle.titleTop}>
           {OptionalLogo(props)}

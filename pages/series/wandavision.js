@@ -1,5 +1,11 @@
 import Titlepage from "../../components/titlepage/titlepage";
 
-export default function Wandavision() {
-  return <Titlepage backgroundSrc="/images/WandaVision.jpeg" />;
+export default function Wandavision({ socialStatus, event }) {
+  return (
+    <Titlepage
+      backgroundSrc="/images/WandaVision.jpeg"
+      status={socialStatus}
+      event={event}
+    />
+  );
 }
