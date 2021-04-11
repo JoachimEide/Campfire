@@ -23,18 +23,21 @@ export default function Socialbar(props) {
       className={SocialbarStyle.container}
       style={
         inSettings || !props.status
-          ? { width: "8%", borderLeft: `1px solid ${statusColor}` }
-          : { width: "18%" }
+          ? {
+              width: "8%",
+              borderLeft: `1px solid ${statusColor}`,
+              transition: "all 0.1s ease-in-out",
+            }
+          : { width: "18%", transition: "all 0.1s ease-in-out" }
       }
     >
       <div className={SocialbarStyle.yourProfile}>
         <Link href="/my-profile">
           <a
-            className={SocialbarStyle.profilePic}
-            style={
+            className={
               !props.status
-                ? { borderColor: "#d3381e" }
-                : { borderColor: "#3ffefb" }
+                ? SocialbarStyle.profilePicPrivate
+                : SocialbarStyle.profilePic
             }
           >
             <Image
@@ -49,15 +52,12 @@ export default function Socialbar(props) {
         <h2>Joachim Woll Eide</h2>
       </div>
       <button
-        className={SocialbarStyle.status}
+        className={
+          !props.status ? SocialbarStyle.statusPrivate : SocialbarStyle.status
+        }
         onClick={() => {
           props.event(null);
         }}
-        style={
-          !props.status
-            ? { borderColor: "#d3381e" }
-            : { borderColor: "#3ffefb" }
-        }
       >
         <h3>{!props.status ? "Private" : "Social"}</h3>
       </button>
@@ -79,21 +79,31 @@ export default function Socialbar(props) {
         <div
           className={
             inSettings || !props.status
-              ? SocialbarStyle.friendTextHidden
-              : SocialbarStyle.friendText
+              ? SocialbarStyle.friendTextWrapperPrivate
+              : SocialbarStyle.friendTextWrapper
           }
         >
-          <p className={SocialbarStyle.friendName}>Thomas Lund</p>
-          <p className={SocialbarStyle.friendInfo}>Mandalorian - S2E6</p>
-          <p className={SocialbarStyle.friendInfo}>Disney +</p>
+          <div
+            className={
+              inSettings || !props.status
+                ? SocialbarStyle.friendTextHidden
+                : SocialbarStyle.friendText
+            }
+          >
+            <p className={SocialbarStyle.friendName}>Thomas Lund</p>
+            <p className={SocialbarStyle.friendInfo}>Mandalorian - S2E6</p>
+            <p className={SocialbarStyle.friendInfo}>Disney +</p>
+          </div>
         </div>
       </div>
 
       <div
         className={
-          clickFriend
-            ? SocialbarStyle.friendClickActive
-            : SocialbarStyle.friendClick
+          !clickFriend
+            ? SocialbarStyle.friendClick
+            : inSettings || !props.status
+            ? SocialbarStyle.friendClickActivePriv
+            : SocialbarStyle.friendClickActive
         }
       >
         <Buble className={SocialbarStyle.buble} />

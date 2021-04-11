@@ -5,19 +5,19 @@ import Image from "next/image";
 export default function Socialbar(props) {
   return (
     <div
-      className={SocialbarStyle.container}
-      style={
-        !props.status ? { borderColor: "#d3381e" } : { borderColor: "#e59740" }
+      className={
+        !props.status
+          ? SocialbarStyle.containerPrivate
+          : SocialbarStyle.container
       }
     >
       <div className={SocialbarStyle.yourProfile}>
         <Link href="/my-profile">
           <a
-            className={SocialbarStyle.profilePic}
-            style={
+            className={
               !props.status
-                ? { borderColor: "#d3381e" }
-                : { borderColor: "#3ffefb" }
+                ? SocialbarStyle.profilePicPrivate
+                : SocialbarStyle.profilePic
             }
           >
             <Image
@@ -31,16 +31,16 @@ export default function Socialbar(props) {
         </Link>
         <h2>Joachim Woll Eide</h2>
       </div>
-      <div
-        className={SocialbarStyle.status}
-        style={
-          !props.status
-            ? { borderColor: "#d3381e" }
-            : { borderColor: "#3ffefb" }
+      <button
+        onClick={() => {
+          props.event(null);
+        }}
+        className={
+          !props.status ? SocialbarStyle.statusPrivate : SocialbarStyle.status
         }
       >
         <h3>{!props.status ? "Private" : "Social"}</h3>
-      </div>
+      </button>
       <h3 className="title-watch">Watching now:</h3>
       <div className={SocialbarStyle.friendProfile}>
         <Link href="/my-profile">

@@ -1,5 +1,6 @@
 import TitleNav from "./titleNav";
 import Socialbar from "./titleSocial";
+import Status from "../socialbar/status";
 import Episode from "./episode";
 import Review from "./review";
 import TitlePageStyle from "./titlepage.module.css";
@@ -19,10 +20,12 @@ const OptionalLogo = (props) => {
 };
 
 export default function Layout(props) {
+  console.log(props);
   return (
     <div className="wrapper">
       <TitleNav serviceSrc="/images/DisneyPlusLogo.svg" />
       <Socialbar status={props.status} event={props.event} />
+      <Status status={props.status} event={props.event} />
       <div className="content">
         <div className={TitlePageStyle.titleTop}>
           {OptionalLogo(props)}

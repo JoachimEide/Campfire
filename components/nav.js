@@ -1,9 +1,16 @@
 import Link from "next/link";
 import NavStyle from "./nav.module.css";
 
-export default function Nav() {
+export default function Nav(props) {
   return (
-    <nav className={NavStyle.nav}>
+    <nav
+      className={NavStyle.nav}
+      style={
+        !props.status
+          ? { width: "92%", transition: "all 0.1s ease-in-out" }
+          : { width: "82%", transition: "all 0.1s ease-in-out" }
+      }
+    >
       <Link href="/">
         <a>
           <img

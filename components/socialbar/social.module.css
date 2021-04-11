@@ -20,25 +20,56 @@
 .profilePic {
   display: flex;
   overflow: hidden;
-  border: 2px solid;
+  object-fit: contain;
+  border: 2px solid #3ffefb;
   border-radius: 50%;
   width: 80px;
   height: 80px;
+  transition: all 0.1s ease-in-out;
+}
+
+.profilePicPrivate {
+  display: flex;
+  overflow: hidden;
+  border: 2px solid #d3381e;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  transition: all 0.1s ease-in-out;
 }
 
 .status {
-  font-family: din-2014, sans-serif;
-  cursor: pointer;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
   border-radius: 24px;
-  border: 1px solid #3ffefb;
-  background-color: #111820;
   width: 60%;
+  border: 1px solid #3ffefb;
   align-items: center;
   margin-bottom: 20px;
+  font-family: din-2014, sans-serif;
+  cursor: pointer;
+  background-color: #111820;
+  color: white;
   outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.statusPrivate {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  width: 60%;
+  border: 1px solid #d3381e;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: din-2014, sans-serif;
+  cursor: pointer;
+  background-color: #111820;
+  color: white;
+  outline: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .friendProfile {
@@ -62,18 +93,31 @@
   height: 50px;
 }
 
-.friendContainer {
-  display: flex;
-  flex-direction: row;
+.friendTextWrapper {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.friendTextWrapperPrivate {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 0;
 }
 
 .friendText {
-  display: flex;
-  flex-direction: column;
+  position: relative;
+  left: 0%;
+  opacity: 1;
+  transition: all 0.1s ease-in-out;
 }
 
 .friendTextHidden {
-  display: none;
+  position: relative;
+  opacity: 0;
+  left: 100%;
+  transition: all 0.1s ease-in-out;
 }
 
 .friendName {
@@ -107,13 +151,27 @@
   align-items: center;
   opacity: 1;
   top: -85px;
-  right: 193px;
+  right: 200px;
+  z-index: 0;
+  transition: 0.13s all linear;
+}
+
+.friendClickActivePriv {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  top: -85px;
+  right: 140px;
   z-index: 0;
   transition: 0.13s all linear;
 }
 
 .friendClickActive button,
-.friendClick button {
+.friendClick button,
+.friendClickActivePriv button {
   font-family: din-2014, sans-serif;
   cursor: pointer;
   display: flex;
