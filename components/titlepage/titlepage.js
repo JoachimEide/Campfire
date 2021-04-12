@@ -20,7 +20,6 @@ const OptionalLogo = (props) => {
 };
 
 export default function Layout(props) {
-  console.log(props);
   return (
     <div className="wrapper">
       <TitleNav serviceSrc="/images/DisneyPlusLogo.svg" />

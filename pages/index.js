@@ -1,16 +1,38 @@
+import { contentData } from "../data/content";
 import Layout from "../components/layout";
 import Topcarousel from "../components/content/topcarousel";
 import Services from "../components/content/services";
 import ContentRow from "../components/content/content-row";
 
-export default function Home({ socialStatus, event }) {
+export const getStaticProps = async () => {
+  return {
+    props: {
+      contentDataList: contentData,
+    },
+  };
+};
+
+export default function Home(props) {
   return (
-    <Layout socialStatus={socialStatus} event={event}>
+    <Layout socialStatus={props.socialStatus} event={props.event}>
       <Topcarousel />
       <Services />
-      <ContentRow title="Popular now" />
-      <ContentRow title="Friends are watching" />
-      <ContentRow title="Friends are watching" />
+      <ContentRow
+        title="Popular now"
+        contentArray={props.contentDataList}
+        param="service"
+        paramValue="Disney+"
+      />
+      <ContentRow
+        contentArray={props.contentDataList}
+        title="Friends are watching"
+        param="service"
+        paramValue="Netflix"
+      />
+      <ContentRow
+        contentArray={props.contentDataList}
+        title="Friends are watching"
+      />
     </Layout>
   );
 }

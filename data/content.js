@@ -1,0 +1,98 @@
+export const contentData = [
+  {
+    id: 1,
+    title: "Mandolorian",
+    type: "series",
+    slug: "mandalorian",
+    genre: ["Sci/fi", "Action", "Fantasy"],
+    service: "Disney+",
+    serviceLogo: "/images/DisneyPlusLogo.svg",
+    thumbnailSrc: "/images/Mandalorian.jpg",
+    backgroundSrc: "/images/Mandalorian.jpg",
+    optionalShowLogo: "/images/mandalorian_logo.svg",
+    episodes: [
+      {
+        id: 1,
+        title: "Chapter 16: The rescue",
+        imgSrc: "/images/mandoS2E16.jpg",
+      },
+      {
+        id: 2,
+        title: "Chapter 15: The believer",
+        imgSrc: "/images/mandoS2E16.jpg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Wandavision",
+    type: "series",
+    slug: "wandavision",
+    genre: ["Sci/fi", "Action", "Fantasy"],
+    service: "Disney+",
+    serviceLogo: "/images/DisneyPlusLogo.svg",
+    thumbnailSrc: "/images/WandaVision.png",
+    backgroundSrc: "/images/WandaVision.png",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Chapter 16: The rescue",
+        imgSrc: "/images/mandoS2E16.jpg",
+      },
+      {
+        id: 2,
+        title: "Chapter 15: The believer",
+        imgSrc: "/images/mandoS2E16.jpg",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Mandolorian",
+    type: "series",
+    slug: "mandalorian",
+    genre: ["Sci/fi", "Action", "Fantasy"],
+    service: "Disney+",
+    serviceLogo: "/images/DisneyPlusLogo.svg",
+    thumbnailSrc: "/images/Mandalorian.jpg",
+    backgroundSrc: "/images/Mandalorian.jpg",
+    optionalShowLogo: "/images/mandalorian_logo.svg",
+    episodes: [
+      {
+        id: 1,
+        title: "Chapter 16: The rescue",
+        imgSrc: "/images/mandoS2E16.jpg",
+      },
+      {
+        id: 2,
+        title: "Chapter 15: The believer",
+        imgSrc: "/images/mandoS2E16.jpg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Wandavision",
+    type: "series",
+    slug: "wandavision",
+    genre: ["Sci/fi", "Action", "Fantasy"],
+    service: "Disney+",
+    serviceLogo: "/images/DisneyPlusLogo.svg",
+    thumbnailSrc: "/images/WandaVision.png",
+    backgroundSrc: "/images/WandaVision.png",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Chapter 16: The rescue",
+        imgSrc: "/images/mandoS2E16.jpg",
+      },
+      {
+        id: 2,
+        title: "Chapter 15: The believer",
+        imgSrc: "/images/mandoS2E16.jpg",
+      },
+    ],
+  },
+];

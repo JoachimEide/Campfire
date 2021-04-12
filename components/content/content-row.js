@@ -44,38 +44,31 @@ export default function ContentRow(props) {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
+  const dataFilterCallback = (param, paramValue) => {
+    let data = props.contentArray.filter((content) => {
+      return content[param] === paramValue;
+    });
+    return data;
+  };
+
+  const filteredContent = dataFilterCallback(props.param, props.paramValue);
+
   return (
     <div className="content-row">
       <h2 className="content-header">{props.title}</h2>
       <Slider {...settings}>
-        <Content
-          link="/series/wandavision"
-          alt="Wandavision"
-          src="/images/WandaVision.png"
-          serviceSrc="/images/DisneyPlusLogo.svg"
-          serviceAlt="Disney"
-        />
-        <Content
-          link="/series/mandalorian"
-          alt="Mandalorian"
-          src="/images/mandalorianthumb.jpg"
-          serviceSrc="/images/DisneyPlusLogo.svg"
-          serviceAlt="Disney"
-        />
-        <Content
-          link="/series/wandavision"
-          alt="Wandavision"
-          src="/images/WandaVision.png"
-          serviceSrc="/images/DisneyPlusLogo.svg"
-          serviceAlt="Disney"
-        />
-        <Content
-          link="/series/wandavision"
-          alt="Wandavision"
-          src="/images/WandaVision.png"
-          serviceSrc="/images/DisneyPlusLogo.svg"
-          serviceAlt="Disney"
-        />
+        {filteredContent.map(
+          ({ id, title, slug, service, serviceLogo, thumbnailSrc }) => (
+            <Content
+              key={id}
+              link={`/series/${slug}`}
+              alt={title}
+              src={thumbnailSrc}
+              serviceSrc={serviceLogo}
+              serviceAlt={service}
+            />
+          )
+        )}
       </Slider>
       <style jsx>{`
         .content-row {
