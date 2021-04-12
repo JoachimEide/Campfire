@@ -6,7 +6,7 @@ export default function Episode(props) {
     <div className={EpisodeStyle.episode}>
       <div className={EpisodeStyle.image}>
         <Image
-          src="/images/mandoS2E16.jpg"
+          src="/images/mandalorian/mandoS2E16.jpg"
           alt="mandalorian"
           width={254}
           height={144}

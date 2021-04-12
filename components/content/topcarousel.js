@@ -35,27 +35,27 @@ export default function Topcarousel() {
         <Titlecard
           link="/series/mandalorian"
           alt="mandalorian"
-          src="/images/mandalorianthumb.jpg"
+          src="/images/mandalorian/mandalorianthumb.jpg"
         />
         <Titlecard
           link="/series/wandavision"
           alt="wandavision"
-          src="/images/WandaVision.png"
+          src="/images/wandavision/WandaVision.png"
         />
         <Titlecard
           link="/series/mandalorian"
           alt="mandalorian"
-          src="/images/mandalorianthumb.jpg"
+          src="/images/mandalorian/mandalorianthumb.jpg"
         />
         <Titlecard
           link="/series/wandavision"
           alt="wandavision"
-          src="/images/WandaVision.png"
+          src="/images/wandavision/WandaVision.png"
         />
         <Titlecard
           link="/series/mandalorian"
           alt="mandalorian"
-          src="/images/mandalorianthumb.jpg"
+          src="/images/mandalorian/mandalorianthumb.jpg"
         />
       </Slider>
       <style jsx>{`

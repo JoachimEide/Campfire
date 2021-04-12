@@ -19,6 +19,7 @@ export default function TitlePageFactory(props) {
   return (
     <Titlepage
       backgroundSrc={props.title.backgroundSrc}
+      logo={props.title.optionalShowLogo}
       status={props.socialStatus}
       event={props.event}
     />
