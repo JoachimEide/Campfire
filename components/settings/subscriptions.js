@@ -1,17 +1,30 @@
+import { useState } from "react";
 import SubscriptionsStyle from "./subscriptions.module.css";
 
 export default function Subscriptions() {
+  const [subToggle, setSubToggle] = useState({
+    netflix: false,
+    disney: false,
+    hbo: false,
+    viaplay: false,
+    tv2: false,
+    nrk: false,
+  });
+
   return (
     <div className={SubscriptionsStyle.container}>
       <h2 className="content-header">Manage subscriptions</h2>
 
       <div className={SubscriptionsStyle.subContainer}>
         <div className={SubscriptionsStyle.subRow}>
-          <div className={SubscriptionsStyle.subProvider}>
+          <div
+            toggle={subToggle.netflix}
+            className={SubscriptionsStyle.subProvider}
+          >
             <img
               className={SubscriptionsStyle.subLogo}
               alt="netflix logo"
-              src="/images/DisneyPlusLogo.svg"
+              src="/images/subscriptions/Netflix_sub.svg"
             />
 
             <div className={SubscriptionsStyle.subNamePrice}>
@@ -29,7 +42,7 @@ export default function Subscriptions() {
             <img
               className={SubscriptionsStyle.subLogo}
               alt="netflix logo"
-              src="/images/DisneyPlusLogo.svg"
+              src="/images/subscriptions/nrk_sub.svg"
             />
 
             <div className={SubscriptionsStyle.subNamePrice}>
@@ -43,11 +56,14 @@ export default function Subscriptions() {
             </div>
           </div>
 
-          <div className={SubscriptionsStyle.subProvider}>
+          <div
+            toggle={subToggle.viaplay}
+            className={SubscriptionsStyle.subProvider}
+          >
             <img
               className={SubscriptionsStyle.subLogo}
               alt="NRK logo"
-              src="/images/DisneyPlusLogo.svg"
+              src="/images/subscriptions/Via.png"
             />
 
             <div className={SubscriptionsStyle.subNamePrice}>
@@ -65,9 +81,9 @@ export default function Subscriptions() {
         <div className={SubscriptionsStyle.subRow}>
           <div className={SubscriptionsStyle.subProvider}>
             <img
-              className={SubscriptionsStyle.subLogo}
+              className={SubscriptionsStyle.subLogo2}
               alt="Disney+ logo"
-              src="/images/DisneyPlusLogo.svg"
+              src="/images/subscriptions/DisneyPlusLogo.svg"
             />
 
             <div className={SubscriptionsStyle.subNamePrice}>
@@ -85,7 +101,7 @@ export default function Subscriptions() {
             <img
               className={SubscriptionsStyle.subLogo}
               alt="TV2 Sumo logo"
-              src="/images/DisneyPlusLogo.svg"
+              src="/images/subscriptions/tv2_sub.svg"
             />
 
             <div className={SubscriptionsStyle.subNamePrice}>
@@ -103,7 +119,7 @@ export default function Subscriptions() {
             <img
               className={SubscriptionsStyle.subLogo}
               alt="HBO logo"
-              src="/images/DisneyPlusLogo.svg"
+              src="/images/subscriptions/hbo_sub.svg"
             />
 
             <div className={SubscriptionsStyle.subNamePrice}>
