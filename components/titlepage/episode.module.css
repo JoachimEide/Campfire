@@ -4,7 +4,7 @@
   margin-top: 2rem;
 }
 
-.image {
+.container {
   cursor: pointer;
   border-radius: 6px;
   border: 1px solid #111820;
@@ -15,8 +15,17 @@
   font-size: 0;
 }
 
-.image:hover {
+.image {
+  border-radius: 6px;
+  transition: all 0.3s ease-out;
+}
+
+.container:hover {
   border: 1px solid #3ffefb;
+}
+
+.container:hover .image {
+  transform: scale(1.1);
 }
 
 .episodeText {

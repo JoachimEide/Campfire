@@ -4,8 +4,9 @@ import Image from "next/image";
 export default function Episode(props) {
   return (
     <div className={EpisodeStyle.episode}>
-      <div className={EpisodeStyle.image}>
+      <div className={EpisodeStyle.container}>
         <Image
+          className={EpisodeStyle.image}
           src={props.imgSrc}
           alt={props.episodeText}
           width={254}
@@ -16,7 +17,7 @@ export default function Episode(props) {
       </div>
       <div className={EpisodeStyle.episodeText}>
         <h3>{props.title}</h3>
-        <p>{props.episodesText}</p>
+        <p>{props.episodeText}</p>
       </div>
       <style jsx>{`
         h3 {
