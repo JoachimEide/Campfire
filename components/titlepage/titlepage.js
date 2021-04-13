@@ -23,7 +23,7 @@ export default function Layout(props) {
   console.log(props);
   return (
     <div className="wrapper">
-      <TitleNav serviceSrc="/images/DisneyPlusLogo.svg" />
+      <TitleNav serviceSrc={props.serviceLogo} />
       <Socialbar status={props.status} event={props.event} />
       <Status status={props.status} event={props.event} />
       <div className="content">
@@ -36,10 +36,15 @@ export default function Layout(props) {
         </div>
         <div className={TitlePageStyle.episodeReviewContainer}>
           <div className={TitlePageStyle.episodesContainer}>
-            <h2>Season 2</h2>
-            <Episode />
-            <Episode />
-            <Episode />
+            <h2>{props.type == "series" ? "Season 1" : "Movie"}</h2>
+            {props.episodes.map(({ id, title, episodeText, imgSrc }) => (
+              <Episode
+                id={id}
+                title={title}
+                episodeText={episodeText}
+                imgSrc={imgSrc}
+              />
+            ))}
           </div>
           <div className={TitlePageStyle.reviewsContainer}>
             <h2>Reviews</h2>

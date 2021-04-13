@@ -6,8 +6,8 @@ export default function Episode(props) {
     <div className={EpisodeStyle.episode}>
       <div className={EpisodeStyle.image}>
         <Image
-          src="/images/mandalorian/mandoS2E16.jpg"
-          alt="mandalorian"
+          src={props.imgSrc}
+          alt={props.episodeText}
           width={254}
           height={144}
           layout="intrinsic"
@@ -15,8 +15,8 @@ export default function Episode(props) {
         <div className={EpisodeStyle.progressBar}></div>
       </div>
       <div className={EpisodeStyle.episodeText}>
-        <h3>Chapter 16: The rescue</h3>
-        <p>The Mandalorian and his allies attempt a daring rescue.</p>
+        <h3>{props.title}</h3>
+        <p>{props.episodesText}</p>
       </div>
       <style jsx>{`
         h3 {

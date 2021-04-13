@@ -25,9 +25,9 @@ export default function Home(props) {
       />
       <ContentRow
         contentArray={props.contentDataList}
-        title="Friends are watching"
-        param="service"
-        paramValue="Netflix"
+        title="Movies"
+        param="type"
+        paramValue="movie"
       />
       <ContentRow
         contentArray={props.contentDataList}
