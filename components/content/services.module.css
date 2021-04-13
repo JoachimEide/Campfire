@@ -11,6 +11,7 @@
   display: flex;
   border: 1px solid;
   border-color: #3ffefb;
+  background-color: #0d0f14;
   border-radius: 14px;
   margin: 0 10px;
   width: 130px;
@@ -21,4 +22,8 @@
 
 .img {
   height: 40px;
+}
+
+.img2 {
+  width: 80px;
 }

@@ -16,8 +16,8 @@ export default function Sosialbar() {
       <Link href="/netflix">
         <a className={ServiceStyle.logoBox}>
           <img
-            className={ServiceStyle.img}
-            src="/images/DisneyPlusLogo.svg"
+            className={ServiceStyle.img2}
+            src="/images/Netflix_logo.svg"
             alt="netflix"
           ></img>
         </a>
@@ -25,8 +25,8 @@ export default function Sosialbar() {
       <Link href="/sumo">
         <a className={ServiceStyle.logoBox}>
           <img
-            className={ServiceStyle.img}
-            src="/images/DisneyPlusLogo.svg"
+            className={ServiceStyle.img2}
+            src="/images/tv2sumo-logo.svg"
             alt="sumo"
           ></img>
         </a>
@@ -35,7 +35,7 @@ export default function Sosialbar() {
         <a className={ServiceStyle.logoBox}>
           <img
             className={ServiceStyle.img}
-            src="/images/DisneyPlusLogo.svg"
+            src="/images/viaplay-logo.png"
             alt="viaplay"
           ></img>
         </a>
@@ -43,8 +43,8 @@ export default function Sosialbar() {
       <Link href="/nrk">
         <a className={ServiceStyle.logoBox}>
           <img
-            className={ServiceStyle.img}
-            src="/images/DisneyPlusLogo.svg"
+            className={ServiceStyle.img2}
+            src="/images/NRK_TV_logo.svg"
             alt="nrk"
           ></img>
         </a>
@@ -53,7 +53,7 @@ export default function Sosialbar() {
         <a className={ServiceStyle.logoBox}>
           <img
             className={ServiceStyle.img}
-            src="/images/DisneyPlusLogo.svg"
+            src="/images/HboLogo.svg"
             alt="hbo"
           ></img>
         </a>
