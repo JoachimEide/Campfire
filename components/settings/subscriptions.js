@@ -151,9 +151,9 @@ export default function Subscriptions() {
             }}
           >
             <img
-              className={SubscriptionsStyle.subLogo2}
+              className={SubscriptionsStyle.subLogo}
               alt="Disney+ logo"
-              src="/images/subscriptions/DisneyPlusLogo.svg"
+              src="/images/subscriptions/DisneyPlusLogo2.svg"
             />
 
             <div className={SubscriptionsStyle.subNamePrice}>
