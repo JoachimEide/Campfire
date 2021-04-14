@@ -3,13 +3,30 @@ import SubscriptionsStyle from "./subscriptions.module.css";
 
 export default function Subscriptions() {
   const [subToggle, setSubToggle] = useState({
-    netflix: false,
-    disney: false,
-    hbo: false,
-    viaplay: false,
-    tv2: false,
-    nrk: false,
+    netflix: { toggle: false, display: "flex" },
+    disney: { toggle: false, display: "flex" },
+    hbo: { toggle: false, display: "flex" },
+    viaplay: { toggle: false, display: "flex" },
+    tv2: { toggle: false, display: "flex" },
+    nrk: { toggle: false, display: "flex" },
   });
+  const handleButtonStateChange = (toggleKey) => {
+    const stateCopy = { ...subToggle };
+    stateCopy[toggleKey] = {
+      toggle: !stateCopy[toggleKey].toggle,
+      display: "flex",
+    };
+    const nextValue = stateCopy[toggleKey];
+    Object.keys(stateCopy).forEach(
+      (key) =>
+        (stateCopy[key] = {
+          toggle: false,
+          display: nextValue.toggle ? "none" : "flex",
+        })
+    );
+    stateCopy[toggleKey] = nextValue;
+    setSubToggle(stateCopy);
+  };
 
   return (
     <div className={SubscriptionsStyle.container}>
@@ -18,8 +35,15 @@ export default function Subscriptions() {
       <div className={SubscriptionsStyle.subContainer}>
         <div className={SubscriptionsStyle.subRow}>
           <div
-            toggle={subToggle.netflix}
-            className={SubscriptionsStyle.subProvider}
+            style={{ display: `${subToggle.netflix.display}` }}
+            className={
+              subToggle.netflix.toggle
+                ? SubscriptionsStyle.subProviderActive
+                : SubscriptionsStyle.subProvider
+            }
+            onClick={() => {
+              handleButtonStateChange("netflix");
+            }}
           >
             <img
               className={SubscriptionsStyle.subLogo}
@@ -36,9 +60,38 @@ export default function Subscriptions() {
               <p className={SubscriptionsStyle.subActiveState}>Active</p>
               <p>Edit</p>
             </div>
+
+            <div
+              style={
+                subToggle.netflix.toggle
+                  ? { display: "flex" }
+                  : { display: "none" }
+              }
+            >
+              <button>Reactivate</button>
+            </div>
+            <div
+              style={
+                subToggle.netflix.toggle
+                  ? { display: "flex" }
+                  : { display: "none" }
+              }
+            >
+              <button>Cancel</button>
+            </div>
           </div>
 
-          <div className={SubscriptionsStyle.subProvider}>
+          <div
+            style={{ display: `${subToggle.nrk.display}` }}
+            className={
+              subToggle.nrk.toggle
+                ? SubscriptionsStyle.subProviderActive
+                : SubscriptionsStyle.subProvider
+            }
+            onClick={() => {
+              handleButtonStateChange("nrk");
+            }}
+          >
             <img
               className={SubscriptionsStyle.subLogo}
               alt="netflix logo"
@@ -57,12 +110,19 @@ export default function Subscriptions() {
           </div>
 
           <div
-            toggle={subToggle.viaplay}
-            className={SubscriptionsStyle.subProvider}
+            style={{ display: `${subToggle.viaplay.display}` }}
+            className={
+              subToggle.viaplay.toggle
+                ? SubscriptionsStyle.subProviderActive
+                : SubscriptionsStyle.subProvider
+            }
+            onClick={() => {
+              handleButtonStateChange("viaplay");
+            }}
           >
             <img
               className={SubscriptionsStyle.subLogo}
-              alt="NRK logo"
+              alt="Viaplay logo"
               src="/images/subscriptions/Via.png"
             />
 
@@ -79,7 +139,17 @@ export default function Subscriptions() {
         </div>
 
         <div className={SubscriptionsStyle.subRow}>
-          <div className={SubscriptionsStyle.subProvider}>
+          <div
+            style={{ display: `${subToggle.disney.display}` }}
+            className={
+              subToggle.disney.toggle
+                ? SubscriptionsStyle.subProviderActive
+                : SubscriptionsStyle.subProvider
+            }
+            onClick={() => {
+              handleButtonStateChange("disney");
+            }}
+          >
             <img
               className={SubscriptionsStyle.subLogo2}
               alt="Disney+ logo"
@@ -97,7 +167,17 @@ export default function Subscriptions() {
             </div>
           </div>
 
-          <div className={SubscriptionsStyle.subProvider}>
+          <div
+            style={{ display: `${subToggle.tv2.display}` }}
+            className={
+              subToggle.tv2.toggle
+                ? SubscriptionsStyle.subProviderActive
+                : SubscriptionsStyle.subProvider
+            }
+            onClick={() => {
+              handleButtonStateChange("tv2");
+            }}
+          >
             <img
               className={SubscriptionsStyle.subLogo}
               alt="TV2 Sumo logo"
@@ -115,7 +195,17 @@ export default function Subscriptions() {
             </div>
           </div>
 
-          <div className={SubscriptionsStyle.subProviderHbo}>
+          <div
+            style={{ display: `${subToggle.hbo.display}` }}
+            className={
+              subToggle.hbo.toggle
+                ? SubscriptionsStyle.subProviderActive
+                : SubscriptionsStyle.subProvider
+            }
+            onClick={() => {
+              handleButtonStateChange("hbo");
+            }}
+          >
             <img
               className={SubscriptionsStyle.subLogo}
               alt="HBO logo"

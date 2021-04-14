@@ -38,7 +38,7 @@ export default function Layout(props) {
             <h2>{props.type == "series" ? "Season 1" : "Movie"}</h2>
             {props.episodes.map(({ id, title, episodeText, imgSrc }) => (
               <Episode
-                id={id}
+                key={id}
                 title={title}
                 episodeText={episodeText}
                 imgSrc={imgSrc}
