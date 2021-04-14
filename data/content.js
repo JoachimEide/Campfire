@@ -103,13 +103,13 @@ export const contentData = [
       },
       {
         id: 2,
-        title: "Episode 2: The Star-Spangled Man",
+        title: "Episode 2: The star-spangled man",
         episodeText: "John Walker is named Captain America, and Sam Wilson and Bucky Barnes team up against the rebel group, the Flag Smashers.",
         imgSrc: "/images/falcon/falcon_2.jpeg",
       },
       {
         id: 3,
-        title: "Episode 1: New World Order",
+        title: "Episode 1: New world order",
         episodeText: "Sam Wilson and Bucky Barnes realize that their futures are anything but normal.",
         imgSrc: "/images/falcon/falcon_1.jpeg",
       },
@@ -169,7 +169,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 3: The Big Rick",
+        title: "Episode 3: The big Rick",
         episodeText: "Cassie grows more suspicious of Legarski after a threatening conversation. Grace manages to make headway on the girls' escape. Helen confronts Ronald about his increasingly bizarre behavior.",
         imgSrc: "/images/big_sky/big_sky_3.jpeg",
       },
@@ -293,7 +293,7 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 18: So Long, Dawn Long",
+        title: "Episode 18: So long, Dawn Long",
         episodeText: "Kit faces a personal case.",
         imgSrc: "/images/resident/residentS3E18.jpeg",
       },
