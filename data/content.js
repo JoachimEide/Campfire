@@ -659,4 +659,36 @@ export const contentData = [
       },
     ],
   },
+  {
+    id: 26,
+    title: "Game of thrones",
+    type: "series",
+    slug: "game-of-thrones",
+    genre: ["Drama", "Action", "Fantasy", "Adventure"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    thumbnailSrc: "/images/got/got.png",
+    backgroundSrc: "/images/got/got_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 6: The iron throne",
+        episodeText: "In the aftermath of the devastating attack on King's Landing, Daenerys must face the survivors.",
+        imgSrc: "/images/got/gotS8E6.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 5: The bells",
+        episodeText: "Forces have arrived at King's Landing for the final battle.",
+        imgSrc: "/images/got/gotS8E5.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 4: The last of the Starks",
+        episodeText: "The Battle of Winterfell is over and a new chapter for Westeros begins.",
+        imgSrc: "/images/got/gotS8E4.jpeg",
+      },
+    ],
+  },
 ];
