@@ -2,7 +2,6 @@ import Link from "next/link";
 import NavStyle from "./nav.module.css";
 
 export default function Nav(props) {
-  console.log(props);
   return (
     <nav
       className={NavStyle.nav}

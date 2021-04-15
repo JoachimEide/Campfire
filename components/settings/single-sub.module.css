@@ -1,0 +1,112 @@
+.subProvider {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 210px;
+  border-radius: 50px;
+  padding: 7px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.subProviderActive {
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 11px;
+  width: 100%;
+  height: 240px;
+  border: solid 0.5px #2cfffc;
+  border-radius: 30px;
+}
+
+.subProvider {
+  border: solid 0.5px #2cfffc;
+}
+
+.subProviderHbo {
+  border: solid 0.5px #fbab29;
+}
+
+.logoNamePriceContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.subLogo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.subNamePrice {
+  margin-left: 10px;
+  line-height: 1.5;
+}
+
+.subActiveEdit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-right: 12px;
+}
+
+.subActiveState {
+  color: #2cfffc;
+}
+
+.subActiveStateHbo {
+  color: #fbab29;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pauseReactivateContainer {
+  margin-top: 60px;
+  flex-direction: column;
+  align-items: center;
+  text-align: right;
+}
+
+.total {
+  margin-top: 30px;
+  margin-right: 35px;
+  text-align: right;
+}
+
+.total span {
+  font-weight: 100;
+  font-size: 11px;
+  margin-top: px;
+  text-align: right;
+}
+
+.pauseReactivateButton {
+  font-family: din-2014, sans-serif;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 30px;
+  background-color: #111820;
+  outline: none;
+  font-weight: bold;
+  border: 1px solid #3ffefb;
+  margin-right: 30px;
+}
+
+.cancelButton {
+  font-family: din-2014, sans-serif;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 30px;
+  background-color: #111820;
+  outline: none;
+  font-weight: bold;
+  border: 1px solid #d3381e;
+}
