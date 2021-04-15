@@ -773,6 +773,7 @@ export const contentData = [
     genre: ["Gameshow", "Family"],
     service: "NRK",
     serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
     thumbnailSrc: "/images/alle-mot-1/alle-mot-1.jpeg",
     backgroundSrc: "/images/alle-mot-1/am1-big.jpeg",
     optionalShowLogo: "",
