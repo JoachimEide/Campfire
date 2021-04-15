@@ -1,39 +1,36 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 260px;
-    height: 440px;
-    background-color: #0D0F14;
-    margin-left: 40px;
-    margin-top: -580px;
-    border-radius: 24px;
-    padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 440px;
+  background-color: #0d0f14;
+  border-radius: 24px;
 }
 
 .profilePic {
-    margin-top: 30px;
-    border: 2px solid #FBAB29;
-    border-radius: 50%;
-    width: 130px;
-    height: 130px;
+  margin-top: 30px;
+  border: 2px solid #fbab29;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    font-weight: 100;
-    line-height: 2.5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-weight: 100;
+  line-height: 2.5;
 }
 
 .textAndIcon {
-    display: flex;
+  display: flex;
 }
 
 .pencilIcon {
-    width: 10px;
-    height: auto;
-    margin-left: 7px;
+  width: 10px;
+  height: auto;
+  margin-left: 7px;
 }

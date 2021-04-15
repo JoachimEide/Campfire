@@ -20,7 +20,7 @@ export default function TitlePageFactory(props) {
     <Titlepage
       type={props.title.type}
       service={props.title.service}
-      serviceLogo={props.title.serviceLogo}
+      serviceLogo={props.title.serviceTitleLogo}
       backgroundSrc={props.title.backgroundSrc}
       logo={props.title.optionalShowLogo}
       episodes={props.title.episodes}

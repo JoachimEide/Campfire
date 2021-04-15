@@ -9,6 +9,7 @@ export default function Subscriptions() {
     viaplay: { toggle: false, display: "flex" },
     tv2: { toggle: false, display: "flex" },
     nrk: { toggle: false, display: "flex" },
+    addService: { toggle: false, display: "flex" },
   });
   const handleButtonStateChange = (toggleKey) => {
     const stateCopy = { ...subToggle };
@@ -151,7 +152,7 @@ export default function Subscriptions() {
             }}
           >
             <img
-              className={SubscriptionsStyle.subLogo2}
+              className={SubscriptionsStyle.subLogo}
               alt="Disney+ logo"
               src="/images/subscriptions/DisneyPlusLogo.svg"
             />
@@ -223,7 +224,10 @@ export default function Subscriptions() {
             </div>
           </div>
         </div>
-        <div className={SubscriptionsStyle.subAddTotalRow}>
+        <div
+          style={{ display: `${subToggle.addService.display}` }}
+          className={SubscriptionsStyle.subAddTotalRow}
+        >
           <div className={SubscriptionsStyle.addSub}>
             <p>Add streaming service +</p>
           </div>

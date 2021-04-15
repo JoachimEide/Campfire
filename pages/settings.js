@@ -6,9 +6,26 @@ import ProfileDetails from "../components/settings/profile-details";
 export default function Home({ socialStatus, event }) {
   return (
     <Layout socialStatus={socialStatus} event={event}>
-      <Subscriptions />
-      <TimeUsed />
-      <ProfileDetails />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          marginTop: "20px",
+        }}
+      >
+        <ProfileDetails />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            marginLeft: "40px",
+          }}
+        >
+          <Subscriptions />
+          <TimeUsed />
+        </div>
+      </div>
     </Layout>
   );
 }
