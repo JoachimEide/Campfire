@@ -2,7 +2,7 @@ import { useState } from "react";
 import SubscriptionsStyle from "./subscriptions.module.css";
 import SingleSub from "./single-sub";
 
-export default function Subscriptions() {
+export default function Subscriptions(props) {
   const [subToggle, setSubToggle] = useState({
     netflix: { toggle: false, display: "flex" },
     disney: { toggle: false, display: "flex" },
@@ -29,7 +29,6 @@ export default function Subscriptions() {
     stateCopy[toggleKey] = nextValue;
     setSubToggle(stateCopy);
   };
-
   return (
     <div className={SubscriptionsStyle.container}>
       <h2 className="content-header">Manage subscriptions</h2>
@@ -37,6 +36,8 @@ export default function Subscriptions() {
       <div className={SubscriptionsStyle.subContainer}>
         <div className={SubscriptionsStyle.subRow}>
           <SingleSub
+            subscribed={props.subscriptions}
+            subEvent={props.subEvent}
             name={"Netflix"}
             service="netflix"
             logoSrc={"/images/subscriptions/Netflix_sub.svg"}
@@ -45,6 +46,8 @@ export default function Subscriptions() {
             handleButtonStateChange={handleButtonStateChange}
           />
           <SingleSub
+            subscribed={props.subscriptions}
+            subEvent={props.subEvent}
             name={"NRK TV"}
             service="nrk"
             logoSrc={"/images/subscriptions/nrk_sub.svg"}
@@ -53,6 +56,8 @@ export default function Subscriptions() {
             handleButtonStateChange={handleButtonStateChange}
           />
           <SingleSub
+            subscribed={props.subscriptions}
+            subEvent={props.subEvent}
             name={"Viaplay"}
             service="viaplay"
             logoSrc={"/images/subscriptions/Via.png"}
@@ -64,6 +69,8 @@ export default function Subscriptions() {
 
         <div className={SubscriptionsStyle.subRow}>
           <SingleSub
+            subscribed={props.subscriptions}
+            subEvent={props.subEvent}
             name={"Disney +"}
             service="disney"
             logoSrc={"/images/subscriptions/DisneyPlusLogo.svg"}
@@ -72,6 +79,8 @@ export default function Subscriptions() {
             handleButtonStateChange={handleButtonStateChange}
           />
           <SingleSub
+            subscribed={props.subscriptions}
+            subEvent={props.subEvent}
             name={"TV2 Sumo"}
             service="tv2"
             logoSrc={"/images/subscriptions/tv2_sub.svg"}
@@ -80,6 +89,8 @@ export default function Subscriptions() {
             handleButtonStateChange={handleButtonStateChange}
           />
           <SingleSub
+            subscribed={props.subscriptions}
+            subEvent={props.subEvent}
             name={"HBO Nordic"}
             service="hbo"
             logoSrc={"/images/subscriptions/hbo_sub.svg"}

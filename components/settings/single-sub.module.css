@@ -15,7 +15,6 @@
   margin-top: 17px;
   width: 100%;
   height: 240px;
-  border: solid 0.5px #2cfffc;
   border-radius: 30px;
 }
 
@@ -56,7 +55,7 @@
   color: #2cfffc;
 }
 
-.subActiveStateHbo {
+.subPausedState {
   color: #fbab29;
 }
 
@@ -86,7 +85,20 @@
   text-align: right;
 }
 
-.pauseReactivateButton {
+.pauseButton {
+  font-family: din-2014, sans-serif;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 30px;
+  background-color: #111820;
+  outline: none;
+  font-weight: bold;
+  border: 1px solid #fbab29;
+  margin-right: 30px;
+}
+
+.reactivateButton {
   font-family: din-2014, sans-serif;
   color: white;
   cursor: pointer;

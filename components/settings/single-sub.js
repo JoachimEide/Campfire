@@ -1,9 +1,15 @@
 import SubStyle from "./single-sub.module.css";
 
 export default function Sub(props) {
+  console.log(props);
   return (
     <div
-      style={{ display: `${props.subToggle[props.service].display}` }}
+      style={{
+        display: `${props.subToggle[props.service].display}`,
+        border: `solid 0.5px ${
+          props.subscribed[props.service] ? "#2cfffc" : "#fbab29"
+        }`,
+      }}
       className={
         props.subToggle[props.service].toggle
           ? SubStyle.subProviderActive
@@ -26,7 +32,15 @@ export default function Sub(props) {
       </div>
 
       <div className={SubStyle.subActiveEdit}>
-        <p className={SubStyle.subActiveState}>Active</p>
+        <p
+          className={
+            props.subscribed[props.service]
+              ? SubStyle.subActiveState
+              : SubStyle.subPausedState
+          }
+        >
+          {props.subscribed[props.service] ? "Active" : "Paused"}
+        </p>
         <p>Edit</p>
       </div>
       <div className={SubStyle.buttonsContainer}>
@@ -38,7 +52,18 @@ export default function Sub(props) {
               : { display: "none" }
           }
         >
-          <button className={SubStyle.pauseReactivateButton}>Reactivate</button>
+          <button
+            className={
+              props.subscribed[props.service]
+                ? SubStyle.pauseButton
+                : SubStyle.reactivateButton
+            }
+            onClick={() => {
+              props.subEvent(props.service);
+            }}
+          >
+            {props.subscribed[props.service] ? "Pause" : "Reactivate"}
+          </button>
           <div className={SubStyle.total}>
             <p>New total: 515,-</p>
             <p>

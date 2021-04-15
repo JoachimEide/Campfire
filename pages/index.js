@@ -31,7 +31,15 @@ export default function Home(props) {
       />
       <ContentRow
         contentArray={props.contentDataList}
-        title="Friends are watching"
+        title="Popular on Netflix"
+        param="service"
+        paramValue="Netflix"
+      />
+      <ContentRow
+        contentArray={props.contentDataList}
+        title="Popular on HBO"
+        param="service"
+        paramValue="Hbo Nordic"
       />
     </Layout>
   );
