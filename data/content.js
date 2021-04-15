@@ -691,4 +691,36 @@ export const contentData = [
       },
     ],
   },
+  {
+    id: 26,
+    title: "Alle mot 1",
+    type: "series",
+    slug: "alle-mot-1",
+    genre: ["Gameshow", "Family"],
+    service: "NRK",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    thumbnailSrc: "/images/alle-mot-1/alle-mot-1.jpeg",
+    backgroundSrc: "/images/alle-mot-1/am1-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "3. april",
+        episodeText: "",
+        imgSrc: "/images/alle-mot-1/am1-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "27. mars",
+        episodeText: "",
+        imgSrc: "/images/alle-mot-1/am1-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "20. mars",
+        episodeText: "",
+        imgSrc: "/images/alle-mot-1/am1-3.jpeg",
+      },
+    ],
+  },
 ];
