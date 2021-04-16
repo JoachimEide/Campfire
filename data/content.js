@@ -734,6 +734,35 @@ export const contentData = [
   },
   {
     id: 26,
+    title: "The nevers",
+    type: "series",
+    slug: "the-nevers",
+    genre: ["Drama", "Action", "Fantasy"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/nevers/nevers.jpeg",
+    backgroundSrc: "/images/nevers/nevers_big.jpg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 2: Exposure",
+        episodeText:
+          "TBA",
+        imgSrc: "/images/nevers/neversS1E2.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 1: Touched",
+        episodeText:
+          "Three years after an inexplicable event suddenly equips them with extraordinary abilities, Amalia True and Penance Adair work to protect their kind from widespread, deepening antipathy.",
+        imgSrc: "/images/nevers/neversS1E1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 27,
     title: "Game of thrones",
     type: "series",
     slug: "game-of-thrones",
@@ -770,7 +799,407 @@ export const contentData = [
     ],
   },
   {
-    id: 27,
+    id: 28,
+    title: "His dark materials",
+    type: "series",
+    slug: "his-dark-materials",
+    genre: ["Drama", "Adventure", "Family", "Fantasy"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/his_dark_materials/hdm.jpeg",
+    backgroundSrc: "/images/his_dark_materials/hdm_big.jpg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 7: Æsahættr",
+        episodeText:
+          "As all paths converge on Cittàgazze, Lee is determined to fulfil his quest, whatever the cost. Mrs Coulter's question is answered, and Will takes on his father's mantle.",
+        imgSrc: "/images/his_dark_materials/hdmS2E7.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 6: Malice",
+        episodeText:
+          "Lyra and Will find allies who can help them in their search for Will's father. The Magisterium learn something shocking, and Mrs Coulter meets a formidable foe.",
+        imgSrc: "/images/his_dark_materials/hdmS2E6.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 5: The scholar",
+        episodeText:
+          "Will and Lyra set out to retrieve what's been lost. Mary takes a leap of faith.",
+        imgSrc: "/images/his_dark_materials/hdmS2E5.jpeg",
+      },
+    ],
+  },
+  {
+    id: 29,
+    title: "Euphoria",
+    type: "series",
+    slug: "euphoria",
+    genre: ["Drama"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/euphoria/euphoria.jpeg",
+    backgroundSrc: "/images/euphoria/euphoria_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 3: Made you look",
+        episodeText:
+          "Kat starts camming; Jules falls for a boy online; Rue is confronted about her lies at NA; Cassie and McKay spend the weekend at his college.",
+        imgSrc: "/images/euphoria/euphoriaS1E3.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Stuntin' like my daddy",
+        episodeText:
+          "On the first day of school, Rue struggles to put the past behind her; Nate's obsessions turn violent; Kat finds a video of her online.",
+        imgSrc: "/images/euphoria/euphoriaS1E2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 1: Pilot",
+        episodeText:
+          "Rue returns home from rehab and meets Jules; Nate and Maddy attempt to make each other jealous; Kat is pressured to lose something.",
+        imgSrc: "/images/euphoria/euphoriaS1E1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 30,
+    title: "Westworld",
+    type: "series",
+    slug: "westworld",
+    genre: ["Drama", "Mystery", "Sci-Fi", "Fantasy"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/westworld/westworld.jpeg",
+    backgroundSrc: "/images/westworld/westworld_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 8: Crisis theory",
+        episodeText:
+          "Dolores' true intentions are revealed; Bernard confronts a ghost from his past; Maeve is conflicted; Serac's voice is dominant; Caleb's role is revealed; and William faces an unexpected villain.",
+        imgSrc: "/images/westworld/westworldS3E8.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 7: Passed pawn",
+        episodeText:
+          "Caleb gets an insight on the true nature of his past; Dolores seeks out Rehoboam's predecessor, while Maeve tracks her down; Bernard, Stubbs, and William escape from all the chaos.",
+        imgSrc: "/images/westworld/westworldS3E7.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 6: Decoherence",
+        episodeText:
+          "As the world falls into chaos, Serac gains control of Delos, changing Charlotte's plan; Maeve gets one last chance to stop Dolores; William starts his therapy.",
+        imgSrc: "/images/westworld/westworldS3E6.jpeg",
+      },
+    ],
+  },
+  {
+    id: 31,
+    title: "The handmaid's tale",
+    type: "series",
+    slug: "the-handmaid's-tale",
+    genre: ["Drama", "Thriller", "Fantasy"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/handmaid/handmaid.png",
+    backgroundSrc: "/images/handmaid/handmaid_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 13: Mayday",
+        episodeText:
+          "With her plan in place, June reaches the point of no return on her bold strike against Gilead; Serena Joy and Commander Waterford attempt to find their way forward in their new lives.",
+        imgSrc: "/images/handmaid/handmaidS3E13.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 12: Sacrifice",
+        episodeText:
+          "Gilead leadership is rocked by losses of their own; Luke and Moira adjust to new arrivals in Canada; A tragedy strikes the Lawrence household.",
+        imgSrc: "/images/handmaid/handmaidS3E12.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 11: Liars",
+        episodeText:
+          "A return to Jezebels puts everything in jeopardy; Serena Joy and Commander Waterford take a clandestine trip.",
+        imgSrc: "/images/handmaid/handmaidS3E11.jpeg",
+      },
+    ],
+  },
+  {
+    id: 32,
+    title: "Big little lies",
+    type: "series",
+    slug: "big-little-lies",
+    genre: ["Drama", "Crime", "Mystery"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/big_little_lies/bls.jpeg",
+    backgroundSrc: "/images/big_little_lies/bls_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 7: I want to know",
+        episodeText:
+          "Celeste questions Mary Louise about a tragic event from Perry's childhood; Madeline worries their lie is tearing the Monterey Five apart.",
+        imgSrc: "/images/big_little_lies/blsS2E7.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 6: The bad mother",
+        episodeText:
+          "Celeste is blindsided by Mary Louise; Bonnie contemplates a solution to her mother's suffering and her own ongoing guilt; The Monterey Five feel the pressure of increased scrutiny of Perry's death.",
+        imgSrc: "/images/big_little_lies/blsS2E6.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 5: Kill me",
+        episodeText:
+          "Renata tries to help Celeste; Bonnie struggles with her mother's recovery; Celeste attends a custody hearing; Josh, Max and Ziggy are bullied by a boy at school.",
+        imgSrc: "/images/big_little_lies/blsS2E5.jpeg",
+      },
+    ],
+  },
+  {
+    id: 33,
+    title: "I may destroy you",
+    type: "series",
+    slug: "i-may-destroy-you",
+    genre: ["Drama"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/i_may_destroy_you/imdy.jpeg",
+    backgroundSrc: "/images/i_may_destroy_you/imdy_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 12: Ego death",
+        episodeText:
+          "When Arabella's memory of her assault comes rushing back to her, she drags the last of her demons out from under the bed - once and for all.",
+        imgSrc: "/images/i_may_destroy_you/imdyS1E12.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 11: Would you like to know the sex?",
+        episodeText:
+          "Arabella re-engages with her work and continues staking out the scene of her attack. Kwame follows Tyrone into uncharted territory, and Terry has some luck in work and romance.",
+        imgSrc: "/images/i_may_destroy_you/imdyS1E11.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 10: The cause the cure",
+        episodeText:
+          "After Simon drops a bombshell, Arabella attends her mum's birthday dinner, where painful, long-forgotten memories resurface.",
+        imgSrc: "/images/i_may_destroy_you/imdyS1E10.jpeg",
+      },
+    ],
+  },
+  {
+    id: 34,
+    title: "Killing Eve",
+    type: "series",
+    slug: "killing-eve",
+    genre: ["Drama", "Action", "Adventure"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/killing_eve/ke.jpeg",
+    backgroundSrc: "/images/killing_eve/ke_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 3: Don't I know you?",
+        episodeText:
+          "After a killing in Berlin, Eve and Bill travel there to investigate, unaware of how close they are to Villanelle.",
+        imgSrc: "/images/killing_eve/keS1E3.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: I'll deal with him later",
+        episodeText:
+          "Eve is given the opportunity to lead a secret MI6 unit tasked with tracking down Villanelle, who is becoming increasingly reckless, much to the discomfort of her bosses.",
+        imgSrc: "/images/killing_eve/keS1E2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 1: Nice face",
+        episodeText:
+          "When a Russian politician is murdered, a bored MI5 security officer is tasked with protecting the only witness and soon finds herself on a collision course with a violent and extraordinary assassin.",
+        imgSrc: "/images/killing_eve/keS1E1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 35,
+    title: "Vikings",
+    type: "series",
+    slug: "vikings",
+    genre: ["Drama", "Action", "Adventure"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/vikings/vikings.jpeg",
+    backgroundSrc: "/images/vikings/vikings_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 20: The last act",
+        episodeText:
+          "The epic saga which began with Ragnar Lothbrok, the first Vikings leader to emerge from the mists of legend, comes to an end in a spectacular and shocking series finale which finds striking the new land and in England.",
+        imgSrc: "/images/vikings/vikingsS6E20.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 19: The lord giveth...",
+        episodeText:
+          "In the new land, Ubbe and the settlers engage in careful diplomacy when they are surrounded by the locals. In Wessex the Vikings ambush the Saxon army, but Alfred is convinced the lord is with his army and refuses to retreat.",
+        imgSrc: "/images/vikings/vikingsS6E19.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 18: It's only magic",
+        episodeText:
+          "Ubbe and settlers find land but soon realize they are not alone. In Wessex, king Alfred has mustered up a large force to fight the Vikings. Meanwhile in Kattegat, Erik realizes that Ingrid had been using her powers on him",
+        imgSrc: "/images/vikings/vikingsS6E18.jpeg",
+      },
+    ],
+  },
+
+  {
+    id: 36,
+    title: "Wonder woman 1984",
+    type: "movie",
+    slug: "wonder-woman-1984",
+    genre: ["Fantasy", "Adventure", "Action"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/wonder_woman/ww.jpeg",
+    backgroundSrc: "/images/wonder_woman/ww_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Wonder woman 1984",
+        episodeText:
+          "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.",
+        imgSrc: "/images/wonder_woman/ww.jpeg",
+      },
+    ],
+  },
+  {
+    id: 37,
+    title: "Zack Snyder's Justice league",
+    type: "movie",
+    slug: "zack-snyder's-justice-league",
+    genre: ["Fantasy", "Adventure", "Action"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/justice_league/jl.jpeg",
+    backgroundSrc: "/images/justice_league/jl_big.jpg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Zack Snyder's Justice league",
+        episodeText:
+          "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world.",
+        imgSrc: "/images/justice_league/jl.jpeg",
+      },
+    ],
+  },
+  {
+    id: 38,
+    title: "Galveston",
+    type: "movie",
+    slug: "galveston",
+    genre: ["Action", "Crime", "Drama"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/galveston/galveston.jpeg",
+    backgroundSrc: "/images/galveston/galveston_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Galveston",
+        episodeText:
+          "After escaping a set up, a dying hitman returns to his hometown of Galveston where he plans his revenge.",
+        imgSrc: "/images/galveston/galveston.jpeg",
+      },
+    ],
+  },
+  {
+    id: 39,
+    title: "Ghost in the shell",
+    type: "movie",
+    slug: "ghost-in-the-shell",
+    genre: ["Action", "Crime", "Drama"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/ghost_in_the_shell/gits.jpeg",
+    backgroundSrc: "/images/ghost_in_the_shell/gits_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Ghost in the shell",
+        episodeText:
+          "In the near future, Major Mira Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.",
+        imgSrc: "/images/ghost_in_the_shell/gits.jpeg",
+      },
+    ],
+  },
+  {
+    id: 40,
+    title: "The 5th wave",
+    type: "movie",
+    slug: "the-5th-wave",
+    genre: ["Action", "Adventure", "Sci-Fi"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/the_5th_wave/tfw.jpeg",
+    backgroundSrc: "/images/the_5th_wave/tfw_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "The 5th wave",
+        episodeText:
+          "Four waves of increasingly deadly alien attacks have left most of Earth in ruin. Cassie is on the run, desperately trying to save her younger brother.",
+        imgSrc: "/images/the_5th_wave/tfw.jpeg",
+      },
+    ],
+  },
+
+  {
+    id: 50,
     title: "Alle mot 1",
     type: "series",
     slug: "alle-mot-1",
