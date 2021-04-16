@@ -1,11 +1,17 @@
 import Link from "next/link";
 import ServiceStyle from "./services.module.css";
 
-export default function Sosialbar() {
+export default function Sosialbar({ subscriptions }) {
   return (
     <div className={ServiceStyle.container}>
       <Link href="/disney">
-        <a className={ServiceStyle.logoBox}>
+        <a
+          className={
+            subscriptions.disney
+              ? ServiceStyle.logoBox
+              : ServiceStyle.logoBoxInActive
+          }
+        >
           <img
             className={ServiceStyle.img}
             src="/images/DisneyPlusLogo.svg"
@@ -14,7 +20,13 @@ export default function Sosialbar() {
         </a>
       </Link>
       <Link href="/netflix">
-        <a className={ServiceStyle.logoBox}>
+        <a
+          className={
+            subscriptions.netflix
+              ? ServiceStyle.logoBox
+              : ServiceStyle.logoBoxInActive
+          }
+        >
           <img
             className={ServiceStyle.img2}
             src="/images/Netflix_logo.svg"
@@ -23,7 +35,13 @@ export default function Sosialbar() {
         </a>
       </Link>
       <Link href="/sumo">
-        <a className={ServiceStyle.logoBox}>
+        <a
+          className={
+            subscriptions.tv2
+              ? ServiceStyle.logoBox
+              : ServiceStyle.logoBoxInActive
+          }
+        >
           <img
             className={ServiceStyle.img2}
             src="/images/tv2sumo-logo.svg"
@@ -32,7 +50,13 @@ export default function Sosialbar() {
         </a>
       </Link>
       <Link href="/viaplay">
-        <a className={ServiceStyle.logoBox}>
+        <a
+          className={
+            subscriptions.viaplay
+              ? ServiceStyle.logoBox
+              : ServiceStyle.logoBoxInActive
+          }
+        >
           <img
             className={ServiceStyle.img}
             src="/images/viaplay-logo.png"
@@ -41,7 +65,13 @@ export default function Sosialbar() {
         </a>
       </Link>
       <Link href="/nrk">
-        <a className={ServiceStyle.logoBox}>
+        <a
+          className={
+            subscriptions.nrk
+              ? ServiceStyle.logoBox
+              : ServiceStyle.logoBoxInActive
+          }
+        >
           <img
             className={ServiceStyle.img2}
             src="/images/NRK_TV_logo.svg"
@@ -50,7 +80,13 @@ export default function Sosialbar() {
         </a>
       </Link>
       <Link href="/hbo">
-        <a className={ServiceStyle.logoBox}>
+        <a
+          className={
+            subscriptions.hbo
+              ? ServiceStyle.logoBox
+              : ServiceStyle.logoBoxInActive
+          }
+        >
           <img
             className={ServiceStyle.img}
             src="/images/HboLogo.svg"

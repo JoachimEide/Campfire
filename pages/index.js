@@ -16,7 +16,7 @@ export default function Home(props) {
   return (
     <Layout socialStatus={props.socialStatus} event={props.event}>
       <Topcarousel />
-      <Services />
+      <Services subscriptions={props.subscriptions} />
       <ContentRow
         title="Popular now"
         contentArray={props.contentDataList}
@@ -31,7 +31,15 @@ export default function Home(props) {
       />
       <ContentRow
         contentArray={props.contentDataList}
-        title="Friends are watching"
+        title="Popular on Netflix"
+        param="service"
+        paramValue="Netflix"
+      />
+      <ContentRow
+        contentArray={props.contentDataList}
+        title="Popular on HBO"
+        param="service"
+        paramValue="Hbo Nordic"
       />
     </Layout>
   );
