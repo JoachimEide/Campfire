@@ -766,7 +766,7 @@ export const contentData = [
     ],
   },
   {
-    id: 26,
+    id: 27,
     title: "Alle mot 1",
     type: "series",
     slug: "alle-mot-1",
