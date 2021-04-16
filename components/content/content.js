@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Content(props) {
   return (
     <Link href={props.link}>
-      <a>
+      <a style={{ position: "relative" }}>
         {props.history ? (
           <img
             className={ContentStyle.x}
