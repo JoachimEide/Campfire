@@ -13,7 +13,6 @@ export const getStaticProps = async () => {
 };
 
 export default function Home(props) {
-  console.log(props);
   return (
     <Layout socialStatus={props.socialStatus} event={props.event}>
       <Topcarousel />
