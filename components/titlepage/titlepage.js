@@ -31,14 +31,16 @@ export default function Layout(props) {
           <button
             className={TitlePageStyle.playButton}
             onClick={() => {
-              props.historyEvent({
-                id: props.id,
-                title: props.title,
-                slug: props.slug,
-                service: props.service,
-                serviceLogo: props.serviceLogo,
-                thumbnailSrc: props.thumbnailSrc,
-              });
+              if (props.status) {
+                props.historyEvent({
+                  id: props.id,
+                  title: props.title,
+                  slug: props.slug,
+                  service: props.service,
+                  serviceLogo: props.serviceLogo,
+                  thumbnailSrc: props.thumbnailSrc,
+                });
+              }
             }}
           >
             Play
