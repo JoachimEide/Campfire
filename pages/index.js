@@ -41,6 +41,12 @@ export default function Home(props) {
         param="service"
         paramValue="NRK"
       />
+      <ContentRow
+        contentArray={props.contentDataList}
+        title="Popular on Viaplay"
+        param="service"
+        paramValue="Viaplay"
+      />
     </Layout>
   );
 }
