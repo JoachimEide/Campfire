@@ -84,6 +84,7 @@ export default function ContentRow(props) {
               src={thumbnailSrc}
               serviceSrc={serviceLogo}
               serviceAlt={service}
+              history={props.history}
             />
           )
         )}

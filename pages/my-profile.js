@@ -19,6 +19,7 @@ export default function Home(props) {
       <ReviewRow title="My reviews" />
       <ContentRow
         title="Public watch history"
+        history={true}
         contentArray={props.contentDataList}
         param={false}
         paramValue={false}

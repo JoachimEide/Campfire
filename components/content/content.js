@@ -6,6 +6,15 @@ export default function Content(props) {
   return (
     <Link href={props.link}>
       <a>
+        {props.history ? (
+          <img
+            className={ContentStyle.x}
+            src="images/remove_history.svg"
+            alt="remove icon"
+          />
+        ) : (
+          ""
+        )}
         <div className={ContentStyle.container}>
           <Image
             className={ContentStyle.image}
