@@ -16,30 +16,21 @@ export default function Home(props) {
   return (
     <Layout socialStatus={props.socialStatus} event={props.event}>
       <Topcarousel />
-      <Services subscriptions={props.subscriptions} />
       <ContentRow
-        title="Popular now"
+        title="Movies"
         contentArray={props.contentDataList}
         param="service"
         paramValue="Disney+"
+        param2="type"
+        paramValue2="movie"
       />
       <ContentRow
+        title="Series"
         contentArray={props.contentDataList}
-        title="Movies"
-        param="type"
-        paramValue="movie"
-      />
-      <ContentRow
-        contentArray={props.contentDataList}
-        title="Popular on Netflix"
         param="service"
-        paramValue="Netflix"
-      />
-      <ContentRow
-        contentArray={props.contentDataList}
-        title="Popular on HBO"
-        param="service"
-        paramValue="NRK"
+        paramValue="Disney+"
+        param2="type"
+        paramValue2="series"
       />
     </Layout>
   );

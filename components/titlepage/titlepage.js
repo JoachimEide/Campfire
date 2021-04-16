@@ -22,13 +22,27 @@ const OptionalLogo = (props) => {
 export default function Layout(props) {
   return (
     <div className="wrapper">
-      <TitleNav serviceSrc={props.serviceLogo} />
+      <TitleNav serviceSrc={props.serviceTitleLogo} />
       <Socialbar status={props.status} event={props.event} />
       <Status status={props.status} event={props.event} />
       <div className="content">
         <div className={TitlePageStyle.titleTop}>
           {OptionalLogo(props)}
-          <button className={TitlePageStyle.playButton}>Play</button>
+          <button
+            className={TitlePageStyle.playButton}
+            onClick={() => {
+              props.historyEvent({
+                id: props.id,
+                title: props.title,
+                slug: props.slug,
+                service: props.service,
+                serviceLogo: props.serviceLogo,
+                thumbnailSrc: props.thumbnailSrc,
+              });
+            }}
+          >
+            Play
+          </button>
           <button className={TitlePageStyle.watchlistButton}>
             Add to watchlist
           </button>

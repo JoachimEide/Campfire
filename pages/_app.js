@@ -11,6 +11,7 @@ export default function App({ Component, pageProps }) {
     viaplay: true,
     tv2: true,
   });
+  const [watchHistory, setWatchHistory] = useState([]);
   const statusEvent = (booleanValue) => {
     setSocialStatus(booleanValue);
   };
@@ -19,6 +20,11 @@ export default function App({ Component, pageProps }) {
     subCopy[serviceProvider] = !subCopy[serviceProvider];
     setSubscription(subCopy);
   };
+  const historyEvent = (titleObject) => {
+    let watchHistoryCopy = [...watchHistory];
+    watchHistoryCopy.push(titleObject);
+    setWatchHistory(watchHistoryCopy);
+  };
   return (
     <Component
       {...pageProps}
@@ -26,6 +32,8 @@ export default function App({ Component, pageProps }) {
       socialStatus={socialStatus}
       subscriptions={subscriptions}
       subEvent={subEvent}
+      watchHistory={watchHistory}
+      historyEvent={historyEvent}
     />
   );
 }

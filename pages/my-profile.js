@@ -20,8 +20,11 @@ export default function Home(props) {
       <ContentRow
         title="Public watch history"
         contentArray={props.contentDataList}
-        param="watched"
-        paramValue={true}
+        param={false}
+        paramValue={false}
+        param2={false}
+        paramValue2={false}
+        arrayParam={props.watchHistory}
       />
     </Layout>
   );

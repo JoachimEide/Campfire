@@ -44,15 +44,33 @@ export default function ContentRow(props) {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
-  const dataFilterCallback = (param, paramValue) => {
+  const dataFilterCallback = (
+    param,
+    paramValue,
+    param2 = false,
+    paramValue2 = false,
+    arrayParam = []
+  ) => {
+    if (arrayParam.length) {
+      return arrayParam.reverse();
+    }
     let data = props.contentArray.filter((content) => {
-      return content[param] === paramValue;
+      if (param2 && paramValue2) {
+        return content[param] === paramValue && content[param2] === paramValue2;
+      } else {
+        return content[param] === paramValue;
+      }
     });
     return data;
   };
 
-  const filteredContent = dataFilterCallback(props.param, props.paramValue);
-
+  const filteredContent = dataFilterCallback(
+    props.param,
+    props.paramValue,
+    props.param2,
+    props.paramValue2,
+    props.arrayParam
+  );
   return (
     <div className="content-row">
       <h2 className="content-header">{props.title}</h2>
