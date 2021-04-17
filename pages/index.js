@@ -59,6 +59,12 @@ export default function Home(props) {
         param="service"
         paramValue="NRK"
       />
+      <ContentRow
+        title="Sport"
+        contentArray={props.contentDataList}
+        param="genre"
+        paramValue="Sport"
+      />
     </Layout>
   );
 }
