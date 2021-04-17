@@ -2,6 +2,7 @@ import ReviewStyle from "./review.module.css";
 import Image from "next/image";
 
 export default function Reviews(props) {
+  console.log(props);
   return (
     <div className={ReviewStyle.review}>
       <div className={ReviewStyle.friendPic}>

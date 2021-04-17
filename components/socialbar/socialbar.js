@@ -49,7 +49,7 @@ export default function Socialbar(props) {
             />
           </a>
         </Link>
-        <h2>Joachim Woll Eide</h2>
+        <h2>{!props.status ? "" : "Joachim Woll Eide"}</h2>
       </div>
       <button
         className={

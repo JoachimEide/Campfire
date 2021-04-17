@@ -20,7 +20,6 @@ const OptionalLogo = (props) => {
 };
 
 export default function Layout(props) {
-  console.log(props);
   return (
     <div className="wrapper">
       <TitleNav serviceSrc={props.serviceTitleLogo} />
@@ -79,8 +78,6 @@ export default function Layout(props) {
             <button className={TitlePageStyle.reviewButton}>
               Write review
             </button>
-            <Review />
-            <Review />
             <Review />
           </div>
         </div>
