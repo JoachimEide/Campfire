@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }) {
     tv2: true,
   });
   const [watchHistory, setWatchHistory] = useState([]);
+  const [watchList, setWatchList] = useState([]);
   const statusEvent = (booleanValue) => {
     setSocialStatus(booleanValue);
   };
@@ -25,6 +26,11 @@ export default function App({ Component, pageProps }) {
     watchHistoryCopy.push(titleObject);
     setWatchHistory(watchHistoryCopy);
   };
+  const watchListEvent = (titleObject) => {
+    let watchListCopy = [...watchList];
+    watchListCopy.push(titleObject);
+    setWatchList(watchListCopy);
+  };
   return (
     <Component
       {...pageProps}
@@ -34,6 +40,8 @@ export default function App({ Component, pageProps }) {
       subEvent={subEvent}
       watchHistory={watchHistory}
       historyEvent={historyEvent}
+      watchList={watchList}
+      watchListEvent={watchListEvent}
     />
   );
 }

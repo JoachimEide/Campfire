@@ -13,10 +13,20 @@ export const getStaticProps = async () => {
 };
 
 export default function Home(props) {
+  console.log(props.watchList);
   return (
     <Layout socialStatus={props.socialStatus} event={props.event}>
       <TopFriends />
       <ReviewRow title="My reviews" />
+      <ContentRow
+        title="Watchlist"
+        contentArray={props.contentDataList}
+        param={false}
+        paramValue={false}
+        param2={false}
+        paramValue2={false}
+        arrayParam={props.watchList}
+      />
       <ContentRow
         title="Public watch history"
         history={true}

@@ -11,7 +11,7 @@ export const getStaticProps = async () => {
   };
 };
 
-export default function Disney(props) {
+export default function Netflix(props) {
   return (
     <Layout socialStatus={props.socialStatus} event={props.event}>
       <div
@@ -21,14 +21,14 @@ export default function Disney(props) {
           marginBottom: "30px",
         }}
       >
-        <img src="/images/DisneyPlusLogo.svg" style={{ width: "10%" }} />
+        <img src="/images/Netflix_logo.svg" style={{ width: "10%" }} />
       </div>
       <Topcarousel />
       <ContentRow
         title="Movies"
         contentArray={props.contentDataList}
         param="service"
-        paramValue="Disney+"
+        paramValue="Netflix"
         param2="type"
         paramValue2="movie"
       />
@@ -36,7 +36,7 @@ export default function Disney(props) {
         title="Series"
         contentArray={props.contentDataList}
         param="service"
-        paramValue="Disney+"
+        paramValue="Netflix"
         param2="type"
         paramValue2="series"
       />
