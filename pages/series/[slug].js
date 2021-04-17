@@ -33,6 +33,8 @@ export default function TitlePageFactory(props) {
       event={props.event}
       history={props.watchHistory}
       historyEvent={props.historyEvent}
+      watchList={props.watchList}
+      watchListEvent={props.watchListEvent}
     />
   );
 }

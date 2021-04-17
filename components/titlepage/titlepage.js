@@ -20,6 +20,7 @@ const OptionalLogo = (props) => {
 };
 
 export default function Layout(props) {
+  console.log(props);
   return (
     <div className="wrapper">
       <TitleNav serviceSrc={props.serviceTitleLogo} />
@@ -45,7 +46,19 @@ export default function Layout(props) {
           >
             Play
           </button>
-          <button className={TitlePageStyle.watchlistButton}>
+          <button
+            className={TitlePageStyle.watchlistButton}
+            onClick={() => {
+              props.watchListEvent({
+                id: props.id,
+                title: props.title,
+                slug: props.slug,
+                service: props.service,
+                serviceLogo: props.serviceLogo,
+                thumbnailSrc: props.thumbnailSrc,
+              });
+            }}
+          >
             Add to watchlist
           </button>
         </div>
