@@ -47,6 +47,18 @@ export default function Home(props) {
         param="service"
         paramValue="Viaplay"
       />
+      <ContentRow
+        contentArray={props.contentDataList}
+        title="Popular on TV2 Sumo"
+        param="service"
+        paramValue="Tv2-Sumo"
+      />
+      <ContentRow
+        contentArray={props.contentDataList}
+        title="Popular on NRK"
+        param="service"
+        paramValue="NRK"
+      />
     </Layout>
   );
 }
