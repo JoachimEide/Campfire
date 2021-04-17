@@ -24,7 +24,7 @@ export default function TitlePageFactory(props) {
   return (
     <Layout socialStatus={props.socialStatus} event={props.event}>
       <TopFriends />
-      <ReviewRow title="My reviews" />
+      <ReviewRow title={`${props.friend.name} reviews`} />
       <ContentRow
         title="Watchlist"
         contentArray={props.contentDataList}
