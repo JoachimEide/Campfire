@@ -2802,4 +2802,165 @@ export const contentData = [
   ],
 },
 
+{
+  id: 93,
+  title: "Battle",
+  type: "movie",
+  slug: "battle",
+  genre: ["Drama", "Romance", "Music"],
+  service: "NRK",
+  serviceLogo: "/images/subscriptions/nrk_sub.svg",
+  serviceTitleLogo: "/images/NRK_TV_logo.svg",
+  thumbnailSrc: "/images/battle/battle.jpeg",
+  backgroundSrc: "/images/battle/battle_big.jpeg",
+  optionalShowLogo: "",
+  episodes: [
+    {
+      id: 1,
+      title: "Battle",
+      episodeText:
+        "Amalie works hard to fit in to a world where having it all is what matters - looks, money and dancing skills. Then she meets Michael, the street-dancer, who is different from any other person she has met.",
+      imgSrc: "/images/battle/battle.jpeg",
+    },
+  ],
+},
+
+{
+  id: 94,
+  title: "Disco",
+  type: "movie",
+  slug: "disco",
+  genre: ["Drama"],
+  service: "NRK",
+  serviceLogo: "/images/subscriptions/nrk_sub.svg",
+  serviceTitleLogo: "/images/NRK_TV_logo.svg",
+  thumbnailSrc: "/images/disco/disco.jpeg",
+  backgroundSrc: "/images/disco/disco_big.jpeg",
+  optionalShowLogo: "",
+  episodes: [
+    {
+      id: 1,
+      title: "Disco",
+      episodeText:
+        "When a champion dancer begins to falter, her family questions her faith and prompts her to search for more radical solutions.",
+      imgSrc: "/images/disco/disco.jpeg",
+    },
+  ],
+},
+
+{
+  id: 95,
+  title: "Psychobitch",
+  type: "movie",
+  slug: "psychobitch",
+  genre: ["Drama"],
+  service: "NRK",
+  serviceLogo: "/images/subscriptions/nrk_sub.svg",
+  serviceTitleLogo: "/images/NRK_TV_logo.svg",
+  thumbnailSrc: "/images/psychobitch/p.jpeg",
+  backgroundSrc: "/images/psychobitch/p_big.jpeg",
+  optionalShowLogo: "",
+  episodes: [
+    {
+      id: 1,
+      title: "Psychobitch",
+      episodeText:
+        "Frida is different. Marius, on the other hand is the most perfect boy in class. When they have to work together at school, it's the start of a turbulent and challenging relationship. Generation Achievement meets impossible love.",
+      imgSrc: "/images/psychobitch/p.jpeg",
+    },
+  ],
+},
+
+{
+  id: 96,
+  title: "Suffragette",
+  type: "movie",
+  slug: "suffragette",
+  genre: ["Drama", "History"],
+  service: "NRK",
+  serviceLogo: "/images/subscriptions/nrk_sub.svg",
+  serviceTitleLogo: "/images/NRK_TV_logo.svg",
+  thumbnailSrc: "/images/suffragette/s.jpeg",
+  backgroundSrc: "/images/suffragette/s_big.jpeg",
+  optionalShowLogo: "",
+  episodes: [
+    {
+      id: 1,
+      title: "Suffragette",
+      episodeText:
+        "In 1912 London, a young working mother is galvanized into radical political activism supporting the right for women to vote, and is willing to meet violence with violence to achieve this end.",
+      imgSrc: "/images/suffragette/s.jpeg",
+    },
+  ],
+},
+
+{
+  id: 97,
+  title: "The king's speech",
+  type: "movie",
+  slug: "the-king's-speech",
+  genre: ["Biography", "Drama", "History"],
+  service: "NRK",
+  serviceLogo: "/images/subscriptions/nrk_sub.svg",
+  serviceTitleLogo: "/images/NRK_TV_logo.svg",
+  thumbnailSrc: "/images/kings_speech/ks.jpeg",
+  backgroundSrc: "/images/kings_speech/ks_big.jpeg",
+  optionalShowLogo: "",
+  episodes: [
+    {
+      id: 1,
+      title: "The king's speech",
+      episodeText:
+        "The story of King George VI, his impromptu ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.",
+      imgSrc: "/images/kings_speech/ks.jpeg",
+    },
+  ],
+},
+
+{
+  id: 98,
+  title: "Florence",
+  type: "movie",
+  slug: "florence",
+  genre: ["Drama", "Comedy", "Biography"],
+  service: "NRK",
+  serviceLogo: "/images/subscriptions/nrk_sub.svg",
+  serviceTitleLogo: "/images/NRK_TV_logo.svg",
+  thumbnailSrc: "/images/florence/f.jpeg",
+  backgroundSrc: "/images/florence/f_big.jpeg",
+  optionalShowLogo: "",
+  episodes: [
+    {
+      id: 1,
+      title: "Florence",
+      episodeText:
+        "The story of Florence Foster Jenkins, a New York heiress who dreamed of becoming an opera singer, despite having a terrible singing voice.",
+      imgSrc: "/images/florence/f.jpeg",
+    },
+  ],
+},
+
+{
+  id: 99,
+  title: "Silver linings playbook",
+  type: "movie",
+  slug: "silver-linings-playbook",
+  genre: ["Drama", "Comedy", "Romance"],
+  service: "NRK",
+  serviceLogo: "/images/subscriptions/nrk_sub.svg",
+  serviceTitleLogo: "/images/NRK_TV_logo.svg",
+  thumbnailSrc: "/images/silver/slp.jpeg",
+  backgroundSrc: "/images/silver/slp_big.jpeg",
+  optionalShowLogo: "",
+  episodes: [
+    {
+      id: 1,
+      title: "Silver lining playbook",
+      episodeText:
+        "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
+      imgSrc: "/images/silver/slp.jpeg",
+    },
+  ],
+},
+
 ];
