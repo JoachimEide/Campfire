@@ -1441,7 +1441,7 @@ export const contentData = [
   {
     id: 48,
     title: "The Hobbit: An Unexpected Journey",
-    type: "movies",
+    type: "movie",
     slug: "the-hobbit-an-unexpected-journey",
     genre: ["Adventure", "Fantacy"],
     service: "Viaplay",
@@ -1463,7 +1463,7 @@ export const contentData = [
   {
     id: 49,
     title: "Spider-Man: Homecoming",
-    type: "movies",
+    type: "movie",
     slug: "spider-man-homecoming",
     genre: ["Adventure", "Action", "Sci-Fi"],
     service: "Viaplay",
@@ -1485,7 +1485,7 @@ export const contentData = [
   {
     id: 50,
     title: "Fifty Shades of Grey",
-    type: "movies",
+    type: "movie",
     slug: "fifty-shades-of-grey",
     genre: ["Drama", "Romance", "Thriller"],
     service: "Viaplay",
@@ -1507,7 +1507,7 @@ export const contentData = [
   {
     id: 51,
     title: "How To Be Single",
-    type: "movies",
+    type: "movie",
     slug: "how-to-be-single",
     genre: ["Comedy", "Drama", "Romance"],
     service: "Viaplay",
@@ -1529,7 +1529,7 @@ export const contentData = [
   {
     id: 52,
     title: "Crazy Stupid Love",
-    type: "movies",
+    type: "movie",
     slug: "crazy-stupid-love",
     genre: ["Comedy", "Drama", "Romance"],
     service: "Viaplay",
@@ -1551,7 +1551,7 @@ export const contentData = [
   {
     id: 53,
     title: "The Invisible Man",
-    type: "movies",
+    type: "movie",
     slug: "the-invisible-man",
     genre: ["Horror", "Drama", "Mystery"],
     service: "Viaplay",
@@ -1573,7 +1573,7 @@ export const contentData = [
   {
     id: 54,
     title: "Minions",
-    type: "movies",
+    type: "movie",
     slug: "minions",
     genre: ["Animation", "Adventure", "Comedy"],
     service: "Viaplay",
@@ -1594,7 +1594,7 @@ export const contentData = [
   {
     id: 55,
     title: "Fritt Vilt II",
-    type: "movies",
+    type: "movie",
     slug: "fritt-vilt-II",
     genre: ["Horror", "Thriller"],
     service: "Viaplay",
@@ -1726,7 +1726,7 @@ export const contentData = [
   {
     id: 61,
     title: "I Still Believe",
-    type: "movies",
+    type: "movie",
     slug: "i-still-believe",
     genre: ["Biography", "Drama", "Music"],
     service: "Tv2-Sumo",
@@ -1748,7 +1748,7 @@ export const contentData = [
   {
     id: 62,
     title: "Angel has Fallen",
-    type: "movies",
+    type: "movie",
     slug: "angel-has-fallen",
     genre: ["Action", "Thriller"],
     service: "Tv2-Sumo",
@@ -1770,7 +1770,7 @@ export const contentData = [
   {
     id: 63,
     title: "Fjols til fjells",
-    type: "movies",
+    type: "movie",
     slug: "fjols-til-fjells",
     genre: ["Comedy"],
     service: "Tv2-Sumo",
