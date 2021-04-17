@@ -2252,7 +2252,7 @@ export const contentData = [
 },
 
 {
-  id: 88,
+  id: 78,
   title: "Rådebank",
   type: "series",
   slug: "radebank",
@@ -2289,7 +2289,7 @@ export const contentData = [
 },
 
 {
-  id: 86,
+  id: 79,
   title: "Normal People",
   type: "series",
   slug: "normal-people",
@@ -2363,7 +2363,44 @@ export const contentData = [
 },
 
 {
-  id: 79,
+  id: 81,
+  title: "The fall",
+  type: "series",
+  slug: "the-fall",
+  genre: ["Drama", "Crime", "Thriller"],
+  service: "NRK",
+  serviceLogo: "/images/subscriptions/nrk_sub.svg",
+  serviceTitleLogo: "/images/NRK_TV_logo.svg",
+  thumbnailSrc: "/images/fall/fall.jpeg",
+  backgroundSrc: "/images/fall/fall_big.jpeg",
+  optionalShowLogo: "",
+  episodes: [
+    {
+      id: 1,
+      title: "Episode 4: The hell within him",
+      episodeText:
+        "Gibson witnesses Sally-Ann’s despair as Burns faces up to his guilt at pursuing her as a conspirator. Gibson and Dr Larson, Spector’s psychiatrist, have conflicting views of Spector: is he patient or prisoner?",
+      imgSrc: "/images/fall/fall-1.jpeg",
+    },
+    {
+      id: 2,
+      title: "Episode 5: Wounds of deadly hate",
+      episodeText:
+        "Dr Larson begins his assessment on Spector, who opens up about the life he can remember before his amnesia, while the killer's legal team remain determined he will never stand trial.",
+      imgSrc: "/images/fall/fall-2.jpeg",
+    },
+    {
+      id: 3,
+      title: "Episode 6: Their solitary way",
+      episodeText:
+        "In the thrilling series finale, Gibson and Anderson present fresh evidence to Spector with cataclysmic results. Spector’s new friendship in the psychiatric facility develops with a shocking outcome.",
+      imgSrc: "/images/fall/fall-3.jpeg",
+    },
+  ],
+},
+
+{
+  id: 82,
   title: "Den tynne blå linjen",
   type: "series",
   slug: "den-tynne-bla-linjen",
@@ -2400,7 +2437,7 @@ export const contentData = [
 },
 
 {
-  id: 81,
+  id: 83,
   title: "Førstegangstjenesten",
   type: "series",
   slug: "forstegangstjenesten",
@@ -2437,7 +2474,7 @@ export const contentData = [
 },
 
 {
-  id: 82,
+  id: 84,
   title: "Kongen av Gulset",
   type: "series",
   slug: "kongen-av-gulset",
@@ -2474,7 +2511,7 @@ export const contentData = [
 },
 
 {
-  id: 83,
+  id: 85,
   title: "Maskorama",
   type: "series",
   slug: "maskorama",
@@ -2511,7 +2548,7 @@ export const contentData = [
 },
 
 {
-  id: 84,
+  id: 86,
   title: "Maxitaxi Driver",
   type: "series",
   slug: "maxitaxi-driver",
@@ -2548,7 +2585,7 @@ export const contentData = [
 },
 
 {
-  id: 85,
+  id: 87,
   title: "Norges Tøffeste",
   type: "series",
   slug: "norges-toffeste",
@@ -2585,7 +2622,7 @@ export const contentData = [
 },
 
 {
-  id: 87,
+  id: 88,
   title: "Parterapi",
   type: "series",
   slug: "parterapi",
@@ -2729,7 +2766,7 @@ export const contentData = [
   ],
 },
 {
-  id: 78,
+  id: 92,
   title: "De neste",
   type: "series",
   slug: "de-neste",
