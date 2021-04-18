@@ -62,7 +62,7 @@ export default function Socialbar(props) {
       >
         <h3>{!props.status ? "Private" : "Social"}</h3>
       </button>
-      <div className={SocialbarStyle.scroll}>
+      <div className={SocialbarStyle.wrapper}>
         <Friend status={props.status} inSettings={inSettings} />
         <Friend status={props.status} inSettings={inSettings} />
         <Friend status={props.status} inSettings={inSettings} />

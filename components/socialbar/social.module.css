@@ -46,7 +46,7 @@
   width: 60%;
   border: 1px solid #3ffefb;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   font-family: din-2014, sans-serif;
   cursor: pointer;
   background-color: #111820;
@@ -72,9 +72,8 @@
   transition: all 0.3s ease-in-out;
 }
 
-.scroll {
-  height: auto;
-  display: contents;
-  overscroll-behavior-y: none;
-  overflow-y: scroll;
+.wrapper {
+  position: relative;
+  overflow: scroll;
+  width: 100%;
 }

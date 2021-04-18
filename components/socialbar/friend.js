@@ -8,7 +8,7 @@ export default function Friend(props) {
   const [clickFriend, setClickFriend] = useState(false);
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", height: "100px" }}>
+    <div>
       <div className={FriendStyle.friendProfile}>
         <div
           className={FriendStyle.friendPic}
@@ -53,7 +53,6 @@ export default function Friend(props) {
             : FriendStyle.friendClickActive
         }
       >
-        <Buble className={FriendStyle.buble} />
         <button className={FriendStyle.joinButton}>Join</button>
         <button className={FriendStyle.profileButton}>Profile</button>
       </div>
