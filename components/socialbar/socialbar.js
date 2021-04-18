@@ -4,6 +4,7 @@ import Link from "next/link";
 import SocialbarStyle from "./social.module.css";
 import Image from "next/image";
 import Buble from "./buble";
+import Friend from "./friend";
 
 export default function Socialbar(props) {
   const [clickFriend, setClickFriend] = useState(false);
@@ -61,54 +62,12 @@ export default function Socialbar(props) {
       >
         <h3>{!props.status ? "Private" : "Social"}</h3>
       </button>
-      <div className={SocialbarStyle.friendProfile}>
-        <div
-          className={SocialbarStyle.friendPic}
-          onClick={() => {
-            setClickFriend(!clickFriend);
-          }}
-        >
-          <Image
-            alt="profile pic"
-            src="/images/Joachim90.jpg"
-            width={50}
-            height={50}
-            layout="intrinsic"
-          />
-        </div>
-        <div
-          className={
-            inSettings || !props.status
-              ? SocialbarStyle.friendTextWrapperPrivate
-              : SocialbarStyle.friendTextWrapper
-          }
-        >
-          <div
-            className={
-              inSettings || !props.status
-                ? SocialbarStyle.friendTextHidden
-                : SocialbarStyle.friendText
-            }
-          >
-            <p className={SocialbarStyle.friendName}>Thomas Lund</p>
-            <p className={SocialbarStyle.friendInfo}>Mandalorian - S2E6</p>
-            <p className={SocialbarStyle.friendInfo}>Disney +</p>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className={
-          !clickFriend
-            ? SocialbarStyle.friendClick
-            : inSettings || !props.status
-            ? SocialbarStyle.friendClickActivePriv
-            : SocialbarStyle.friendClickActive
-        }
-      >
-        <Buble className={SocialbarStyle.buble} />
-        <button className={SocialbarStyle.joinButton}>Join</button>
-        <button className={SocialbarStyle.profileButton}>Profile</button>
+      <div className={SocialbarStyle.scroll}>
+        <Friend status={props.status} inSettings={inSettings} />
+        <Friend status={props.status} inSettings={inSettings} />
+        <Friend status={props.status} inSettings={inSettings} />
+        <Friend status={props.status} inSettings={inSettings} />
+        <Friend status={props.status} inSettings={inSettings} />
       </div>
       <style jsx>{`
         h2 {

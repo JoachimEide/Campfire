@@ -20,7 +20,7 @@ export const getStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
-export default function TitlePageFactory(props) {
+export default function ProfilePageFactory(props) {
   return (
     <Layout socialStatus={props.socialStatus} event={props.event}>
       <TopFriends />
