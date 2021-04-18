@@ -1,4 +1,5 @@
 import { contentData } from "../../data/content";
+import { friendsData } from "../../data/friends";
 import Titlepage from "../../components/titlepage/titlepage";
 
 export const getStaticProps = async ({ params }) => {
@@ -6,6 +7,7 @@ export const getStaticProps = async ({ params }) => {
   return {
     props: {
       title: titleData[0],
+      friendsDataList: friendsData,
     },
   };
 };

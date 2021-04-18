@@ -1,4 +1,5 @@
 import { contentData } from "../data/content";
+import { friendsData } from "../data/friends";
 import Layout from "../components/layout";
 import Topcarousel from "../components/content/topcarousel";
 import ContentRow from "../components/content/content-row";
@@ -6,6 +7,7 @@ import ContentRow from "../components/content/content-row";
 export const getStaticProps = async () => {
   return {
     props: {
+      friendsDataList: friendsData,
       contentDataList: contentData,
     },
   };
@@ -13,7 +15,11 @@ export const getStaticProps = async () => {
 
 export default function Netflix(props) {
   return (
-    <Layout socialStatus={props.socialStatus} event={props.event}>
+    <Layout
+      socialStatus={props.socialStatus}
+      event={props.event}
+      friends={props.friendsDataList}
+    >
       <div
         style={{
           display: "flex",

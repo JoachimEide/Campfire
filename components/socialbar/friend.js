@@ -2,14 +2,21 @@ import { useState } from "react";
 import Link from "next/link";
 import FriendStyle from "./friends.module.css";
 import Image from "next/image";
-import Buble from "./buble";
 
 export default function Friend(props) {
   const [clickFriend, setClickFriend] = useState(false);
+  console.log(props);
 
   return (
     <div>
-      <div className={FriendStyle.friendProfile}>
+      <div
+        className={FriendStyle.friendProfile}
+        style={
+          props.inSettings || !props.status
+            ? { justifyContent: "center" }
+            : { justifyContent: "left" }
+        }
+      >
         <div
           className={FriendStyle.friendPic}
           onClick={() => {
@@ -18,7 +25,7 @@ export default function Friend(props) {
         >
           <Image
             alt="profile pic"
-            src="/images/Joachim90.jpg"
+            src={props.imgSrc}
             width={50}
             height={50}
             layout="intrinsic"
@@ -38,9 +45,14 @@ export default function Friend(props) {
                 : FriendStyle.friendText
             }
           >
-            <p className={FriendStyle.friendName}>Thomas Lund</p>
-            <p className={FriendStyle.friendInfo}>Mandalorian - S2E6</p>
-            <p className={FriendStyle.friendInfo}>Disney +</p>
+            <p className={FriendStyle.friendName}>{props.name}</p>
+            <p className={FriendStyle.friendInfo}>
+              {`${props.nowWatching.title} -`}
+              {props.nowWatching.episode}
+            </p>
+            <p className={FriendStyle.friendInfo}>
+              {props.nowWatching.service}
+            </p>
           </div>
         </div>
       </div>

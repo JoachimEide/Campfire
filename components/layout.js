@@ -25,7 +25,11 @@ export default function Layout(props) {
     >
       <Nav status={props.socialStatus} inSettings={inSettings} />
       <div style={{ marginTop: "85px" }}></div>
-      <Socialbar status={props.socialStatus} event={props.event} />
+      <Socialbar
+        status={props.socialStatus}
+        event={props.event}
+        friends={props.friends}
+      />
       <Status status={props.socialStatus} event={props.event} />
       {props.children}
     </div>

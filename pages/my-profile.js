@@ -1,4 +1,5 @@
 import { contentData } from "../data/content";
+import { friendsData } from "../data/friends";
 import Layout from "../components/layout";
 import TopFriends from "../components/profile/top-friends";
 import ReviewRow from "../components/profile/review-row";
@@ -7,6 +8,7 @@ import ContentRow from "../components/content/content-row";
 export const getStaticProps = async () => {
   return {
     props: {
+      friendsDataList: friendsData,
       contentDataList: contentData,
     },
   };
@@ -14,7 +16,11 @@ export const getStaticProps = async () => {
 
 export default function Home(props) {
   return (
-    <Layout socialStatus={props.socialStatus} event={props.event}>
+    <Layout
+      socialStatus={props.socialStatus}
+      event={props.event}
+      friends={props.friendsDataList}
+    >
       <TopFriends />
       <ReviewRow title="My reviews" />
       <ContentRow
