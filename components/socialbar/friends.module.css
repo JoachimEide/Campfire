@@ -89,11 +89,31 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 0.13s all linear;
+  background: #0d0f14;
+  margin: 10px 0 30px 0;
+}
+
+.friendClickActivePriv button {
+  outline: none;
+  font-family: din-2014, sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111820;
+  color: white;
+  text-align: center;
+  padding: 4px 5px;
+  width: 50%;
+  border-radius: 10px;
+  margin: 7px 5%;
+  z-index: 0;
 }
 
 .friendClickActive button,
-.friendClick button,
-.friendClickActivePriv button {
+.friendClick button {
+  outline: none;
   font-family: din-2014, sans-serif;
   cursor: pointer;
   display: flex;

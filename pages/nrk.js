@@ -31,18 +31,20 @@ export default function Nrk(props) {
       </div>
       <Topcarousel />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Movies"
         contentArray={props.contentDataList}
         param="service"
-        paramValue="NRK"
+        paramValue="nrk"
         param2="type"
         paramValue2="movie"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Series"
         contentArray={props.contentDataList}
         param="service"
-        paramValue="NRK"
+        paramValue="nrk"
         param2="type"
         paramValue2="series"
       />

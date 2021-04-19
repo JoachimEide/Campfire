@@ -24,14 +24,16 @@ export default function Movies(props) {
       <Topcarousel />
       <Services subscriptions={props.subscriptions} />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Popular movies on Disney+"
         contentArray={props.contentDataList}
         param="service"
-        paramValue="Disney+"
+        paramValue="disney"
         param2="type"
         paramValue2="movie"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Drama movies"
         param="genre"
@@ -40,6 +42,7 @@ export default function Movies(props) {
         paramValue2="movie"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Comedy movies"
         param="genre"
@@ -48,10 +51,11 @@ export default function Movies(props) {
         paramValue2="movie"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Movies on Netflix"
         param="service"
-        paramValue="Netflix"
+        paramValue="netflix"
         param2="type"
         paramValue2="movie"
       />

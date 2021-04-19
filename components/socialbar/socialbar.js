@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import SocialbarStyle from "./social.module.css";
 import Image from "next/image";
-import Buble from "./buble";
 import Friend from "./friend";
 
 export default function Socialbar(props) {

@@ -33,25 +33,25 @@ export default function ProfilePageFactory(props) {
     >
       <ProfileTop name={props.friend.name} imgSrc={props.friend.imgSrc} />
       <TopFriends />
-      <ReviewRow title={`${props.friend.name} reviews`} />
+      <ReviewRow title={`${props.friend.name}'s reviews`} />
       <ContentRow
-        title="Watchlist"
+        subscriptions={props.subscriptions}
+        title={`${props.friend.name}'s watchlist`}
         contentArray={props.contentDataList}
-        param={false}
-        paramValue={false}
-        param2={false}
-        paramValue2={false}
-        arrayParam={props.watchList}
-      />
-      <ContentRow
-        title="Public watch history"
-        history={true}
-        contentArray={props.contentDataList}
-        param={false}
-        paramValue={false}
+        param="id"
+        paramValue={props.friend.watchList}
         param2={false}
         paramValue2={false}
         arrayParam={props.watchHistory}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title={`${props.friend.name}'s watch history`}
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={props.friend.watchedShowIds}
+        param2={false}
+        paramValue2={false}
       />
     </Layout>
   );

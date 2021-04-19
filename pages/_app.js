@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
   const [socialStatus, setSocialStatus] = useState(null);
   const [subscriptions, setSubscription] = useState({
     netflix: true,
-    disney: false,
+    disney: true,
     hbo: false,
     nrk: true,
     viaplay: true,

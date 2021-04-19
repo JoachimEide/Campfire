@@ -26,6 +26,7 @@ export default function Home(props) {
       <TopFriends />
       <ReviewRow title="My reviews" />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Watchlist"
         contentArray={props.contentDataList}
         param={false}
@@ -35,6 +36,7 @@ export default function Home(props) {
         arrayParam={props.watchList}
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Public watch history"
         history={true}
         contentArray={props.contentDataList}
