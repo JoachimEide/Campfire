@@ -74,7 +74,9 @@ export default function Friend(props) {
         ) : (
           <></>
         )}
-        <button className={FriendStyle.profileButton}>Profile</button>
+        <Link href={`/friends/${props.slug}`}>
+          <button className={FriendStyle.profileButton}>Profile</button>
+        </Link>
       </div>
       <style jsx>{`
         h2 {
