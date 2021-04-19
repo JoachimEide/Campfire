@@ -24,52 +24,60 @@ export default function Home(props) {
       <Topcarousel />
       <Services subscriptions={props.subscriptions} />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Popular now"
         contentArray={props.contentDataList}
         param="service"
-        paramValue="Disney+"
+        paramValue="disney"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Movies"
         param="type"
         paramValue="movie"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Popular on Netflix"
         param="service"
-        paramValue="Netflix"
+        paramValue="netflix"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Popular on HBO"
         param="service"
-        paramValue="Hbo Nordic"
+        paramValue="hbo"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Popular on Viaplay"
         param="service"
-        paramValue="Viaplay"
+        paramValue="viaplay"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Popular on TV2 Sumo"
         param="service"
-        paramValue="Tv2-Sumo"
+        paramValue="tv2"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Popular on NRK"
         param="service"
-        paramValue="NRK"
+        paramValue="nrk"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Sport"
         contentArray={props.contentDataList}
         param="genre"
-        paramValue="Sport"
+        paramValue="Action"
       />
     </Layout>
   );

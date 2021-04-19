@@ -18,6 +18,7 @@ export const getStaticPaths = async () => {
 };
 
 export default function TitlePageFactory(props) {
+  console.log(props);
   return (
     <Titlepage
       id={props.title.id}

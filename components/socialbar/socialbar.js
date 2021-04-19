@@ -17,7 +17,6 @@ export default function Socialbar(props) {
     }
   }, []);
   const statusColor = !props.status ? "#d3381e" : "#e59740";
-  console.log(props.friends);
 
   return (
     <div
@@ -63,17 +62,20 @@ export default function Socialbar(props) {
         <h3>{!props.status ? "Private" : "Social"}</h3>
       </button>
       <div className={SocialbarStyle.wrapper}>
-        {props.friends.map(({ id, name, imgSrc, slug, nowWatching }) => (
-          <Friend
-            key={id}
-            name={name}
-            imgSrc={imgSrc}
-            slug={slug}
-            nowWatching={nowWatching}
-            status={props.status}
-            inSettings={inSettings}
-          />
-        ))}
+        {props.friends.map(
+          ({ id, name, imgSrc, slug, online, nowWatching }) => (
+            <Friend
+              key={id}
+              name={name}
+              imgSrc={imgSrc}
+              slug={slug}
+              online={online}
+              nowWatching={nowWatching}
+              status={props.status}
+              inSettings={inSettings}
+            />
+          )
+        )}
       </div>
       <style jsx>{`
         h2 {

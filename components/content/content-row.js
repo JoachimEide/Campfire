@@ -79,6 +79,7 @@ export default function ContentRow(props) {
     props.paramValue2,
     props.arrayParam
   );
+  console.log(filteredContent);
   return (
     <div className="content-row">
       <h2 className="content-header">{props.title}</h2>
@@ -93,6 +94,7 @@ export default function ContentRow(props) {
               serviceSrc={serviceLogo}
               serviceAlt={service}
               history={props.history}
+              subscriptions={props.subscriptions}
             />
           )
         )}

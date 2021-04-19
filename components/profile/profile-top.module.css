@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+  width: 90%;
+  margin: 30px 5%;
+}
+
+.profilePic {
+  display: flex;
+  overflow: hidden;
+  object-fit: contain;
+  border: 2px solid #3ffefb;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-right: 50px;
+}
