@@ -25,7 +25,6 @@ export default function Layout(props) {
       return review.id === props.show.id;
     });
   });
-  console.log(reviewsFilter);
 
   return (
     <div className="wrapper">
@@ -90,16 +89,20 @@ export default function Layout(props) {
             <button className={TitlePageStyle.reviewButton}>
               Write review
             </button>
-            {reviewsFilter.map((friendRev) => (
-              <Review
-                key={friendRev.id}
-                imgSrc={friendRev.imgSrc}
-                online={friendRev.online}
-                slug={friendRev.slug}
-                reviews={friendRev.reviews}
-                showId={props.show.id}
-              />
-            ))}
+            {reviewsFilter.map((friendRev) =>
+              friendRev ? (
+                <Review
+                  key={friendRev.id}
+                  imgSrc={friendRev.imgSrc}
+                  online={friendRev.online}
+                  slug={friendRev.slug}
+                  reviews={friendRev.reviews}
+                  showId={props.show.id}
+                />
+              ) : (
+                <p>No reviews yet</p>
+              )
+            )}
           </div>
         </div>
       </div>

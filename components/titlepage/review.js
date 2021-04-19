@@ -5,7 +5,9 @@ export default function Reviews(props) {
   const review = props.reviews.filter((rev) => {
     return rev.id === props.showId;
   })[0];
-  return (
+  return !review ? (
+    <></>
+  ) : (
     <div className={ReviewStyle.review}>
       <div className={ReviewStyle.friendPic}>
         <Image
