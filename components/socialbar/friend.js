@@ -5,6 +5,7 @@ import Image from "next/image";
 
 export default function Friend(props) {
   const [clickFriend, setClickFriend] = useState(false);
+  console.log(props);
 
   return (
     <div>
@@ -69,13 +70,22 @@ export default function Friend(props) {
             : FriendStyle.friendClickActive
         }
       >
-        {props.online ? (
+        {props.status && props.online ? (
           <button className={FriendStyle.joinButton}>Join</button>
         ) : (
           <></>
         )}
         <Link href={`/friends/${props.slug}`}>
-          <button className={FriendStyle.profileButton}>Profile</button>
+          <button
+            className={FriendStyle.profileButton}
+            style={
+              props.inSettings || !props.status
+                ? { width: "50%" }
+                : { width: "35%" }
+            }
+          >
+            Profile
+          </button>
         </Link>
       </div>
       <style jsx>{`

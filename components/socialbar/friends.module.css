@@ -80,7 +80,7 @@
   opacity: 1;
   transition: 0.13s all linear;
   background: #0d0f14;
-  margin: 10px 0 30px 0;
+  margin: 10px 0 10px 0;
 }
 
 .friendClickActivePriv {
@@ -91,7 +91,8 @@
   align-items: center;
   transition: 0.13s all linear;
   background: #0d0f14;
-  margin: 10px 0 30px 0;
+  margin: 10px 0 10px 0;
+  transition: 0.13s all linear;
 }
 
 .friendClickActivePriv button {
@@ -109,6 +110,7 @@
   border-radius: 10px;
   margin: 7px 5%;
   z-index: 0;
+  transition: 0.13s all linear;
 }
 
 .friendClickActive button,
@@ -127,6 +129,7 @@
   border-radius: 10px;
   margin: 7px 5%;
   z-index: 0;
+  transition: 0.13s all linear;
 }
 
 .joinButton {
@@ -135,4 +138,8 @@
 
 .profileButton {
   border: 1px solid #e59740;
+}
+
+.hidden button {
+  display: none;
 }
