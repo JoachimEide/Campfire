@@ -18,26 +18,16 @@ export const getStaticPaths = async () => {
 };
 
 export default function TitlePageFactory(props) {
-  console.log(props);
   return (
     <Titlepage
-      id={props.title.id}
-      type={props.title.type}
-      title={props.title.title}
-      slug={props.title.slug}
-      service={props.title.service}
-      serviceTitleLogo={props.title.serviceTitleLogo}
-      serviceLogo={props.title.serviceLogo}
-      backgroundSrc={props.title.backgroundSrc}
-      thumbnailSrc={props.title.thumbnailSrc}
-      logo={props.title.optionalShowLogo}
-      episodes={props.title.episodes}
+      show={props.title}
       status={props.socialStatus}
       event={props.event}
       history={props.watchHistory}
       historyEvent={props.historyEvent}
       watchList={props.watchList}
       watchListEvent={props.watchListEvent}
+      friends={props.friendsDataList}
     />
   );
 }
