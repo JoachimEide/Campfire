@@ -1,5 +1,377 @@
 export const contentData = [
   {
+    id: 7,
+    title: "Big sky",
+    type: "series",
+    slug: "big-sky",
+    genre: ["Crime", "Drama", "Mystery"],
+    service: "Disney+",
+    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
+    thumbnailSrc: "/images/big_sky/big_sky.jpeg",
+    backgroundSrc: "/images/big_sky/big_sky_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 3: The big Rick",
+        episodeText:
+          "Cassie grows more suspicious of Legarski after a threatening conversation. Grace manages to make headway on the girls' escape. Helen confronts Ronald about his increasingly bizarre behavior.",
+        imgSrc: "/images/big_sky/big_sky_3.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Nowhere to run",
+        episodeText:
+          "Cassie and Jenny search for the missing girls. Danielle, Grace and Jerrie plot their escape.",
+        imgSrc: "/images/big_sky/big_sky_2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 1: Pilot",
+        episodeText:
+          "Grace and Danielle are kidnapped by a long haul trucker on a remote stretch of highway. Private detectives Hoyt and Dewell search for the sisters.",
+        imgSrc: "/images/big_sky/big_sky_1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 29,
+    title: "Euphoria",
+    type: "series",
+    slug: "euphoria",
+    genre: ["Drama"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/euphoria/euphoria.jpeg",
+    backgroundSrc: "/images/euphoria/euphoria_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 3: Made you look",
+        episodeText:
+          "Kat starts camming; Jules falls for a boy online; Rue is confronted about her lies at NA; Cassie and McKay spend the weekend at his college.",
+        imgSrc: "/images/euphoria/euphoriaS1E3.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Stuntin' like my daddy",
+        episodeText:
+          "On the first day of school, Rue struggles to put the past behind her; Nate's obsessions turn violent; Kat finds a video of her online.",
+        imgSrc: "/images/euphoria/euphoriaS1E2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 1: Pilot",
+        episodeText:
+          "Rue returns home from rehab and meets Jules; Nate and Maddy attempt to make each other jealous; Kat is pressured to lose something.",
+        imgSrc: "/images/euphoria/euphoriaS1E1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 79,
+    title: "Normal People",
+    type: "series",
+    slug: "normal-people",
+    genre: ["Drama", "Romance"],
+    service: "NRK",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/normal-people/normal-people.jpeg",
+    backgroundSrc: "/images/normal-people/np-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1",
+        episodeText:
+          "In modern, rural Ireland, Connell and Marianne, on different ends of their school's social scene, begin an intense, secret affair.",
+        imgSrc: "/images/normal-people/np-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2",
+        episodeText:
+          "Marianne and Connell's affair continues, but the pressures of the outside world start to take their toll.",
+        imgSrc: "/images/normal-people/np-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3",
+        episodeText:
+          "Connell betrays Marianne by making a cowardly choice. Marianne withdraws from school, causing Connell intense guilt.",
+        imgSrc: "/images/normal-people/np-3.jpeg",
+      },
+    ],
+  },
+  {
+    id: 13,
+    title: "The crown",
+    type: "series",
+    slug: "the-crown",
+    genre: ["Drama", "Biography", "History"],
+    service: "Netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/crown/crown.jpeg",
+    backgroundSrc: "/images/crown/crown_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 10: War",
+        episodeText:
+          "Amid a growing challenge to her power, Thatcher fights for her position. Charles grows more determined to separate from Diana as their marriage unravels.",
+        imgSrc: "/images/crown/crownS4E10.jpg",
+      },
+      {
+        id: 2,
+        title: "Episode 9: Avalanche",
+        episodeText:
+          "Charles is caught in a deadly avalanche, prompting both him and Diana to reevaluate their commitment to their troubled marriage.",
+        imgSrc: "/images/crown/crownS4E9.jpg",
+      },
+      {
+        id: 3,
+        title: "Episode 8: 48:1",
+        episodeText:
+          "As many nations condemn apartheid in South Africa, tensions mounts between Thatcher and Elizabeth about their clashing opinions on applying sanctions.",
+        imgSrc: "/images/crown/crownS4E8.jpg",
+      },
+    ],
+  },
+  {
+    id: 53,
+    title: "The Invisible Man",
+    type: "movie",
+    slug: "the-invisible-man",
+    genre: ["Horror", "Thriller", "Mystery"],
+    service: "Viaplay",
+    serviceLogo: "/images/subscriptions/Via.png",
+    serviceTitleLogo: "/images/viaplay-logo.png",
+    thumbnailSrc: "/images/theinvisibleman/Theinvisibleman.jpeg",
+    backgroundSrc: "/images/theinvisibleman/Theinvisibleman.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "The Invisible Man",
+        episodeText: "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
+        imgSrc: "/images/theinvisibleman/1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 64,
+    title: "1917",
+    type: "movie",
+    slug: "1917",
+    genre: ["Drama", "Thriller", "War"],
+    service: "Tv2-Sumo",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/1917/1917.jpeg",
+    backgroundSrc: "/images/1917/1917-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1917",
+        episodeText:
+          "April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
+        imgSrc: "/images/1917/1917.jpeg",
+      },
+    ],
+  },
+  {
+    id: 94,
+    title: "Disco",
+    type: "movie",
+    slug: "disco",
+    genre: ["Drama"],
+    service: "NRK",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/disco/disco.jpeg",
+    backgroundSrc: "/images/disco/disco_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Disco",
+        episodeText:
+          "When a champion dancer begins to falter, her family questions her faith and prompts her to search for more radical solutions.",
+        imgSrc: "/images/disco/disco.jpeg",
+      },
+    ],
+  }, 
+  {
+    id: 28,
+    title: "His dark materials",
+    type: "series",
+    slug: "his-dark-materials",
+    genre: ["Drama", "Adventure", "Family", "Fantasy"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/his_dark_materials/hdm.jpeg",
+    backgroundSrc: "/images/his_dark_materials/hdm_big.jpg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 7: Æsahættr",
+        episodeText:
+          "As all paths converge on Cittàgazze, Lee is determined to fulfil his quest, whatever the cost. Mrs Coulter's question is answered, and Will takes on his father's mantle.",
+        imgSrc: "/images/his_dark_materials/hdmS2E7.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 6: Malice",
+        episodeText:
+          "Lyra and Will find allies who can help them in their search for Will's father. The Magisterium learn something shocking, and Mrs Coulter meets a formidable foe.",
+        imgSrc: "/images/his_dark_materials/hdmS2E6.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 5: The scholar",
+        episodeText:
+          "Will and Lyra set out to retrieve what's been lost. Mary takes a leap of faith.",
+        imgSrc: "/images/his_dark_materials/hdmS2E5.jpeg",
+      },
+    ],
+  },
+  {
+    id: 14,
+    title: "The irregulars",
+    type: "series",
+    slug: "the-irregulars",
+    genre: ["Drama", "Crime", "Fantasy"],
+    service: "Netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/irregulars/irregulars.jpeg",
+    backgroundSrc: "/images/irregulars/irregulars_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Chapter 3: Ipsissimus",
+        episodeText:
+          "A gruesome murder sends Bea and her crew undercover at a country estate to determine whether the killer is part of a secret paranormal society.",
+        imgSrc: "/images/irregulars/irregularsS1E3.jpeg",
+      },
+      {
+        id: 2,
+        title: "Chapter 2: The ghosts of 221B",
+        episodeText:
+          "Broke and in trouble, Bea reluctantly partners with Jessie to find out who's stealing children's teeth. Spike spies on Watson and Sherlock Holmes.",
+        imgSrc: "/images/irregulars/irregularsS1E2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Chapter 1: An unkindness in London",
+        episodeText:
+          "As Jessie's nightmares grow worse, Bea accepts Dr. Watson's job offer to investigate four kidnapped babies - and receives some unexpectedly posh help.",
+        imgSrc: "/images/irregulars/irregularsS1E1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Soul",
+    type: "movie",
+    slug: "soul",
+    genre: ["Animation", "Family", "Fantasy"],
+    service: "Disney+",
+    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
+    thumbnailSrc: "/images/soul/soul.png",
+    backgroundSrc: "/images/soul/soul_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Soul",
+        episodeText:
+          "After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.",
+        imgSrc: "/images/soul/soul.png",
+      },
+    ],
+  },
+  {
+    id: 46,
+    title: "The Vampire Diaries",
+    type: "series",
+    slug: "the-vampire-diaries",
+    genre: ["Drama", "Fantasy", "Horror"],
+    service: "Viaplay",
+    serviceLogo: "/images/subscriptions/Via.png",
+    serviceTitleLogo: "/images/viaplay-logo.png",
+    thumbnailSrc: "/images/thevampirediaries/Thevampirediaries.jpeg",
+    backgroundSrc: "/images/thevampirediaries/Thevampirediaries.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 22: Founder's Day",
+        episodeText: "Damon and Alaric try to stop John Gilbert from setting a plan in motion to bring Founder's Day to an end amid chaos, destruction and death.",
+        imgSrc: "/images/thevampirediaries/1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 21: Isobel",
+        episodeText: "Isobel returns to town and stuns Alaric with her attitude and her demands that he arrange a meeting with Elena.",
+        imgSrc: "/images/thevampirediaries/2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 20: Blood Brothers",
+        episodeText: "Elena learns what happened when Damon and Stefan were turned. Pearl has an ugly confrontation with John Gilbert. Jeremy and Anna get closer.",
+        imgSrc: "/images/thevampirediaries/3.jpeg",
+      },
+    ],
+  },
+  {
+    id: 15,
+    title: "Snowpiercer",
+    type: "series",
+    slug: "snowpiercer",
+    genre: ["Drama", "Action", "Fantasy", "Sci-fi"],
+    service: "Netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/snowpiercer/snowpiercer.jpeg",
+    backgroundSrc: "/images/snowpiercer/snowpiercer_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 3: A great odyssey",
+        episodeText:
+          "Melanie embarks on her most dangerous mission yet, while Layton reckons with his personal choices.",
+        imgSrc: "/images/snowpiercer/snowpiercerS2E3.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Smoulder to life",
+        episodeText:
+          "An exchange is made between the two trains, but a greater revelation might be just over the horizon.",
+        imgSrc: "/images/snowpiercer/snowpiercerS2E2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 1: The time of two engines",
+        episodeText:
+          "Mr. Wilford has arrived. And as this new threat rattles Snowpiercer to its core, Melanie makes a move that can't be undone.",
+        imgSrc: "/images/snowpiercer/snowpiercerS2E1.jpeg",
+      },
+    ],
+  },
+  {
     id: 1,
     title: "Mandolorian",
     type: "series",
@@ -35,60 +407,133 @@ export const contentData = [
     ],
   },
   {
-    id: 2,
-    title: "Wandavision",
+    id: 26,
+    title: "The nevers",
     type: "series",
-    slug: "wandavision",
-    genre: ["Sci/fi", "Action", "Fantasy"],
-    service: "Disney+",
-    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
-    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
-    thumbnailSrc: "/images/wandavision/WandaVision.png",
-    backgroundSrc: "/images/wandavision/WandaVision.png",
+    slug: "the-nevers",
+    genre: ["Drama", "Action", "Fantasy"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/nevers/nevers.jpeg",
+    backgroundSrc: "/images/nevers/nevers_big.jpg",
     optionalShowLogo: "",
     episodes: [
       {
         id: 1,
-        title: "Episode 9: The series finale",
+        title: "Episode 2: Exposure",
         episodeText:
-          "Wanda battles Agatha and Vision fights his S.W.O.R.D. counterpart as Hayward launches an attack on Westview.",
-        imgSrc: "/images/wandavision/wandaS1E9.jpeg",
+          "With the city reeling from Maladie's opera debut, Mundi takes a personal stake in tracking her down. Amalia launches an investigation of her own and the charitable Lavinia Bidlow seeks to destigmatize the Touched at a society event.",
+        imgSrc: "/images/nevers/neversS1E2.jpeg",
       },
       {
         id: 2,
-        title: "Episode 8: Previously on",
+        title: "Episode 1: Touched",
         episodeText:
-          "Wanda embarks on a troubling journey revisiting her past for insight into her present and future.",
-        imgSrc: "/images/wandavision/wandaS1E8.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 7: Breaking the fourth wall",
-        episodeText:
-          "Monica plots her return, Wanda navigates unsettling complications, and Vision forms a new alliance.",
-        imgSrc: "/images/wandavision/wandaS1E7.jpeg",
+          "Three years after an inexplicable event suddenly equips them with extraordinary abilities, Amalia True and Penance Adair work to protect their kind from widespread, deepening antipathy.",
+        imgSrc: "/images/nevers/neversS1E1.jpeg",
       },
     ],
   },
   {
-    id: 3,
-    title: "Avengers: Endgame",
-    type: "movie",
-    slug: "avengers-endgame",
-    genre: ["Sci/fi", "Action", "Fantasy"],
-    service: "Disney+",
-    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
-    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
-    thumbnailSrc: "/images/avengers/avengers.png",
-    backgroundSrc: "/images/avengers/avengers-large.jpeg",
+    id: 13,
+    title: "Stranger things",
+    type: "series",
+    slug: "stranger-things",
+    watched: true,
+    genre: ["Drama", "Fantasy", "Horror"],
+    service: "Netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/stranger_things/stranger_things.png",
+    backgroundSrc: "/images/stranger_things/stranger_things_big.jpeg",
     optionalShowLogo: "",
     episodes: [
       {
         id: 1,
-        title: "Avengers: Endgame",
+        title: "Chapter 8: The battle of starcourt",
         episodeText:
-          "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
-        imgSrc: "/images/avengers/avengers.png",
+          "Terror reigns in the food court when the Mind Flayer comes to collect. But down below, in the dark, the future of the world is at stake.",
+        imgSrc: "/images/stranger_things/stranger_thingsS3E8.jpg",
+      },
+      {
+        id: 2,
+        title: "Chapter 7: The bite",
+        episodeText:
+          "With time running out - and an assassin close behind - Hopper's crew races back to Hawkins, where El and the kids are preparing for war.",
+        imgSrc: "/images/stranger_things/stranger_thingsS3E7.jpg",
+      },
+      {
+        id: 3,
+        title: "Chapter 6: E pluribus unum",
+        episodeText:
+          "Dr. Alexei reveals what the Russians have been building, and Eleven sees where Billy has been. Dustin and Erica stage a daring rescue.",
+        imgSrc: "/images/stranger_things/stranger_thingsS3E6.jpg",
+      },
+    ],
+  },
+  {
+    id: 49,
+    title: "Spider-Man: Homecoming",
+    type: "movie",
+    slug: "spider-man-homecoming",
+    genre: ["Adventure", "Action", "Sci-Fi"],
+    service: "Viaplay",
+    serviceLogo: "/images/subscriptions/Via.png",
+    serviceTitleLogo: "/images/viaplay-logo.png",
+    thumbnailSrc: "/images/spiderman/Spiderman.jpeg",
+    backgroundSrc: "/images/spiderman/Spiderman.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Spider-Man: Homecoming",
+        episodeText: "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+        imgSrc: "/images/spiderman/1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 16,
+    title: "Enola Holmes",
+    type: "movie",
+    slug: "enola-holmes",
+    genre: ["Action", "Adventure", "Crime"],
+    service: "Netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/enola/enola.jpeg",
+    backgroundSrc: "/images/enola/enola_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Enola Holmes",
+        episodeText:
+          "When Enola Holmes-Sherlock's teen sister-discovers her mother missing, she sets off to find her, becoming a super-sleuth in her own right as she outwits her famous brother.",
+        imgSrc: "/images/enola/enola.jpeg",
+      },
+    ],
+  },
+  {
+    id: 36,
+    title: "Wonder woman 1984",
+    type: "movie",
+    slug: "wonder-woman-1984",
+    genre: ["Fantasy", "Adventure", "Action"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/wonder_woman/ww.jpeg",
+    backgroundSrc: "/images/wonder_woman/ww_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Wonder woman 1984",
+        episodeText:
+          "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.",
+        imgSrc: "/images/wonder_woman/ww.jpeg",
       },
     ],
   },
@@ -129,82 +574,318 @@ export const contentData = [
     ],
   },
   {
-    id: 5,
-    title: "Soul",
+    id: 67,
+    title: "Tomb Raider",
     type: "movie",
-    slug: "soul",
-    genre: ["Animation", "Family", "Fantasy"],
-    service: "Disney+",
-    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
-    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
-    thumbnailSrc: "/images/soul/soul.png",
-    backgroundSrc: "/images/soul/soul_big.jpeg",
+    slug: "tomb-raider",
+    genre: ["Action", "Adventure", "Fantasy"],
+    service: "Tv2-Sumo",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/tomb-raider/tomb-raider.jpeg",
+    backgroundSrc: "/images/tomb-raider/tomb-raider-big.jpeg",
     optionalShowLogo: "",
     episodes: [
       {
         id: 1,
-        title: "Soul",
+        title: "Tomb Raider",
         episodeText:
-          "After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.",
-        imgSrc: "/images/soul/soul.png",
+          "Lara Croft (Alicia Vikander), the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she discovers the island where her father, Lord Richard Croft (Dominic West) disappeared.",
+        imgSrc: "/images/tomb-raider/tomb-raider.jpeg",
       },
     ],
   },
   {
-    id: 6,
-    title: "Raya and the last dragon",
-    type: "movie",
-    slug: "raya-and-the-last-dragon",
-    genre: ["Animation", "Family", "Action", "Adventure"],
-    service: "Disney+",
-    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
-    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
-    thumbnailSrc: "/images/raya/raya.png",
-    backgroundSrc: "/images/raya/raya_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Raya and the last dragon",
-        episodeText:
-          "In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.",
-        imgSrc: "/images/raya/raya.png",
-      },
-    ],
-  },
-  {
-    id: 7,
-    title: "Big sky",
+    id: 35,
+    title: "Vikings",
     type: "series",
-    slug: "big-sky",
-    genre: ["Crime", "Drama", "Mystery"],
-    service: "Disney+",
-    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
-    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
-    thumbnailSrc: "/images/big_sky/big_sky.jpeg",
-    backgroundSrc: "/images/big_sky/big_sky_big.jpeg",
+    slug: "vikings",
+    genre: ["Drama", "Action", "Adventure"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/vikings/vikings.jpeg",
+    backgroundSrc: "/images/vikings/vikings_big.jpeg",
     optionalShowLogo: "",
     episodes: [
       {
         id: 1,
-        title: "Episode 3: The big Rick",
+        title: "Episode 20: The last act",
         episodeText:
-          "Cassie grows more suspicious of Legarski after a threatening conversation. Grace manages to make headway on the girls' escape. Helen confronts Ronald about his increasingly bizarre behavior.",
-        imgSrc: "/images/big_sky/big_sky_3.jpeg",
+          "The epic saga which began with Ragnar Lothbrok, the first Vikings leader to emerge from the mists of legend, comes to an end in a spectacular and shocking series finale which finds striking the new land and in England.",
+        imgSrc: "/images/vikings/vikingsS6E20.jpeg",
       },
       {
         id: 2,
-        title: "Episode 2: Nowhere to run",
+        title: "Episode 19: The lord giveth...",
         episodeText:
-          "Cassie and Jenny search for the missing girls. Danielle, Grace and Jerrie plot their escape.",
-        imgSrc: "/images/big_sky/big_sky_2.jpeg",
+          "In the new land, Ubbe and the settlers engage in careful diplomacy when they are surrounded by the locals. In Wessex the Vikings ambush the Saxon army, but Alfred is convinced the lord is with his army and refuses to retreat.",
+        imgSrc: "/images/vikings/vikingsS6E19.jpeg",
       },
       {
         id: 3,
-        title: "Episode 1: Pilot",
+        title: "Episode 18: It's only magic",
         episodeText:
-          "Grace and Danielle are kidnapped by a long haul trucker on a remote stretch of highway. Private detectives Hoyt and Dewell search for the sisters.",
-        imgSrc: "/images/big_sky/big_sky_1.jpeg",
+          "Ubbe and settlers find land but soon realize they are not alone. In Wessex, king Alfred has mustered up a large force to fight the Vikings. Meanwhile in Kattegat, Erik realizes that Ingrid had been using her powers on him",
+        imgSrc: "/images/vikings/vikingsS6E18.jpeg",
+      },
+    ],
+  },
+  {
+    id: 17,
+    title: "The old guard",
+    type: "movie",
+    slug: "the-old-guard",
+    genre: ["Action", "Adventure", "Fantasy"],
+    service: "Netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/old_guard/old_guard.jpeg",
+    backgroundSrc: "/images/old_guard/old_guard_big.jpg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "The old guard",
+        episodeText:
+          "A covert team of immortal mercenaries is suddenly exposed and must now fight to keep their identity a secret just as an unexpected new member is discovered.",
+        imgSrc: "/images/old_guard/old_guard.jpeg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Wandavision",
+    type: "series",
+    slug: "wandavision",
+    genre: ["Sci/fi", "Action", "Fantasy"],
+    service: "Disney+",
+    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
+    thumbnailSrc: "/images/wandavision/WandaVision.png",
+    backgroundSrc: "/images/wandavision/WandaVision.png",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 9: The series finale",
+        episodeText:
+          "Wanda battles Agatha and Vision fights his S.W.O.R.D. counterpart as Hayward launches an attack on Westview.",
+        imgSrc: "/images/wandavision/wandaS1E9.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 8: Previously on",
+        episodeText:
+          "Wanda embarks on a troubling journey revisiting her past for insight into her present and future.",
+        imgSrc: "/images/wandavision/wandaS1E8.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 7: Breaking the fourth wall",
+        episodeText:
+          "Monica plots her return, Wanda navigates unsettling complications, and Vision forms a new alliance.",
+        imgSrc: "/images/wandavision/wandaS1E7.jpeg",
+      },
+    ],
+  },
+  {
+    id: 34,
+    title: "Killing Eve",
+    type: "series",
+    slug: "killing-eve",
+    genre: ["Drama", "Action", "Adventure"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/killing_eve/ke.jpeg",
+    backgroundSrc: "/images/killing_eve/ke_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 3: Don't I know you?",
+        episodeText:
+          "After a killing in Berlin, Eve and Bill travel there to investigate, unaware of how close they are to Villanelle.",
+        imgSrc: "/images/killing_eve/keS1E3.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: I'll deal with him later",
+        episodeText:
+          "Eve is given the opportunity to lead a secret MI6 unit tasked with tracking down Villanelle, who is becoming increasingly reckless, much to the discomfort of her bosses.",
+        imgSrc: "/images/killing_eve/keS1E2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 1: Nice face",
+        episodeText:
+          "When a Russian politician is murdered, a bored MI5 security officer is tasked with protecting the only witness and soon finds herself on a collision course with a violent and extraordinary assassin.",
+        imgSrc: "/images/killing_eve/keS1E1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 25,
+    title: "Love and monsters",
+    type: "movie",
+    slug: "love-and-monsters",
+    genre: ["Comedy", "Adventure", "Action"],
+    service: "Netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/love_and_monsters/love_and_monsters.jpeg",
+    backgroundSrc: "/images/love_and_monsters/love_and_monsters_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Love and monsters",
+        episodeText:
+          "In a monster-infested world, Joel learns his girlfriend is just 85 miles away. To make the dangerous journey, Joel discovers his inner hero to be with the girl of his dreams.",
+        imgSrc: "/images/love_and_monsters/love_and_monsters.jpeg",
+      },
+    ],
+  },
+  {
+    id: 47,
+    title: "Prison break",
+    type: "series",
+    slug: "prison-break",
+    genre: ["Action", "Crime", "Drama"],
+    service: "Viaplay",
+    serviceLogo: "/images/subscriptions/Via.png",
+    serviceTitleLogo: "/images/viaplay-logo.png",
+    thumbnailSrc: "/images/prisonbreak/Prisonbreak.jpeg",
+    backgroundSrc: "/images/prisonbreak/Prisonbreak.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 22: Sona",
+        episodeText: "Michael races against the clock to rescue Lincoln and beat Mahone at his own end game.",
+        imgSrc: "/images/prisonbreak/1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 21: Fin del camino",
+        episodeText: "Linc finds Michael is gone from their Christina Rose yacht after receiving Sucre's message.",
+        imgSrc: "/images/prisonbreak/2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 20: Panama",
+        episodeText: "Now Caroline Reynolds has stepped down as president, she can no longer sign a pardon, so the brothers must immediately disappear, forever.",
+        imgSrc: "/images/prisonbreak/3.jpeg",
+      },
+    ],
+  },
+  {
+    id: 19,
+    title: "Gemini man",
+    type: "movie",
+    slug: "gemini-man",
+    genre: ["Action", "Sci-fi"],
+    service: "Netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/gemini/gemini.jpeg",
+    backgroundSrc: "/images/gemini/gemini_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Gemini man",
+        episodeText:
+          "An over-the-hill hitman faces off against a younger clone of himself.",
+        imgSrc: "/images/gemini/gemini.jpeg",
+      },
+    ],
+  },
+  {
+    id: 38,
+    title: "Galveston",
+    type: "movie",
+    slug: "galveston",
+    genre: ["Action", "Crime", "Drama"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/galveston/galveston.jpeg",
+    backgroundSrc: "/images/galveston/galveston_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Galveston",
+        episodeText:
+          "After escaping a set up, a dying hitman returns to his hometown of Galveston where he plans his revenge.",
+        imgSrc: "/images/galveston/galveston.jpeg",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Avengers: Endgame",
+    type: "movie",
+    slug: "avengers-endgame",
+    genre: ["Sci-Fi", "Action", "Fantasy"],
+    service: "Disney+",
+    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
+    thumbnailSrc: "/images/avengers/avengers.png",
+    backgroundSrc: "/images/avengers/avengers-large.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Avengers: Endgame",
+        episodeText:
+          "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+        imgSrc: "/images/avengers/avengers.png",
+      },
+    ],
+  },
+  {
+    id: 20,
+    title: "Extraction",
+    type: "movie",
+    slug: "extraction",
+    genre: ["Action", "Thriller"],
+    service: "Netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/extraction/extraction.jpeg",
+    backgroundSrc: "/images/extraction/extraction_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Extraction",
+        episodeText:
+          "Tyler Rake, a fearless black market mercenary, embarks on the most deadly extraction of his career when he's enlisted to rescue the kidnapped son of an imprisoned international crime lord.",
+        imgSrc: "/images/extraction/extraction.jpeg",
+      },
+    ],
+  },
+  {
+    id: 62,
+    title: "Angel has Fallen",
+    type: "movie",
+    slug: "angel-has-fallen",
+    genre: ["Action", "Thriller"],
+    service: "Tv2-Sumo",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/angelhasfallen/Angelhasfallen.jpeg",
+    backgroundSrc: "/images/angelhasfallen/Angelhasfallen.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Angel has Fallen",
+        episodeText: "Mike Banning is framed for the attempted assassination of the President and must evade his own agency and the FBI as he tries to uncover the real threat.",
+        imgSrc: "/images/angelhasfallen/1.jpeg",
       },
     ],
   },
@@ -227,6 +908,49 @@ export const contentData = [
         episodeText:
           "A young Chinese maiden disguises herself as a male warrior in order to save her father.",
         imgSrc: "/images/mulan/mulan.jpeg",
+      },
+    ],
+  },
+  {
+    id: 61,
+    title: "I Still Believe",
+    type: "movie",
+    slug: "i-still-believe",
+    genre: ["Biography", "Drama", "Music"],
+    service: "Tv2-Sumo",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/istillbelieve/Istillbelieve.jpeg",
+    backgroundSrc: "/images/istillbelieve/Istillbelieve.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "I Still Believe",
+        episodeText: "The true-life story of Christian music star Jeremy Camp and his journey of love and loss that looks to prove there is always hope.",
+        imgSrc: "/images/istillbelieve/1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 39,
+    title: "Ghost in the shell",
+    type: "movie",
+    slug: "ghost-in-the-shell",
+    genre: ["Action", "Crime", "Drama"],
+    service: "Hbo Nordic",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/ghost_in_the_shell/gits.jpeg",
+    backgroundSrc: "/images/ghost_in_the_shell/gits_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Ghost in the shell",
+        episodeText:
+          "In the near future, Major Mira Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.",
+        imgSrc: "/images/ghost_in_the_shell/gits.jpeg",
       },
     ],
   },
@@ -332,79 +1056,6 @@ export const contentData = [
     ],
   },
   {
-    id: 13,
-    title: "Stranger things",
-    type: "series",
-    slug: "stranger-things",
-    watched: true,
-    genre: ["Drama", "Fantasy", "Horror"],
-    service: "Netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/stranger_things/stranger_things.png",
-    backgroundSrc: "/images/stranger_things/stranger_things_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Chapter 8: The battle of starcourt",
-        episodeText:
-          "Terror reigns in the food court when the Mind Flayer comes to collect. But down below, in the dark, the future of the world is at stake.",
-        imgSrc: "/images/stranger_things/stranger_thingsS3E8.jpg",
-      },
-      {
-        id: 2,
-        title: "Chapter 7: The bite",
-        episodeText:
-          "With time running out - and an assassin close behind - Hopper's crew races back to Hawkins, where El and the kids are preparing for war.",
-        imgSrc: "/images/stranger_things/stranger_thingsS3E7.jpg",
-      },
-      {
-        id: 3,
-        title: "Chapter 6: E pluribus unum",
-        episodeText:
-          "Dr. Alexei reveals what the Russians have been building, and Eleven sees where Billy has been. Dustin and Erica stage a daring rescue.",
-        imgSrc: "/images/stranger_things/stranger_thingsS3E6.jpg",
-      },
-    ],
-  },
-  {
-    id: 13,
-    title: "The crown",
-    type: "series",
-    slug: "the-crown",
-    genre: ["Drama", "Biography", "History"],
-    service: "Netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/crown/crown.jpeg",
-    backgroundSrc: "/images/crown/crown_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 10: War",
-        episodeText:
-          "Amid a growing challenge to her power, Thatcher fights for her position. Charles grows more determined to separate from Diana as their marriage unravels.",
-        imgSrc: "/images/crown/crownS4E10.jpg",
-      },
-      {
-        id: 2,
-        title: "Episode 9: Avalanche",
-        episodeText:
-          "Charles is caught in a deadly avalanche, prompting both him and Diana to reevaluate their commitment to their troubled marriage.",
-        imgSrc: "/images/crown/crownS4E9.jpg",
-      },
-      {
-        id: 3,
-        title: "Episode 8: 48:1",
-        episodeText:
-          "As many nations condemn apartheid in South Africa, tensions mounts between Thatcher and Elizabeth about their clashing opinions on applying sanctions.",
-        imgSrc: "/images/crown/crownS4E8.jpg",
-      },
-    ],
-  },
-  {
     id: 14,
     title: "The queen's gambit",
     type: "series",
@@ -441,122 +1092,6 @@ export const contentData = [
     ],
   },
   {
-    id: 14,
-    title: "The irregulars",
-    type: "series",
-    slug: "the-irregulars",
-    genre: ["Drama", "Crime", "Fantasy"],
-    service: "Netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/irregulars/irregulars.jpeg",
-    backgroundSrc: "/images/irregulars/irregulars_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Chapter 3: Ipsissimus",
-        episodeText:
-          "A gruesome murder sends Bea and her crew undercover at a country estate to determine whether the killer is part of a secret paranormal society.",
-        imgSrc: "/images/irregulars/irregularsS1E3.jpeg",
-      },
-      {
-        id: 2,
-        title: "Chapter 2: The ghosts of 221B",
-        episodeText:
-          "Broke and in trouble, Bea reluctantly partners with Jessie to find out who's stealing children's teeth. Spike spies on Watson and Sherlock Holmes.",
-        imgSrc: "/images/irregulars/irregularsS1E2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Chapter 1: An unkindness in London",
-        episodeText:
-          "As Jessie's nightmares grow worse, Bea accepts Dr. Watson's job offer to investigate four kidnapped babies - and receives some unexpectedly posh help.",
-        imgSrc: "/images/irregulars/irregularsS1E1.jpeg",
-      },
-    ],
-  },
-  {
-    id: 15,
-    title: "Snowpiercer",
-    type: "series",
-    slug: "snowpiercer",
-    genre: ["Drama", "Action", "Fantasy", "Sci-fi"],
-    service: "Netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/snowpiercer/snowpiercer.jpeg",
-    backgroundSrc: "/images/snowpiercer/snowpiercer_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 3: A great odyssey",
-        episodeText:
-          "Melanie embarks on her most dangerous mission yet, while Layton reckons with his personal choices.",
-        imgSrc: "/images/snowpiercer/snowpiercerS2E3.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 2: Smoulder to life",
-        episodeText:
-          "An exchange is made between the two trains, but a greater revelation might be just over the horizon.",
-        imgSrc: "/images/snowpiercer/snowpiercerS2E2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 1: The time of two engines",
-        episodeText:
-          "Mr. Wilford has arrived. And as this new threat rattles Snowpiercer to its core, Melanie makes a move that can't be undone.",
-        imgSrc: "/images/snowpiercer/snowpiercerS2E1.jpeg",
-      },
-    ],
-  },
-  {
-    id: 16,
-    title: "Enola Holmes",
-    type: "movie",
-    slug: "enola-holmes",
-    genre: ["Action", "Adventure", "Crime"],
-    service: "Netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/enola/enola.jpeg",
-    backgroundSrc: "/images/enola/enola_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Enola Holmes",
-        episodeText:
-          "When Enola Holmes-Sherlock's teen sister-discovers her mother missing, she sets off to find her, becoming a super-sleuth in her own right as she outwits her famous brother.",
-        imgSrc: "/images/enola/enola.jpeg",
-      },
-    ],
-  },
-  {
-    id: 17,
-    title: "The old guard",
-    type: "movie",
-    slug: "the-old-guard",
-    genre: ["Action", "Adventure", "Fantasy"],
-    service: "Netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/old_guard/old_guard.jpeg",
-    backgroundSrc: "/images/old_guard/old_guard_big.jpg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "The old guard",
-        episodeText:
-          "A covert team of immortal mercenaries is suddenly exposed and must now fight to keep their identity a secret just as an unexpected new member is discovered.",
-        imgSrc: "/images/old_guard/old_guard.jpeg",
-      },
-    ],
-  },
-  {
     id: 18,
     title: "The thunder force",
     type: "movie",
@@ -575,50 +1110,6 @@ export const contentData = [
         episodeText:
           "In a world where supervillains are commonplace, two estranged childhood best friends reunite after one devises a treatment that gives them powers to protect their city.",
         imgSrc: "/images/thunder_force/thunder_force.jpeg",
-      },
-    ],
-  },
-  {
-    id: 19,
-    title: "Gemini man",
-    type: "movie",
-    slug: "gemini-man",
-    genre: ["Action", "Drama", "Sci-fi"],
-    service: "Netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/gemini/gemini.jpeg",
-    backgroundSrc: "/images/gemini/gemini_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Gemini man",
-        episodeText:
-          "An over-the-hill hitman faces off against a younger clone of himself.",
-        imgSrc: "/images/gemini/gemini.jpeg",
-      },
-    ],
-  },
-  {
-    id: 20,
-    title: "Extraction",
-    type: "movie",
-    slug: "extraction",
-    genre: ["Action", "Thriller"],
-    service: "Netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/extraction/extraction.jpeg",
-    backgroundSrc: "/images/extraction/extraction_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Extraction",
-        episodeText:
-          "Tyler Rake, a fearless black market mercenary, embarks on the most deadly extraction of his career when he's enlisted to rescue the kidnapped son of an imprisoned international crime lord.",
-        imgSrc: "/images/extraction/extraction.jpeg",
       },
     ],
   },
@@ -711,63 +1202,12 @@ export const contentData = [
     ],
   },
   {
-    id: 25,
-    title: "Love and monsters",
-    type: "movie",
-    slug: "love-and-monsters",
-    genre: ["Comedy", "Adventure", "Action"],
-    service: "Netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/love_and_monsters/love_and_monsters.jpeg",
-    backgroundSrc: "/images/love_and_monsters/love_and_monsters_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Love and monsters",
-        episodeText:
-          "In a monster-infested world, Joel learns his girlfriend is just 85 miles away. To make the dangerous journey, Joel discovers his inner hero to be with the girl of his dreams.",
-        imgSrc: "/images/love_and_monsters/love_and_monsters.jpeg",
-      },
-    ],
-  },
-  {
-    id: 26,
-    title: "The nevers",
-    type: "series",
-    slug: "the-nevers",
-    genre: ["Drama", "Action", "Fantasy"],
-    service: "Hbo Nordic",
-    serviceLogo: "/images/subscriptions/hbo_sub.svg",
-    serviceTitleLogo: "/images/HboLogo.svg",
-    thumbnailSrc: "/images/nevers/nevers.jpeg",
-    backgroundSrc: "/images/nevers/nevers_big.jpg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 2: Exposure",
-        episodeText:
-          "TBA",
-        imgSrc: "/images/nevers/neversS1E2.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 1: Touched",
-        episodeText:
-          "Three years after an inexplicable event suddenly equips them with extraordinary abilities, Amalia True and Penance Adair work to protect their kind from widespread, deepening antipathy.",
-        imgSrc: "/images/nevers/neversS1E1.jpeg",
-      },
-    ],
-  },
-  {
     id: 27,
     title: "Game of thrones",
     type: "series",
     slug: "game-of-thrones",
     watched: true,
-    genre: ["Drama", "Action", "Fantasy", "Adventure"],
+    genre: ["Drama", "Fantasy", "Adventure"],
     service: "Hbo Nordic",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
@@ -795,78 +1235,6 @@ export const contentData = [
         episodeText:
           "The Battle of Winterfell is over and a new chapter for Westeros begins.",
         imgSrc: "/images/got/gotS8E4.jpeg",
-      },
-    ],
-  },
-  {
-    id: 28,
-    title: "His dark materials",
-    type: "series",
-    slug: "his-dark-materials",
-    genre: ["Drama", "Adventure", "Family", "Fantasy"],
-    service: "Hbo Nordic",
-    serviceLogo: "/images/subscriptions/hbo_sub.svg",
-    serviceTitleLogo: "/images/HboLogo.svg",
-    thumbnailSrc: "/images/his_dark_materials/hdm.jpeg",
-    backgroundSrc: "/images/his_dark_materials/hdm_big.jpg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 7: Æsahættr",
-        episodeText:
-          "As all paths converge on Cittàgazze, Lee is determined to fulfil his quest, whatever the cost. Mrs Coulter's question is answered, and Will takes on his father's mantle.",
-        imgSrc: "/images/his_dark_materials/hdmS2E7.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 6: Malice",
-        episodeText:
-          "Lyra and Will find allies who can help them in their search for Will's father. The Magisterium learn something shocking, and Mrs Coulter meets a formidable foe.",
-        imgSrc: "/images/his_dark_materials/hdmS2E6.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 5: The scholar",
-        episodeText:
-          "Will and Lyra set out to retrieve what's been lost. Mary takes a leap of faith.",
-        imgSrc: "/images/his_dark_materials/hdmS2E5.jpeg",
-      },
-    ],
-  },
-  {
-    id: 29,
-    title: "Euphoria",
-    type: "series",
-    slug: "euphoria",
-    genre: ["Drama"],
-    service: "Hbo Nordic",
-    serviceLogo: "/images/subscriptions/hbo_sub.svg",
-    serviceTitleLogo: "/images/HboLogo.svg",
-    thumbnailSrc: "/images/euphoria/euphoria.jpeg",
-    backgroundSrc: "/images/euphoria/euphoria_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 3: Made you look",
-        episodeText:
-          "Kat starts camming; Jules falls for a boy online; Rue is confronted about her lies at NA; Cassie and McKay spend the weekend at his college.",
-        imgSrc: "/images/euphoria/euphoriaS1E3.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 2: Stuntin' like my daddy",
-        episodeText:
-          "On the first day of school, Rue struggles to put the past behind her; Nate's obsessions turn violent; Kat finds a video of her online.",
-        imgSrc: "/images/euphoria/euphoriaS1E2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 1: Pilot",
-        episodeText:
-          "Rue returns home from rehab and meets Jules; Nate and Maddy attempt to make each other jealous; Kat is pressured to lose something.",
-        imgSrc: "/images/euphoria/euphoriaS1E1.jpeg",
       },
     ],
   },
@@ -1015,101 +1383,6 @@ export const contentData = [
     ],
   },
   {
-    id: 34,
-    title: "Killing Eve",
-    type: "series",
-    slug: "killing-eve",
-    genre: ["Drama", "Action", "Adventure"],
-    service: "Hbo Nordic",
-    serviceLogo: "/images/subscriptions/hbo_sub.svg",
-    serviceTitleLogo: "/images/HboLogo.svg",
-    thumbnailSrc: "/images/killing_eve/ke.jpeg",
-    backgroundSrc: "/images/killing_eve/ke_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 3: Don't I know you?",
-        episodeText:
-          "After a killing in Berlin, Eve and Bill travel there to investigate, unaware of how close they are to Villanelle.",
-        imgSrc: "/images/killing_eve/keS1E3.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 2: I'll deal with him later",
-        episodeText:
-          "Eve is given the opportunity to lead a secret MI6 unit tasked with tracking down Villanelle, who is becoming increasingly reckless, much to the discomfort of her bosses.",
-        imgSrc: "/images/killing_eve/keS1E2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 1: Nice face",
-        episodeText:
-          "When a Russian politician is murdered, a bored MI5 security officer is tasked with protecting the only witness and soon finds herself on a collision course with a violent and extraordinary assassin.",
-        imgSrc: "/images/killing_eve/keS1E1.jpeg",
-      },
-    ],
-  },
-  {
-    id: 35,
-    title: "Vikings",
-    type: "series",
-    slug: "vikings",
-    genre: ["Drama", "Action", "Adventure"],
-    service: "Hbo Nordic",
-    serviceLogo: "/images/subscriptions/hbo_sub.svg",
-    serviceTitleLogo: "/images/HboLogo.svg",
-    thumbnailSrc: "/images/vikings/vikings.jpeg",
-    backgroundSrc: "/images/vikings/vikings_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 20: The last act",
-        episodeText:
-          "The epic saga which began with Ragnar Lothbrok, the first Vikings leader to emerge from the mists of legend, comes to an end in a spectacular and shocking series finale which finds striking the new land and in England.",
-        imgSrc: "/images/vikings/vikingsS6E20.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 19: The lord giveth...",
-        episodeText:
-          "In the new land, Ubbe and the settlers engage in careful diplomacy when they are surrounded by the locals. In Wessex the Vikings ambush the Saxon army, but Alfred is convinced the lord is with his army and refuses to retreat.",
-        imgSrc: "/images/vikings/vikingsS6E19.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 18: It's only magic",
-        episodeText:
-          "Ubbe and settlers find land but soon realize they are not alone. In Wessex, king Alfred has mustered up a large force to fight the Vikings. Meanwhile in Kattegat, Erik realizes that Ingrid had been using her powers on him",
-        imgSrc: "/images/vikings/vikingsS6E18.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 36,
-    title: "Wonder woman 1984",
-    type: "movie",
-    slug: "wonder-woman-1984",
-    genre: ["Fantasy", "Adventure", "Action"],
-    service: "Hbo Nordic",
-    serviceLogo: "/images/subscriptions/hbo_sub.svg",
-    serviceTitleLogo: "/images/HboLogo.svg",
-    thumbnailSrc: "/images/wonder_woman/ww.jpeg",
-    backgroundSrc: "/images/wonder_woman/ww_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Wonder woman 1984",
-        episodeText:
-          "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.",
-        imgSrc: "/images/wonder_woman/ww.jpeg",
-      },
-    ],
-  },
-  {
     id: 37,
     title: "Zack Snyder's Justice league",
     type: "movie",
@@ -1132,46 +1405,24 @@ export const contentData = [
     ],
   },
   {
-    id: 38,
-    title: "Galveston",
+    id: 6,
+    title: "Raya and the last dragon",
     type: "movie",
-    slug: "galveston",
-    genre: ["Action", "Crime", "Drama"],
-    service: "Hbo Nordic",
-    serviceLogo: "/images/subscriptions/hbo_sub.svg",
-    serviceTitleLogo: "/images/HboLogo.svg",
-    thumbnailSrc: "/images/galveston/galveston.jpeg",
-    backgroundSrc: "/images/galveston/galveston_big.jpeg",
+    slug: "raya-and-the-last-dragon",
+    genre: ["Animation", "Family", "Action", "Adventure"],
+    service: "Disney+",
+    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
+    thumbnailSrc: "/images/raya/raya.png",
+    backgroundSrc: "/images/raya/raya_big.jpeg",
     optionalShowLogo: "",
     episodes: [
       {
         id: 1,
-        title: "Galveston",
+        title: "Raya and the last dragon",
         episodeText:
-          "After escaping a set up, a dying hitman returns to his hometown of Galveston where he plans his revenge.",
-        imgSrc: "/images/galveston/galveston.jpeg",
-      },
-    ],
-  },
-  {
-    id: 39,
-    title: "Ghost in the shell",
-    type: "movie",
-    slug: "ghost-in-the-shell",
-    genre: ["Action", "Crime", "Drama"],
-    service: "Hbo Nordic",
-    serviceLogo: "/images/subscriptions/hbo_sub.svg",
-    serviceTitleLogo: "/images/HboLogo.svg",
-    thumbnailSrc: "/images/ghost_in_the_shell/gits.jpeg",
-    backgroundSrc: "/images/ghost_in_the_shell/gits_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Ghost in the shell",
-        episodeText:
-          "In the near future, Major Mira Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.",
-        imgSrc: "/images/ghost_in_the_shell/gits.jpeg",
+          "In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.",
+        imgSrc: "/images/raya/raya.png",
       },
     ],
   },
@@ -1303,7 +1554,7 @@ export const contentData = [
   
   {
     id: 44,
-    title: "Grey´s Anotomy",
+    title: "Grey´s Anatomy",
     type: "series",
     slug: "greys-anotomy",
     genre: ["Drama", "Romance"],
@@ -1368,82 +1619,12 @@ export const contentData = [
       },
     ],
   },
-  
-  {
-    id: 46,
-    title: "The Vampire Diaries",
-    type: "series",
-    slug: "the-vampire-diaries",
-    genre: ["Drama", "Fantacy", "Horror"],
-    service: "Viaplay",
-    serviceLogo: "/images/subscriptions/Via.png",
-    serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/thevampirediaries/Thevampirediaries.jpeg",
-    backgroundSrc: "/images/thevampirediaries/Thevampirediaries.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 22: Founder's Day",
-        episodeText: "Damon and Alaric try to stop John Gilbert from setting a plan in motion to bring Founder's Day to an end amid chaos, destruction and death.",
-        imgSrc: "/images/thevampirediaries/1.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 21: Isobel",
-        episodeText: "Isobel returns to town and stuns Alaric with her attitude and her demands that he arrange a meeting with Elena.",
-        imgSrc: "/images/thevampirediaries/2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 20: Blood Brothers",
-        episodeText: "Elena learns what happened when Damon and Stefan were turned. Pearl has an ugly confrontation with John Gilbert. Jeremy and Anna get closer.",
-        imgSrc: "/images/thevampirediaries/3.jpeg",
-      },
-    ],
-  },
-  
-  {
-    id: 47,
-    title: "Prison break",
-    type: "series",
-    slug: "prison-break",
-    genre: ["Action", "Crime", "Drama"],
-    service: "Viaplay",
-    serviceLogo: "/images/subscriptions/Via.png",
-    serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/prisonbreak/Prisonbreak.jpeg",
-    backgroundSrc: "/images/prisonbreak/Prisonbreak.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 22: Sona",
-        episodeText: "Michael races against the clock to rescue Lincoln and beat Mahone at his own end game.",
-        imgSrc: "/images/prisonbreak/1.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 21: Fin del camino",
-        episodeText: "Linc finds Michael is gone from their Christina Rose yacht after receiving Sucre's message.",
-        imgSrc: "/images/prisonbreak/2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 20: Panama",
-        episodeText: "Now Caroline Reynolds has stepped down as president, she can no longer sign a pardon, so the brothers must immediately disappear, forever.",
-        imgSrc: "/images/prisonbreak/3.jpeg",
-      },
-    ],
-  },
-  
-  
   {
     id: 48,
     title: "The Hobbit: An Unexpected Journey",
     type: "movie",
     slug: "the-hobbit-an-unexpected-journey",
-    genre: ["Adventure", "Fantacy"],
+    genre: ["Adventure", "Fantasy"],
     service: "Viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
@@ -1458,30 +1639,7 @@ export const contentData = [
         imgSrc: "/images/thehobbit/1.jpeg",
       },
     ],
-  },
-  
-  {
-    id: 49,
-    title: "Spider-Man: Homecoming",
-    type: "movie",
-    slug: "spider-man-homecoming",
-    genre: ["Adventure", "Action", "Sci-Fi"],
-    service: "Viaplay",
-    serviceLogo: "/images/subscriptions/Via.png",
-    serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/spiderman/Spiderman.jpeg",
-    backgroundSrc: "/images/spiderman/Spiderman.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Spider-Man: Homecoming",
-        episodeText: "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
-        imgSrc: "/images/spiderman/1.jpeg",
-      },
-    ],
-  },
-  
+  },  
   {
     id: 50,
     title: "Fifty Shades of Grey",
@@ -1509,7 +1667,7 @@ export const contentData = [
     title: "How To Be Single",
     type: "movie",
     slug: "how-to-be-single",
-    genre: ["Comedy", "Drama", "Romance"],
+    genre: ["Comedy", "Romance"],
     service: "Viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
@@ -1546,30 +1704,7 @@ export const contentData = [
         imgSrc: "/images/crazystupidlove/1.jpeg",
       },
     ],
-  },
-  
-  {
-    id: 53,
-    title: "The Invisible Man",
-    type: "movie",
-    slug: "the-invisible-man",
-    genre: ["Horror", "Drama", "Mystery"],
-    service: "Viaplay",
-    serviceLogo: "/images/subscriptions/Via.png",
-    serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/theinvisibleman/Theinvisibleman.jpeg",
-    backgroundSrc: "/images/theinvisibleman/Theinvisibleman.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "The Invisible Man",
-        episodeText: "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
-        imgSrc: "/images/theinvisibleman/1.jpeg",
-      },
-    ],
-  },
-  
+  },  
   {
     id: 54,
     title: "Minions",
@@ -1721,52 +1856,7 @@ export const contentData = [
         imgSrc: "/images/denmarknorway/1.jpeg",
       },
     ],
-  },
-  
-  {
-    id: 61,
-    title: "I Still Believe",
-    type: "movie",
-    slug: "i-still-believe",
-    genre: ["Biography", "Drama", "Music"],
-    service: "Tv2-Sumo",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/istillbelieve/Istillbelieve.jpeg",
-    backgroundSrc: "/images/istillbelieve/Istillbelieve.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "I Still Believe",
-        episodeText: "The true-life story of Christian music star Jeremy Camp and his journey of love and loss that looks to prove there is always hope.",
-        imgSrc: "/images/istillbelieve/1.jpeg",
-      },
-    ],
-  },
-  
-  {
-    id: 62,
-    title: "Angel has Fallen",
-    type: "movie",
-    slug: "angel-has-fallen",
-    genre: ["Action", "Thriller"],
-    service: "Tv2-Sumo",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/angelhasfallen/Angelhasfallen.jpeg",
-    backgroundSrc: "/images/angelhasfallen/Angelhasfallen.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Angel has Fallen",
-        episodeText: "Mike Banning is framed for the attempted assassination of the President and must evade his own agency and the FBI as he tries to uncover the real threat.",
-        imgSrc: "/images/angelhasfallen/1.jpeg",
-      },
-    ],
-  },
-  
+  }, 
   {
     id: 63,
     title: "Fjols til fjells",
@@ -1788,52 +1878,28 @@ export const contentData = [
       },
     ],
   },
-
-{
-  id: 64,
-  title: "1917",
-  type: "movie",
-  slug: "1917",
-  genre: ["Drama", "Thriller", "War"],
-  service: "Tv2-Sumo",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/1917/1917.jpeg",
-  backgroundSrc: "/images/1917/1917-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "1917",
-      episodeText:
-        "April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
-      imgSrc: "/images/1917/1917.jpeg",
-    },
-  ],
-},
-
-{
-  id: 65,
-  title: "Another round",
-  type: "movie",
-  slug: "et-glass-til",
-  genre: ["Comedy", "Drama"],
-  service: "Tv2-Sumo",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/et-glass-til/et-glass-til.jpeg",
-  backgroundSrc: "/images/et-glass-til/et-glass-til-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Another round",
-      episodeText:
-        "Four friends, all high school teachers, test a theory that they will improve their lives by maintaining a constant level of alcohol in their blood.",
-      imgSrc: "/images/et-glass-til/et-glass-til.jpeg",
-    },
-  ],
-},
+  {
+    id: 65,
+    title: "Another round",
+    type: "movie",
+    slug: "et-glass-til",
+    genre: ["Comedy", "Drama"],
+    service: "Tv2-Sumo",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/et-glass-til/et-glass-til.jpeg",
+    backgroundSrc: "/images/et-glass-til/et-glass-til-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Another round",
+        episodeText:
+          "Four friends, all high school teachers, test a theory that they will improve their lives by maintaining a constant level of alcohol in their blood.",
+        imgSrc: "/images/et-glass-til/et-glass-til.jpeg",
+      },
+    ],
+  },
 
 {
   id: 66,
@@ -1857,30 +1923,6 @@ export const contentData = [
     },
   ],
 },
-
-{
-  id: 67,
-  title: "Tomb Raider",
-  type: "movie",
-  slug: "tomb-raider",
-  genre: ["Action", "Adventure", "Fantasy"],
-  service: "Tv2-Sumo",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/tomb-raider/tomb-raider.jpeg",
-  backgroundSrc: "/images/tomb-raider/tomb-raider-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Tomb Raider",
-      episodeText:
-        "Lara Croft (Alicia Vikander), the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she discovers the island where her father, Lord Richard Croft (Dominic West) disappeared.",
-      imgSrc: "/images/tomb-raider/tomb-raider.jpeg",
-    },
-  ],
-},
-
 {
   id: 68,
   title: "Alle elsker David",
@@ -2287,44 +2329,6 @@ export const contentData = [
     },
   ],
 },
-
-{
-  id: 79,
-  title: "Normal People",
-  type: "series",
-  slug: "normal-people",
-  genre: ["Drama", "Romance"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/normal-people/normal-people.jpeg",
-  backgroundSrc: "/images/normal-people/np-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1",
-      episodeText:
-        "In modern, rural Ireland, Connell and Marianne, on different ends of their school's social scene, begin an intense, secret affair.",
-      imgSrc: "/images/normal-people/np-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2",
-      episodeText:
-        "Marianne and Connell's affair continues, but the pressures of the outside world start to take their toll.",
-      imgSrc: "/images/normal-people/np-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3",
-      episodeText:
-        "Connell betrays Marianne by making a cowardly choice. Marianne withdraws from school, causing Connell intense guilt.",
-      imgSrc: "/images/normal-people/np-3.jpeg",
-    },
-  ],
-},
-
 {
   id: 80,
   title: "Exit",
@@ -2824,30 +2828,6 @@ export const contentData = [
     },
   ],
 },
-
-{
-  id: 94,
-  title: "Disco",
-  type: "movie",
-  slug: "disco",
-  genre: ["Drama"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/disco/disco.jpeg",
-  backgroundSrc: "/images/disco/disco_big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Disco",
-      episodeText:
-        "When a champion dancer begins to falter, her family questions her faith and prompts her to search for more radical solutions.",
-      imgSrc: "/images/disco/disco.jpeg",
-    },
-  ],
-},
-
 {
   id: 95,
   title: "Psychobitch",
@@ -2962,5 +2942,4 @@ export const contentData = [
     },
   ],
 },
-
 ];

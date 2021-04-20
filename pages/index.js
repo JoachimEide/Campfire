@@ -71,6 +71,24 @@ export default function Home(props) {
         param="genre"
         paramValue="Sport"
       />
+      <ContentRow
+        title="Action"
+        contentArray={props.contentDataList}
+        param="genre"
+        paramValue="Action"
+      />
+      <ContentRow
+        title="Fantasy"
+        contentArray={props.contentDataList}
+        param="genre"
+        paramValue="Fantasy"
+      />
+      <ContentRow
+        title="Drama"
+        contentArray={props.contentDataList}
+        param="genre"
+        paramValue="Drama"
+      />
     </Layout>
   );
 }
