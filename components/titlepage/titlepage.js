@@ -28,7 +28,10 @@ export default function Layout(props) {
 
   return (
     <div className="wrapper">
-      <TitleNav serviceSrc={props.show.serviceTitleLogo} />
+      <TitleNav
+        serviceSrc={props.show.serviceTitleLogo}
+        status={props.status}
+      />
       <Socialbar
         status={props.status}
         event={props.event}
@@ -36,7 +39,14 @@ export default function Layout(props) {
         friends={props.friends}
       />
       <Status status={props.status} event={props.event} />
-      <div className="content">
+      <div
+        className="content"
+        style={
+          !props.status
+            ? { width: "90%", transition: "all 0.1s ease-in-out" }
+            : { width: "82%", transition: "all 0.1s ease-in-out" }
+        }
+      >
         <div className={TitlePageStyle.titleTop}>
           {OptionalLogo(props.show)}
           <button
@@ -116,7 +126,6 @@ export default function Layout(props) {
             url(${props.show.backgroundSrc});
           background-size: cover;
           background-position: center;
-          width: 82%;
           height: 90%;
           position: absolute;
         }

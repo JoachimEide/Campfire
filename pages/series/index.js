@@ -1,8 +1,9 @@
-import { contentData } from "../data/content";
-import { friendsData } from "../data/friends";
-import Layout from "../components/layout";
-import Topcarousel from "../components/content/topcarousel";
-import ContentRow from "../components/content/content-row";
+import { contentData } from "../../data/content";
+import { friendsData } from "../../data/friends";
+import Layout from "../../components/layout";
+import Topcarousel from "../../components/content/topcarousel";
+import Services from "../../components/content/services";
+import ContentRow from "../../components/content/content-row";
 
 export const getStaticProps = async () => {
   return {
@@ -13,7 +14,7 @@ export const getStaticProps = async () => {
   };
 };
 
-export default function Disney(props) {
+export default function Movies(props) {
   const topCarouselShows = [
     {
       id: 1,
@@ -46,31 +47,41 @@ export default function Disney(props) {
       event={props.event}
       friends={props.friendsDataList}
     >
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginBottom: "30px",
-        }}
-      >
-        <img src="/images/DisneyPlusLogo.svg" style={{ width: "10%" }} />
-      </div>
       <Topcarousel shows={topCarouselShows} />
+      <Services subscriptions={props.subscriptions} />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Movies"
+        title="Popular series on Disney+"
         contentArray={props.contentDataList}
         param="service"
         paramValue="disney"
         param2="type"
-        paramValue2="movie"
+        paramValue2="series"
       />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Series"
         contentArray={props.contentDataList}
+        title="Drama series"
+        param="genre"
+        paramValue="Drama"
+        param2="type"
+        paramValue2="series"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        contentArray={props.contentDataList}
+        title="Comedy series"
+        param="genre"
+        paramValue="Comedy"
+        param2="type"
+        paramValue2="series"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        contentArray={props.contentDataList}
+        title="Series on Netflix"
         param="service"
-        paramValue="disney"
+        paramValue="netflix"
         param2="type"
         paramValue2="series"
       />

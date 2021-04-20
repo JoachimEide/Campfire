@@ -3,7 +3,14 @@ import NavStyle from "./titlenav.module.css";
 
 export default function Nav(props) {
   return (
-    <nav className={NavStyle.nav}>
+    <nav
+      className={NavStyle.nav}
+      style={
+        !props.status
+          ? { width: "90%", transition: "all 0.1s ease-in-out" }
+          : { width: "82%", transition: "all 0.1s ease-in-out" }
+      }
+    >
       <Link href="/">
         <a className={NavStyle.backContainer}>
           <img

@@ -25,6 +25,12 @@ export const getStaticPaths = async () => {
 };
 
 export default function ProfilePageFactory(props) {
+  const friends = props.friendsDataList.map((value) => {
+    return value;
+  });
+  const ids = friends.map((friend) => {
+    return friend.id;
+  });
   return (
     <Layout
       socialStatus={props.socialStatus}
@@ -49,7 +55,7 @@ export default function ProfilePageFactory(props) {
         title={`${props.friend.name}'s watch history`}
         contentArray={props.contentDataList}
         param="id"
-        paramValue={props.friend.watchedShowIds}
+        paramValue={ids}
         param2={false}
         paramValue2={false}
       />

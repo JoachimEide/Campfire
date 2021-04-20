@@ -1,14 +1,24 @@
 import Link from "next/link";
 import SocialbarStyle from "./titlesosial.module.css";
+import TitleFriend from "./title-friend";
 import Image from "next/image";
 
 export default function Socialbar(props) {
+  const watchingThisShow = props.friends.filter((friend) => {
+    return friend.nowWatching.id === props.id;
+  });
+
   return (
     <div
-      className={
+      className={SocialbarStyle.container}
+      style={
         !props.status
-          ? SocialbarStyle.containerPrivate
-          : SocialbarStyle.container
+          ? {
+              width: "10%",
+              borderLeft: `1px solid #d3381e`,
+              transition: "all 0.1s ease-in-out",
+            }
+          : { width: "18%", transition: "all 0.1s ease-in-out" }
       }
     >
       <div className={SocialbarStyle.yourProfile}>
@@ -41,44 +51,28 @@ export default function Socialbar(props) {
       >
         <h3>{!props.status ? "Private" : "Social"}</h3>
       </button>
-      <h3 className="title-watch">Watching now:</h3>
-      <div className={SocialbarStyle.friendProfile}>
-        <Link href="/my-profile">
-          <a className={SocialbarStyle.friendPic}>
-            <Image
-              alt="profile pic"
-              src="/images/Joachim90.jpg"
-              width={50}
-              height={50}
-              layout="intrinsic"
-            />
-          </a>
-        </Link>
-        <div className={SocialbarStyle.friendWatch}>
-          <p className={SocialbarStyle.friendName}>Thomas Lund</p>
-          <p className={SocialbarStyle.friendInfo}>Mandalorian - S2E6</p>
-          <p className={SocialbarStyle.friendInfo}>Disney +</p>
-        </div>
-      </div>
-      <h3 className="title-watch">Watched this:</h3>
-      <div className={SocialbarStyle.friendProfile}>
-        <Link href="/my-profile">
-          <a className={SocialbarStyle.friendPic}>
-            <Image
-              alt="profile pic"
-              src="/images/Joachim90.jpg"
-              width={50}
-              height={50}
-              layout="intrinsic"
-            />
-          </a>
-        </Link>
-        <div className={SocialbarStyle.friendWatch}>
-          <p className={SocialbarStyle.friendName}>Thomas Lund</p>
-          <p className={SocialbarStyle.friendInfo}>Mandalorian - S2E6</p>
-          <p className={SocialbarStyle.friendInfo}>Disney +</p>
-        </div>
-      </div>
+      <h3 className="title-watch" style={{ marginBottom: "30px" }}>
+        Watching now:
+      </h3>
+      {watchingThisShow.map((friend) => {
+        return (
+          <TitleFriend
+            status={props.status}
+            name={friend.name}
+            imgSrc={friend.imgSrc}
+            title={friend.nowWatching.title}
+            episode={friend.nowWatching.episode}
+            service={friend.nowWatching.service}
+            slug={friend.slug}
+            online={friend.online}
+          />
+        );
+      })}
+
+      <h3 className="title-watch" style={{ marginBottom: "30px" }}>
+        Watched this:
+      </h3>
+      {}
       <style jsx>{`
         h2 {
           margin: 10px;
