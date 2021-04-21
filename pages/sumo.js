@@ -53,7 +53,7 @@ export default function Viaplay(props) {
           marginBottom: "30px",
         }}
       >
-        <img src="/images/tv2sumo_logo.svg" style={{ width: "10%" }} />
+        <img src="/images/tv2sumo-logo.svg" style={{ width: "10%" }} />
       </div>
       <Topcarousel shows={topCarouselShows} />
       <ContentRow
