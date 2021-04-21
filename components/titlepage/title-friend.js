@@ -51,8 +51,7 @@ export default function TitleFriend(props) {
           >
             <p className={FriendStyle.friendName}>{props.name}</p>
             <p className={FriendStyle.friendInfo}>
-              {`${props.title} -`}
-              {props.episode}
+              {props.title}-{props.seasonAndEpisode}
             </p>
             <p className={FriendStyle.friendInfo}>{props.service}</p>
           </div>

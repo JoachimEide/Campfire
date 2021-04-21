@@ -8,7 +8,7 @@ export const friendsData = [
     nowWatching: {
       id: 1,
       title: "Mandalorian",
-      episode: "S2E6",
+      seasonAndEpisode: "S2E6",
       service: "Disney+",
     },
     friends: [4, 7, 9, 11],
@@ -25,7 +25,7 @@ export const friendsData = [
     nowWatching: {
       id: 2,
       title: "Wandavision",
-      episode: "S1E4",
+      seasonAndEpisode: "S1E4",
       service: "Disney+",
     },
     friends: [4, 7, 9, 11],
@@ -42,7 +42,7 @@ export const friendsData = [
     nowWatching: {
       id: 41,
       title: "The Office",
-      episode: "S5E5",
+      seasonAndEpisode: "S5E5",
       service: "Netflix",
     },
     friends: [4, 7, 9, 11],
@@ -59,7 +59,7 @@ export const friendsData = [
     nowWatching: {
       id: false,
       title: "Browsing",
-      episode: "",
+      seasonAndEpisode: "",
       service: "Campfire",
     },
     friends: [4, 7, 9, 11],

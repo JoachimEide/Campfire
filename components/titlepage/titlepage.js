@@ -36,6 +36,7 @@ export default function Layout(props) {
         status={props.status}
         event={props.event}
         id={props.show.id}
+        title={props.show.title}
         friends={props.friends}
       />
       <Status status={props.status} event={props.event} />

@@ -7,6 +7,23 @@ export default function Socialbar(props) {
   const watchingThisShow = props.friends.filter((friend) => {
     return friend.nowWatching.id === props.id;
   });
+  const watchedThisShow = props.friends.map((friend, index) => {
+    let friendObj = {
+      key: index,
+      online: friend.online,
+      imgSrc: friend.imgSrc,
+      slug: friend.slug,
+      name: friend.name,
+      title: props.title,
+    };
+    friend.watchedShow.forEach((show) => {
+      if (show.id === props.id) {
+        friendObj.service = show.service;
+        friendObj.seasonAndEpisode = show.seasonAndEpisode;
+      }
+    });
+    return friendObj;
+  });
 
   return (
     <div
@@ -51,28 +68,45 @@ export default function Socialbar(props) {
       >
         <h3>{!props.status ? "Private" : "Social"}</h3>
       </button>
-      <h3 className="title-watch" style={{ marginBottom: "30px" }}>
-        Watching now:
-      </h3>
-      {watchingThisShow.map((friend) => {
-        return (
-          <TitleFriend
-            status={props.status}
-            name={friend.name}
-            imgSrc={friend.imgSrc}
-            title={friend.nowWatching.title}
-            episode={friend.nowWatching.episode}
-            service={friend.nowWatching.service}
-            slug={friend.slug}
-            online={friend.online}
-          />
-        );
-      })}
+      <div className={SocialbarStyle.scrollContainer}>
+        <h3 className="title-watch" style={{ marginBottom: "30px" }}>
+          Watching now:
+        </h3>
+        {watchingThisShow.map((friend) => {
+          return (
+            <TitleFriend
+              key={friend.id}
+              status={props.status}
+              name={friend.name}
+              imgSrc={friend.imgSrc}
+              title={friend.nowWatching.title}
+              seasonAndEpisode={friend.nowWatching.seasonAndEpisode}
+              service={friend.nowWatching.service}
+              slug={friend.slug}
+              online={friend.online}
+            />
+          );
+        })}
 
-      <h3 className="title-watch" style={{ marginBottom: "30px" }}>
-        Watched this:
-      </h3>
-      {}
+        <h3 className="title-watch" style={{ marginBottom: "30px" }}>
+          Watched this:
+        </h3>
+        {watchedThisShow.map((friend) => {
+          return (
+            <TitleFriend
+              key={friend.id}
+              status={props.status}
+              name={friend.name}
+              imgSrc={friend.imgSrc}
+              title={friend.title}
+              seasonAndEpisode={friend.seasonAndEpisode}
+              service={friend.service}
+              slug={friend.slug}
+              online={friend.online}
+            />
+          );
+        })}
+      </div>
       <style jsx>{`
         h2 {
           margin: 10px;
@@ -81,6 +115,7 @@ export default function Socialbar(props) {
         }
         h3 {
           padding: 5px;
+          text-align: center;
         }
         .title-watch {
           margin-top: 50px;

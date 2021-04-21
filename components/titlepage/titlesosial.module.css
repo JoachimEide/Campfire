@@ -84,3 +84,11 @@
   outline: none;
   transition: all 0.3s ease-in-out;
 }
+
+.scrollContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
