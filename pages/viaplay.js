@@ -61,7 +61,7 @@ export default function Viaplay(props) {
         title="Movies"
         contentArray={props.contentDataList}
         param="service"
-        paramValue="Viaplay"
+        paramValue="viaplay"
         param2="type"
         paramValue2="movie"
       />
@@ -70,7 +70,7 @@ export default function Viaplay(props) {
         title="Series"
         contentArray={props.contentDataList}
         param="service"
-        paramValue="Viaplay"
+        paramValue="viaplay"
         param2="type"
         paramValue2="series"
       />

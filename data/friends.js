@@ -14,7 +14,7 @@ export const friendsData = [
     friends: [4, 7, 9, 11],
     watchList: [8, 41, 30, 77],
     watchedShow: [{ id: 1, seasonAndEpisode: "S2E6", service: "Disney+" }],
-    reviews: [{ id: 1, reviewScore: 10, reviewText: "Best show ever!" }],
+    reviews: [{ id: 1, score: 10, reviewText: "Best show ever!" }],
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const friendsData = [
     friends: [4, 7, 9, 11],
     watchList: [8, 41, 30, 77],
     watchedShow: [{ id: 1, seasonAndEpisode: "S2E6", service: "Disney+" }],
-    reviews: [{ id: 1, reviewScore: 10, reviewText: "Best show ever!" }],
+    reviews: [{ id: 1, score: 10, reviewText: "Best show ever!" }],
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ export const friendsData = [
     friends: [4, 7, 9, 11],
     watchList: [8, 41, 30, 77],
     watchedShow: [{ id: 1, seasonAndEpisode: "S2E6", service: "Disney+" }],
-    reviews: [{ id: 1, reviewScore: 10, reviewText: "Best show ever!" }],
+    reviews: [{ id: 1, score: 10, reviewText: "Best show ever!" }],
   },
   {
     id: 4,
@@ -65,7 +65,7 @@ export const friendsData = [
     friends: [4, 7, 9, 11],
     watchList: [8, 41, 30, 77],
     watchedShow: [{ id: 1, seasonAndEpisode: "S2E6", service: "Disney+" }],
-    reviews: [{ id: 1, reviewScore: 10, reviewText: "Best show ever!" }],
+    reviews: [{ id: 1, score: 10, reviewText: "Best show ever!" }],
   },
   {
     id: 5,
@@ -77,6 +77,6 @@ export const friendsData = [
     friends: [4, 7, 9, 11],
     watchList: [8, 41, 30, 77],
     watchedShow: [{ id: 1, seasonAndEpisode: "S2E6", service: "Disney+" }],
-    reviews: [{ id: 1, reviewScore: 10, reviewText: "Best show ever!" }],
+    reviews: [{ id: 1, score: 10, reviewText: "Best show ever!" }],
   },
 ];

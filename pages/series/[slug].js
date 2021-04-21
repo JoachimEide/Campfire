@@ -20,6 +20,7 @@ export const getStaticPaths = async () => {
 export default function TitlePageFactory(props) {
   return (
     <Titlepage
+      key={props.title.id}
       show={props.title}
       status={props.socialStatus}
       event={props.event}

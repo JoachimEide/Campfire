@@ -86,23 +86,25 @@ export default function Layout(props) {
         <div className={TitlePageStyle.episodeReviewContainer}>
           <div className={TitlePageStyle.episodesContainer}>
             <h2>{props.type == "series" ? "Season 1" : "Movie"}</h2>
-            {props.show.episodes.map(({ id, title, episodeText, imgSrc }) => (
-              <Episode
-                key={id}
-                title={title}
-                episodeText={episodeText}
-                imgSrc={imgSrc}
-              />
-            ))}
+            {props.show.episodes.map(
+              ({ id, title, episodeText, imgSrc }, index) => (
+                <Episode
+                  key={index}
+                  title={title}
+                  episodeText={episodeText}
+                  imgSrc={imgSrc}
+                />
+              )
+            )}
           </div>
           <div className={TitlePageStyle.reviewsContainer}>
             <h2>Reviews</h2>
             <button className={TitlePageStyle.reviewButton}>
               Write review
             </button>
-            {reviewsFilter.map((friendRev) => (
+            {reviewsFilter.map((friendRev, index) => (
               <Review
-                key={friendRev.id}
+                key={index}
                 imgSrc={friendRev.imgSrc}
                 online={friendRev.online}
                 slug={friendRev.slug}

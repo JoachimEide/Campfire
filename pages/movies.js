@@ -67,6 +67,7 @@ export default function Movies(props) {
         paramValue2="movie"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Drama"
         param="genre"

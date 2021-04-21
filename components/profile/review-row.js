@@ -44,33 +44,43 @@ export default function ContentRow(props) {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
-
-  const reviewsObj = (reviews) => {
-    if (reviews) {
-      let data = props.contentArray.filter((show) => {
-        console.log(show.id);
-        console.log(props.reviews);
-        return props.reviews.includes(show.id);
+  const myReviewsFunc = () => {
+    const myReviews = [];
+    props.reviews.map((rev) => {
+      let showData = props.contentArray.filter((show) => {
+        return show.id === rev.id;
       });
-      return data;
-    }
+      let reviewObject = {
+        id: rev.id,
+        title: showData[0].title,
+        imgSrc: showData[0].thumbnailSrc,
+        link: showData[0].slug,
+        score: rev.score,
+        reviewText: rev.reviewText,
+      };
+      myReviews.push(reviewObject);
+    });
+    return myReviews;
   };
 
-  let test = reviewsObj(props.reviews);
-  console.log(test);
+  const reviews = myReviewsFunc();
 
   return (
     <div className="content-row">
       <h2 className="content-header">{props.title}</h2>
       <Slider {...settings}>
-        <Review
-          key={1}
-          link={`/series/mandalorian`}
-          alt="Mandalorian"
-          src="/images/mandalorian/Mandalorian.jpg"
-          score={10}
-          reviewText="This is a review!"
-        />
+        {reviews.map((rev) => {
+          return (
+            <Review
+              key={rev.id}
+              link={`/series/${rev.slug}`}
+              alt={rev.title}
+              src={rev.imgSrc}
+              score={rev.score}
+              reviewText={rev.reviewText}
+            />
+          );
+        })}
       </Slider>
       <style jsx>{`
         .content-row {

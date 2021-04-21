@@ -24,7 +24,11 @@ export default function Home(props) {
     >
       <ProfileTop name="Joachim Woll Eide" imgSrc="/images/Joachim90.jpg" />
       <TopFriends />
-      <ReviewRow title="My reviews" />
+      <ReviewRow
+        title="My reviews"
+        contentArray={props.contentDataList}
+        reviews={props.reviews}
+      />
       <ContentRow
         subscriptions={props.subscriptions}
         title="Watchlist"
