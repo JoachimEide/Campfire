@@ -1056,7 +1056,7 @@ export const contentData = [
     ],
   },
   {
-    id: 14,
+    id: 101,
     title: "The queen's gambit",
     type: "series",
     slug: "the-queen's-gambit",
@@ -3037,50 +3037,28 @@ export const contentData = [
     ],
   },
 
-{
-  id: 93,
-  title: "Battle",
-  type: "movie",
-  slug: "battle",
-  genre: ["Drama", "Romance", "Music"],
-  service: "nrk",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/battle/battle.jpeg",
-  backgroundSrc: "/images/battle/battle_big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Battle",
-      episodeText:
-        "Amalie works hard to fit in to a world where having it all is what matters - looks, money and dancing skills. Then she meets Michael, the street-dancer, who is different from any other person she has met.",
-      imgSrc: "/images/battle/battle.jpeg",
-    },
-  ],
-},
-{
-  id: 95,
-  title: "Psychobitch",
-  type: "movie",
-  slug: "psychobitch",
-  genre: ["Drama"],
-  service: "nrk",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/psychobitch/p.jpeg",
-  backgroundSrc: "/images/psychobitch/p_big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Psychobitch",
-      episodeText:
-        "Frida is different. Marius, on the other hand is the most perfect boy in class. When they have to work together at school, it's the start of a turbulent and challenging relationship. Generation Achievement meets impossible love.",
-      imgSrc: "/images/psychobitch/p.jpeg",
-    },
-  ],
-},
+  {
+    id: 93,
+    title: "Battle",
+    type: "movie",
+    slug: "battle",
+    genre: ["Drama", "Romance", "Music"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/battle/battle.jpeg",
+    backgroundSrc: "/images/battle/battle_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Battle",
+        episodeText:
+          "Amalie works hard to fit in to a world where having it all is what matters - looks, money and dancing skills. Then she meets Michael, the street-dancer, who is different from any other person she has met.",
+        imgSrc: "/images/battle/battle.jpeg",
+      },
+    ],
+  },
 
   {
     id: 95,
