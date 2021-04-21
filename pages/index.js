@@ -67,13 +67,6 @@ export default function Home(props) {
       <ContentRow
         subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
-        title="Popular on Netflix"
-        param="service"
-        paramValue="netflix"
-      />
-      <ContentRow
-        subscriptions={props.subscriptions}
-        contentArray={props.contentDataList}
         title="Popular on HBO"
         param="service"
         paramValue="hbo"
@@ -104,21 +97,24 @@ export default function Home(props) {
         title="Sport"
         contentArray={props.contentDataList}
         param="genre"
-        paramValue="Action"
+        paramValue="Sport"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Action"
         contentArray={props.contentDataList}
         param="genre"
         paramValue="Action"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Fantasy"
         contentArray={props.contentDataList}
         param="genre"
         paramValue="Fantasy"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Drama"
         contentArray={props.contentDataList}
         param="genre"
