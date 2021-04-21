@@ -45,34 +45,24 @@ export default function ContentRow(props) {
     prevArrow: <SamplePrevArrow />,
   };
 
+  const reviewsObj = (reviews) => {
+    if (reviews) {
+      let data = props.contentArray.filter((show) => {
+        console.log(show.id);
+        console.log(props.reviews);
+        return props.reviews.includes(show.id);
+      });
+      return data;
+    }
+  };
+
+  let test = reviewsObj(props.reviews);
+  console.log(test);
+
   return (
     <div className="content-row">
       <h2 className="content-header">{props.title}</h2>
       <Slider {...settings}>
-        <Review
-          key={1}
-          link={`/series/mandalorian`}
-          alt="Mandalorian"
-          src="/images/mandalorian/Mandalorian.jpg"
-          score={10}
-          reviewText="This is a review!"
-        />
-        <Review
-          key={1}
-          link={`/series/mandalorian`}
-          alt="Mandalorian"
-          src="/images/mandalorian/Mandalorian.jpg"
-          score={10}
-          reviewText="This is a review!"
-        />
-        <Review
-          key={1}
-          link={`/series/mandalorian`}
-          alt="Mandalorian"
-          src="/images/mandalorian/Mandalorian.jpg"
-          score={10}
-          reviewText="This is a review!"
-        />
         <Review
           key={1}
           link={`/series/mandalorian`}

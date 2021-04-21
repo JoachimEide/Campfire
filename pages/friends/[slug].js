@@ -25,6 +25,12 @@ export const getStaticPaths = async () => {
 };
 
 export default function ProfilePageFactory(props) {
+  const friends = props.friendsDataList.map((value) => {
+    return value;
+  });
+  const ids = friends.map((friend) => {
+    return friend.id;
+  });
   return (
     <Layout
       socialStatus={props.socialStatus}
@@ -33,7 +39,11 @@ export default function ProfilePageFactory(props) {
     >
       <ProfileTop name={props.friend.name} imgSrc={props.friend.imgSrc} />
       <TopFriends />
-      <ReviewRow title={`${props.friend.name}'s reviews`} />
+      <ReviewRow
+        title={`${props.friend.name}'s reviews`}
+        reviews={props.friend.reviews}
+        contentArray={props.contentDataList}
+      />
       <ContentRow
         subscriptions={props.subscriptions}
         title={`${props.friend.name}'s watchlist`}
@@ -49,7 +59,7 @@ export default function ProfilePageFactory(props) {
         title={`${props.friend.name}'s watch history`}
         contentArray={props.contentDataList}
         param="id"
-        paramValue={props.friend.watchedShowIds}
+        paramValue={ids}
         param2={false}
         paramValue2={false}
       />

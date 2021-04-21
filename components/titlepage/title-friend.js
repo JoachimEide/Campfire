@@ -1,17 +1,17 @@
 import { useState } from "react";
 import Link from "next/link";
-import FriendStyle from "./friends.module.css";
+import FriendStyle from "./title-friend.module.css";
 import Image from "next/image";
 
-export default function Friend(props) {
+export default function TitleFriend(props) {
   const [clickFriend, setClickFriend] = useState(false);
 
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <div
         className={FriendStyle.friendProfile}
         style={
-          props.inSettings || !props.status
+          !props.status
             ? { justifyContent: "center" }
             : { justifyContent: "left" }
         }
@@ -37,26 +37,23 @@ export default function Friend(props) {
         </div>
         <div
           className={
-            props.inSettings || !props.status
+            !props.status
               ? FriendStyle.friendTextWrapperPrivate
               : FriendStyle.friendTextWrapper
           }
         >
           <div
             className={
-              props.inSettings || !props.status
+              !props.status
                 ? FriendStyle.friendTextHidden
                 : FriendStyle.friendText
             }
           >
             <p className={FriendStyle.friendName}>{props.name}</p>
             <p className={FriendStyle.friendInfo}>
-              {`${props.nowWatching.title} -`}
-              {props.nowWatching.seasonAndEpisode}
+              {props.title}-{props.seasonAndEpisode}
             </p>
-            <p className={FriendStyle.friendInfo}>
-              {props.nowWatching.service}
-            </p>
+            <p className={FriendStyle.friendInfo}>{props.service}</p>
           </div>
         </div>
       </div>
@@ -64,7 +61,7 @@ export default function Friend(props) {
         className={
           !clickFriend
             ? FriendStyle.friendClick
-            : props.inSettings || !props.status
+            : !props.status
             ? FriendStyle.friendClickActivePriv
             : FriendStyle.friendClickActive
         }
@@ -77,11 +74,7 @@ export default function Friend(props) {
         <Link href={`/friends/${props.slug}`}>
           <button
             className={FriendStyle.profileButton}
-            style={
-              props.inSettings || !props.status
-                ? { width: "50%" }
-                : { width: "35%" }
-            }
+            style={!props.status ? { width: "50%" } : { width: "35%" }}
           >
             Profile
           </button>

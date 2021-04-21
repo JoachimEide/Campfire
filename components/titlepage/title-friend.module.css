@@ -1,0 +1,145 @@
+.friendProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  height: 60px;
+  width: 80%;
+  margin-left: 10%;
+  background-color: #111820;
+  z-index: 1;
+}
+
+.friendPic {
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.friendTextWrapper {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.friendTextWrapperPrivate {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 0;
+}
+
+.friendText {
+  position: relative;
+  left: 0%;
+  opacity: 1;
+  transition: all 0.1s ease-in-out;
+}
+
+.friendTextHidden {
+  position: relative;
+  opacity: 0;
+  left: 100%;
+  transition: all 0.1s ease-in-out;
+}
+
+.friendName {
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.friendInfo {
+  font-weight: 100;
+}
+
+.friendClick {
+  display: flex;
+  height: 0px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.13s all linear;
+  background: #0d0f14;
+  margin: 10px 0 20px 0;
+}
+
+.friendClickActive {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: 0.13s all linear;
+  background: #0d0f14;
+  margin: 10px 0 10px 0;
+}
+
+.friendClickActivePriv {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.13s all linear;
+  background: #0d0f14;
+  margin: 10px 0 10px 0;
+  transition: 0.13s all linear;
+}
+
+.friendClickActivePriv button {
+  outline: none;
+  font-family: din-2014, sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111820;
+  color: white;
+  text-align: center;
+  padding: 4px 5px;
+  width: 50%;
+  border-radius: 10px;
+  margin: 7px 5%;
+  z-index: 0;
+  transition: 0.13s all linear;
+}
+
+.friendClickActive button,
+.friendClick button {
+  outline: none;
+  font-family: din-2014, sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111820;
+  color: white;
+  text-align: center;
+  padding: 4px 5px;
+  width: 35%;
+  border-radius: 10px;
+  margin: 7px 5%;
+  z-index: 0;
+  transition: 0.13s all linear;
+}
+
+.joinButton {
+  border: 1px solid #3ffefb;
+}
+
+.profileButton {
+  border: 1px solid #e59740;
+}
+
+.hidden button {
+  display: none;
+}

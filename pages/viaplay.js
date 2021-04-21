@@ -14,6 +14,32 @@ export const getStaticProps = async () => {
 };
 
 export default function Viaplay(props) {
+  const topCarouselShows = [
+    {
+      id: 1,
+      link: "/series/mandalorian",
+      alt: "mandalorian",
+      src: "/images/mandalorian/mandalorianthumb.jpg",
+    },
+    {
+      id: 2,
+      link: "/series/wandavision",
+      alt: "wandavision",
+      src: "/images/wandavision/WandaVision.png",
+    },
+    {
+      id: 3,
+      link: "series/the-falcon-and-the-winter-soldier",
+      alt: "The Falcon and the Winter Soldier",
+      src: "/images/falcon/falcon_big.jpeg",
+    },
+    {
+      id: 4,
+      link: "series/the-nevers",
+      alt: "The Nevers",
+      src: "/images/nevers/nevers_big.jpg",
+    },
+  ];
   return (
     <Layout
       socialStatus={props.socialStatus}
@@ -29,7 +55,7 @@ export default function Viaplay(props) {
       >
         <img src="/images/viaplay-logo.png" style={{ width: "10%" }} />
       </div>
-      <Topcarousel />
+      <Topcarousel shows={topCarouselShows} />
       <ContentRow
         subscriptions={props.subscriptions}
         title="Movies"
