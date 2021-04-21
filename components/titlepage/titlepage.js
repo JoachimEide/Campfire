@@ -5,12 +5,12 @@ import Episode from "./episode";
 import Review from "./review";
 import TitlePageStyle from "./titlepage.module.css";
 
-const OptionalLogo = (props) => {
-  if (props.logo) {
+const OptionalLogo = (obj) => {
+  if (obj.optionalShowLogo) {
     return (
       <img
         className={TitlePageStyle.showLogo}
-        src={props.logo}
+        src={obj.optionalShowLogo}
         alt="show logo"
       />
     );
@@ -20,25 +20,36 @@ const OptionalLogo = (props) => {
 };
 
 export default function Layout(props) {
+  const reviewsFilter = props.friends.filter((friend) => {
+    return friend.reviews.map((review) => {
+      return review.id === props.show.id;
+    });
+  });
+
   return (
     <div className="wrapper">
-      <TitleNav serviceSrc={props.serviceTitleLogo} />
-      <Socialbar status={props.status} event={props.event} />
+      <TitleNav serviceSrc={props.show.serviceTitleLogo} />
+      <Socialbar
+        status={props.status}
+        event={props.event}
+        id={props.show.id}
+        friends={props.friends}
+      />
       <Status status={props.status} event={props.event} />
       <div className="content">
         <div className={TitlePageStyle.titleTop}>
-          {OptionalLogo(props)}
+          {OptionalLogo(props.show)}
           <button
             className={TitlePageStyle.playButton}
             onClick={() => {
               if (props.status) {
                 props.historyEvent({
-                  id: props.id,
-                  title: props.title,
-                  slug: props.slug,
-                  service: props.service,
-                  serviceLogo: props.serviceLogo,
-                  thumbnailSrc: props.thumbnailSrc,
+                  id: props.show.id,
+                  title: props.show.title,
+                  slug: props.show.slug,
+                  service: props.show.service,
+                  serviceLogo: props.show.serviceLogo,
+                  thumbnailSrc: props.show.thumbnailSrc,
                 });
               }
             }}
@@ -49,12 +60,12 @@ export default function Layout(props) {
             className={TitlePageStyle.watchlistButton}
             onClick={() => {
               props.watchListEvent({
-                id: props.id,
-                title: props.title,
-                slug: props.slug,
-                service: props.service,
-                serviceLogo: props.serviceLogo,
-                thumbnailSrc: props.thumbnailSrc,
+                id: props.show.id,
+                title: props.show.title,
+                slug: props.show.slug,
+                service: props.show.service,
+                serviceLogo: props.show.serviceLogo,
+                thumbnailSrc: props.show.thumbnailSrc,
               });
             }}
           >
@@ -64,7 +75,7 @@ export default function Layout(props) {
         <div className={TitlePageStyle.episodeReviewContainer}>
           <div className={TitlePageStyle.episodesContainer}>
             <h2>{props.type == "series" ? "Season 1" : "Movie"}</h2>
-            {props.episodes.map(({ id, title, episodeText, imgSrc }) => (
+            {props.show.episodes.map(({ id, title, episodeText, imgSrc }) => (
               <Episode
                 key={id}
                 title={title}
@@ -78,7 +89,16 @@ export default function Layout(props) {
             <button className={TitlePageStyle.reviewButton}>
               Write review
             </button>
-            <Review />
+            {reviewsFilter.map((friendRev) => (
+              <Review
+                key={friendRev.id}
+                imgSrc={friendRev.imgSrc}
+                online={friendRev.online}
+                slug={friendRev.slug}
+                reviews={friendRev.reviews}
+                showId={props.show.id}
+              />
+            ))}
           </div>
         </div>
       </div>
@@ -93,7 +113,7 @@ export default function Layout(props) {
               rgba(17, 24, 32, 0.7),
               rgba(17, 24, 32, 1)
             ),
-            url(${props.backgroundSrc});
+            url(${props.show.backgroundSrc});
           background-size: cover;
           background-position: center;
           width: 82%;

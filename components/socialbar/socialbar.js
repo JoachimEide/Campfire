@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import SocialbarStyle from "./social.module.css";
 import Image from "next/image";
-import Buble from "./buble";
 import Friend from "./friend";
 
 export default function Socialbar(props) {
@@ -17,7 +16,6 @@ export default function Socialbar(props) {
     }
   }, []);
   const statusColor = !props.status ? "#d3381e" : "#e59740";
-  console.log(props.friends);
 
   return (
     <div
@@ -63,17 +61,20 @@ export default function Socialbar(props) {
         <h3>{!props.status ? "Private" : "Social"}</h3>
       </button>
       <div className={SocialbarStyle.wrapper}>
-        {props.friends.map(({ id, name, imgSrc, slug, nowWatching }) => (
-          <Friend
-            key={id}
-            name={name}
-            imgSrc={imgSrc}
-            slug={slug}
-            nowWatching={nowWatching}
-            status={props.status}
-            inSettings={inSettings}
-          />
-        ))}
+        {props.friends.map(
+          ({ id, name, imgSrc, slug, online, nowWatching }) => (
+            <Friend
+              key={id}
+              name={name}
+              imgSrc={imgSrc}
+              slug={slug}
+              online={online}
+              nowWatching={nowWatching}
+              status={props.status}
+              inSettings={inSettings}
+            />
+          )
+        )}
       </div>
       <style jsx>{`
         h2 {

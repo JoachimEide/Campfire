@@ -5,7 +5,7 @@ export const contentData = [
     type: "series",
     slug: "big-sky",
     genre: ["Crime", "Drama", "Mystery"],
-    service: "Disney+",
+    service: "disney",
     serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
     serviceTitleLogo: "/images/DisneyPlusLogo.svg",
     thumbnailSrc: "/images/big_sky/big_sky.jpeg",
@@ -113,7 +113,7 @@ export const contentData = [
     type: "series",
     slug: "the-crown",
     genre: ["Drama", "Biography", "History"],
-    service: "Netflix",
+    service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
     thumbnailSrc: "/images/crown/crown.jpeg",
@@ -149,7 +149,7 @@ export const contentData = [
     type: "movie",
     slug: "the-invisible-man",
     genre: ["Horror", "Thriller", "Mystery"],
-    service: "Viaplay",
+    service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
     thumbnailSrc: "/images/theinvisibleman/Theinvisibleman.jpeg",
@@ -442,7 +442,7 @@ export const contentData = [
     slug: "stranger-things",
     watched: true,
     genre: ["Drama", "Fantasy", "Horror"],
-    service: "Netflix",
+    service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
     thumbnailSrc: "/images/stranger_things/stranger_things.png",
@@ -1119,7 +1119,7 @@ export const contentData = [
     type: "movie",
     slug: "yes-day",
     genre: ["Comedy", "Family"],
-    service: "Netflix",
+    service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
     thumbnailSrc: "/images/yes_day/yes_day.jpeg",
@@ -1141,7 +1141,7 @@ export const contentData = [
     type: "movie",
     slug: "eurovision-song-contest",
     genre: ["Comedy", "Family", "Music"],
-    service: "Netflix",
+    service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
     thumbnailSrc: "/images/eurovision/eurovision.jpeg",
@@ -1163,7 +1163,7 @@ export const contentData = [
     type: "movie",
     slug: "long-shot",
     genre: ["Comedy", "Romance"],
-    service: "Netflix",
+    service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
     thumbnailSrc: "/images/long_shot/long_shot.jpeg",
@@ -1185,7 +1185,7 @@ export const contentData = [
     type: "movie",
     slug: "love-guarantied",
     genre: ["Comedy", "Romance"],
-    service: "Netflix",
+    service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
     thumbnailSrc: "/images/love_guaranteed/love_guaranteed.jpeg",
@@ -1244,7 +1244,7 @@ export const contentData = [
     type: "series",
     slug: "westworld",
     genre: ["Drama", "Mystery", "Sci-Fi", "Fantasy"],
-    service: "Hbo Nordic",
+    service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
     thumbnailSrc: "/images/westworld/westworld.jpeg",
@@ -1280,7 +1280,7 @@ export const contentData = [
     type: "series",
     slug: "the-handmaid's-tale",
     genre: ["Drama", "Thriller", "Fantasy"],
-    service: "Hbo Nordic",
+    service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
     thumbnailSrc: "/images/handmaid/handmaid.png",
@@ -1316,7 +1316,7 @@ export const contentData = [
     type: "series",
     slug: "big-little-lies",
     genre: ["Drama", "Crime", "Mystery"],
-    service: "Hbo Nordic",
+    service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
     thumbnailSrc: "/images/big_little_lies/bls.jpeg",
@@ -1352,7 +1352,7 @@ export const contentData = [
     type: "series",
     slug: "i-may-destroy-you",
     genre: ["Drama"],
-    service: "Hbo Nordic",
+    service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
     thumbnailSrc: "/images/i_may_destroy_you/imdy.jpeg",
@@ -1388,7 +1388,7 @@ export const contentData = [
     type: "movie",
     slug: "zack-snyder's-justice-league",
     genre: ["Fantasy", "Adventure", "Action"],
-    service: "Hbo Nordic",
+    service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
     thumbnailSrc: "/images/justice_league/jl.jpeg",
@@ -1432,7 +1432,7 @@ export const contentData = [
     type: "movie",
     slug: "the-5th-wave",
     genre: ["Action", "Adventure", "Sci-Fi"],
-    service: "Hbo Nordic",
+    service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
     thumbnailSrc: "/images/the_5th_wave/tfw.jpeg",
@@ -1449,14 +1449,13 @@ export const contentData = [
     ],
   },
 
-
   {
     id: 41,
     title: "The Office",
     type: "series",
     slug: "the-office",
     genre: ["Comedy"],
-    service: "Viaplay",
+    service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
     thumbnailSrc: "/images/theoffice/Theoffice.jpeg",
@@ -1466,31 +1465,34 @@ export const contentData = [
       {
         id: 3,
         title: "Episode 1: Pilot",
-        episodeText: "The premiere episode introduces the boss and staff of the Dunder-Mifflin Paper Company in Scranton, Pennsylvania in a documentary about the workplace.",
+        episodeText:
+          "The premiere episode introduces the boss and staff of the Dunder-Mifflin Paper Company in Scranton, Pennsylvania in a documentary about the workplace.",
         imgSrc: "/images/theoffice/1.jpeg",
       },
       {
         id: 2,
         title: "Episode 2: Diversity Day",
-        episodeText: "Michael's off color remark puts a sensitivity trainer in the office for a presentation, which prompts Michael to create his own.",
+        episodeText:
+          "Michael's off color remark puts a sensitivity trainer in the office for a presentation, which prompts Michael to create his own.",
         imgSrc: "/images/theoffice/2.jpeg",
       },
       {
         id: 1,
         title: "Episode 3: Health Care",
-        episodeText: "Michael leaves Dwight in charge of picking the new healthcare plan for the staff, with disastrous results ahead.",
+        episodeText:
+          "Michael leaves Dwight in charge of picking the new healthcare plan for the staff, with disastrous results ahead.",
         imgSrc: "/images/theoffice/3.jpg",
       },
     ],
   },
-  
+
   {
     id: 42,
     title: "Family Guy",
     type: "series",
     slug: "family-guy",
     genre: ["Comedy", "Animation"],
-    service: "Viaplay",
+    service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
     thumbnailSrc: "/images/familyguy/Familyguy.jpeg",
@@ -1500,31 +1502,34 @@ export const contentData = [
       {
         id: 1,
         title: "Episode 14: Long John Peter",
-        episodeText: "Peter begins to act like a pirate when he gets a parrot, creating havoc in Quahog; Chris falls for vet intern Anna.",
+        episodeText:
+          "Peter begins to act like a pirate when he gets a parrot, creating havoc in Quahog; Chris falls for vet intern Anna.",
         imgSrc: "/images/familyguy/1.jpeg",
       },
       {
         id: 2,
         title: "Episode 13: The Former Life of Brian",
-        episodeText: "When Brian decides to look up an old flame on a whim, he discovers, to his horror, that he is the father of her teenage son.",
+        episodeText:
+          "When Brian decides to look up an old flame on a whim, he discovers, to his horror, that he is the father of her teenage son.",
         imgSrc: "/images/familyguy/2.jpeg",
       },
       {
         id: 3,
         title: "Episode 12: Play It Again, Brian",
-        episodeText: "Brian decides to declare his love for Lois as she and Peter accompany him to a writers' convention, and the Griffin kids are babysat by Herbert.",
+        episodeText:
+          "Brian decides to declare his love for Lois as she and Peter accompany him to a writers' convention, and the Griffin kids are babysat by Herbert.",
         imgSrc: "/images/familyguy/3.jpeg",
       },
     ],
   },
-  
+
   {
     id: 43,
     title: "Ugly Betty",
     type: "series",
     slug: "ugly-betty",
     genre: ["Comedy", "Drama", "Romance"],
-    service: "Viaplay",
+    service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
     thumbnailSrc: "/images/uglybetty/Uglybetty.jpeg",
@@ -1534,13 +1539,15 @@ export const contentData = [
       {
         id: 1,
         title: "Episode 23: East Side Story",
-        episodeText: "The season-end cliffhanger: Justin is thrilled with the boy playing Tony in the school play falls mysteriously ill and he is promoted from understudy. Santos finds trouble when he stops at a store to buy Justin a good-luck present. Alexis finds an unpleasant surprise when she takes their father's car to rush Daniel to the hospital for an overdose.",
+        episodeText:
+          "The season-end cliffhanger: Justin is thrilled with the boy playing Tony in the school play falls mysteriously ill and he is promoted from understudy. Santos finds trouble when he stops at a store to buy Justin a good-luck present. Alexis finds an unpleasant surprise when she takes their father's car to rush Daniel to the hospital for an overdose.",
         imgSrc: "/images/uglybetty/1.jpeg",
       },
       {
         id: 2,
         title: "Episode 22: A Tree Grows in Guadalajara",
-        episodeText: "Betty and her family go to Guadalajara to solve Ignacio's immigration problems; Betty questions her aunt (Rita Moreno) and cousin about her late mother; Jordan (Rebecca Gayheart) visits Alexis.",
+        episodeText:
+          "Betty and her family go to Guadalajara to solve Ignacio's immigration problems; Betty questions her aunt (Rita Moreno) and cousin about her late mother; Jordan (Rebecca Gayheart) visits Alexis.",
         imgSrc: "/images/uglybetty/2.jpeg",
       },
       {
@@ -1551,7 +1558,7 @@ export const contentData = [
       },
     ],
   },
-  
+
   {
     id: 44,
     title: "Grey´s Anatomy",
@@ -1585,7 +1592,7 @@ export const contentData = [
       },
     ],
   },
-  
+
   {
     id: 45,
     title: "Criminal Minds",
@@ -1635,7 +1642,8 @@ export const contentData = [
       {
         id: 1,
         title: "The Hobbit: An Unexpected Journey",
-        episodeText: "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
+        episodeText:
+          "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
         imgSrc: "/images/thehobbit/1.jpeg",
       },
     ],
@@ -1646,7 +1654,7 @@ export const contentData = [
     type: "movie",
     slug: "fifty-shades-of-grey",
     genre: ["Drama", "Romance", "Thriller"],
-    service: "Viaplay",
+    service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
     thumbnailSrc: "/images/fiftyshades/Fiftyshades.jpeg",
@@ -1656,12 +1664,13 @@ export const contentData = [
       {
         id: 1,
         title: "Fifty Shades of Grey",
-        episodeText: "Literature student Anastasia Steele's life changes forever when she meets handsome, yet tormented, billionaire Christian Grey.",
+        episodeText:
+          "Literature student Anastasia Steele's life changes forever when she meets handsome, yet tormented, billionaire Christian Grey.",
         imgSrc: "/images/fiftyshades/1.jpeg",
       },
     ],
   },
-  
+
   {
     id: 51,
     title: "How To Be Single",
@@ -1678,19 +1687,20 @@ export const contentData = [
       {
         id: 1,
         title: "How To Be Single",
-        episodeText: "A group of young adults navigate love and relationships in New York City.",
+        episodeText:
+          "A group of young adults navigate love and relationships in New York City.",
         imgSrc: "/images/howtobesingle/1.jpeg",
       },
     ],
   },
-  
+
   {
     id: 52,
     title: "Crazy Stupid Love",
     type: "movie",
     slug: "crazy-stupid-love",
     genre: ["Comedy", "Drama", "Romance"],
-    service: "Viaplay",
+    service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
     thumbnailSrc: "/images/crazystupidlove/Crazystupidlove.jpeg",
@@ -1700,7 +1710,8 @@ export const contentData = [
       {
         id: 1,
         title: "Crazy Stupid Love",
-        episodeText: "A middle-aged husband's life changes dramatically when his wife asks him for a divorce. He seeks to rediscover his manhood with the help of a newfound friend, Jacob, learning to pick up girls at bars.",
+        episodeText:
+          "A middle-aged husband's life changes dramatically when his wife asks him for a divorce. He seeks to rediscover his manhood with the help of a newfound friend, Jacob, learning to pick up girls at bars.",
         imgSrc: "/images/crazystupidlove/1.jpeg",
       },
     ],
@@ -1711,7 +1722,7 @@ export const contentData = [
     type: "movie",
     slug: "minions",
     genre: ["Animation", "Adventure", "Comedy"],
-    service: "Viaplay",
+    service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
     thumbnailSrc: "/images/minions/Minions.jpeg",
@@ -1721,7 +1732,8 @@ export const contentData = [
       {
         id: 1,
         title: "Minions",
-        episodeText: "Minions Stuart, Kevin, and Bob are recruited by Scarlet Overkill, a supervillain who, alongside her inventor husband Herb, hatches a plot to take over the world.",
+        episodeText:
+          "Minions Stuart, Kevin, and Bob are recruited by Scarlet Overkill, a supervillain who, alongside her inventor husband Herb, hatches a plot to take over the world.",
         imgSrc: "/images/minions/1.jpeg",
       },
     ],
@@ -1732,7 +1744,7 @@ export const contentData = [
     type: "movie",
     slug: "fritt-vilt-II",
     genre: ["Horror", "Thriller"],
-    service: "Viaplay",
+    service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
     thumbnailSrc: "/images/frittvilt/Frittvilt.jpeg",
@@ -1742,7 +1754,8 @@ export const contentData = [
       {
         id: 1,
         title: "Fritt Vilt II",
-        episodeText: "5 young Norwegians head up to the mountains to snowboard. One breaks his leg and it's getting dark soon, so they spend the night in a big, abandoned hotel, closed 30 years ago. They are not alone.",
+        episodeText:
+          "5 young Norwegians head up to the mountains to snowboard. One breaks his leg and it's getting dark soon, so they spend the night in a big, abandoned hotel, closed 30 years ago. They are not alone.",
         imgSrc: "/images/frittvilt/1.jpeg",
       },
     ],
@@ -1754,7 +1767,7 @@ export const contentData = [
     type: "sport",
     slug: "gambit–NASR ESPORTS",
     genre: ["Sport", "E-Sport"],
-    service: "Tv2-Sumo",
+    service: "tv2",
     serviceLogo: "/images/subscriptions/tv2_sub.svg",
     serviceTitleLogo: "/images/tv2sumo-logo.svg",
     thumbnailSrc: "/images/gambit/Gambit.jpeg",
@@ -1764,19 +1777,20 @@ export const contentData = [
       {
         id: 1,
         title: "Gambit – NASR ESPORTS",
-        episodeText: "The bookmakers do not give NASR a chance to win. Gambit will enter with great confidence. Does pride stand for fall?",
+        episodeText:
+          "The bookmakers do not give NASR a chance to win. Gambit will enter with great confidence. Does pride stand for fall?",
         imgSrc: "/images/gambit/1.jpeg",
       },
     ],
   },
-  
+
   {
     id: 57,
     title: "Liverpool - Real Madrid",
     type: "sport",
     slug: "liverpool-real-madrid",
     genre: ["Sport", "Soccer"],
-    service: "Tv2-Sumo",
+    service: "tv2",
     serviceLogo: "/images/subscriptions/tv2_sub.svg",
     serviceTitleLogo: "/images/tv2sumo-logo.svg",
     thumbnailSrc: "/images/liverpoolreal/Liverpoolreal.jpeg",
@@ -1786,19 +1800,20 @@ export const contentData = [
       {
         id: 1,
         title: "Liverpool - Real Madrid",
-        episodeText: "From Anfield and the return leg between Liverpool and Real Madrid in the quarter-finals of the UEFA Champions League. Commentators: Øyvind Alsaker and Petter Myhre.",
+        episodeText:
+          "From Anfield and the return leg between Liverpool and Real Madrid in the quarter-finals of the UEFA Champions League. Commentators: Øyvind Alsaker and Petter Myhre.",
         imgSrc: "/images/liverpoolreal/1.jpeg",
       },
     ],
   },
-  
+
   {
     id: 58,
     title: "Borussia Dortmund - Manchester City",
     type: "sport",
     slug: "borussia-dortmund-manchester-city",
     genre: ["Sport", "Soccer"],
-    service: "Tv2-Sumo",
+    service: "tv2",
     serviceLogo: "/images/subscriptions/tv2_sub.svg",
     serviceTitleLogo: "/images/tv2sumo-logo.svg",
     thumbnailSrc: "/images/borussiacity/Borussiacity.jpeg",
@@ -1808,19 +1823,20 @@ export const contentData = [
       {
         id: 1,
         title: "Borussia Dortmund - Manchester City",
-        episodeText: "From Signal Iduna Park and the return leg between Borussia Dortmund and Manchester City in the quarter-finals of the UEFA Champions League. Commentator: Jonas Bariås.",
+        episodeText:
+          "From Signal Iduna Park and the return leg between Borussia Dortmund and Manchester City in the quarter-finals of the UEFA Champions League. Commentator: Jonas Bariås.",
         imgSrc: "/images/borussiacity/1.jpeg",
       },
     ],
   },
-  
+
   {
     id: 59,
     title: "Amstel Gold Race",
     type: "sport",
     slug: "amstel-gold-race",
     genre: ["Sport", "Cycling"],
-    service: "Tv2-Sumo",
+    service: "tv2",
     serviceLogo: "/images/subscriptions/tv2_sub.svg",
     serviceTitleLogo: "/images/tv2sumo-logo.svg",
     thumbnailSrc: "/images/amstelgoldrace/Amstelgoldrace.jpeg",
@@ -1830,19 +1846,20 @@ export const contentData = [
       {
         id: 1,
         title: "Amstel Gold Race",
-        episodeText: "The Norwegian professional team Uno-X Pro Cycling Team will participate in the classic. The race will therefore be extra exciting with Norwegian eyes. The riders will complete twelve 16.9 km. rounds. Maybe there will be opportunities for Kristoffer Halvorsen & Co?",
+        episodeText:
+          "The Norwegian professional team Uno-X Pro Cycling Team will participate in the classic. The race will therefore be extra exciting with Norwegian eyes. The riders will complete twelve 16.9 km. rounds. Maybe there will be opportunities for Kristoffer Halvorsen & Co?",
         imgSrc: "/images/amstelgoldrace/1.jpeg",
       },
     ],
   },
-  
+
   {
     id: 60,
     title: "Denmark - Norway",
     type: "sport",
     slug: "denmark-norway",
     genre: ["Sport", "Handball"],
-    service: "Tv2-Sumo",
+    service: "tv2",
     serviceLogo: "/images/subscriptions/tv2_sub.svg",
     serviceTitleLogo: "/images/tv2sumo-logo.svg",
     thumbnailSrc: "/images/denmarknorway/Denmarknorway.jpeg",
@@ -1852,7 +1869,8 @@ export const contentData = [
       {
         id: 1,
         title: "Denmark - Norway",
-        episodeText: "From Spektrum Vejle and the private international match in handball for women between Denmark and Norway.",
+        episodeText:
+          "From Spektrum Vejle and the private international match in handball for women between Denmark and Norway.",
         imgSrc: "/images/denmarknorway/1.jpeg",
       },
     ],
@@ -2145,153 +2163,111 @@ export const contentData = [
   ],
 },
 
-{
-  id: 74,
-  title: "Märtha",
-  type: "series",
-  slug: "martha",
-  genre: ["Reality"],
-  service: "Tv2-Sumo",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/martha/martha.jpeg",
-  backgroundSrc: "/images/martha/martha-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "1. Veien tilbake",
-      episodeText:
-        "Ari Behns tragiske bortgang kommer som et sjokk på den lille familien. Veien tilbake til hverdagen er tøff, men den knytter også båndene mellom dem enda tettere sammen.",
-      imgSrc: "/images/martha/martha-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "2. Tilbake på hesten",
-      episodeText:
-        "Etter Märtha sa fra seg tittelen som kongelig høyhet har hun j obbet som frilanser og gründer. Når samfunnet stenger blir dette vanskelig.",
-      imgSrc: "/images/martha/martha-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "3. Kjærligheten mot janteloven",
-      episodeText:
-        "Etter mange måneder fra hverandre har Märthas kjæreste Durek endelig kommet til Norge. Nå skal han bo sammen med henne og barna i Lommedalen, og de er svært spent på hvordan han blir tatt imot i Norge.",
-      imgSrc: "/images/martha/martha-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 65,
+    title: "Another round",
+    type: "movie",
+    slug: "et-glass-til",
+    genre: ["Comedy", "Drama"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/et-glass-til/et-glass-til.jpeg",
+    backgroundSrc: "/images/et-glass-til/et-glass-til-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Another round",
+        episodeText:
+          "Four friends, all high school teachers, test a theory that they will improve their lives by maintaining a constant level of alcohol in their blood.",
+        imgSrc: "/images/et-glass-til/et-glass-til.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 75,
-  title: "Sommerhytta",
-  type: "series",
-  slug: "sommerhytta",
-  genre: ["Gameshow", "Family"],
-  service: "Tv2-Sumo",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/sommerhytta/sommerhytta.jpeg",
-  backgroundSrc: "/images/sommerhytta/sommerhytta-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "1. Episode 1",
-      episodeText:
-        "Deltagerparene ankommer vakre Mjøsli i Stange kommune. Vi blir kjent med tvillingsøstrene Trude og Trine, far og datter Kurt og Veronica, kjæresteparet Anna og Jone og venneparet Christine og Adrian.",
-      imgSrc: "/images/sommerhytta/sh-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "2. Episode 2",
-      episodeText:
-        "Alle parene har nå valgt hver sin hytte som de skal pusse opp og gjøre til sin egen. Alle er godt i gang med sitt første ukesprosjekt, nemlig å lage et utekjøkken.",
-      imgSrc: "/images/sommerhytta/sh-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "3. Episode 3",
-      episodeText:
-        "Det nye utekjøkkenet begynner å ta form hos flere, mens andre fortsatt har mye igjen. Deltakerne har også fått i oppgave å sette opp og plante vekster i et minidrivhus, noe som viser seg å by på utfordringer for enkelte.",
-      imgSrc: "/images/sommerhytta/sh-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 66,
+    title: "Knives Out",
+    type: "movie",
+    slug: "knives-out",
+    genre: ["Comedy", "Crime", "Drama"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/knives-out/knives-out.jpeg",
+    backgroundSrc: "/images/knives-out/knives-out-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Knives Out",
+        episodeText:
+          "A detective investigates the death of a patriarch of an eccentric, combative family.",
+        imgSrc: "/images/knives-out/knives-out.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 76,
-  title: "The Rookie",
-  type: "series",
-  slug: "the-rookie",
-  genre: ["Comedy", "Crime", "Drama"],
-  service: "Tv2-Sumo",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/the-rookie/the-rookie.jpeg",
-  backgroundSrc: "/images/the-rookie/the-rookie-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1: Pilot",
-      episodeText:
-        "Small town guy John Nolan pursues his dream of being a police officer after a life-altering incident. As the force's oldest rookie he's met with skepticism from some higher-ups who see him as a walking mid-life crisis.",
-      imgSrc: "/images/the-rookie/the-rookie-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2: Crash Course",
-      episodeText:
-        "Talia forces Nolan to confront his personal moral inclinations after he encounters a kidnapping victim; Lucy is temporarily placed with a new training officer who tests her patience; and Jackson confronts his short-comings.",
-      imgSrc: "/images/the-rookie/the-rookie-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3: The Good, the Bad and the Ugly",
-      episodeText:
-        "After Nolan and Talia lose control of a crime scene, they begin to debate whether people are fundamentally good or bad and what that means for a police officer.",
-      imgSrc: "/images/the-rookie/the-rookie-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 67,
+    title: "Tomb Raider",
+    type: "movie",
+    slug: "tomb-raider",
+    genre: ["Action", "Adventure", "Fantasy"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/tomb-raider/tomb-raider.jpeg",
+    backgroundSrc: "/images/tomb-raider/tomb-raider-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Tomb Raider",
+        episodeText:
+          "Lara Croft (Alicia Vikander), the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she discovers the island where her father, Lord Richard Croft (Dominic West) disappeared.",
+        imgSrc: "/images/tomb-raider/tomb-raider.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 77,
-  title: "The Voice",
-  type: "series",
-  slug: "the-voice",
-  genre: ["Music", "Family", "Gameshow"],
-  service: "Tv2-Sumo",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/the-voice/the-voice.jpeg",
-  backgroundSrc: "/images/the-voice/the-voice-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "1. Første blindaudition - del 1",
-      episodeText:
-        "To nye mentorer har inntatt de legendariske røde stolene denne sesongen. Matoma og Ina Wroldsen er sammen med Espen Lind og Yosef Wolde Mariam klare for å finne Norges beste stemme.",
-      imgSrc: "/images/the-voice/the-voice-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "2. Første blindaudition - del 2",
-      episodeText:
-        "To nye mentorer har inntatt de legendariske røde stolene denne sesongen. Matoma og Ina Wroldsen er sammen med Espen Lind og Yosef Wolde Mariam klare for å finne Norges beste stemme.",
-      imgSrc: "/images/the-voice/the-voice-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "3. Andre blindaudition - del 1",
-      episodeText:
-        "To nye mentorer har inntatt de legendariske røde stolene denne sesongen. Matoma og Ina Wroldsen er sammen med Espen Lind og Yosef Wolde Mariam klare for å finne Norges beste stemme.",
-      imgSrc: "/images/the-voice/the-voice-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 68,
+    title: "Alle elsker David",
+    type: "series",
+    slug: "alle-elsker-david",
+    genre: ["Reality"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/alle-elsker-david/alle-elsker-david.jpeg",
+    backgroundSrc: "/images/alle-elsker-david/aed-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Livet",
+        episodeText:
+          "Vi blir kjent med manager og familiemann David Eriksen som leder sine mange profiler samtidig som han sjonglerer livet med sin utradisjonelle familie.",
+        imgSrc: "/images/alle-elsker-david/aed-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Familien",
+        episodeText:
+          "Lucas fyller 18 år og feirer med familien, til tross for foreldrenes skilsmisse. David blir pushet om familieforøkelse. Dette er et ømt tema, spesielt for Andrea.",
+        imgSrc: "/images/alle-elsker-david/aed-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Le Club 53",
+        episodeText:
+          "Andrea og Hedvig planlegger overraskelsesbursdag for David. Stemor og stedatter hadde en trøblete start, men kommer nå nærmere hverandre.",
+        imgSrc: "/images/alle-elsker-david/aed-3.jpeg",
+      },
+    ],
+  },
 
 {
   id: 78,
@@ -2366,445 +2342,701 @@ export const contentData = [
   ],
 },
 
-{
-  id: 81,
-  title: "The fall",
-  type: "series",
-  slug: "the-fall",
-  genre: ["Drama", "Crime", "Thriller"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/fall/fall.jpeg",
-  backgroundSrc: "/images/fall/fall_big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 4: The hell within him",
-      episodeText:
-        "Gibson witnesses Sally-Ann’s despair as Burns faces up to his guilt at pursuing her as a conspirator. Gibson and Dr Larson, Spector’s psychiatrist, have conflicting views of Spector: is he patient or prisoner?",
-      imgSrc: "/images/fall/fall-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 5: Wounds of deadly hate",
-      episodeText:
-        "Dr Larson begins his assessment on Spector, who opens up about the life he can remember before his amnesia, while the killer's legal team remain determined he will never stand trial.",
-      imgSrc: "/images/fall/fall-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 6: Their solitary way",
-      episodeText:
-        "In the thrilling series finale, Gibson and Anderson present fresh evidence to Spector with cataclysmic results. Spector’s new friendship in the psychiatric facility develops with a shocking outcome.",
-      imgSrc: "/images/fall/fall-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 72,
+    title: "Hjerteslag",
+    type: "series",
+    slug: "hjerteslag",
+    genre: ["Romance"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/hjerteslag/hjerteslag.jpeg",
+    backgroundSrc: "/images/hjerteslag/hjerteslag_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Rebound",
+        episodeText:
+          "Anders har akkurat blitt dumpa av kjæresten, og kompisene tar han med på byen for å muntre ham opp. Der møter han Mio, en jente som skal snu hele livet hans på hodet.",
+        imgSrc: "/images/hjerteslag/hjerteslag-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Mio min Mio",
+        episodeText:
+          "Det er fem uker siden Anders møtte Mio, men han stalker henne fortsatt på Instagram. Mio på sin side, gjør en sjokkerende oppdagelse.",
+        imgSrc: "/images/hjerteslag/hjerteslag-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Den andre daten",
+        episodeText:
+          "Mio bestemmer seg for å fortelle Anders at hun er gravid. Anders aner fred og ingen fare, og tror han skal på date.",
+        imgSrc: "/images/hjerteslag/hjerteslag-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 82,
-  title: "Den tynne blå linjen",
-  type: "series",
-  slug: "den-tynne-bla-linjen",
-  genre: ["Drama"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/den-tynne-bla-linjen/den-tynne-bla-linjen.jpeg",
-  backgroundSrc: "/images/den-tynne-bla-linjen/dtbl-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1",
-      episodeText:
-        "Nyutdannede Sara fra Umeå prøver å finne seg til rette i Malmø-politiet. Hun og partneren Magnus kalles ut når femåringen Belle forsvinner fra mor.",
-      imgSrc: "/images/den-tynne-bla-linjen/dtbl-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2",
-      episodeText:
-        "Politiet stormer et bordell, og Sara får ansvar for sårbare mennesker. Det vekker beskytterinstinktet i henne. Leahs morfar Jurek er sint på alle.",
-      imgSrc: "/images/den-tynne-bla-linjen/dtbl-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3",
-      episodeText:
-        "Stemningen forandrer seg brått mellom Sara og Magnus. Noe plager ham, men hva? Jesse blir urolig når han møter datteren Siri med nye kompiser.",
-      imgSrc: "/images/den-tynne-bla-linjen/dtbl-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 73,
+    title: "Kompani Lauritzen",
+    type: "series",
+    slug: "kompani-lauritzen",
+    genre: ["Reality"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/kompani-lauritzen/kompani-lauritzen.jpeg",
+    backgroundSrc: "/images/kompani-lauritzen/kompani-lauritzen-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Palmesjokk - del 1",
+        episodeText:
+          "En kald og våt overraskelse, beinhard disiplin, orden og total umyndiggjøring preger deltagernes første møte med Dag Ottos opplegg.",
+        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Palmesjokk - del 2",
+        episodeText:
+          "De fysiske testene fortsetter på Setnesmoen og rekruttene må lære seg grunnleggende vask og orden på kaserna.",
+        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Rekrutten - del 1",
+        episodeText:
+          "Rekruttene begynner for alvor å kjenne på utfordringene i sin nye militære hverdag og på kaserna sliter de med å innordne seg det strenge disiplinære regimet.",
+        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 83,
-  title: "Førstegangstjenesten",
-  type: "series",
-  slug: "forstegangstjenesten",
-  genre: ["Comedy"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/forstegangstjenesten/forstegangstjenesten.jpeg",
-  backgroundSrc: "/images/forstegangstjenesten/ft-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1: Pilot del 1",
-      episodeText:
-        "It's the first day in the military, but Lillehagen gets all of his weapons confiscated, and Halvorsen meets his biggest fear, drug dogs.",
-      imgSrc: "/images/forstegangstjenesten/ft-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2: Pilot del 2",
-      episodeText:
-        "The newbies face their first challenge. Gaup and Lillehagen practice in the shooting range, and Halvorsen has to eat brown cheese.",
-      imgSrc: "/images/forstegangstjenesten/ft-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3: No one to loose",
-      episodeText:
-        "Ahre-Ketil is trying to get back into the military and Ola Halvorsen is out in nature for the first time.",
-      imgSrc: "/images/forstegangstjenesten/ft-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 74,
+    title: "Märtha",
+    type: "series",
+    slug: "martha",
+    genre: ["Reality"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/martha/martha.jpeg",
+    backgroundSrc: "/images/martha/martha-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Veien tilbake",
+        episodeText:
+          "Ari Behns tragiske bortgang kommer som et sjokk på den lille familien. Veien tilbake til hverdagen er tøff, men den knytter også båndene mellom dem enda tettere sammen.",
+        imgSrc: "/images/martha/martha-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Tilbake på hesten",
+        episodeText:
+          "Etter Märtha sa fra seg tittelen som kongelig høyhet har hun j obbet som frilanser og gründer. Når samfunnet stenger blir dette vanskelig.",
+        imgSrc: "/images/martha/martha-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Kjærligheten mot janteloven",
+        episodeText:
+          "Etter mange måneder fra hverandre har Märthas kjæreste Durek endelig kommet til Norge. Nå skal han bo sammen med henne og barna i Lommedalen, og de er svært spent på hvordan han blir tatt imot i Norge.",
+        imgSrc: "/images/martha/martha-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 84,
-  title: "Kongen av Gulset",
-  type: "series",
-  slug: "kongen-av-gulset",
-  genre: ["Comedy"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/kongen-av-gulset/kongen-av-gulset.jpeg",
-  backgroundSrc: "/images/kongen-av-gulset/kag-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1: Kongen, Kollmyr & klasseskille",
-      episodeText:
-        "",
-      imgSrc: "/images/kongen-av-gulset/kag-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2: Kampfiksing, korrupsjon & katastrofevalg",
-      episodeText:
-        "",
-      imgSrc: "/images/kongen-av-gulset/kag-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3: Pene jenter, peacocking & pine",
-      episodeText:
-        "",
-      imgSrc: "/images/kongen-av-gulset/kag-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 75,
+    title: "Sommerhytta",
+    type: "series",
+    slug: "sommerhytta",
+    genre: ["Gameshow", "Family"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/sommerhytta/sommerhytta.jpeg",
+    backgroundSrc: "/images/sommerhytta/sommerhytta-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Episode 1",
+        episodeText:
+          "Deltagerparene ankommer vakre Mjøsli i Stange kommune. Vi blir kjent med tvillingsøstrene Trude og Trine, far og datter Kurt og Veronica, kjæresteparet Anna og Jone og venneparet Christine og Adrian.",
+        imgSrc: "/images/sommerhytta/sh-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Episode 2",
+        episodeText:
+          "Alle parene har nå valgt hver sin hytte som de skal pusse opp og gjøre til sin egen. Alle er godt i gang med sitt første ukesprosjekt, nemlig å lage et utekjøkken.",
+        imgSrc: "/images/sommerhytta/sh-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Episode 3",
+        episodeText:
+          "Det nye utekjøkkenet begynner å ta form hos flere, mens andre fortsatt har mye igjen. Deltakerne har også fått i oppgave å sette opp og plante vekster i et minidrivhus, noe som viser seg å by på utfordringer for enkelte.",
+        imgSrc: "/images/sommerhytta/sh-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 85,
-  title: "Maskorama",
-  type: "series",
-  slug: "maskorama",
-  genre: ["Music", "Gameshow", "Family"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/maskorama/maskorama.jpeg",
-  backgroundSrc: "/images/maskorama/mask-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1",
-      episodeText:
-        "Premiere! Hvem av de åtte syngende figurene klarer å imponere deg, og hvem blir den første til å måtte ta av masken?",
-      imgSrc: "/images/maskorama/mask-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2",
-      episodeText:
-        "Første deltaker er avmasket. I kveld er det sju deltakere som skal på scenen for å underholde deg. Klarer du å gjette hvem de er?",
-      imgSrc: "/images/maskorama/mask-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3",
-      episodeText:
-        "Det er fortsatt seks maskerte kjendiser med på leken. Hvem er din favoritt, og hvem må ta av seg masken?",
-      imgSrc: "/images/maskorama/mask-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 76,
+    title: "The Rookie",
+    type: "series",
+    slug: "the-rookie",
+    genre: ["Comedy", "Crime", "Drama"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/the-rookie/the-rookie.jpeg",
+    backgroundSrc: "/images/the-rookie/the-rookie-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1: Pilot",
+        episodeText:
+          "Small town guy John Nolan pursues his dream of being a police officer after a life-altering incident. As the force's oldest rookie he's met with skepticism from some higher-ups who see him as a walking mid-life crisis.",
+        imgSrc: "/images/the-rookie/the-rookie-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Crash Course",
+        episodeText:
+          "Talia forces Nolan to confront his personal moral inclinations after he encounters a kidnapping victim; Lucy is temporarily placed with a new training officer who tests her patience; and Jackson confronts his short-comings.",
+        imgSrc: "/images/the-rookie/the-rookie-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: The Good, the Bad and the Ugly",
+        episodeText:
+          "After Nolan and Talia lose control of a crime scene, they begin to debate whether people are fundamentally good or bad and what that means for a police officer.",
+        imgSrc: "/images/the-rookie/the-rookie-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 86,
-  title: "Maxitaxi Driver",
-  type: "series",
-  slug: "maxitaxi-driver",
-  genre: ["Comedy", "Drama"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/maxitaxi-driver/mtd.jpeg",
-  backgroundSrc: "/images/maxitaxi-driver/mtd-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1: Da han traff henne",
-      episodeText:
-        "Jan Egil svetter i samtalegruppa når han forteller at han har møtt drømmedama, og de vil ha bildebevis. I et klossete romantisk forsøk går alt galt.",
-      imgSrc: "/images/maxitaxi-driver/mtd-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2: Bit til det knaser",
-      episodeText:
-        "Politiet starter jakten på en uidentifisert sjåfør. Jan Egil møter en ukjent mann fra fortiden, og håpet om å kapre drømmedama får seg en knekk.",
-      imgSrc: "/images/maxitaxi-driver/mtd-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3: Hevn og hygge",
-      episodeText:
-        "Jan Egil er lei av å bli herset med, og tar saken i egne hender. Han vil fortelle Nadia hemmeligheten, og politiet får nye spor i jakten på sjåføren.",
-      imgSrc: "/images/maxitaxi-driver/mtd-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 77,
+    title: "The Voice",
+    type: "series",
+    slug: "the-voice",
+    genre: ["Music", "Family", "Gameshow"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/the-voice/the-voice.jpeg",
+    backgroundSrc: "/images/the-voice/the-voice-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Første blindaudition - del 1",
+        episodeText:
+          "To nye mentorer har inntatt de legendariske røde stolene denne sesongen. Matoma og Ina Wroldsen er sammen med Espen Lind og Yosef Wolde Mariam klare for å finne Norges beste stemme.",
+        imgSrc: "/images/the-voice/the-voice-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Første blindaudition - del 2",
+        episodeText:
+          "To nye mentorer har inntatt de legendariske røde stolene denne sesongen. Matoma og Ina Wroldsen er sammen med Espen Lind og Yosef Wolde Mariam klare for å finne Norges beste stemme.",
+        imgSrc: "/images/the-voice/the-voice-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Andre blindaudition - del 1",
+        episodeText:
+          "To nye mentorer har inntatt de legendariske røde stolene denne sesongen. Matoma og Ina Wroldsen er sammen med Espen Lind og Yosef Wolde Mariam klare for å finne Norges beste stemme.",
+        imgSrc: "/images/the-voice/the-voice-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 87,
-  title: "Norges Tøffeste",
-  type: "series",
-  slug: "norges-toffeste",
-  genre: ["Gameshow", "Family"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/norges-toffeste/norges-toffeste.jpeg",
-  backgroundSrc: "/images/norges-toffeste/nt-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1: Pangstart",
-      episodeText:
-        "Er dette leirskole eller skrekkfilm? Det rekker ikke deltakerne å finne ut av før Jørgine pusher dem til å stupe inn i konkurransen.",
-      imgSrc: "/images/norges-toffeste/nt-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2: Henge med gjengen",
-      episodeText:
-        "Noen skal ryke i kveldens triell, men de vil ikke slippe taket ennå. Og Funkygine blir overrumplet av deltakernes følelser.",
-      imgSrc: "/images/norges-toffeste/nt-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3: En for laget",
-      episodeText:
-        "Teamwork er ikke for alle. God stemning kan faktisk være ganske irriterende når man har vinnerskallen på.",
-      imgSrc: "/images/norges-toffeste/nt-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 78,
+    title: "Rådebank",
+    type: "series",
+    slug: "radebank",
+    genre: ["Drama"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/radebank/radebank.jpeg",
+    backgroundSrc: "/images/radebank/rb-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1: Parkert",
+        episodeText: "Singel og klar for fest.",
+        imgSrc: "/images/radebank/rb-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Hvit Poppy",
+        episodeText: "Det som skjer på Grivimoen, blir på Grivimoen.",
+        imgSrc: "/images/radebank/rb-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: Ute og sykler",
+        episodeText: "Forbudt frukt.",
+        imgSrc: "/images/radebank/rb-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 88,
-  title: "Parterapi",
-  type: "series",
-  slug: "parterapi",
-  genre: ["Comedy"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/parterapi/parterapi.jpeg",
-  backgroundSrc: "/images/parterapi/parterapi-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "1. Begynnelsen",
-      episodeText:
-        "Kjell-Simen har fått ny kjæreste, Maiken er høygravid og Marie må lære å slippe kontrollen.",
-      imgSrc: "/images/parterapi/parterapi-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "2. Motivasjonen",
-      episodeText:
-        "Cris er villig til å jobbe steinhard for forholdet, Signe syns Tormod prater for mye og Sara Eline har ikke gjort hjemmeleksen.",
-      imgSrc: "/images/parterapi/parterapi-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "3. Romantikken",
-      episodeText:
-        "Morten prøver å si at han er glad i Randi, Alex gir Sara Eline et ultimatum og Kjell Simen klarer ikke ha sex med Turid-Beate.",
-      imgSrc: "/images/parterapi/parterapi-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 79,
+    title: "Normal People",
+    type: "series",
+    slug: "normal-people",
+    genre: ["Drama", "Romance"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/normal-people/normal-people.jpeg",
+    backgroundSrc: "/images/normal-people/np-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1",
+        episodeText:
+          "In modern, rural Ireland, Connell and Marianne, on different ends of their school's social scene, begin an intense, secret affair.",
+        imgSrc: "/images/normal-people/np-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2",
+        episodeText:
+          "Marianne and Connell's affair continues, but the pressures of the outside world start to take their toll.",
+        imgSrc: "/images/normal-people/np-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3",
+        episodeText:
+          "Connell betrays Marianne by making a cowardly choice. Marianne withdraws from school, causing Connell intense guilt.",
+        imgSrc: "/images/normal-people/np-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 89,
-  title: "Side om side",
-  type: "series",
-  slug: "side-om-side",
-  genre: ["Comedy"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/side-om-side/side-om-side.jpeg",
-  backgroundSrc: "/images/side-om-side/sos-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1: Bryllup",
-      episodeText:
-        "Sesongpremiere!",
-      imgSrc: "/images/side-om-side/sos-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2: Rektor",
-      episodeText:
-        "Jonas får ny stilling på Granli skole, men får en sjalusibombe i fanget. Lisbeth og Frode blir invadert av en våryr Britt, og Celine sliter med å få datteren sin til å smile. Heldigvis for henne får hun hjelp av Silje og Gullestad.",
-      imgSrc: "/images/side-om-side/sos-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3: Velvikarer",
-      episodeText:
-        "Gullestad reiser bort og får Jonas og Frode til å steppe inn som velvikarer. Det skulle han ikke ha gjort. Celine kjeder seg som hjemmeværende mor og jobber hardt for å få tilbake et voksenliv. Heldigvis har hun Silje og Lisbeth.",
-      imgSrc: "/images/side-om-side/sos-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 80,
+    title: "Exit",
+    type: "series",
+    slug: "exit",
+    genre: ["Drama"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/exit/exit.jpeg",
+    backgroundSrc: "/images/exit/exit-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1: Steril",
+        episodeText:
+          "Adam's life only looks perfect, as he looks for thrills by drinking and doing drugs with his three best friends, Henrik, Jeppe, and William.",
+        imgSrc: "/images/exit/exit-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: William",
+        episodeText:
+          "The friends all meet up at William and Celine's party. The guys get high right away, and Jeppe advises Adam to fake impotence, should Hermine's fertility test results turn out as expected.",
+        imgSrc: "/images/exit/exit-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: Henrik",
+        episodeText:
+          "The guys meet up in William's hospital room and do coke. They give some to William, who wakes from his coma.",
+        imgSrc: "/images/exit/exit-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 90,
-  title: "Ulven kommer",
-  type: "series",
-  slug: "ulven-kommer",
-  genre: ["Crime", "Drama", "Mystery"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/ulven-kommer/ulven-kommer.jpeg",
-  backgroundSrc: "/images/ulven-kommer/uk-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1",
-      episodeText:
-        "14-year-old Holly has written a school essay in which she accuses her stepfather of physical abuse. The social services' most experienced social worker, Lars Madsen, is handed the case.",
-      imgSrc: "/images/ulven-kommer/uk-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2",
-      episodeText:
-        "With their children forcibly removed, Dea and Simon find themselves alone in the empty house. They decide to hire a lawyer to bring their own case against social services.",
-      imgSrc: "/images/ulven-kommer/uk-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3",
-      episodeText:
-        "Learning that Holly has a lively imagination, Lars begins to doubt her version of events. In an attempt to cheer Theo up, Holly writes to her mother, informing her that Theo will be at football practice.",
-      imgSrc: "/images/ulven-kommer/uk-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 81,
+    title: "The fall",
+    type: "series",
+    slug: "the-fall",
+    genre: ["Drama", "Crime", "Thriller"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/fall/fall.jpeg",
+    backgroundSrc: "/images/fall/fall_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 4: The hell within him",
+        episodeText:
+          "Gibson witnesses Sally-Ann’s despair as Burns faces up to his guilt at pursuing her as a conspirator. Gibson and Dr Larson, Spector’s psychiatrist, have conflicting views of Spector: is he patient or prisoner?",
+        imgSrc: "/images/fall/fall-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 5: Wounds of deadly hate",
+        episodeText:
+          "Dr Larson begins his assessment on Spector, who opens up about the life he can remember before his amnesia, while the killer's legal team remain determined he will never stand trial.",
+        imgSrc: "/images/fall/fall-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 6: Their solitary way",
+        episodeText:
+          "In the thrilling series finale, Gibson and Anderson present fresh evidence to Spector with cataclysmic results. Spector’s new friendship in the psychiatric facility develops with a shocking outcome.",
+        imgSrc: "/images/fall/fall-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 91,
-  title: "Alle mot 1",
-  type: "series",
-  slug: "alle-mot-1",
-  genre: ["Gameshow", "Family"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/alle-mot-1/alle-mot-1.jpeg",
-  backgroundSrc: "/images/alle-mot-1/am1-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "3. april",
-      episodeText: "",
-      imgSrc: "/images/alle-mot-1/am1-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "27. mars",
-      episodeText: "",
-      imgSrc: "/images/alle-mot-1/am1-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "20. mars",
-      episodeText: "",
-      imgSrc: "/images/alle-mot-1/am1-3.jpeg",
-    },
-  ],
-},
-{
-  id: 92,
-  title: "De neste",
-  type: "series",
-  slug: "de-neste",
-  genre: ["Music", "Family"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/de-neste/de-neste.jpeg",
-  backgroundSrc: "/images/de-neste/dn-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1",
-      episodeText:
-        "Talentene skal endelig fremføre sine første versjoner av artistenes hits, og artistene blir mildt sagt blåst av banen av talentenes skyhøye nivå.",
-      imgSrc: "/images/de-neste/dn-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2",
-      episodeText:
-        "Alle er litt mer husvarme, og talentene gir artistene hakeslepp, nytelse og en god latter når de fremfører sine 6 nye tolkninger.",
-      imgSrc: "/images/de-neste/dn-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3",
-      episodeText:
-        "Første låt treffer midt i hjertet, og setter standarden for en magisk aften med fantastiske tolkninger og store reaksjoner.",
-      imgSrc: "/images/de-neste/dn-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 82,
+    title: "Den tynne blå linjen",
+    type: "series",
+    slug: "den-tynne-bla-linjen",
+    genre: ["Drama"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/den-tynne-bla-linjen/den-tynne-bla-linjen.jpeg",
+    backgroundSrc: "/images/den-tynne-bla-linjen/dtbl-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1",
+        episodeText:
+          "Nyutdannede Sara fra Umeå prøver å finne seg til rette i Malmø-politiet. Hun og partneren Magnus kalles ut når femåringen Belle forsvinner fra mor.",
+        imgSrc: "/images/den-tynne-bla-linjen/dtbl-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2",
+        episodeText:
+          "Politiet stormer et bordell, og Sara får ansvar for sårbare mennesker. Det vekker beskytterinstinktet i henne. Leahs morfar Jurek er sint på alle.",
+        imgSrc: "/images/den-tynne-bla-linjen/dtbl-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3",
+        episodeText:
+          "Stemningen forandrer seg brått mellom Sara og Magnus. Noe plager ham, men hva? Jesse blir urolig når han møter datteren Siri med nye kompiser.",
+        imgSrc: "/images/den-tynne-bla-linjen/dtbl-3.jpeg",
+      },
+    ],
+  },
+
+  {
+    id: 83,
+    title: "Førstegangstjenesten",
+    type: "series",
+    slug: "forstegangstjenesten",
+    genre: ["Comedy"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/forstegangstjenesten/forstegangstjenesten.jpeg",
+    backgroundSrc: "/images/forstegangstjenesten/ft-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1: Pilot del 1",
+        episodeText:
+          "It's the first day in the military, but Lillehagen gets all of his weapons confiscated, and Halvorsen meets his biggest fear, drug dogs.",
+        imgSrc: "/images/forstegangstjenesten/ft-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Pilot del 2",
+        episodeText:
+          "The newbies face their first challenge. Gaup and Lillehagen practice in the shooting range, and Halvorsen has to eat brown cheese.",
+        imgSrc: "/images/forstegangstjenesten/ft-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: No one to loose",
+        episodeText:
+          "Ahre-Ketil is trying to get back into the military and Ola Halvorsen is out in nature for the first time.",
+        imgSrc: "/images/forstegangstjenesten/ft-3.jpeg",
+      },
+    ],
+  },
+
+  {
+    id: 84,
+    title: "Kongen av Gulset",
+    type: "series",
+    slug: "kongen-av-gulset",
+    genre: ["Comedy"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/kongen-av-gulset/kongen-av-gulset.jpeg",
+    backgroundSrc: "/images/kongen-av-gulset/kag-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1: Kongen, Kollmyr & klasseskille",
+        episodeText: "",
+        imgSrc: "/images/kongen-av-gulset/kag-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Kampfiksing, korrupsjon & katastrofevalg",
+        episodeText: "",
+        imgSrc: "/images/kongen-av-gulset/kag-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: Pene jenter, peacocking & pine",
+        episodeText: "",
+        imgSrc: "/images/kongen-av-gulset/kag-3.jpeg",
+      },
+    ],
+  },
+
+  {
+    id: 85,
+    title: "Maskorama",
+    type: "series",
+    slug: "maskorama",
+    genre: ["Music", "Gameshow", "Family"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/maskorama/maskorama.jpeg",
+    backgroundSrc: "/images/maskorama/mask-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1",
+        episodeText:
+          "Premiere! Hvem av de åtte syngende figurene klarer å imponere deg, og hvem blir den første til å måtte ta av masken?",
+        imgSrc: "/images/maskorama/mask-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2",
+        episodeText:
+          "Første deltaker er avmasket. I kveld er det sju deltakere som skal på scenen for å underholde deg. Klarer du å gjette hvem de er?",
+        imgSrc: "/images/maskorama/mask-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3",
+        episodeText:
+          "Det er fortsatt seks maskerte kjendiser med på leken. Hvem er din favoritt, og hvem må ta av seg masken?",
+        imgSrc: "/images/maskorama/mask-3.jpeg",
+      },
+    ],
+  },
+
+  {
+    id: 86,
+    title: "Maxitaxi Driver",
+    type: "series",
+    slug: "maxitaxi-driver",
+    genre: ["Comedy", "Drama"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/maxitaxi-driver/mtd.jpeg",
+    backgroundSrc: "/images/maxitaxi-driver/mtd-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1: Da han traff henne",
+        episodeText:
+          "Jan Egil svetter i samtalegruppa når han forteller at han har møtt drømmedama, og de vil ha bildebevis. I et klossete romantisk forsøk går alt galt.",
+        imgSrc: "/images/maxitaxi-driver/mtd-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Bit til det knaser",
+        episodeText:
+          "Politiet starter jakten på en uidentifisert sjåfør. Jan Egil møter en ukjent mann fra fortiden, og håpet om å kapre drømmedama får seg en knekk.",
+        imgSrc: "/images/maxitaxi-driver/mtd-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: Hevn og hygge",
+        episodeText:
+          "Jan Egil er lei av å bli herset med, og tar saken i egne hender. Han vil fortelle Nadia hemmeligheten, og politiet får nye spor i jakten på sjåføren.",
+        imgSrc: "/images/maxitaxi-driver/mtd-3.jpeg",
+      },
+    ],
+  },
+
+  {
+    id: 87,
+    title: "Norges Tøffeste",
+    type: "series",
+    slug: "norges-toffeste",
+    genre: ["Gameshow", "Family"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/norges-toffeste/norges-toffeste.jpeg",
+    backgroundSrc: "/images/norges-toffeste/nt-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1: Pangstart",
+        episodeText:
+          "Er dette leirskole eller skrekkfilm? Det rekker ikke deltakerne å finne ut av før Jørgine pusher dem til å stupe inn i konkurransen.",
+        imgSrc: "/images/norges-toffeste/nt-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Henge med gjengen",
+        episodeText:
+          "Noen skal ryke i kveldens triell, men de vil ikke slippe taket ennå. Og Funkygine blir overrumplet av deltakernes følelser.",
+        imgSrc: "/images/norges-toffeste/nt-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: En for laget",
+        episodeText:
+          "Teamwork er ikke for alle. God stemning kan faktisk være ganske irriterende når man har vinnerskallen på.",
+        imgSrc: "/images/norges-toffeste/nt-3.jpeg",
+      },
+    ],
+  },
+
+  {
+    id: 88,
+    title: "Parterapi",
+    type: "series",
+    slug: "parterapi",
+    genre: ["Comedy"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/parterapi/parterapi.jpeg",
+    backgroundSrc: "/images/parterapi/parterapi-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Begynnelsen",
+        episodeText:
+          "Kjell-Simen har fått ny kjæreste, Maiken er høygravid og Marie må lære å slippe kontrollen.",
+        imgSrc: "/images/parterapi/parterapi-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Motivasjonen",
+        episodeText:
+          "Cris er villig til å jobbe steinhard for forholdet, Signe syns Tormod prater for mye og Sara Eline har ikke gjort hjemmeleksen.",
+        imgSrc: "/images/parterapi/parterapi-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Romantikken",
+        episodeText:
+          "Morten prøver å si at han er glad i Randi, Alex gir Sara Eline et ultimatum og Kjell Simen klarer ikke ha sex med Turid-Beate.",
+        imgSrc: "/images/parterapi/parterapi-3.jpeg",
+      },
+    ],
+  },
+
+  {
+    id: 89,
+    title: "Side om side",
+    type: "series",
+    slug: "side-om-side",
+    genre: ["Comedy"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/side-om-side/side-om-side.jpeg",
+    backgroundSrc: "/images/side-om-side/sos-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1: Bryllup",
+        episodeText: "Sesongpremiere!",
+        imgSrc: "/images/side-om-side/sos-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Rektor",
+        episodeText:
+          "Jonas får ny stilling på Granli skole, men får en sjalusibombe i fanget. Lisbeth og Frode blir invadert av en våryr Britt, og Celine sliter med å få datteren sin til å smile. Heldigvis for henne får hun hjelp av Silje og Gullestad.",
+        imgSrc: "/images/side-om-side/sos-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: Velvikarer",
+        episodeText:
+          "Gullestad reiser bort og får Jonas og Frode til å steppe inn som velvikarer. Det skulle han ikke ha gjort. Celine kjeder seg som hjemmeværende mor og jobber hardt for å få tilbake et voksenliv. Heldigvis har hun Silje og Lisbeth.",
+        imgSrc: "/images/side-om-side/sos-3.jpeg",
+      },
+    ],
+  },
+
+  {
+    id: 90,
+    title: "Ulven kommer",
+    type: "series",
+    slug: "ulven-kommer",
+    genre: ["Crime", "Drama", "Mystery"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/ulven-kommer/ulven-kommer.jpeg",
+    backgroundSrc: "/images/ulven-kommer/uk-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1",
+        episodeText:
+          "14-year-old Holly has written a school essay in which she accuses her stepfather of physical abuse. The social services' most experienced social worker, Lars Madsen, is handed the case.",
+        imgSrc: "/images/ulven-kommer/uk-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2",
+        episodeText:
+          "With their children forcibly removed, Dea and Simon find themselves alone in the empty house. They decide to hire a lawyer to bring their own case against social services.",
+        imgSrc: "/images/ulven-kommer/uk-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3",
+        episodeText:
+          "Learning that Holly has a lively imagination, Lars begins to doubt her version of events. In an attempt to cheer Theo up, Holly writes to her mother, informing her that Theo will be at football practice.",
+        imgSrc: "/images/ulven-kommer/uk-3.jpeg",
+      },
+    ],
+  },
 
 {
   id: 93,
@@ -2851,74 +3083,74 @@ export const contentData = [
   ],
 },
 
-{
-  id: 96,
-  title: "Suffragette",
-  type: "movie",
-  slug: "suffragette",
-  genre: ["Drama", "History"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/suffragette/s.jpeg",
-  backgroundSrc: "/images/suffragette/s_big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Suffragette",
-      episodeText:
-        "In 1912 London, a young working mother is galvanized into radical political activism supporting the right for women to vote, and is willing to meet violence with violence to achieve this end.",
-      imgSrc: "/images/suffragette/s.jpeg",
-    },
-  ],
-},
+  {
+    id: 95,
+    title: "Psychobitch",
+    type: "movie",
+    slug: "psychobitch",
+    genre: ["Drama"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/psychobitch/p.jpeg",
+    backgroundSrc: "/images/psychobitch/p_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Psychobitch",
+        episodeText:
+          "Frida is different. Marius, on the other hand is the most perfect boy in class. When they have to work together at school, it's the start of a turbulent and challenging relationship. Generation Achievement meets impossible love.",
+        imgSrc: "/images/psychobitch/p.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 97,
-  title: "The king's speech",
-  type: "movie",
-  slug: "the-king's-speech",
-  genre: ["Biography", "Drama", "History"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/kings_speech/ks.jpeg",
-  backgroundSrc: "/images/kings_speech/ks_big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "The king's speech",
-      episodeText:
-        "The story of King George VI, his impromptu ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.",
-      imgSrc: "/images/kings_speech/ks.jpeg",
-    },
-  ],
-},
+  {
+    id: 96,
+    title: "Suffragette",
+    type: "movie",
+    slug: "suffragette",
+    genre: ["Drama", "History"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/suffragette/s.jpeg",
+    backgroundSrc: "/images/suffragette/s_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Suffragette",
+        episodeText:
+          "In 1912 London, a young working mother is galvanized into radical political activism supporting the right for women to vote, and is willing to meet violence with violence to achieve this end.",
+        imgSrc: "/images/suffragette/s.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 98,
-  title: "Florence",
-  type: "movie",
-  slug: "florence",
-  genre: ["Drama", "Comedy", "Biography"],
-  service: "NRK",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/florence/f.jpeg",
-  backgroundSrc: "/images/florence/f_big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Florence",
-      episodeText:
-        "The story of Florence Foster Jenkins, a New York heiress who dreamed of becoming an opera singer, despite having a terrible singing voice.",
-      imgSrc: "/images/florence/f.jpeg",
-    },
-  ],
-},
+  {
+    id: 97,
+    title: "The king's speech",
+    type: "movie",
+    slug: "the-king's-speech",
+    genre: ["Biography", "Drama", "History"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/kings_speech/ks.jpeg",
+    backgroundSrc: "/images/kings_speech/ks_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "The king's speech",
+        episodeText:
+          "The story of King George VI, his impromptu ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.",
+        imgSrc: "/images/kings_speech/ks.jpeg",
+      },
+    ],
+  },
 
 {
   id: 99,

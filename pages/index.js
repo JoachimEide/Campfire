@@ -15,61 +15,96 @@ export const getStaticProps = async () => {
 };
 
 export default function Home(props) {
+  const topCarouselShows = [
+    {
+      id: 1,
+      link: "/series/mandalorian",
+      alt: "mandalorian",
+      src: "/images/mandalorian/mandalorianthumb.jpg",
+    },
+    {
+      id: 2,
+      link: "/series/wandavision",
+      alt: "wandavision",
+      src: "/images/wandavision/WandaVision.png",
+    },
+    {
+      id: 3,
+      link: "series/the-falcon-and-the-winter-soldier",
+      alt: "The Falcon and the Winter Soldier",
+      src: "/images/falcon/falcon_big.jpeg",
+    },
+    {
+      id: 4,
+      link: "series/the-nevers",
+      alt: "The Nevers",
+      src: "/images/nevers/nevers_big.jpg",
+    },
+  ];
+
   return (
     <Layout
       socialStatus={props.socialStatus}
       event={props.event}
       friends={props.friendsDataList}
     >
-      <Topcarousel />
+      <Topcarousel shows={topCarouselShows} />
       <Services subscriptions={props.subscriptions} />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Popular now"
         contentArray={props.contentDataList}
         param="service"
-        paramValue="Disney+"
+        paramValue="disney"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Movies"
         param="type"
         paramValue="movie"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Popular on Netflix"
         param="service"
-        paramValue="Netflix"
+        paramValue="netflix"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Popular on HBO"
         param="service"
-        paramValue="Hbo Nordic"
+        paramValue="hbo"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Popular on Viaplay"
         param="service"
-        paramValue="Viaplay"
+        paramValue="viaplay"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Popular on TV2 Sumo"
         param="service"
-        paramValue="Tv2-Sumo"
+        paramValue="tv2"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
         title="Popular on NRK"
         param="service"
-        paramValue="NRK"
+        paramValue="nrk"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Sport"
         contentArray={props.contentDataList}
         param="genre"
-        paramValue="Sport"
+        paramValue="Action"
       />
       <ContentRow
         title="Action"

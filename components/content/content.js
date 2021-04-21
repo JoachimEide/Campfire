@@ -15,7 +15,14 @@ export default function Content(props) {
         ) : (
           ""
         )}
-        <div className={ContentStyle.container}>
+        <div
+          className={ContentStyle.container}
+          style={
+            !props.subscriptions[props.serviceAlt]
+              ? { filter: "grayscale(1)" }
+              : { filter: "none" }
+          }
+        >
           <Image
             className={ContentStyle.image}
             alt={props.alt}

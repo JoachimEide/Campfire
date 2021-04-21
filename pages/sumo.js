@@ -31,18 +31,20 @@ export default function Viaplay(props) {
       </div>
       <Topcarousel />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Movies"
         contentArray={props.contentDataList}
         param="service"
-        paramValue="Tv2-Sumo"
+        paramValue="tv2"
         param2="type"
         paramValue2="movie"
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Series"
         contentArray={props.contentDataList}
         param="service"
-        paramValue="Tv2-Sumo"
+        paramValue="tv2"
         param2="type"
         paramValue2="series"
       />

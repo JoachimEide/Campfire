@@ -1,6 +1,7 @@
 import { contentData } from "../data/content";
 import { friendsData } from "../data/friends";
 import Layout from "../components/layout";
+import ProfileTop from "../components/profile/profile-top";
 import TopFriends from "../components/profile/top-friends";
 import ReviewRow from "../components/profile/review-row";
 import ContentRow from "../components/content/content-row";
@@ -21,9 +22,11 @@ export default function Home(props) {
       event={props.event}
       friends={props.friendsDataList}
     >
+      <ProfileTop name="Joachim Woll Eide" imgSrc="/images/Joachim90.jpg" />
       <TopFriends />
       <ReviewRow title="My reviews" />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Watchlist"
         contentArray={props.contentDataList}
         param={false}
@@ -33,6 +36,7 @@ export default function Home(props) {
         arrayParam={props.watchList}
       />
       <ContentRow
+        subscriptions={props.subscriptions}
         title="Public watch history"
         history={true}
         contentArray={props.contentDataList}

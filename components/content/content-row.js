@@ -63,6 +63,8 @@ export default function ContentRow(props) {
           );
         }
         return content[param].includes(paramValue);
+      } else if (param === "id") {
+        return paramValue.includes(content[param]);
       } else if (param2 && paramValue2) {
         return content[param] === paramValue && content[param2] === paramValue2;
       } else {
@@ -79,6 +81,7 @@ export default function ContentRow(props) {
     props.paramValue2,
     props.arrayParam
   );
+
   return (
     <div className="content-row">
       <h2 className="content-header">{props.title}</h2>
@@ -93,6 +96,7 @@ export default function ContentRow(props) {
               serviceSrc={serviceLogo}
               serviceAlt={service}
               history={props.history}
+              subscriptions={props.subscriptions}
             />
           )
         )}

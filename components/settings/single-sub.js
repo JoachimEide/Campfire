@@ -1,7 +1,6 @@
 import SubStyle from "./single-sub.module.css";
 
 export default function Sub(props) {
-  console.log(props);
   return (
     <div
       style={{

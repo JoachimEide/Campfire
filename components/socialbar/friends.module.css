@@ -14,7 +14,7 @@
   cursor: pointer;
   display: flex;
   overflow: hidden;
-  border: 2px solid #3ffefb;
+  border: 2px solid;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -80,7 +80,7 @@
   opacity: 1;
   transition: 0.13s all linear;
   background: #0d0f14;
-  margin: 10px 0 30px 0;
+  margin: 10px 0 10px 0;
 }
 
 .friendClickActivePriv {
@@ -89,11 +89,33 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 0.13s all linear;
+  background: #0d0f14;
+  margin: 10px 0 10px 0;
+  transition: 0.13s all linear;
+}
+
+.friendClickActivePriv button {
+  outline: none;
+  font-family: din-2014, sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111820;
+  color: white;
+  text-align: center;
+  padding: 4px 5px;
+  width: 50%;
+  border-radius: 10px;
+  margin: 7px 5%;
+  z-index: 0;
+  transition: 0.13s all linear;
 }
 
 .friendClickActive button,
-.friendClick button,
-.friendClickActivePriv button {
+.friendClick button {
+  outline: none;
   font-family: din-2014, sans-serif;
   cursor: pointer;
   display: flex;
@@ -107,6 +129,7 @@
   border-radius: 10px;
   margin: 7px 5%;
   z-index: 0;
+  transition: 0.13s all linear;
 }
 
 .joinButton {
@@ -115,4 +138,8 @@
 
 .profileButton {
   border: 1px solid #e59740;
+}
+
+.hidden button {
+  display: none;
 }

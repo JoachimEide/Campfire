@@ -19,6 +19,11 @@ export default function Friend(props) {
       >
         <div
           className={FriendStyle.friendPic}
+          style={
+            props.online
+              ? { borderColor: "#3ffefb" }
+              : { borderColor: "#d3381e" }
+          }
           onClick={() => {
             setClickFriend(!clickFriend);
           }}
@@ -65,8 +70,23 @@ export default function Friend(props) {
             : FriendStyle.friendClickActive
         }
       >
-        <button className={FriendStyle.joinButton}>Join</button>
-        <button className={FriendStyle.profileButton}>Profile</button>
+        {props.status && props.online ? (
+          <button className={FriendStyle.joinButton}>Join</button>
+        ) : (
+          <></>
+        )}
+        <Link href={`/friends/${props.slug}`}>
+          <button
+            className={FriendStyle.profileButton}
+            style={
+              props.inSettings || !props.status
+                ? { width: "50%" }
+                : { width: "35%" }
+            }
+          >
+            Profile
+          </button>
+        </Link>
       </div>
       <style jsx>{`
         h2 {
