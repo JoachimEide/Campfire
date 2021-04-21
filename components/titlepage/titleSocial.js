@@ -7,23 +7,30 @@ export default function Socialbar(props) {
   const watchingThisShow = props.friends.filter((friend) => {
     return friend.nowWatching.id === props.id;
   });
-  const watchedThisShow = props.friends.map((friend, index) => {
-    let friendObj = {
-      key: index,
-      online: friend.online,
-      imgSrc: friend.imgSrc,
-      slug: friend.slug,
-      name: friend.name,
-      title: props.title,
-    };
-    friend.watchedShow.forEach((show) => {
-      if (show.id === props.id) {
-        friendObj.service = show.service;
-        friendObj.seasonAndEpisode = show.seasonAndEpisode;
-      }
+
+  const watchedThisShowCheck = () => {
+    let watchedShow = [];
+    let index = 0;
+    props.friends.map((friend) => {
+      friend.watchedShow.forEach((watch) => {
+        if (watch.id === props.id) {
+          let watchCopy = { ...watch };
+          watchCopy.key = index;
+          watchCopy.title = props.title;
+          watchCopy.online = friend.online;
+          watchCopy.name = friend.name;
+          watchCopy.imgSrc = friend.imgSrc;
+          watchCopy.slug = friend.slug;
+          watchedShow.push(watchCopy);
+          index++;
+        }
+      });
     });
-    return friendObj;
-  });
+    return watchedShow;
+  };
+
+  const watchedThisShow = watchedThisShowCheck();
+  console.log(watchedThisShow);
 
   return (
     <div
@@ -94,7 +101,7 @@ export default function Socialbar(props) {
         {watchedThisShow.map((friend) => {
           return (
             <TitleFriend
-              key={friend.id}
+              key={friend.key}
               status={props.status}
               name={friend.name}
               imgSrc={friend.imgSrc}
