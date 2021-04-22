@@ -51,7 +51,7 @@ export default function Friend(props) {
           >
             <p className={FriendStyle.friendName}>{props.name}</p>
             <p className={FriendStyle.friendInfo}>
-              {`${props.nowWatching.title} -`}
+              {`${props.nowWatching.title} `}
               {props.nowWatching.seasonAndEpisode}
             </p>
             <p className={FriendStyle.friendInfo}>

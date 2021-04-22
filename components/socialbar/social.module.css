@@ -77,3 +77,7 @@
   overflow: scroll;
   width: 100%;
 }
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}

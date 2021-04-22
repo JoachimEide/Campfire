@@ -33,7 +33,7 @@ export default function Content(props) {
           />
         </div>
         <div className={ContentStyle.titleService}>
-          <p className="thin-text">{props.alt}</p>
+          <p className={ContentStyle.title}>{props.alt}</p>
           <div className={ContentStyle.circle}>
             <img src={props.serviceSrc} alt={props.serviceAlt} />
           </div>

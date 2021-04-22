@@ -13,7 +13,7 @@ export const friendsData = [
     },
     friends: [4, 7, 9, 11],
     watchList: [8, 41, 30, 77],
-    watchedShow: [{ id: 1, seasonAndEpisode: "S2E6", service: "Disney+" }],
+    watchedShow: [{ id: 1, seasonAndEpisode: "-S2E6", service: "Disney+" }],
     reviews: [{ id: 1, score: 10, reviewText: "Best show ever!" }],
   },
   {
@@ -30,7 +30,7 @@ export const friendsData = [
     },
     friends: [4, 7, 9, 11],
     watchList: [8, 41, 30, 77],
-    watchedShow: [{ id: 1, seasonAndEpisode: "S2E6", service: "Disney+" }],
+    watchedShow: [{ id: 1, seasonAndEpisode: "-S2E6", service: "Disney+" }],
     reviews: [{ id: 1, score: 10, reviewText: "Best show ever!" }],
   },
   {
@@ -47,7 +47,7 @@ export const friendsData = [
     },
     friends: [4, 7, 9, 11],
     watchList: [8, 41, 30, 77],
-    watchedShow: [{ id: 1, seasonAndEpisode: "S2E6", service: "Disney+" }],
+    watchedShow: [{ id: 1, seasonAndEpisode: "-S2E6", service: "Disney+" }],
     reviews: [{ id: 1, score: 10, reviewText: "Best show ever!" }],
   },
   {
@@ -64,7 +64,7 @@ export const friendsData = [
     },
     friends: [4, 7, 9, 11],
     watchList: [8, 41, 30, 77],
-    watchedShow: [{ id: 1, seasonAndEpisode: "S2E6", service: "Disney+" }],
+    watchedShow: [{ id: 1, seasonAndEpisode: "-S2E6", service: "Disney+" }],
     reviews: [{ id: 1, score: 10, reviewText: "Best show ever!" }],
   },
   {
@@ -76,7 +76,7 @@ export const friendsData = [
     nowWatching: { id: false, title: "Offline", episode: "", service: "" },
     friends: [4, 7, 9, 11],
     watchList: [8, 41, 30, 77],
-    watchedShow: [{ id: 1, seasonAndEpisode: "S2E6", service: "Disney+" }],
+    watchedShow: [{ id: 1, seasonAndEpisode: "-S2E6", service: "Disney+" }],
     reviews: [{ id: 1, score: 10, reviewText: "Best show ever!" }],
   },
 ];

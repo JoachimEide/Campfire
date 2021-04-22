@@ -36,15 +36,13 @@ export default function Nav(props) {
             />
           </a>
         </Link>
-        <Link href="/notification">
-          <a>
-            <img
-              className={NavStyle.notificationIcon}
-              alt="notification"
-              src="/images/notification.svg"
-            />
-          </a>
-        </Link>
+        <div>
+          <img
+            className={NavStyle.notificationIcon}
+            alt="notification"
+            src="/images/notification.svg"
+          />
+        </div>
       </div>
       <style jsx>{`
         a,

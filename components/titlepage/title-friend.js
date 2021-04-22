@@ -66,7 +66,7 @@ export default function TitleFriend(props) {
             : FriendStyle.friendClickActive
         }
       >
-        {props.status && props.online ? (
+        {props.status && props.online && props.now ? (
           <button className={FriendStyle.joinButton}>Join</button>
         ) : (
           <></>

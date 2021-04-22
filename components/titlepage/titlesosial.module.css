@@ -92,3 +92,7 @@
   align-items: center;
   overflow: scroll;
 }
+
+.scrollContainer::-webkit-scrollbar {
+  display: none;
+}

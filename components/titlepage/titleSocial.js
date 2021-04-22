@@ -83,6 +83,7 @@ export default function Socialbar(props) {
           return (
             <TitleFriend
               key={friend.id}
+              now={true}
               status={props.status}
               name={friend.name}
               imgSrc={friend.imgSrc}
@@ -102,6 +103,7 @@ export default function Socialbar(props) {
           return (
             <TitleFriend
               key={friend.key}
+              now={false}
               status={props.status}
               name={friend.name}
               imgSrc={friend.imgSrc}

@@ -1,7 +1,10 @@
+import { useState } from "react";
 import Link from "next/link";
 import NavStyle from "./nav.module.css";
+import Notifications from "./notifications";
 
 export default function Nav(props) {
+  const [notificationClick, setNotificationClick] = useState(false);
   return (
     <nav
       className={NavStyle.nav}
@@ -62,17 +65,20 @@ export default function Nav(props) {
             />
           </a>
         </Link>
-        <Link href="/notification">
-          <a>
-            <img
-              className={NavStyle.notificationIcon}
-              alt="notification"
-              src="/images/notification.svg"
-            />
-          </a>
-        </Link>
+        <div>
+          <img
+            onClick={() => {
+              setNotificationClick(!notificationClick);
+            }}
+            className={NavStyle.notificationIcon}
+            alt="notification"
+            src="/images/notification.svg"
+          />
+          <Notifications clicked={notificationClick} />
+        </div>
       </div>
       <style jsx>{`
+        div,
         a,
         p {
           padding: 3px;

@@ -63,3 +63,14 @@ h2 {
 .slick-disabled {
   opacity: 0% !important;
 }
+
+.player-wrapper {
+  position: relative;
+  padding-top: calc(591.44 / 1127.34 * 100%);
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
