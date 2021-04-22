@@ -8,7 +8,7 @@ export default function ProfileDetails() {
       <img
         className={ProfileDetailsStyle.profilePic}
         alt="profile pic"
-        src="/images/Joachim90.jpg"
+        src="/images/profile_pic.png"
       />
 
       <div className={ProfileDetailsStyle.text}>

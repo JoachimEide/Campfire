@@ -22,7 +22,7 @@ export default function Home(props) {
       event={props.event}
       friends={props.friendsDataList}
     >
-      <ProfileTop name="Joachim Woll Eide" imgSrc="/images/Joachim90.jpg" />
+      <ProfileTop name="Pia Eriksen" imgSrc="/images/profile_pic.png" />
       <TopFriends
         yourFriends={props.yourFriends}
         friends={props.friendsDataList}

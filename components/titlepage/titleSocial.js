@@ -56,14 +56,14 @@ export default function Socialbar(props) {
           >
             <Image
               alt="profile pic"
-              src="/images/Joachim90.jpg"
+              src="/images/profile_pic.png"
               width={90}
               height={90}
               layout="intrinsic"
             />
           </a>
         </Link>
-        <h2>Joachim Woll Eide</h2>
+        <h2>Pia Eriksen</h2>
       </div>
       <button
         onClick={() => {
