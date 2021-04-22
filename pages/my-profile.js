@@ -23,7 +23,10 @@ export default function Home(props) {
       friends={props.friendsDataList}
     >
       <ProfileTop name="Joachim Woll Eide" imgSrc="/images/Joachim90.jpg" />
-      <TopFriends />
+      <TopFriends
+        yourFriends={props.yourFriends}
+        friends={props.friendsDataList}
+      />
       <ReviewRow
         title="My reviews"
         contentArray={props.contentDataList}

@@ -1,91 +1,64 @@
-import Link from "next/link";
+import { useState } from "react";
+import Friend from "./friend";
 import TopFriendsStyle from "./top-friends.module.css";
 
-export default function TopFriends() {
+export default function TopFriends(props) {
+  const [allFriendsClick, setAllFriendsClick] = useState(false);
+
+  const topFriendArray = props.friends.filter((friend) => {
+    return props.yourFriends.includes(friend.id);
+  });
+  const topThreeFriends = topFriendArray.slice(0, 3);
+  const restFriends = topFriendArray.slice(3);
+  console.log(restFriends);
   return (
     <div className={TopFriendsStyle.container}>
       <h2 className="content-header">Top friends</h2>
 
       <div className={TopFriendsStyle.friendContainer}>
-        <div className={TopFriendsStyle.friend}>
-          <img
-            className={TopFriendsStyle.friendProfilePic}
-            alt="friend profile pic"
-            src="/images/Joachim90.jpg"
-          />
-
-          <div>
-            <div className={TopFriendsStyle.friendName}>
-              <p>Thomas Lund</p>
-            </div>
-            <div className={TopFriendsStyle.friendOptions}>
-              <p className="thin-text">Invite</p>
-              <Link href="/my-profile">
-                <a>
-                  <p className="thin-text">Profile</p>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className={TopFriendsStyle.friend}>
-          <img
-            className={TopFriendsStyle.friendProfilePic}
-            alt="friend profile pic"
-            src="/images/Joachim90.jpg"
-          />
-
-          <div>
-            <div className={TopFriendsStyle.friendName}>
-              <p>Sebastian Ali</p>
-            </div>
-            <div className={TopFriendsStyle.friendOptions}>
-              <p className="thin-text">Invite</p>
-              <Link href="/my-profile">
-                <a>
-                  <p className="thin-text">Profile</p>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className={TopFriendsStyle.friend}>
-          <img
-            className={TopFriendsStyle.friendProfilePic}
-            alt="friend profile pic"
-            src="/images/Joachim90.jpg"
-          />
-
-          <div>
-            <div className={TopFriendsStyle.friendName}>
-              <p>Therese Engh</p>
-            </div>
-            <div className={TopFriendsStyle.friendOptions}>
-              <p className="thin-text">Invite</p>
-              <Link href="/my-profile">
-                <a>
-                  <p className="thin-text">Profile</p>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className={TopFriendsStyle.buttonContainer}>
+        {topThreeFriends.map((friend) => {
+          return (
+            <Friend
+              name={friend.name}
+              imgSrc={friend.imgSrc}
+              slug={friend.slug}
+            />
+          );
+        })}
+        <div
+          className={TopFriendsStyle.buttonContainer}
+          onClick={() => {
+            setAllFriendsClick(!allFriendsClick);
+          }}
+        >
           <div className={TopFriendsStyle.allFriends}>
             <p>All friends</p>
           </div>
           <div className={TopFriendsStyle.addFriends}>
             <p>Add friends</p>
             <img
-            className={TopFriendsStyle.addIcon}
-            alt="add icon"
-            src="/images/addIcon.svg" 
+              className={TopFriendsStyle.addIcon}
+              alt="add icon"
+              src="/images/addIcon.svg"
             />
           </div>
         </div>
       </div>
+      {allFriendsClick ? (
+        <div className={TopFriendsStyle.restOfFriends}>
+          {restFriends.map((friend) => {
+            return (
+              <Friend
+                name={friend.name}
+                imgSrc={friend.imgSrc}
+                slug={friend.slug}
+              />
+            );
+          })}
+        </div>
+      ) : (
+        <></>
+      )}
     </div>
   );
 }

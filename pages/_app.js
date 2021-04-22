@@ -29,6 +29,7 @@ export default function App({ Component, pageProps }) {
     viaplay: true,
     tv2: true,
   });
+  const [yourFriends, setYourFriends] = useState([5, 3, 1, 2, 4]);
   const [reviews, setReviews] = useState(myReviews);
   const [watchHistory, setWatchHistory] = useState([]);
   const [watchList, setWatchList] = useState([]);
@@ -60,6 +61,7 @@ export default function App({ Component, pageProps }) {
       {...pageProps}
       event={statusEvent}
       socialStatus={socialStatus}
+      yourFriends={yourFriends}
       subscriptions={subscriptions}
       subEvent={subEvent}
       reviews={reviews}

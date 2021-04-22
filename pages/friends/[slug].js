@@ -38,7 +38,10 @@ export default function ProfilePageFactory(props) {
       friends={props.friendsDataList}
     >
       <ProfileTop name={props.friend.name} imgSrc={props.friend.imgSrc} />
-      <TopFriends />
+      <TopFriends
+        friends={props.friendsDataList}
+        yourFriends={props.friend.friends}
+      />
       <ReviewRow
         title={`${props.friend.name}'s reviews`}
         reviews={props.friend.reviews}

@@ -1,0 +1,28 @@
+.friend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.friendProfilePic {
+  display: flex;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 7px;
+}
+
+.nameOptionContainer {
+  margin-left: 10px;
+}
+
+.friendName {
+  margin-top: 7px;
+}
+
+.friendOptions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
