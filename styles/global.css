@@ -17,6 +17,10 @@ h1 {
   margin-bottom: 4px;
 }
 
+h2 {
+  font-weight: 600;
+}
+
 a,
 p,
 h3,

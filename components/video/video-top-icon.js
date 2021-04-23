@@ -11,7 +11,12 @@ export default function VideoTop(props) {
           props.event(!props.target);
         }}
       />
-      <Invites click={props.target} event={props.event} />
+      <Invites
+        click={props.target}
+        event={props.event}
+        friends={props.friends}
+        yourFriends={props.yourFriends}
+      />
       <style jsx>{`
         .container {
           display: flex;
