@@ -16,9 +16,9 @@ export default function Nav(props) {
             return cont;
           }
         })
-        .map(({ id, title, slug, service, serviceLogo, thumbnailSrc }) => (
+        .map(({ title, slug, service, serviceLogo, thumbnailSrc }, index) => (
           <Content
-            key={id}
+            key={index}
             link={`/series/${slug}`}
             alt={title}
             src={thumbnailSrc}
