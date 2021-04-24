@@ -26,7 +26,16 @@ export default function VideoFriend(props) {
         <div className={FriendStyle.nameButtonWrapper}>
           <p className={FriendStyle.friendName}>{props.name}</p>
           <div className={FriendStyle.friendClick}>
-            <button className={FriendStyle.joinButton}>Invite</button>
+            <button
+              className={FriendStyle.joinButton}
+              style={
+                props.online
+                  ? { borderColor: "#3ffefb" }
+                  : { borderColor: "#d3381e" }
+              }
+            >
+              Invite
+            </button>
           </div>
         </div>
       </div>

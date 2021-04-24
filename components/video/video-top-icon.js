@@ -1,8 +1,13 @@
+import Link from "next/link";
 import Invites from "./invites";
+import TopStyle from "./video-top-icons.module.css";
 
 export default function VideoTop(props) {
   return (
     <div className="container">
+      <Link href="/">
+        <a className={TopStyle.close}></a>
+      </Link>
       <img
         className="icon"
         src="/images/social_button.svg"

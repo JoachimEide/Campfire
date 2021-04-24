@@ -22,9 +22,10 @@ export default function Invite(props) {
         }}
       ></div>
       <div style={{ marginTop: "20%" }}>
-        {friends.map((friend) => {
+        {friends.map((friend, index) => {
           return (
             <FriendInvite
+              key={index}
               name={friend.name}
               slug={friend.slug}
               imgSrc={friend.imgSrc}
