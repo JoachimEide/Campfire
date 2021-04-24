@@ -24,6 +24,7 @@ export default function Episode(props) {
           font-size: 1.1rem;
           margin-top: 1.5rem;
           margin-bottom: 1rem;
+          font-weight: 600;
         }
       `}</style>
     </div>

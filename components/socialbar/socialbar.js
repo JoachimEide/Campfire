@@ -84,6 +84,7 @@ export default function Socialbar(props) {
         }
         h3 {
           padding: 5px;
+          font-weight: 600;
         }
         p {
           margin-left: 15px;

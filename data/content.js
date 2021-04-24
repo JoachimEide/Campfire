@@ -159,7 +159,8 @@ export const contentData = [
       {
         id: 1,
         title: "The Invisible Man",
-        episodeText: "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
+        episodeText:
+          "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
         imgSrc: "/images/theinvisibleman/1.jpeg",
       },
     ],
@@ -207,7 +208,7 @@ export const contentData = [
         imgSrc: "/images/disco/disco.jpeg",
       },
     ],
-  }, 
+  },
   {
     id: 28,
     title: "His dark materials",
@@ -318,19 +319,22 @@ export const contentData = [
       {
         id: 1,
         title: "Episode 22: Founder's Day",
-        episodeText: "Damon and Alaric try to stop John Gilbert from setting a plan in motion to bring Founder's Day to an end amid chaos, destruction and death.",
+        episodeText:
+          "Damon and Alaric try to stop John Gilbert from setting a plan in motion to bring Founder's Day to an end amid chaos, destruction and death.",
         imgSrc: "/images/thevampirediaries/1.jpeg",
       },
       {
         id: 2,
         title: "Episode 21: Isobel",
-        episodeText: "Isobel returns to town and stuns Alaric with her attitude and her demands that he arrange a meeting with Elena.",
+        episodeText:
+          "Isobel returns to town and stuns Alaric with her attitude and her demands that he arrange a meeting with Elena.",
         imgSrc: "/images/thevampirediaries/2.jpeg",
       },
       {
         id: 3,
         title: "Episode 20: Blood Brothers",
-        episodeText: "Elena learns what happened when Damon and Stefan were turned. Pearl has an ugly confrontation with John Gilbert. Jeremy and Anna get closer.",
+        episodeText:
+          "Elena learns what happened when Damon and Stefan were turned. Pearl has an ugly confrontation with John Gilbert. Jeremy and Anna get closer.",
         imgSrc: "/images/thevampirediaries/3.jpeg",
       },
     ],
@@ -373,7 +377,7 @@ export const contentData = [
   },
   {
     id: 1,
-    title: "Mandolorian",
+    title: "Mandalorian",
     type: "series",
     slug: "mandalorian",
     watched: true,
@@ -488,7 +492,8 @@ export const contentData = [
       {
         id: 1,
         title: "Spider-Man: Homecoming",
-        episodeText: "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+        episodeText:
+          "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
         imgSrc: "/images/spiderman/1.jpeg",
       },
     ],
@@ -763,19 +768,22 @@ export const contentData = [
       {
         id: 1,
         title: "Episode 22: Sona",
-        episodeText: "Michael races against the clock to rescue Lincoln and beat Mahone at his own end game.",
+        episodeText:
+          "Michael races against the clock to rescue Lincoln and beat Mahone at his own end game.",
         imgSrc: "/images/prisonbreak/1.jpeg",
       },
       {
         id: 2,
         title: "Episode 21: Fin del camino",
-        episodeText: "Linc finds Michael is gone from their Christina Rose yacht after receiving Sucre's message.",
+        episodeText:
+          "Linc finds Michael is gone from their Christina Rose yacht after receiving Sucre's message.",
         imgSrc: "/images/prisonbreak/2.jpeg",
       },
       {
         id: 3,
         title: "Episode 20: Panama",
-        episodeText: "Now Caroline Reynolds has stepped down as president, she can no longer sign a pardon, so the brothers must immediately disappear, forever.",
+        episodeText:
+          "Now Caroline Reynolds has stepped down as president, she can no longer sign a pardon, so the brothers must immediately disappear, forever.",
         imgSrc: "/images/prisonbreak/3.jpeg",
       },
     ],
@@ -884,7 +892,8 @@ export const contentData = [
       {
         id: 1,
         title: "Angel has Fallen",
-        episodeText: "Mike Banning is framed for the attempted assassination of the President and must evade his own agency and the FBI as he tries to uncover the real threat.",
+        episodeText:
+          "Mike Banning is framed for the attempted assassination of the President and must evade his own agency and the FBI as he tries to uncover the real threat.",
         imgSrc: "/images/angelhasfallen/1.jpeg",
       },
     ],
@@ -927,7 +936,8 @@ export const contentData = [
       {
         id: 1,
         title: "I Still Believe",
-        episodeText: "The true-life story of Christian music star Jeremy Camp and his journey of love and loss that looks to prove there is always hope.",
+        episodeText:
+          "The true-life story of Christian music star Jeremy Camp and his journey of love and loss that looks to prove there is always hope.",
         imgSrc: "/images/istillbelieve/1.jpeg",
       },
     ],
@@ -1552,7 +1562,8 @@ export const contentData = [
       {
         id: 3,
         title: "Episode 21: Play It Again, Brian",
-        episodeText: "Brian decides to declare his love for Lois as she and Peter accompany him to a writers' convention, and the Griffin kids are babysat by Herbert.",
+        episodeText:
+          "Brian decides to declare his love for Lois as she and Peter accompany him to a writers' convention, and the Griffin kids are babysat by Herbert.",
         imgSrc: "/images/uglybetty/3.jpeg",
       },
     ],
@@ -1574,13 +1585,15 @@ export const contentData = [
       {
         id: 3,
         title: "Episode 1: A Change Is Gonna Come",
-        episodeText: "The interns, now residents, deal with their own crops of interns. Callie struggles with her new position, and Burke makes a decision.",
+        episodeText:
+          "The interns, now residents, deal with their own crops of interns. Callie struggles with her new position, and Burke makes a decision.",
         imgSrc: "/images/greysanotomy/1.jpeg",
       },
       {
         id: 2,
         title: "Episode 2: Love/Addiction",
-        episodeText: "Lexie persists in trying to get to know Meredith, and Mama Burke descends once more.",
+        episodeText:
+          "Lexie persists in trying to get to know Meredith, and Mama Burke descends once more.",
         imgSrc: "/images/greysanotomy/2.jpeg",
       },
       {
@@ -1608,13 +1621,15 @@ export const contentData = [
       {
         id: 1,
         title: "Episode 24: The Replicator",
-        episodeText: "Immediately following the Ecstacy case in New York City, the Replicator has hacked into Garcia's computer system, on which he posts photographs of each of the team members in New York and his 'Zugzwang' calling card.",
+        episodeText:
+          "Immediately following the Ecstacy case in New York City, the Replicator has hacked into Garcia's computer system, on which he posts photographs of each of the team members in New York and his 'Zugzwang' calling card.",
         imgSrc: "/images/criminalminds/1.jpg",
       },
       {
         id: 2,
         title: "Episode 23: Brothers Hotchner",
-        episodeText: "Hotch receives a telephone call from his estranged New York based brother Sean, who he has not heard from in four years and coincidentally while Hotch and Jack are in New York visiting Beth.",
+        episodeText:
+          "Hotch receives a telephone call from his estranged New York based brother Sean, who he has not heard from in four years and coincidentally while Hotch and Jack are in New York visiting Beth.",
         imgSrc: "/images/criminalminds/2.jpeg",
       },
       {
@@ -1646,7 +1661,7 @@ export const contentData = [
         imgSrc: "/images/thehobbit/1.jpeg",
       },
     ],
-  },  
+  },
   {
     id: 50,
     title: "Fifty Shades of Grey",
@@ -1714,7 +1729,7 @@ export const contentData = [
         imgSrc: "/images/crazystupidlove/1.jpeg",
       },
     ],
-  },  
+  },
   {
     id: 54,
     title: "Minions",
@@ -1873,7 +1888,7 @@ export const contentData = [
         imgSrc: "/images/denmarknorway/1.jpeg",
       },
     ],
-  }, 
+  },
   {
     id: 63,
     title: "Fjols til fjells",
@@ -1890,7 +1905,8 @@ export const contentData = [
       {
         id: 1,
         title: "Fjols til fjells",
-        episodeText: "Everything that can go wrong goes wrong when care free ski bums, frustrated cabin owners, skiing Danes and partying youngsters team up on a Norwegian mountain resort with a very absent hotel manager.",
+        episodeText:
+          "Everything that can go wrong goes wrong when care free ski bums, frustrated cabin owners, skiing Danes and partying youngsters team up on a Norwegian mountain resort with a very absent hotel manager.",
         imgSrc: "/images/fjolstilfjells/1.jpeg",
       },
     ],
@@ -1918,249 +1934,249 @@ export const contentData = [
     ],
   },
 
-{
-  id: 66,
-  title: "Knives Out",
-  type: "movie",
-  slug: "knives-out",
-  genre: ["Comedy", "Crime", "Drama"],
-  service: "tv2",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/knives-out/knives-out.jpeg",
-  backgroundSrc: "/images/knives-out/knives-out-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Knives Out",
-      episodeText:
-        "A detective investigates the death of a patriarch of an eccentric, combative family.",
-      imgSrc: "/images/knives-out/knives-out.jpeg",
-    },
-  ],
-},
-{
-  id: 68,
-  title: "Alle elsker David",
-  type: "series",
-  slug: "alle-elsker-david",
-  genre: ["Reality"],
-  service: "tv2",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/alle-elsker-david/alle-elsker-david.jpeg",
-  backgroundSrc: "/images/alle-elsker-david/aed-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "1. Livet",
-      episodeText:
-        "Vi blir kjent med manager og familiemann David Eriksen som leder sine mange profiler samtidig som han sjonglerer livet med sin utradisjonelle familie.",
-      imgSrc: "/images/alle-elsker-david/aed-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "2. Familien",
-      episodeText:
-        "Lucas fyller 18 år og feirer med familien, til tross for foreldrenes skilsmisse. David blir pushet om familieforøkelse. Dette er et ømt tema, spesielt for Andrea.",
-      imgSrc: "/images/alle-elsker-david/aed-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "3. Le Club 53",
-      episodeText:
-        "Andrea og Hedvig planlegger overraskelsesbursdag for David. Stemor og stedatter hadde en trøblete start, men kommer nå nærmere hverandre.",
-      imgSrc: "/images/alle-elsker-david/aed-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 66,
+    title: "Knives Out",
+    type: "movie",
+    slug: "knives-out",
+    genre: ["Comedy", "Crime", "Drama"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/knives-out/knives-out.jpeg",
+    backgroundSrc: "/images/knives-out/knives-out-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Knives Out",
+        episodeText:
+          "A detective investigates the death of a patriarch of an eccentric, combative family.",
+        imgSrc: "/images/knives-out/knives-out.jpeg",
+      },
+    ],
+  },
+  {
+    id: 68,
+    title: "Alle elsker David",
+    type: "series",
+    slug: "alle-elsker-david",
+    genre: ["Reality"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/alle-elsker-david/alle-elsker-david.jpeg",
+    backgroundSrc: "/images/alle-elsker-david/aed-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Livet",
+        episodeText:
+          "Vi blir kjent med manager og familiemann David Eriksen som leder sine mange profiler samtidig som han sjonglerer livet med sin utradisjonelle familie.",
+        imgSrc: "/images/alle-elsker-david/aed-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Familien",
+        episodeText:
+          "Lucas fyller 18 år og feirer med familien, til tross for foreldrenes skilsmisse. David blir pushet om familieforøkelse. Dette er et ømt tema, spesielt for Andrea.",
+        imgSrc: "/images/alle-elsker-david/aed-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Le Club 53",
+        episodeText:
+          "Andrea og Hedvig planlegger overraskelsesbursdag for David. Stemor og stedatter hadde en trøblete start, men kommer nå nærmere hverandre.",
+        imgSrc: "/images/alle-elsker-david/aed-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 69,
-  title: "Best før",
-  type: "series",
-  slug: "best-for",
-  genre: ["Comedy"],
-  service: "tv2",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/best-for/best-for.jpeg",
-  backgroundSrc: "/images/best-for/best-for-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1, 
-      title: "1. Hitler Danielsen",
-      episodeText:
-        "Forholdet mellom Lena og Anemone har surnet kraftig etter bryllupet til Morten og Anemone. Morten ber Lena skjerpe seg og slutte å lyve så mye. Lena vedder med Morten om at hun kan være løgnfri i to døgn. Hvis hun taper, må hun flytte fra gården.",
-      imgSrc: "/images/best-for/best-for-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "2. Regelmytteri",
-      episodeText:
-        "Anemone gir Lena noen regler for samvær i gården, og truer med politianmeldelse hvis Lena ikke overholder reglene. Siste og desperate utvei for Lena, er å bli venninne med Anemone.",
-      imgSrc: "/images/best-for/best-for-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "3. Forbudte følelser",
-      episodeText:
-        "Lena oppdager at Astrid og Jan er invitert på parmiddag til Morten og Anemone. For å ta hevn på Astrid, blir Lena venninne med Jans ekskjæreste, Silya, som Astrid har et ganske anstrengt forhold til.",
-      imgSrc: "/images/best-for/best-for-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 69,
+    title: "Best før",
+    type: "series",
+    slug: "best-for",
+    genre: ["Comedy"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/best-for/best-for.jpeg",
+    backgroundSrc: "/images/best-for/best-for-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Hitler Danielsen",
+        episodeText:
+          "Forholdet mellom Lena og Anemone har surnet kraftig etter bryllupet til Morten og Anemone. Morten ber Lena skjerpe seg og slutte å lyve så mye. Lena vedder med Morten om at hun kan være løgnfri i to døgn. Hvis hun taper, må hun flytte fra gården.",
+        imgSrc: "/images/best-for/best-for-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Regelmytteri",
+        episodeText:
+          "Anemone gir Lena noen regler for samvær i gården, og truer med politianmeldelse hvis Lena ikke overholder reglene. Siste og desperate utvei for Lena, er å bli venninne med Anemone.",
+        imgSrc: "/images/best-for/best-for-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Forbudte følelser",
+        episodeText:
+          "Lena oppdager at Astrid og Jan er invitert på parmiddag til Morten og Anemone. For å ta hevn på Astrid, blir Lena venninne med Jans ekskjæreste, Silya, som Astrid har et ganske anstrengt forhold til.",
+        imgSrc: "/images/best-for/best-for-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 70,
-  title: "Bloggerne",
-  type: "series",
-  slug: "bloggerne",
-  genre: ["Reality"],
-  service: "tv2",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/bloggerne/bloggerne.jpeg",
-  backgroundSrc: "/images/bloggerne/bloggerne-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "1. Æ føle mæ sterk!",
-      episodeText:
-        "Sophie Elise er tilbake i Bloggerne! Vi følger hennes varierte hverdag som består av både bondegårdsbesøk og selfie-jakt hos Petter Stordalen.",
-      imgSrc: "/images/bloggerne/bloggerne-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "2. Behind all this beauty",
-      episodeText:
-        "Etter nesten fire år som kjærester skal Sophie Elise og Kasper gjøre sitt aller første intervju sammen og Kasper er spent på møtet med pressen. Tom gir Iselin en viktig påminnelse og vi blir kjent med Skiensjenta Eveline Karlsen.",
-      imgSrc: "/images/bloggerne/bloggerne-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "3. It´s Linnéa Myhre, Bitch!",
-      episodeText:
-        "Linnéa fyller 30 år og har planer om en fantastisk feiring, men er det i hele tatt mulig med fest og moro under en pandemi? Emma tar med venninnene på hyttetur hvor gutter og forelskelse blir et hett tema.",
-      imgSrc: "/images/bloggerne/bloggerne-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 70,
+    title: "Bloggerne",
+    type: "series",
+    slug: "bloggerne",
+    genre: ["Reality"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/bloggerne/bloggerne.jpeg",
+    backgroundSrc: "/images/bloggerne/bloggerne-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Æ føle mæ sterk!",
+        episodeText:
+          "Sophie Elise er tilbake i Bloggerne! Vi følger hennes varierte hverdag som består av både bondegårdsbesøk og selfie-jakt hos Petter Stordalen.",
+        imgSrc: "/images/bloggerne/bloggerne-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Behind all this beauty",
+        episodeText:
+          "Etter nesten fire år som kjærester skal Sophie Elise og Kasper gjøre sitt aller første intervju sammen og Kasper er spent på møtet med pressen. Tom gir Iselin en viktig påminnelse og vi blir kjent med Skiensjenta Eveline Karlsen.",
+        imgSrc: "/images/bloggerne/bloggerne-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. It´s Linnéa Myhre, Bitch!",
+        episodeText:
+          "Linnéa fyller 30 år og har planer om en fantastisk feiring, men er det i hele tatt mulig med fest og moro under en pandemi? Emma tar med venninnene på hyttetur hvor gutter og forelskelse blir et hett tema.",
+        imgSrc: "/images/bloggerne/bloggerne-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 71,
-  title: "Funkyfam",
-  type: "series",
-  slug: "funkyfam",
-  genre: ["Reality"],
-  service: "tv2",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/funkyfam/funkyfam.jpeg",
-  backgroundSrc: "/images/funkyfam/funkyfam-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "1. Vixen Influencer Awards",
-      episodeText:
-        "«Vixen influencer awards» avholdes i Oslo og Jørgine er nominert til hele tre priser. Hun tar med seg ektemannen Morten og tvillingbrødrene Emil og Silas på den røde løperen.",
-      imgSrc: "/images/funkyfam/funkyfam-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "2. La familia",
-      episodeText:
-        "Hele huset står på hodet når Jørgine og familien skal på ferie til Italia for å besøke sine slektninger i San Felice a Cancello.",
-      imgSrc: "/images/funkyfam/funkyfam-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "3. Viva Italia!",
-      episodeText:
-        "Fremme i Italia er det tid for en fartsfylt ferie, hvor både mat og trening settes like høyt. Jørgine tar med seg Morten til Roma for første gang siden han var der med eksen og tvillingbrødrene krangler om hvem som er mest italiensk.",
-      imgSrc: "/images/funkyfam/funkyfam-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 71,
+    title: "Funkyfam",
+    type: "series",
+    slug: "funkyfam",
+    genre: ["Reality"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/funkyfam/funkyfam.jpeg",
+    backgroundSrc: "/images/funkyfam/funkyfam-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Vixen Influencer Awards",
+        episodeText:
+          "«Vixen influencer awards» avholdes i Oslo og Jørgine er nominert til hele tre priser. Hun tar med seg ektemannen Morten og tvillingbrødrene Emil og Silas på den røde løperen.",
+        imgSrc: "/images/funkyfam/funkyfam-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. La familia",
+        episodeText:
+          "Hele huset står på hodet når Jørgine og familien skal på ferie til Italia for å besøke sine slektninger i San Felice a Cancello.",
+        imgSrc: "/images/funkyfam/funkyfam-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Viva Italia!",
+        episodeText:
+          "Fremme i Italia er det tid for en fartsfylt ferie, hvor både mat og trening settes like høyt. Jørgine tar med seg Morten til Roma for første gang siden han var der med eksen og tvillingbrødrene krangler om hvem som er mest italiensk.",
+        imgSrc: "/images/funkyfam/funkyfam-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 72,
-  title: "Hjerteslag",
-  type: "series",
-  slug: "hjerteslag",
-  genre: ["Romance"],
-  service: "tv2",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/hjerteslag/hjerteslag.jpeg",
-  backgroundSrc: "/images/hjerteslag/hjerteslag_big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "1. Rebound",
-      episodeText:
-        "Anders har akkurat blitt dumpa av kjæresten, og kompisene tar han med på byen for å muntre ham opp. Der møter han Mio, en jente som skal snu hele livet hans på hodet.",
-      imgSrc: "/images/hjerteslag/hjerteslag-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "2. Mio min Mio",
-      episodeText:
-        "Det er fem uker siden Anders møtte Mio, men han stalker henne fortsatt på Instagram. Mio på sin side, gjør en sjokkerende oppdagelse.",
-      imgSrc: "/images/hjerteslag/hjerteslag-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "3. Den andre daten",
-      episodeText:
-        "Mio bestemmer seg for å fortelle Anders at hun er gravid. Anders aner fred og ingen fare, og tror han skal på date.",
-      imgSrc: "/images/hjerteslag/hjerteslag-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 72,
+    title: "Hjerteslag",
+    type: "series",
+    slug: "hjerteslag",
+    genre: ["Romance"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/hjerteslag/hjerteslag.jpeg",
+    backgroundSrc: "/images/hjerteslag/hjerteslag_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Rebound",
+        episodeText:
+          "Anders har akkurat blitt dumpa av kjæresten, og kompisene tar han med på byen for å muntre ham opp. Der møter han Mio, en jente som skal snu hele livet hans på hodet.",
+        imgSrc: "/images/hjerteslag/hjerteslag-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Mio min Mio",
+        episodeText:
+          "Det er fem uker siden Anders møtte Mio, men han stalker henne fortsatt på Instagram. Mio på sin side, gjør en sjokkerende oppdagelse.",
+        imgSrc: "/images/hjerteslag/hjerteslag-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Den andre daten",
+        episodeText:
+          "Mio bestemmer seg for å fortelle Anders at hun er gravid. Anders aner fred og ingen fare, og tror han skal på date.",
+        imgSrc: "/images/hjerteslag/hjerteslag-3.jpeg",
+      },
+    ],
+  },
 
-{
-  id: 73,
-  title: "Kompani Lauritzen",
-  type: "series",
-  slug: "kompani-lauritzen",
-  genre: ["Reality"],
-  service: "tv2",
-  serviceLogo: "/images/subscriptions/tv2_sub.svg",
-  serviceTitleLogo: "/images/tv2sumo-logo.svg",
-  thumbnailSrc: "/images/kompani-lauritzen/kompani-lauritzen.jpeg",
-  backgroundSrc: "/images/kompani-lauritzen/kompani-lauritzen-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "1. Palmesjokk - del 1",
-      episodeText:
-        "En kald og våt overraskelse, beinhard disiplin, orden og total umyndiggjøring preger deltagernes første møte med Dag Ottos opplegg.",
-      imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "2. Palmesjokk - del 2",
-      episodeText:
-        "De fysiske testene fortsetter på Setnesmoen og rekruttene må lære seg grunnleggende vask og orden på kaserna.",
-      imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "3. Rekrutten - del 1",
-      episodeText:
-        "Rekruttene begynner for alvor å kjenne på utfordringene i sin nye militære hverdag og på kaserna sliter de med å innordne seg det strenge disiplinære regimet.",
-      imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 73,
+    title: "Kompani Lauritzen",
+    type: "series",
+    slug: "kompani-lauritzen",
+    genre: ["Reality"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/kompani-lauritzen/kompani-lauritzen.jpeg",
+    backgroundSrc: "/images/kompani-lauritzen/kompani-lauritzen-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Palmesjokk - del 1",
+        episodeText:
+          "En kald og våt overraskelse, beinhard disiplin, orden og total umyndiggjøring preger deltagernes første møte med Dag Ottos opplegg.",
+        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Palmesjokk - del 2",
+        episodeText:
+          "De fysiske testene fortsetter på Setnesmoen og rekruttene må lære seg grunnleggende vask og orden på kaserna.",
+        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Rekrutten - del 1",
+        episodeText:
+          "Rekruttene begynner for alvor å kjenne på utfordringene i sin nye militære hverdag og på kaserna sliter de med å innordne seg det strenge disiplinære regimet.",
+        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-3.jpeg",
+      },
+    ],
+  },
 
   {
     id: 65,
@@ -2268,78 +2284,75 @@ export const contentData = [
     ],
   },
 
-{
-  id: 78,
-  title: "Rådebank",
-  type: "series",
-  slug: "radebank",
-  genre: ["Drama"],
-  service: "nrk",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/radebank/radebank.jpeg",
-  backgroundSrc: "/images/radebank/rb-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1: Parkert",
-      episodeText:
-        "Singel og klar for fest.",
-      imgSrc: "/images/radebank/rb-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2: Hvit Poppy",
-      episodeText:
-        "Det som skjer på Grivimoen, blir på Grivimoen.",
-      imgSrc: "/images/radebank/rb-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3: Ute og sykler",
-      episodeText:
-        "Forbudt frukt.",
-      imgSrc: "/images/radebank/rb-3.jpeg",
-    },
-  ],
-},
-{
-  id: 80,
-  title: "Exit",
-  type: "series",
-  slug: "exit",
-  genre: ["Drama"],
-  service: "nrk",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/exit/exit.jpeg",
-  backgroundSrc: "/images/exit/exit-big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Episode 1: Steril",
-      episodeText:
-        "Adam's life only looks perfect, as he looks for thrills by drinking and doing drugs with his three best friends, Henrik, Jeppe, and William.",
-      imgSrc: "/images/exit/exit-1.jpeg",
-    },
-    {
-      id: 2,
-      title: "Episode 2: William",
-      episodeText:
-        "The friends all meet up at William and Celine's party. The guys get high right away, and Jeppe advises Adam to fake impotence, should Hermine's fertility test results turn out as expected.",
-      imgSrc: "/images/exit/exit-2.jpeg",
-    },
-    {
-      id: 3,
-      title: "Episode 3: Henrik",
-      episodeText:
-        "The guys meet up in William's hospital room and do coke. They give some to William, who wakes from his coma.",
-      imgSrc: "/images/exit/exit-3.jpeg",
-    },
-  ],
-},
+  {
+    id: 78,
+    title: "Rådebank",
+    type: "series",
+    slug: "radebank",
+    genre: ["Drama"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/radebank/radebank.jpeg",
+    backgroundSrc: "/images/radebank/rb-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1: Parkert",
+        episodeText: "Singel og klar for fest.",
+        imgSrc: "/images/radebank/rb-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Hvit Poppy",
+        episodeText: "Det som skjer på Grivimoen, blir på Grivimoen.",
+        imgSrc: "/images/radebank/rb-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: Ute og sykler",
+        episodeText: "Forbudt frukt.",
+        imgSrc: "/images/radebank/rb-3.jpeg",
+      },
+    ],
+  },
+  {
+    id: 80,
+    title: "Exit",
+    type: "series",
+    slug: "exit",
+    genre: ["Drama"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/exit/exit.jpeg",
+    backgroundSrc: "/images/exit/exit-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1: Steril",
+        episodeText:
+          "Adam's life only looks perfect, as he looks for thrills by drinking and doing drugs with his three best friends, Henrik, Jeppe, and William.",
+        imgSrc: "/images/exit/exit-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: William",
+        episodeText:
+          "The friends all meet up at William and Celine's party. The guys get high right away, and Jeppe advises Adam to fake impotence, should Hermine's fertility test results turn out as expected.",
+        imgSrc: "/images/exit/exit-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: Henrik",
+        episodeText:
+          "The guys meet up in William's hospital room and do coke. They give some to William, who wakes from his coma.",
+        imgSrc: "/images/exit/exit-3.jpeg",
+      },
+    ],
+  },
 
   {
     id: 72,
@@ -3129,26 +3142,26 @@ export const contentData = [
     ],
   },
 
-{
-  id: 99,
-  title: "Silver linings playbook",
-  type: "movie",
-  slug: "silver-linings-playbook",
-  genre: ["Drama", "Comedy", "Romance"],
-  service: "nrk",
-  serviceLogo: "/images/subscriptions/nrk_sub.svg",
-  serviceTitleLogo: "/images/NRK_TV_logo.svg",
-  thumbnailSrc: "/images/silver/slp.jpeg",
-  backgroundSrc: "/images/silver/slp_big.jpeg",
-  optionalShowLogo: "",
-  episodes: [
-    {
-      id: 1,
-      title: "Silver lining playbook",
-      episodeText:
-        "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
-      imgSrc: "/images/silver/slp.jpeg",
-    },
-  ],
-},
+  {
+    id: 99,
+    title: "Silver linings playbook",
+    type: "movie",
+    slug: "silver-linings-playbook",
+    genre: ["Drama", "Comedy", "Romance"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/silver/slp.jpeg",
+    backgroundSrc: "/images/silver/slp_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Silver lining playbook",
+        episodeText:
+          "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
+        imgSrc: "/images/silver/slp.jpeg",
+      },
+    ],
+  },
 ];

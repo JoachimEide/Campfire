@@ -125,6 +125,7 @@ export default function Socialbar(props) {
         h3 {
           padding: 5px;
           text-align: center;
+          font-weight: 600;
         }
         .title-watch {
           margin-top: 50px;
