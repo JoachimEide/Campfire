@@ -18,15 +18,15 @@ export default function Home(props) {
   const topCarouselShows = [
     {
       id: 1,
-      link: "/series/mandalorian",
-      alt: "mandalorian",
-      src: "/images/mandalorian/mandalorianthumb.jpg",
+      link: "series/the-nevers",
+      alt: "The Nevers",
+      src: "/images/nevers/nevers_big.jpg",
     },
     {
       id: 2,
-      link: "/series/wandavision",
-      alt: "wandavision",
-      src: "/images/wandavision/WandaVision.png",
+      link: "/series/big_sky",
+      alt: "Big sky",
+      src: "/images/big_sky/big_sky.jpeg",
     },
     {
       id: 3,
@@ -36,9 +36,9 @@ export default function Home(props) {
     },
     {
       id: 4,
-      link: "series/the-nevers",
-      alt: "The Nevers",
-      src: "/images/nevers/nevers_big.jpg",
+      link: "series/snowpiercer",
+      alt: "Snowpiercer",
+      src: "/images/snowpiercer/snowpiercer.jpeg",
     },
   ];
 

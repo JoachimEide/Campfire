@@ -18,15 +18,15 @@ export default function Movies(props) {
   const topCarouselShows = [
     {
       id: 1,
-      link: "/series/mandalorian",
-      alt: "mandalorian",
-      src: "/images/mandalorian/mandalorianthumb.jpg",
+      link: "/series/irregulars",
+      alt: "Irregulars",
+      src: "/images/irregulars/irregulars.jpeg",
     },
     {
       id: 2,
-      link: "/series/wandavision",
-      alt: "wandavision",
-      src: "/images/wandavision/WandaVision.png",
+      link: "series/the-nevers",
+      alt: "The Nevers",
+      src: "/images/nevers/nevers_big.jpg",
     },
     {
       id: 3,
@@ -36,9 +36,9 @@ export default function Movies(props) {
     },
     {
       id: 4,
-      link: "series/the-nevers",
-      alt: "The Nevers",
-      src: "/images/nevers/nevers_big.jpg",
+      link: "/series/wandavision",
+      alt: "wandavision",
+      src: "/images/wandavision/WandaVision.png",
     },
   ];
   return (

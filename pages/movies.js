@@ -18,27 +18,27 @@ export default function Movies(props) {
   const topCarouselShows = [
     {
       id: 1,
-      link: "/series/mandalorian",
-      alt: "mandalorian",
-      src: "/images/mandalorian/mandalorianthumb.jpg",
+      link: "/series/extraction",
+      alt: "Extraction",
+      src: "/images/extraction/ex_c.jpeg",
     },
     {
       id: 2,
-      link: "/series/wandavision",
-      alt: "wandavision",
-      src: "/images/wandavision/WandaVision.png",
+      link: "/series/1917",
+      alt: "1917",
+      src: "/images/1917/1917.jpeg",
     },
     {
       id: 3,
-      link: "series/the-falcon-and-the-winter-soldier",
-      alt: "The Falcon and the Winter Soldier",
-      src: "/images/falcon/falcon_big.jpeg",
+      link: "series/justice_league",
+      alt: "Zack Snyder's Justice League",
+      src: "/images/justice_league/justice.webp",
     },
     {
       id: 4,
-      link: "series/the-nevers",
-      alt: "The Nevers",
-      src: "/images/nevers/nevers_big.jpg",
+      link: "series/frozen2",
+      alt: "Frozen 2",
+      src: "/images/frozen2/frozen2.jpg",
     },
   ];
   return (
