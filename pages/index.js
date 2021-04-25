@@ -59,17 +59,59 @@ export default function Home(props) {
       />
       <ContentRow
         subscriptions={props.subscriptions}
+        title="Action"
         contentArray={props.contentDataList}
-        title="Movies"
-        param="type"
-        paramValue="movie"
+        param="genre"
+        paramValue="Action"
       />
       <ContentRow
         subscriptions={props.subscriptions}
+        title="Fantasy"
         contentArray={props.contentDataList}
-        title="Popular on HBO"
-        param="service"
-        paramValue="hbo"
+        param="genre"
+        paramValue="Fantasy"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Crime"
+        contentArray={props.contentDataList}
+        param="genre"
+        paramValue="Crime"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Drama"
+        contentArray={props.contentDataList}
+        param="genre"
+        paramValue="Drama"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Comedy"
+        contentArray={props.contentDataList}
+        param="genre"
+        paramValue="Comedy"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="For the family"
+        contentArray={props.contentDataList}
+        param="genre"
+        paramValue="Family"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Reality shows"
+        contentArray={props.contentDataList}
+        param="genre"
+        paramValue="Reality"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Sport"
+        contentArray={props.contentDataList}
+        param="genre"
+        paramValue="Sport"
       />
       <ContentRow
         subscriptions={props.subscriptions}
@@ -94,31 +136,10 @@ export default function Home(props) {
       />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Sport"
         contentArray={props.contentDataList}
-        param="genre"
-        paramValue="Sport"
-      />
-      <ContentRow
-        subscriptions={props.subscriptions}
-        title="Action"
-        contentArray={props.contentDataList}
-        param="genre"
-        paramValue="Action"
-      />
-      <ContentRow
-        subscriptions={props.subscriptions}
-        title="Fantasy"
-        contentArray={props.contentDataList}
-        param="genre"
-        paramValue="Fantasy"
-      />
-      <ContentRow
-        subscriptions={props.subscriptions}
-        title="Drama"
-        contentArray={props.contentDataList}
-        param="genre"
-        paramValue="Drama"
+        title="Popular on HBO"
+        param="service"
+        paramValue="hbo"
       />
     </Layout>
   );

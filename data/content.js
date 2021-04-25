@@ -4,7 +4,7 @@ export const contentData = [
     title: "Big Sky",
     type: "series",
     slug: "big-sky",
-    genre: ["Crime", "Drama", "Mystery", "New"],
+    genre: ["Drama", "Mystery", "New"],
     service: "disney",
     serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
     serviceTitleLogo: "/images/DisneyPlusLogo.svg",
@@ -290,6 +290,122 @@ export const contentData = [
     ],
   },
   {
+    id: 48,
+    title: "Big Little Lies",
+    type: "series",
+    slug: "big-little-lies",
+    genre: ["Drama", "Crime", "Mystery"],
+    service: "hbo",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/big_little_lies/bls.jpeg",
+    backgroundSrc: "/images/big_little_lies/bls_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 5: Kill me",
+        episodeText:
+          "Renata tries to help Celeste; Bonnie struggles with her mother's recovery; Celeste attends a custody hearing; Josh, Max and Ziggy are bullied by a boy at school.",
+        imgSrc: "/images/big_little_lies/blsS2E5.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 6: The bad mother",
+        episodeText:
+          "Celeste is blindsided by Mary Louise; Bonnie contemplates a solution to her mother's suffering and her own ongoing guilt; The Monterey Five feel the pressure of increased scrutiny of Perry's death.",
+        imgSrc: "/images/big_little_lies/blsS2E6.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 7: I want to know",
+        episodeText:
+          "Celeste questions Mary Louise about a tragic event from Perry's childhood; Madeline worries their lie is tearing the Monterey Five apart.",
+        imgSrc: "/images/big_little_lies/blsS2E7.jpeg",
+      },
+    ],
+  },
+  {
+    id: 89,
+    title: "The Fall",
+    type: "series",
+    slug: "the-fall",
+    genre: ["Crime", "Thriller"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/fall/fall.jpeg",
+    backgroundSrc: "/images/fall/fall_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 4: The hell within him",
+        episodeText:
+          "Gibson witnesses Sally-Ann’s despair as Burns faces up to his guilt at pursuing her as a conspirator. Gibson and Dr Larson, Spector’s psychiatrist, have conflicting views of Spector: is he patient or prisoner?",
+        imgSrc: "/images/fall/fall-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 5: Wounds of deadly hate",
+        episodeText:
+          "Dr Larson begins his assessment on Spector, who opens up about the life he can remember before his amnesia, while the killer's legal team remain determined he will never stand trial.",
+        imgSrc: "/images/fall/fall-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 6: Their solitary way",
+        episodeText:
+          "In the thrilling series finale, Gibson and Anderson present fresh evidence to Spector with cataclysmic results. Spector’s new friendship in the psychiatric facility develops with a shocking outcome.",
+        imgSrc: "/images/fall/fall-3.jpeg",
+      },
+    ],
+  },
+  {
+    id: 70,
+    title: "Knives Out",
+    type: "movie",
+    slug: "knives-out",
+    genre: ["Comedy", "Crime"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/knives-out/knives-out.jpeg",
+    backgroundSrc: "/images/knives-out/knives-out-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Knives Out",
+        episodeText:
+          "A detective investigates the death of a patriarch of an eccentric, combative family.",
+        imgSrc: "/images/knives-out/knives-out.jpeg",
+      },
+    ],
+  },
+  {
+    id: 17,
+    title: "Enola Holmes",
+    type: "movie",
+    slug: "enola-holmes",
+    genre: ["Action", "Adventure", "Crime"],
+    service: "netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/enola/enola.jpeg",
+    backgroundSrc: "/images/enola/enola_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Enola Holmes",
+        episodeText:
+          "When Enola Holmes-Sherlock's teen sister-discovers her mother missing, she sets off to find her, becoming a super-sleuth in her own right as she outwits her famous brother.",
+        imgSrc: "/images/enola/enola.jpeg",
+      },
+    ],
+  },
+  {
     id: 9,
     title: "The Irregulars",
     type: "series",
@@ -539,28 +655,6 @@ export const contentData = [
         episodeText:
           "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
         imgSrc: "/images/avengers/avengers.png",
-      },
-    ],
-  },
-  {
-    id: 17,
-    title: "Enola Holmes",
-    type: "movie",
-    slug: "enola-holmes",
-    genre: ["Action", "Adventure", "Crime"],
-    service: "netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/enola/enola.jpeg",
-    backgroundSrc: "/images/enola/enola_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Enola Holmes",
-        episodeText:
-          "When Enola Holmes-Sherlock's teen sister-discovers her mother missing, she sets off to find her, becoming a super-sleuth in her own right as she outwits her famous brother.",
-        imgSrc: "/images/enola/enola.jpeg",
       },
     ],
   },
@@ -921,6 +1015,72 @@ export const contentData = [
     ],
   },
   {
+    id: 59,
+    title: "How To Be Single",
+    type: "movie",
+    slug: "how-to-be-single",
+    genre: ["Comedy", "Romance"],
+    service: "viaplay",
+    serviceLogo: "/images/subscriptions/Via.png",
+    serviceTitleLogo: "/images/viaplay-logo.png",
+    thumbnailSrc: "/images/howtobesingle/Howtobesingle.jpeg",
+    backgroundSrc: "/images/howtobesingle/Howtobesingle.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "How To Be Single",
+        episodeText:
+          "A group of young adults navigate love and relationships in New York City.",
+        imgSrc: "/images/howtobesingle/1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 40,
+    title: "The Thunder Force",
+    type: "movie",
+    slug: "the-thunder-force",
+    genre: ["Action", "Adventure", "Comedy", "Fantasy", "New"],
+    service: "netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/thunder_force/thunder_force.jpeg",
+    backgroundSrc: "/images/thunder_force/thunder_force_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "The Thunder Force",
+        episodeText:
+          "In a world where supervillains are commonplace, two estranged childhood best friends reunite after one devises a treatment that gives them powers to protect their city.",
+        imgSrc: "/images/thunder_force/thunder_force.jpeg",
+      },
+    ],
+  },
+  {
+    id: 42,
+    title: "Eurovision Song Contest: The Story Of Fire Saga",
+    type: "movie",
+    slug: "eurovision-song-contest",
+    genre: ["Comedy", "Family", "Music"],
+    service: "netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/eurovision/eurovision.jpeg",
+    backgroundSrc: "/images/eurovision/eurovision_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Eurovision Song Contest: The Story Of Fire Saga",
+        episodeText:
+          "When aspiring musicians Lars and Sigrit are given the opportunity to represent their country at the world's biggest song competition, they finally have a chance to prove themselves.",
+        imgSrc: "/images/eurovision/eurovision.jpeg",
+      },
+    ],
+  },
+  {
     id: 32,
     title: "Mulan (2020)",
     type: "movie",
@@ -987,50 +1147,6 @@ export const contentData = [
     ],
   },
   {
-    id: 70,
-    title: "Knives Out",
-    type: "movie",
-    slug: "knives-out",
-    genre: ["Comedy", "Crime", "Drama"],
-    service: "tv2",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/knives-out/knives-out.jpeg",
-    backgroundSrc: "/images/knives-out/knives-out-big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Knives Out",
-        episodeText:
-          "A detective investigates the death of a patriarch of an eccentric, combative family.",
-        imgSrc: "/images/knives-out/knives-out.jpeg",
-      },
-    ],
-  },
-  {
-    id: 59,
-    title: "How To Be Single",
-    type: "movie",
-    slug: "how-to-be-single",
-    genre: ["Comedy", "Romance"],
-    service: "viaplay",
-    serviceLogo: "/images/subscriptions/Via.png",
-    serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/howtobesingle/Howtobesingle.jpeg",
-    backgroundSrc: "/images/howtobesingle/Howtobesingle.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "How To Be Single",
-        episodeText:
-          "A group of young adults navigate love and relationships in New York City.",
-        imgSrc: "/images/howtobesingle/1.jpeg",
-      },
-    ],
-  },
-  {
     id: 35,
     title: "Frozen 2",
     type: "movie",
@@ -1072,28 +1188,6 @@ export const contentData = [
         episodeText:
           "A Chinese-Canadian woman suffering from empty nest syndrome gets a second shot at motherhood when one of her handmade dumplings comes alive.",
         imgSrc: "/images/bao/bao.jpeg",
-      },
-    ],
-  },
-  {
-    id: 42,
-    title: "Eurovision Song Contest: The Story Of Fire Saga",
-    type: "movie",
-    slug: "eurovision-song-contest",
-    genre: ["Comedy", "Family", "Music"],
-    service: "netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/eurovision/eurovision.jpeg",
-    backgroundSrc: "/images/eurovision/eurovision_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Eurovision Song Contest: The Story Of Fire Saga",
-        episodeText:
-          "When aspiring musicians Lars and Sigrit are given the opportunity to represent their country at the world's biggest song competition, they finally have a chance to prove themselves.",
-        imgSrc: "/images/eurovision/eurovision.jpeg",
       },
     ],
   },
@@ -1208,28 +1302,6 @@ export const contentData = [
         episodeText:
           "A visit from an old friend forces Beth to reckon with her past and rethink her priorities, just in time for the biggest match of her life.",
         imgSrc: "/images/queens_gambit/queenS1E7.jpeg",
-      },
-    ],
-  },
-  {
-    id: 40,
-    title: "The Thunder Force",
-    type: "movie",
-    slug: "the-thunder-force",
-    genre: ["Action", "Adventure", "Comedy", "Fantasy", "New"],
-    service: "netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/thunder_force/thunder_force.jpeg",
-    backgroundSrc: "/images/thunder_force/thunder_force_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "The Thunder Force",
-        episodeText:
-          "In a world where supervillains are commonplace, two estranged childhood best friends reunite after one devises a treatment that gives them powers to protect their city.",
-        imgSrc: "/images/thunder_force/thunder_force.jpeg",
       },
     ],
   },
@@ -1405,42 +1477,6 @@ export const contentData = [
         episodeText:
           "With her plan in place, June reaches the point of no return on her bold strike against Gilead; Serena Joy and Commander Waterford attempt to find their way forward in their new lives.",
         imgSrc: "/images/handmaid/handmaidS3E13.jpeg",
-      },
-    ],
-  },
-  {
-    id: 48,
-    title: "Big Little Lies",
-    type: "series",
-    slug: "big-little-lies",
-    genre: ["Drama", "Crime", "Mystery"],
-    service: "hbo",
-    serviceLogo: "/images/subscriptions/hbo_sub.svg",
-    serviceTitleLogo: "/images/HboLogo.svg",
-    thumbnailSrc: "/images/big_little_lies/bls.jpeg",
-    backgroundSrc: "/images/big_little_lies/bls_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 5: Kill me",
-        episodeText:
-          "Renata tries to help Celeste; Bonnie struggles with her mother's recovery; Celeste attends a custody hearing; Josh, Max and Ziggy are bullied by a boy at school.",
-        imgSrc: "/images/big_little_lies/blsS2E5.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 6: The bad mother",
-        episodeText:
-          "Celeste is blindsided by Mary Louise; Bonnie contemplates a solution to her mother's suffering and her own ongoing guilt; The Monterey Five feel the pressure of increased scrutiny of Perry's death.",
-        imgSrc: "/images/big_little_lies/blsS2E6.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 7: I want to know",
-        episodeText:
-          "Celeste questions Mary Louise about a tragic event from Perry's childhood; Madeline worries their lie is tearing the Monterey Five apart.",
-        imgSrc: "/images/big_little_lies/blsS2E7.jpeg",
       },
     ],
   },
@@ -1870,30 +1906,6 @@ export const contentData = [
       },
     ],
   },
-
-  {
-    id: 63,
-    title: "Gambit – NASR ESPORTS",
-    type: "sport",
-    slug: "gambit–NASR ESPORTS",
-    genre: ["Sport", "E-Sport"],
-    service: "tv2",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/gambit/Gambit.jpeg",
-    backgroundSrc: "/images/gambit/Gambit.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Gambit – NASR ESPORTS",
-        episodeText:
-          "The bookmakers do not give NASR a chance to win. Gambit will enter with great confidence. Does pride stand for fall?",
-        imgSrc: "/images/gambit/1.jpeg",
-      },
-    ],
-  },
-
   {
     id: 64,
     title: "Liverpool - Real Madrid",
@@ -1939,7 +1951,28 @@ export const contentData = [
       },
     ],
   },
-
+  {
+    id: 67,
+    title: "Denmark - Norway",
+    type: "sport",
+    slug: "denmark-norway",
+    genre: ["Sport", "Handball"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/denmarknorway/Denmarknorway.jpeg",
+    backgroundSrc: "/images/denmarknorway/Denmarknorway.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Denmark - Norway",
+        episodeText:
+          "From Spektrum Vejle and the private international match in handball for women between Denmark and Norway.",
+        imgSrc: "/images/denmarknorway/1.jpeg",
+      },
+    ],
+  },
   {
     id: 66,
     title: "Amstel Gold Race",
@@ -1962,26 +1995,25 @@ export const contentData = [
       },
     ],
   },
-
   {
-    id: 67,
-    title: "Denmark - Norway",
+    id: 63,
+    title: "Gambit – NASR ESPORTS",
     type: "sport",
-    slug: "denmark-norway",
-    genre: ["Sport", "Handball"],
+    slug: "gambit–NASR ESPORTS",
+    genre: ["Sport", "E-Sport"],
     service: "tv2",
     serviceLogo: "/images/subscriptions/tv2_sub.svg",
     serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/denmarknorway/Denmarknorway.jpeg",
-    backgroundSrc: "/images/denmarknorway/Denmarknorway.jpeg",
+    thumbnailSrc: "/images/gambit/Gambit.jpeg",
+    backgroundSrc: "/images/gambit/Gambit.jpeg",
     optionalShowLogo: "",
     episodes: [
       {
         id: 1,
-        title: "Denmark - Norway",
+        title: "Gambit – NASR ESPORTS",
         episodeText:
-          "From Spektrum Vejle and the private international match in handball for women between Denmark and Norway.",
-        imgSrc: "/images/denmarknorway/1.jpeg",
+          "The bookmakers do not give NASR a chance to win. Gambit will enter with great confidence. Does pride stand for fall?",
+        imgSrc: "/images/gambit/1.jpeg",
       },
     ],
   },
@@ -2427,44 +2459,6 @@ export const contentData = [
       },
     ],
   },
-
-  {
-    id: 89,
-    title: "The Fall",
-    type: "series",
-    slug: "the-fall",
-    genre: ["Drama", "Crime", "Thriller"],
-    service: "nrk",
-    serviceLogo: "/images/subscriptions/nrk_sub.svg",
-    serviceTitleLogo: "/images/NRK_TV_logo.svg",
-    thumbnailSrc: "/images/fall/fall.jpeg",
-    backgroundSrc: "/images/fall/fall_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 4: The hell within him",
-        episodeText:
-          "Gibson witnesses Sally-Ann’s despair as Burns faces up to his guilt at pursuing her as a conspirator. Gibson and Dr Larson, Spector’s psychiatrist, have conflicting views of Spector: is he patient or prisoner?",
-        imgSrc: "/images/fall/fall-1.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 5: Wounds of deadly hate",
-        episodeText:
-          "Dr Larson begins his assessment on Spector, who opens up about the life he can remember before his amnesia, while the killer's legal team remain determined he will never stand trial.",
-        imgSrc: "/images/fall/fall-2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 6: Their solitary way",
-        episodeText:
-          "In the thrilling series finale, Gibson and Anderson present fresh evidence to Spector with cataclysmic results. Spector’s new friendship in the psychiatric facility develops with a shocking outcome.",
-        imgSrc: "/images/fall/fall-3.jpeg",
-      },
-    ],
-  },
-
   {
     id: 90,
     title: "Den tynne blå linjen",
