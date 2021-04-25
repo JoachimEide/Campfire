@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import { friendsData } from "../data/friends";
 import VideoTopIcon from "../components/video/video-top-icon";
+import Chat from "../components/video/chat";
 
 export const getStaticProps = async () => {
   return {
@@ -12,7 +13,6 @@ export const getStaticProps = async () => {
 };
 
 export default function VideoPlayer(props) {
-  console.log(props);
   const [iconClick, setIconClick] = useState(false);
   return (
     <div>
@@ -35,6 +35,7 @@ export default function VideoPlayer(props) {
           height="100%"
         />
       </div>
+      <Chat />
     </div>
   );
 }
