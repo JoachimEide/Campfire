@@ -51,16 +51,17 @@ export default function Movies(props) {
       <Services subscriptions={props.subscriptions} />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Popular movies on Disney+"
         contentArray={props.contentDataList}
-        param="service"
-        paramValue="disney"
+        title="Action"
+        param="genre"
+        paramValue="Action"
         param2="type"
         paramValue2="movie"
       />
       <ContentRow
         subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
+        title="Fantasy"
         param="genre"
         paramValue="Fantasy"
         param2="type"
@@ -90,6 +91,8 @@ export default function Movies(props) {
         title="Animation"
         param="genre"
         paramValue="Animation"
+        param2="type"
+        paramValue2="movie"
       />
     </Layout>
   );

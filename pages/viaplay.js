@@ -17,27 +17,27 @@ export default function Viaplay(props) {
   const topCarouselShows = [
     {
       id: 1,
-      link: "/series/mandalorian",
-      alt: "mandalorian",
-      src: "/images/mandalorian/mandalorianthumb.jpg",
+      link: "/series/theinvisibleman",
+      alt: "The Invisible Man",
+      src: "/images/theinvisibleman/invisible.jpeg",
     },
     {
       id: 2,
-      link: "/series/wandavision",
-      alt: "wandavision",
-      src: "/images/wandavision/WandaVision.png",
+      link: "series/greysanotomy",
+      alt: "Grey's Anatomy",
+      src: "/images/greysanotomy/greys.jpeg",
     },
     {
       id: 3,
-      link: "series/the-falcon-and-the-winter-soldier",
-      alt: "The Falcon and the Winter Soldier",
-      src: "/images/falcon/falcon_big.jpeg",
+      link: "series/spiderman",
+      alt: "Spider-Man: Homecoming",
+      src: "/images/spiderman/spiderman_c.jpeg",
     },
     {
       id: 4,
-      link: "series/the-nevers",
-      alt: "The Nevers",
-      src: "/images/nevers/nevers_big.jpg",
+      link: "/series/theoffice",
+      alt: "The Office",
+      src: "/images/theoffice/office.jpeg",
     },
   ];
   return (

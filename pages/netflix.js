@@ -17,27 +17,27 @@ export default function Netflix(props) {
   const topCarouselShows = [
     {
       id: 1,
-      link: "/series/mandalorian",
-      alt: "mandalorian",
-      src: "/images/mandalorian/mandalorianthumb.jpg",
+      link: "series/crown",
+      alt: "The Crown",
+      src: "/images/crown/crown_big.cms",
     },
     {
       id: 2,
-      link: "/series/wandavision",
-      alt: "wandavision",
-      src: "/images/wandavision/WandaVision.png",
+      link: "/series/snowpiercer",
+      alt: "Snowpiercer",
+      src: "/images/snowpiercer/snowpiercer_big.jpeg",
     },
     {
       id: 3,
-      link: "series/the-falcon-and-the-winter-soldier",
-      alt: "The Falcon and the Winter Soldier",
-      src: "/images/falcon/falcon_big.jpeg",
+      link: "/series/love-and-monsters",
+      alt: "Love and monsters",
+      src: "/images/love_and_monsters/love_and_monsters_c.jpg",
     },
     {
       id: 4,
-      link: "series/the-nevers",
-      alt: "The Nevers",
-      src: "/images/nevers/nevers_big.jpg",
+      link: "series/the-queen's-gambit",
+      alt: "The Queen's gambit",
+      src: "/images/queens_gambit/queen.jpeg",
     },
   ];
   return (

@@ -35,9 +35,9 @@ export default function Disney(props) {
     },
     {
       id: 4,
-      link: "series/the-nevers",
-      alt: "The Nevers",
-      src: "/images/nevers/nevers_big.jpg",
+      link: "series/the-resident",
+      alt: "The Resident",
+      src: "/images/resident/resident_big.jpeg",
     },
   ];
   return (
@@ -58,8 +58,8 @@ export default function Disney(props) {
       <Topcarousel shows={topCarouselShows} />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Movies"
         contentArray={props.contentDataList}
+        title="Movies"
         param="service"
         paramValue="disney"
         param2="type"
@@ -67,8 +67,8 @@ export default function Disney(props) {
       />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Series"
         contentArray={props.contentDataList}
+        title="Series"
         param="service"
         paramValue="disney"
         param2="type"

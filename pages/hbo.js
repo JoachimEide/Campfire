@@ -17,27 +17,27 @@ export default function Hbo(props) {
   const topCarouselShows = [
     {
       id: 1,
-      link: "/series/mandalorian",
-      alt: "mandalorian",
-      src: "/images/mandalorian/mandalorianthumb.jpg",
+      link: "/series/justice_league",
+      alt: "Zack Snyder's Justice League",
+      src: "/images/justice_league/justice.webp",
     },
     {
       id: 2,
-      link: "/series/wandavision",
-      alt: "wandavision",
-      src: "/images/wandavision/WandaVision.png",
-    },
-    {
-      id: 3,
-      link: "series/the-falcon-and-the-winter-soldier",
-      alt: "The Falcon and the Winter Soldier",
-      src: "/images/falcon/falcon_big.jpeg",
-    },
-    {
-      id: 4,
       link: "series/the-nevers",
       alt: "The Nevers",
       src: "/images/nevers/nevers_big.jpg",
+    },
+    {
+      id: 3,
+      link: "series/euphoria",
+      alt: "Euphoria",
+      src: "/images/euphoria/euphoria.jpeg",
+    },
+    {
+      id: 4,
+      link: "series/westworld",
+      alt: "Westworld",
+      src: "/images/westworld/westworld.jpeg",
     },
   ];
   return (

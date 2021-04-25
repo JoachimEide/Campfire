@@ -51,10 +51,19 @@ export default function Movies(props) {
       <Services subscriptions={props.subscriptions} />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Popular series on Disney+"
         contentArray={props.contentDataList}
-        param="service"
-        paramValue="disney"
+        title="Action series"
+        param="genre"
+        paramValue="Action"
+        param2="type"
+        paramValue2="series"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        contentArray={props.contentDataList}
+        title="Fantasy series"
+        param="genre"
+        paramValue="Fantasy"
         param2="type"
         paramValue2="series"
       />
@@ -75,13 +84,58 @@ export default function Movies(props) {
         paramValue="Comedy"
         param2="type"
         paramValue2="series"
+      />        
+      <ContentRow
+        subscriptions={props.subscriptions}
+        contentArray={props.contentDataList}
+        title="Popular series on Disney+"
+        param="service"
+        paramValue="disney"
+        param2="type"
+        paramValue2="series"
       />
       <ContentRow
         subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
-        title="Series on Netflix"
+        title="Popular series on Netflix"
         param="service"
         paramValue="netflix"
+        param2="type"
+        paramValue2="series"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        contentArray={props.contentDataList}
+        title="Popular series on TV2 Sumo"
+        param="service"
+        paramValue="tv2"
+        param2="type"
+        paramValue2="series"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        contentArray={props.contentDataList}
+        title="Popular series on Viaplay"
+        param="service"
+        paramValue="viaplay"
+        param2="type"
+        paramValue2="series"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        contentArray={props.contentDataList}
+        title="Popular series on NRK"
+        param="service"
+        paramValue="nrk"
+        param2="type"
+        paramValue2="series"
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        contentArray={props.contentDataList}
+        title="Popular series on Hbo Nordic"
+        param="service"
+        paramValue="hbo"
         param2="type"
         paramValue2="series"
       />

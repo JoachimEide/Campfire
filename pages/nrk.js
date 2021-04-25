@@ -17,27 +17,27 @@ export default function Nrk(props) {
   const topCarouselShows = [
     {
       id: 1,
-      link: "/series/mandalorian",
-      alt: "mandalorian",
-      src: "/images/mandalorian/mandalorianthumb.jpg",
+      link: "/series/suffragette",
+      alt: "Suffragette",
+      src: "/images/suffragette/s.jpeg",
     },
     {
       id: 2,
-      link: "/series/wandavision",
-      alt: "wandavision",
-      src: "/images/wandavision/WandaVision.png",
+      link: "/series/exit",
+      alt: "Exit",
+      src: "/images/exit/exit.jpeg",
     },
     {
       id: 3,
-      link: "series/the-falcon-and-the-winter-soldier",
-      alt: "The Falcon and the Winter Soldier",
-      src: "/images/falcon/falcon_big.jpeg",
+      link: "series/fall",
+      alt: "The Fall",
+      src: "/images/fall/fall.jpeg",
     },
     {
       id: 4,
-      link: "series/the-nevers",
-      alt: "The Nevers",
-      src: "/images/nevers/nevers_big.jpg",
+      link: "series/norges-toffeste",
+      alt: "Norges Tøffeste",
+      src: "/images/norges-toffeste/norges-toffeste.jpeg",
     },
   ];
   return (

@@ -17,27 +17,27 @@ export default function Viaplay(props) {
   const topCarouselShows = [
     {
       id: 1,
-      link: "/series/mandalorian",
-      alt: "mandalorian",
-      src: "/images/mandalorian/mandalorianthumb.jpg",
+      link: "/series/the-rookie",
+      alt: "The Rookie",
+      src: "/images/the-rookie/the-rookie.jpeg",
     },
     {
       id: 2,
-      link: "/series/wandavision",
-      alt: "wandavision",
-      src: "/images/wandavision/WandaVision.png",
+      link: "/series/1917",
+      alt: "1917",
+      src: "/images/1917/1917.jpeg",
     },
     {
       id: 3,
-      link: "series/the-falcon-and-the-winter-soldier",
-      alt: "The Falcon and the Winter Soldier",
-      src: "/images/falcon/falcon_big.jpeg",
+      link: "series/knives-out",
+      alt: "Knives out",
+      src: "/images/knives-out/knives-out.jpeg",
     },
     {
       id: 4,
-      link: "series/the-nevers",
-      alt: "The Nevers",
-      src: "/images/nevers/nevers_big.jpg",
+      link: "series/kompani-lauritzen",
+      alt: "Kompani Lauritzen",
+      src: "/images/kompani-lauritzen/kompani-lauritzen.jpeg",
     },
   ];
   return (

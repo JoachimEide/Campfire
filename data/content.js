@@ -1,6 +1,6 @@
 export const contentData = [
   {
-    id: 7,
+    id: 1,
     title: "Big sky",
     type: "series",
     slug: "big-sky",
@@ -36,7 +36,7 @@ export const contentData = [
     ],
   },
   {
-    id: 29,
+    id: 2,
     title: "Euphoria",
     type: "series",
     slug: "euphoria",
@@ -72,7 +72,7 @@ export const contentData = [
     ],
   },
   {
-    id: 79,
+    id: 3,
     title: "Normal People",
     type: "series",
     slug: "normal-people",
@@ -108,8 +108,8 @@ export const contentData = [
     ],
   },
   {
-    id: 13,
-    title: "The crown",
+    id: 4,
+    title: "The Crown",
     type: "series",
     slug: "the-crown",
     genre: ["Drama", "Biography", "History"],
@@ -117,7 +117,7 @@ export const contentData = [
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
     thumbnailSrc: "/images/crown/crown.jpeg",
-    backgroundSrc: "/images/crown/crown_big.jpeg",
+    backgroundSrc: "/images/crown/crown_big.cms",
     optionalShowLogo: "",
     episodes: [
       {
@@ -125,26 +125,26 @@ export const contentData = [
         title: "Episode 10: War",
         episodeText:
           "Amid a growing challenge to her power, Thatcher fights for her position. Charles grows more determined to separate from Diana as their marriage unravels.",
-        imgSrc: "/images/crown/crownS4E10.jpg",
+        imgSrc: "/images/crown/crownS4E10.jpeg",
       },
       {
         id: 2,
         title: "Episode 9: Avalanche",
         episodeText:
           "Charles is caught in a deadly avalanche, prompting both him and Diana to reevaluate their commitment to their troubled marriage.",
-        imgSrc: "/images/crown/crownS4E9.jpg",
+        imgSrc: "/images/crown/crownS4E9.jpeg",
       },
       {
         id: 3,
         title: "Episode 8: 48:1",
         episodeText:
           "As many nations condemn apartheid in South Africa, tensions mounts between Thatcher and Elizabeth about their clashing opinions on applying sanctions.",
-        imgSrc: "/images/crown/crownS4E8.jpg",
+        imgSrc: "/images/crown/crownS4E8.jpeg",
       },
     ],
   },
   {
-    id: 53,
+    id: 5,
     title: "The Invisible Man",
     type: "movie",
     slug: "the-invisible-man",
@@ -152,7 +152,7 @@ export const contentData = [
     service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/theinvisibleman/Theinvisibleman.jpeg",
+    thumbnailSrc: "/images/theinvisibleman/invisible.jpeg",
     backgroundSrc: "/images/theinvisibleman/Theinvisibleman.jpeg",
     optionalShowLogo: "",
     episodes: [
@@ -166,7 +166,7 @@ export const contentData = [
     ],
   },
   {
-    id: 64,
+    id: 6,
     title: "1917",
     type: "movie",
     slug: "1917",
@@ -188,7 +188,51 @@ export const contentData = [
     ],
   },
   {
-    id: 94,
+    id: 10,
+    title: "Soul",
+    type: "movie",
+    slug: "soul",
+    genre: ["Animation", "Family", "Fantasy"],
+    service: "disney",
+    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
+    thumbnailSrc: "/images/soul/soul.png",
+    backgroundSrc: "/images/soul/soul_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Soul",
+        episodeText:
+          "After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.",
+        imgSrc: "/images/soul/soul.png",
+      },
+    ],
+  },
+  {
+    id: 55,
+    title: "Blade Runner 2049",
+    type: "movie",
+    slug: "blade-runner-2049",
+    genre: ["Action", "Drama", "Mystery"],
+    service: "viaplay",
+    serviceLogo: "/images/subscriptions/Via.png",
+    serviceTitleLogo: "/images/viaplay-logo.png",
+    thumbnailSrc: "/images/bladerunner/bladerunner.jpeg",
+    backgroundSrc: "/images/bladerunner/bladerunner_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Blade Runner 2049",
+        episodeText:
+          "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+        imgSrc: "/images/bladerunner/bladerunner.jpeg",
+      },
+    ],
+  },
+  {
+    id: 7,
     title: "Disco",
     type: "movie",
     slug: "disco",
@@ -210,8 +254,8 @@ export const contentData = [
     ],
   },
   {
-    id: 28,
-    title: "His dark materials",
+    id: 8,
+    title: "His Dark Materials",
     type: "series",
     slug: "his-dark-materials",
     genre: ["Drama", "Adventure", "Family", "Fantasy"],
@@ -246,8 +290,8 @@ export const contentData = [
     ],
   },
   {
-    id: 14,
-    title: "The irregulars",
+    id: 9,
+    title: "The Irregulars",
     type: "series",
     slug: "the-irregulars",
     genre: ["Drama", "Crime", "Fantasy"],
@@ -282,65 +326,29 @@ export const contentData = [
     ],
   },
   {
-    id: 5,
-    title: "Soul",
+    id: 16,
+    title: "Spider-Man: Homecoming",
     type: "movie",
-    slug: "soul",
-    genre: ["Animation", "Family", "Fantasy"],
-    service: "disney",
-    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
-    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
-    thumbnailSrc: "/images/soul/soul.png",
-    backgroundSrc: "/images/soul/soul_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Soul",
-        episodeText:
-          "After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.",
-        imgSrc: "/images/soul/soul.png",
-      },
-    ],
-  },
-  {
-    id: 46,
-    title: "The Vampire Diaries",
-    type: "series",
-    slug: "the-vampire-diaries",
-    genre: ["Drama", "Fantasy", "Horror"],
+    slug: "spider-man-homecoming",
+    genre: ["Adventure", "Action", "Sci-Fi"],
     service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/thevampirediaries/Thevampirediaries.jpeg",
-    backgroundSrc: "/images/thevampirediaries/Thevampirediaries.jpeg",
+    thumbnailSrc: "/images/spiderman/spiderman_c.jpeg",
+    backgroundSrc: "/images/spiderman/Spiderman.jpeg",
     optionalShowLogo: "",
     episodes: [
       {
         id: 1,
-        title: "Episode 22: Founder's Day",
+        title: "Spider-Man: Homecoming",
         episodeText:
-          "Damon and Alaric try to stop John Gilbert from setting a plan in motion to bring Founder's Day to an end amid chaos, destruction and death.",
-        imgSrc: "/images/thevampirediaries/1.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 21: Isobel",
-        episodeText:
-          "Isobel returns to town and stuns Alaric with her attitude and her demands that he arrange a meeting with Elena.",
-        imgSrc: "/images/thevampirediaries/2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 20: Blood Brothers",
-        episodeText:
-          "Elena learns what happened when Damon and Stefan were turned. Pearl has an ugly confrontation with John Gilbert. Jeremy and Anna get closer.",
-        imgSrc: "/images/thevampirediaries/3.jpeg",
+          "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+        imgSrc: "/images/spiderman/1.jpeg",
       },
     ],
   },
   {
-    id: 15,
+    id: 12,
     title: "Snowpiercer",
     type: "series",
     slug: "snowpiercer",
@@ -376,7 +384,7 @@ export const contentData = [
     ],
   },
   {
-    id: 1,
+    id: 13,
     title: "Mandalorian",
     type: "series",
     slug: "mandalorian",
@@ -411,8 +419,8 @@ export const contentData = [
     ],
   },
   {
-    id: 26,
-    title: "The nevers",
+    id: 14,
+    title: "The Nevers",
     type: "series",
     slug: "the-nevers",
     genre: ["Drama", "Action", "Fantasy"],
@@ -440,8 +448,8 @@ export const contentData = [
     ],
   },
   {
-    id: 13,
-    title: "Stranger things",
+    id: 15,
+    title: "Stranger Things",
     type: "series",
     slug: "stranger-things",
     watched: true,
@@ -477,29 +485,65 @@ export const contentData = [
     ],
   },
   {
-    id: 49,
-    title: "Spider-Man: Homecoming",
-    type: "movie",
-    slug: "spider-man-homecoming",
-    genre: ["Adventure", "Action", "Sci-Fi"],
+    id: 11,
+    title: "The Vampire Diaries",
+    type: "series",
+    slug: "the-vampire-diaries",
+    genre: ["Drama", "Fantasy", "Horror"],
     service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/spiderman/Spiderman.jpeg",
-    backgroundSrc: "/images/spiderman/Spiderman.jpeg",
+    thumbnailSrc: "/images/thevampirediaries/Thevampirediaries.jpeg",
+    backgroundSrc: "/images/thevampirediaries/Thevampirediaries.jpeg",
     optionalShowLogo: "",
     episodes: [
       {
         id: 1,
-        title: "Spider-Man: Homecoming",
+        title: "Episode 22: Founder's Day",
         episodeText:
-          "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
-        imgSrc: "/images/spiderman/1.jpeg",
+          "Damon and Alaric try to stop John Gilbert from setting a plan in motion to bring Founder's Day to an end amid chaos, destruction and death.",
+        imgSrc: "/images/thevampirediaries/1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 21: Isobel",
+        episodeText:
+          "Isobel returns to town and stuns Alaric with her attitude and her demands that he arrange a meeting with Elena.",
+        imgSrc: "/images/thevampirediaries/2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 20: Blood Brothers",
+        episodeText:
+          "Elena learns what happened when Damon and Stefan were turned. Pearl has an ugly confrontation with John Gilbert. Jeremy and Anna get closer.",
+        imgSrc: "/images/thevampirediaries/3.jpeg",
       },
     ],
   },
   {
-    id: 16,
+    id: 29,
+    title: "Avengers: Endgame",
+    type: "movie",
+    slug: "avengers-endgame",
+    genre: ["Sci-Fi", "Action", "Fantasy"],
+    service: "disney",
+    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
+    thumbnailSrc: "/images/avengers/avengers.png",
+    backgroundSrc: "/images/avengers/avengers-large.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Avengers: Endgame",
+        episodeText:
+          "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+        imgSrc: "/images/avengers/avengers.png",
+      },
+    ],
+  },
+  {
+    id: 17,
     title: "Enola Holmes",
     type: "movie",
     slug: "enola-holmes",
@@ -521,8 +565,8 @@ export const contentData = [
     ],
   },
   {
-    id: 36,
-    title: "Wonder woman 1984",
+    id: 18,
+    title: "Wonder Woman 1984",
     type: "movie",
     slug: "wonder-woman-1984",
     genre: ["Fantasy", "Adventure", "Action"],
@@ -543,11 +587,11 @@ export const contentData = [
     ],
   },
   {
-    id: 4,
+    id: 19,
     title: "The Falcon and the Winter Soldier",
     type: "series",
     slug: "the-falcon-and-the-winter-soldier",
-    genre: ["Action", "Adventure", "Drama"],
+    genre: ["Action", "Adventure", "Fantasy"],
     service: "disney",
     serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
     serviceTitleLogo: "/images/DisneyPlusLogo.svg",
@@ -579,7 +623,7 @@ export const contentData = [
     ],
   },
   {
-    id: 67,
+    id: 20,
     title: "Tomb Raider",
     type: "movie",
     slug: "tomb-raider",
@@ -601,7 +645,7 @@ export const contentData = [
     ],
   },
   {
-    id: 35,
+    id: 21,
     title: "Vikings",
     type: "series",
     slug: "vikings",
@@ -637,7 +681,7 @@ export const contentData = [
     ],
   },
   {
-    id: 17,
+    id: 22,
     title: "The old guard",
     type: "movie",
     slug: "the-old-guard",
@@ -659,7 +703,7 @@ export const contentData = [
     ],
   },
   {
-    id: 2,
+    id: 23,
     title: "Wandavision",
     type: "series",
     slug: "wandavision",
@@ -695,7 +739,7 @@ export const contentData = [
     ],
   },
   {
-    id: 34,
+    id: 24,
     title: "Killing Eve",
     type: "series",
     slug: "killing-eve",
@@ -732,7 +776,7 @@ export const contentData = [
   },
   {
     id: 25,
-    title: "Love and monsters",
+    title: "Love and Monsters",
     type: "movie",
     slug: "love-and-monsters",
     genre: ["Comedy", "Adventure", "Action"],
@@ -753,8 +797,8 @@ export const contentData = [
     ],
   },
   {
-    id: 47,
-    title: "Prison break",
+    id: 26,
+    title: "Prison Break",
     type: "series",
     slug: "prison-break",
     genre: ["Action", "Crime", "Drama"],
@@ -789,8 +833,8 @@ export const contentData = [
     ],
   },
   {
-    id: 19,
-    title: "Gemini man",
+    id: 27,
+    title: "Gemini Man",
     type: "movie",
     slug: "gemini-man",
     genre: ["Action", "Sci-fi"],
@@ -811,7 +855,7 @@ export const contentData = [
     ],
   },
   {
-    id: 38,
+    id: 28,
     title: "Galveston",
     type: "movie",
     slug: "galveston",
@@ -833,29 +877,7 @@ export const contentData = [
     ],
   },
   {
-    id: 3,
-    title: "Avengers: Endgame",
-    type: "movie",
-    slug: "avengers-endgame",
-    genre: ["Sci-Fi", "Action", "Fantasy"],
-    service: "disney",
-    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
-    serviceTitleLogo: "/images/DisneyPlusLogo.svg",
-    thumbnailSrc: "/images/avengers/avengers.png",
-    backgroundSrc: "/images/avengers/avengers-large.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Avengers: Endgame",
-        episodeText:
-          "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
-        imgSrc: "/images/avengers/avengers.png",
-      },
-    ],
-  },
-  {
-    id: 20,
+    id: 30,
     title: "Extraction",
     type: "movie",
     slug: "extraction",
@@ -877,7 +899,7 @@ export const contentData = [
     ],
   },
   {
-    id: 62,
+    id: 31,
     title: "Angel has Fallen",
     type: "movie",
     slug: "angel-has-fallen",
@@ -899,7 +921,7 @@ export const contentData = [
     ],
   },
   {
-    id: 8,
+    id: 32,
     title: "Mulan (2020)",
     type: "movie",
     slug: "mulan",
@@ -921,7 +943,7 @@ export const contentData = [
     ],
   },
   {
-    id: 61,
+    id: 33,
     title: "I Still Believe",
     type: "movie",
     slug: "i-still-believe",
@@ -943,7 +965,7 @@ export const contentData = [
     ],
   },
   {
-    id: 39,
+    id: 34,
     title: "Ghost in the shell",
     type: "movie",
     slug: "ghost-in-the-shell",
@@ -965,7 +987,51 @@ export const contentData = [
     ],
   },
   {
-    id: 9,
+    id: 70,
+    title: "Knives Out",
+    type: "movie",
+    slug: "knives-out",
+    genre: ["Comedy", "Crime", "Drama"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/knives-out/knives-out.jpeg",
+    backgroundSrc: "/images/knives-out/knives-out-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Knives Out",
+        episodeText:
+          "A detective investigates the death of a patriarch of an eccentric, combative family.",
+        imgSrc: "/images/knives-out/knives-out.jpeg",
+      },
+    ],
+  },
+  {
+    id: 59,
+    title: "How To Be Single",
+    type: "movie",
+    slug: "how-to-be-single",
+    genre: ["Comedy", "Romance"],
+    service: "viaplay",
+    serviceLogo: "/images/subscriptions/Via.png",
+    serviceTitleLogo: "/images/viaplay-logo.png",
+    thumbnailSrc: "/images/howtobesingle/Howtobesingle.jpeg",
+    backgroundSrc: "/images/howtobesingle/Howtobesingle.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "How To Be Single",
+        episodeText:
+          "A group of young adults navigate love and relationships in New York City.",
+        imgSrc: "/images/howtobesingle/1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 35,
     title: "Frozen 2",
     type: "movie",
     slug: "frozen-2",
@@ -987,7 +1053,7 @@ export const contentData = [
     ],
   },
   {
-    id: 10,
+    id: 36,
     title: "Bao",
     type: "movie",
     slug: "bao",
@@ -1010,7 +1076,51 @@ export const contentData = [
     ],
   },
   {
-    id: 11,
+    id: 42,
+    title: "Eurovision song contest: The story of fire saga",
+    type: "movie",
+    slug: "eurovision-song-contest",
+    genre: ["Comedy", "Family", "Music"],
+    service: "netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    serviceTitleLogo: "/images/Netflix_logo.svg",
+    thumbnailSrc: "/images/eurovision/eurovision.jpeg",
+    backgroundSrc: "/images/eurovision/eurovision_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Eurovision song contest: The story of fire saga",
+        episodeText:
+          "When aspiring musicians Lars and Sigrit are given the opportunity to represent their country at the world's biggest song competition, they finally have a chance to prove themselves.",
+        imgSrc: "/images/eurovision/eurovision.jpeg",
+      },
+    ],
+  },
+  {
+    id: 68,
+    title: "Fjols til fjells",
+    type: "movie",
+    slug: "fjols-til-fjells",
+    genre: ["Comedy"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/fjolstilfjells/Fjolstilfjells.jpeg",
+    backgroundSrc: "/images/fjolstilfjells/Fjolstilfjells.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Fjols til fjells",
+        episodeText:
+          "Everything that can go wrong goes wrong when care free ski bums, frustrated cabin owners, skiing Danes and partying youngsters team up on a Norwegian mountain resort with a very absent hotel manager.",
+        imgSrc: "/images/fjolstilfjells/1.jpeg",
+      },
+    ],
+  },
+  {
+    id: 37,
     title: "Toy Story 4",
     type: "movie",
     slug: "toy-story-4",
@@ -1032,7 +1142,7 @@ export const contentData = [
     ],
   },
   {
-    id: 12,
+    id: 38,
     title: "Resident",
     type: "series",
     slug: "resident",
@@ -1066,8 +1176,8 @@ export const contentData = [
     ],
   },
   {
-    id: 101,
-    title: "The queen's gambit",
+    id: 39,
+    title: "The Queen's Gambit",
     type: "series",
     slug: "the-queen's-gambit",
     genre: ["Drama"],
@@ -1102,8 +1212,8 @@ export const contentData = [
     ],
   },
   {
-    id: 18,
-    title: "The thunder force",
+    id: 40,
+    title: "The Thunder Force",
     type: "movie",
     slug: "the-thunder-force",
     genre: ["Action", "Adventure", "Comedy"],
@@ -1124,8 +1234,8 @@ export const contentData = [
     ],
   },
   {
-    id: 21,
-    title: "Yes day",
+    id: 41,
+    title: "Yes Day",
     type: "movie",
     slug: "yes-day",
     genre: ["Comedy", "Family"],
@@ -1146,30 +1256,8 @@ export const contentData = [
     ],
   },
   {
-    id: 22,
-    title: "Eurovision song contest: The story of fire saga",
-    type: "movie",
-    slug: "eurovision-song-contest",
-    genre: ["Comedy", "Family", "Music"],
-    service: "netflix",
-    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
-    serviceTitleLogo: "/images/Netflix_logo.svg",
-    thumbnailSrc: "/images/eurovision/eurovision.jpeg",
-    backgroundSrc: "/images/eurovision/eurovision_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Eurovision song contest: The story of fire saga",
-        episodeText:
-          "When aspiring musicians Lars and Sigrit are given the opportunity to represent their country at the world's biggest song competition, they finally have a chance to prove themselves.",
-        imgSrc: "/images/eurovision/eurovision.jpeg",
-      },
-    ],
-  },
-  {
-    id: 23,
-    title: "Long shot",
+    id: 43,
+    title: "Long Shot",
     type: "movie",
     slug: "long-shot",
     genre: ["Comedy", "Romance"],
@@ -1190,8 +1278,8 @@ export const contentData = [
     ],
   },
   {
-    id: 24,
-    title: "Love guaranteed",
+    id: 44,
+    title: "Love Guaranteed",
     type: "movie",
     slug: "love-guarantied",
     genre: ["Comedy", "Romance"],
@@ -1212,8 +1300,8 @@ export const contentData = [
     ],
   },
   {
-    id: 27,
-    title: "Game of thrones",
+    id: 45,
+    title: "Game of Thrones",
     type: "series",
     slug: "game-of-thrones",
     watched: true,
@@ -1249,7 +1337,7 @@ export const contentData = [
     ],
   },
   {
-    id: 30,
+    id: 46,
     title: "Westworld",
     type: "series",
     slug: "westworld",
@@ -1285,7 +1373,7 @@ export const contentData = [
     ],
   },
   {
-    id: 31,
+    id: 47,
     title: "The handmaid's tale",
     type: "series",
     slug: "the-handmaid's-tale",
@@ -1321,7 +1409,7 @@ export const contentData = [
     ],
   },
   {
-    id: 32,
+    id: 48,
     title: "Big little lies",
     type: "series",
     slug: "big-little-lies",
@@ -1357,7 +1445,7 @@ export const contentData = [
     ],
   },
   {
-    id: 33,
+    id: 49,
     title: "I may destroy you",
     type: "series",
     slug: "i-may-destroy-you",
@@ -1393,7 +1481,7 @@ export const contentData = [
     ],
   },
   {
-    id: 37,
+    id: 50,
     title: "Zack Snyder's Justice league",
     type: "movie",
     slug: "zack-snyder's-justice-league",
@@ -1415,7 +1503,7 @@ export const contentData = [
     ],
   },
   {
-    id: 6,
+    id: 51,
     title: "Raya and the last dragon",
     type: "movie",
     slug: "raya-and-the-last-dragon",
@@ -1437,7 +1525,7 @@ export const contentData = [
     ],
   },
   {
-    id: 40,
+    id: 52,
     title: "The 5th wave",
     type: "movie",
     slug: "the-5th-wave",
@@ -1459,7 +1547,42 @@ export const contentData = [
     ],
   },
   {
-    id: 41,
+    id: 56,
+    title: "Grey´s Anatomy",
+    type: "series",
+    slug: "greys-anotomy",
+    genre: ["Drama", "Romance"],
+    service: "viaplay",
+    serviceLogo: "/images/subscriptions/Via.png",
+    serviceTitleLogo: "/images/viaplay-logo.png",
+    thumbnailSrc: "/images/greysanotomy/greys.jpeg",
+    backgroundSrc: "/images/greysanotomy/Greysanotomy.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 3,
+        title: "Episode 1: A Change Is Gonna Come",
+        episodeText:
+          "The interns, now residents, deal with their own crops of interns. Callie struggles with her new position, and Burke makes a decision.",
+        imgSrc: "/images/greysanotomy/1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Love/Addiction",
+        episodeText:
+          "Lexie persists in trying to get to know Meredith, and Mama Burke descends once more.",
+        imgSrc: "/images/greysanotomy/2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: Let the Truth Sting",
+        episodeText: "George tells Callie of his past indiscretion with Izzie.",
+        imgSrc: "/images/greysanotomy/3.jpeg",
+      },
+    ],
+  },
+  {
+    id: 53,
     title: "The Office",
     type: "series",
     slug: "the-office",
@@ -1467,7 +1590,7 @@ export const contentData = [
     service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/theoffice/Theoffice.jpeg",
+    thumbnailSrc: "/images/theoffice/office.jpeg",
     backgroundSrc: "/images/theoffice/Theoffice.jpeg",
     optionalShowLogo: "",
     episodes: [
@@ -1494,9 +1617,80 @@ export const contentData = [
       },
     ],
   },
-
   {
-    id: 42,
+    id: 96,
+    title: "Parterapi",
+    type: "series",
+    slug: "parterapi",
+    genre: ["Comedy"],
+    service: "nrk",
+    serviceLogo: "/images/subscriptions/nrk_sub.svg",
+    serviceTitleLogo: "/images/NRK_TV_logo.svg",
+    thumbnailSrc: "/images/parterapi/parterapi.jpeg",
+    backgroundSrc: "/images/parterapi/parterapi-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "1. Begynnelsen",
+        episodeText:
+          "Kjell-Simen har fått ny kjæreste, Maiken er høygravid og Marie må lære å slippe kontrollen.",
+        imgSrc: "/images/parterapi/parterapi-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "2. Motivasjonen",
+        episodeText:
+          "Cris er villig til å jobbe steinhard for forholdet, Signe syns Tormod prater for mye og Sara Eline har ikke gjort hjemmeleksen.",
+        imgSrc: "/images/parterapi/parterapi-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "3. Romantikken",
+        episodeText:
+          "Morten prøver å si at han er glad i Randi, Alex gir Sara Eline et ultimatum og Kjell Simen klarer ikke ha sex med Turid-Beate.",
+        imgSrc: "/images/parterapi/parterapi-3.jpeg",
+      },
+    ],
+  },
+  {
+    id: 87,
+    title: "The Rookie",
+    type: "series",
+    slug: "the-rookie",
+    genre: ["Comedy", "Crime", "Drama"],
+    service: "tv2",
+    serviceLogo: "/images/subscriptions/tv2_sub.svg",
+    serviceTitleLogo: "/images/tv2sumo-logo.svg",
+    thumbnailSrc: "/images/the-rookie/the-rookie.jpeg",
+    backgroundSrc: "/images/the-rookie/the-rookie-big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 1: Pilot",
+        episodeText:
+          "Small town guy John Nolan pursues his dream of being a police officer after a life-altering incident. As the force's oldest rookie he's met with skepticism from some higher-ups who see him as a walking mid-life crisis.",
+        imgSrc: "/images/the-rookie/the-rookie-1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Crash Course",
+        episodeText:
+          "Talia forces Nolan to confront his personal moral inclinations after he encounters a kidnapping victim; Lucy is temporarily placed with a new training officer who tests her patience; and Jackson confronts his short-comings.",
+        imgSrc: "/images/the-rookie/the-rookie-2.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 3: The Good, the Bad and the Ugly",
+        episodeText:
+          "After Nolan and Talia lose control of a crime scene, they begin to debate whether people are fundamentally good or bad and what that means for a police officer.",
+        imgSrc: "/images/the-rookie/the-rookie-3.jpeg",
+      },
+    ],
+  },
+  {
+    id: 54,
     title: "Family Guy",
     type: "series",
     slug: "family-guy",
@@ -1504,7 +1698,7 @@ export const contentData = [
     service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/familyguy/Familyguy.jpeg",
+    thumbnailSrc: "/images/familyguy/family_guy_c.jpeg",
     backgroundSrc: "/images/familyguy/Familyguy.jpeg",
     optionalShowLogo: "",
     episodes: [
@@ -1531,82 +1725,8 @@ export const contentData = [
       },
     ],
   },
-
   {
-    id: 43,
-    title: "Ugly Betty",
-    type: "series",
-    slug: "ugly-betty",
-    genre: ["Comedy", "Drama", "Romance"],
-    service: "viaplay",
-    serviceLogo: "/images/subscriptions/Via.png",
-    serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/uglybetty/Uglybetty.jpeg",
-    backgroundSrc: "/images/uglybetty/Uglybetty.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 23: East Side Story",
-        episodeText:
-          "The season-end cliffhanger: Justin is thrilled with the boy playing Tony in the school play falls mysteriously ill and he is promoted from understudy. Santos finds trouble when he stops at a store to buy Justin a good-luck present. Alexis finds an unpleasant surprise when she takes their father's car to rush Daniel to the hospital for an overdose.",
-        imgSrc: "/images/uglybetty/1.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 22: A Tree Grows in Guadalajara",
-        episodeText:
-          "Betty and her family go to Guadalajara to solve Ignacio's immigration problems; Betty questions her aunt (Rita Moreno) and cousin about her late mother; Jordan (Rebecca Gayheart) visits Alexis.",
-        imgSrc: "/images/uglybetty/2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 21: Play It Again, Brian",
-        episodeText:
-          "Brian decides to declare his love for Lois as she and Peter accompany him to a writers' convention, and the Griffin kids are babysat by Herbert.",
-        imgSrc: "/images/uglybetty/3.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 44,
-    title: "Grey´s Anatomy",
-    type: "series",
-    slug: "greys-anotomy",
-    genre: ["Drama", "Romance"],
-    service: "viaplay",
-    serviceLogo: "/images/subscriptions/Via.png",
-    serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/greysanotomy/Greysanotomy.jpeg",
-    backgroundSrc: "/images/greysanotomy/Greysanotomy.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 3,
-        title: "Episode 1: A Change Is Gonna Come",
-        episodeText:
-          "The interns, now residents, deal with their own crops of interns. Callie struggles with her new position, and Burke makes a decision.",
-        imgSrc: "/images/greysanotomy/1.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 2: Love/Addiction",
-        episodeText:
-          "Lexie persists in trying to get to know Meredith, and Mama Burke descends once more.",
-        imgSrc: "/images/greysanotomy/2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 3: Let the Truth Sting",
-        episodeText: "George tells Callie of his past indiscretion with Izzie.",
-        imgSrc: "/images/greysanotomy/3.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 45,
+    id: 57,
     title: "Criminal Minds",
     type: "series",
     slug: "criminal-minds",
@@ -1641,7 +1761,7 @@ export const contentData = [
     ],
   },
   {
-    id: 48,
+    id: 58,
     title: "The Hobbit: An Unexpected Journey",
     type: "movie",
     slug: "the-hobbit-an-unexpected-journey",
@@ -1684,32 +1804,8 @@ export const contentData = [
       },
     ],
   },
-
   {
-    id: 51,
-    title: "How To Be Single",
-    type: "movie",
-    slug: "how-to-be-single",
-    genre: ["Comedy", "Romance"],
-    service: "viaplay",
-    serviceLogo: "/images/subscriptions/Via.png",
-    serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/howtobesingle/Howtobesingle.jpeg",
-    backgroundSrc: "/images/howtobesingle/Howtobesingle.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "How To Be Single",
-        episodeText:
-          "A group of young adults navigate love and relationships in New York City.",
-        imgSrc: "/images/howtobesingle/1.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 52,
+    id: 60,
     title: "Crazy Stupid Love",
     type: "movie",
     slug: "crazy-stupid-love",
@@ -1731,7 +1827,7 @@ export const contentData = [
     ],
   },
   {
-    id: 54,
+    id: 61,
     title: "Minions",
     type: "movie",
     slug: "minions",
@@ -1753,7 +1849,7 @@ export const contentData = [
     ],
   },
   {
-    id: 55,
+    id: 62,
     title: "Fritt Vilt II",
     type: "movie",
     slug: "fritt-vilt-II",
@@ -1776,7 +1872,7 @@ export const contentData = [
   },
 
   {
-    id: 56,
+    id: 63,
     title: "Gambit – NASR ESPORTS",
     type: "sport",
     slug: "gambit–NASR ESPORTS",
@@ -1799,7 +1895,7 @@ export const contentData = [
   },
 
   {
-    id: 57,
+    id: 64,
     title: "Liverpool - Real Madrid",
     type: "sport",
     slug: "liverpool-real-madrid",
@@ -1822,7 +1918,7 @@ export const contentData = [
   },
 
   {
-    id: 58,
+    id: 65,
     title: "Borussia Dortmund - Manchester City",
     type: "sport",
     slug: "borussia-dortmund-manchester-city",
@@ -1845,7 +1941,7 @@ export const contentData = [
   },
 
   {
-    id: 59,
+    id: 66,
     title: "Amstel Gold Race",
     type: "sport",
     slug: "amstel-gold-race",
@@ -1868,7 +1964,7 @@ export const contentData = [
   },
 
   {
-    id: 60,
+    id: 67,
     title: "Denmark - Norway",
     type: "sport",
     slug: "denmark-norway",
@@ -1890,29 +1986,7 @@ export const contentData = [
     ],
   },
   {
-    id: 63,
-    title: "Fjols til fjells",
-    type: "movie",
-    slug: "fjols-til-fjells",
-    genre: ["Comedy"],
-    service: "tv2",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/fjolstilfjells/Fjolstilfjells.jpeg",
-    backgroundSrc: "/images/fjolstilfjells/Fjolstilfjells.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Fjols til fjells",
-        episodeText:
-          "Everything that can go wrong goes wrong when care free ski bums, frustrated cabin owners, skiing Danes and partying youngsters team up on a Norwegian mountain resort with a very absent hotel manager.",
-        imgSrc: "/images/fjolstilfjells/1.jpeg",
-      },
-    ],
-  },
-  {
-    id: 65,
+    id: 69,
     title: "Another round",
     type: "movie",
     slug: "et-glass-til",
@@ -1933,68 +2007,44 @@ export const contentData = [
       },
     ],
   },
-
   {
-    id: 66,
-    title: "Knives Out",
-    type: "movie",
-    slug: "knives-out",
-    genre: ["Comedy", "Crime", "Drama"],
-    service: "tv2",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/knives-out/knives-out.jpeg",
-    backgroundSrc: "/images/knives-out/knives-out-big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Knives Out",
-        episodeText:
-          "A detective investigates the death of a patriarch of an eccentric, combative family.",
-        imgSrc: "/images/knives-out/knives-out.jpeg",
-      },
-    ],
-  },
-  {
-    id: 68,
-    title: "Alle elsker David",
+    id: 76,
+    title: "Kompani Lauritzen",
     type: "series",
-    slug: "alle-elsker-david",
+    slug: "kompani-lauritzen",
     genre: ["Reality"],
     service: "tv2",
     serviceLogo: "/images/subscriptions/tv2_sub.svg",
     serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/alle-elsker-david/alle-elsker-david.jpeg",
-    backgroundSrc: "/images/alle-elsker-david/aed-big.jpeg",
+    thumbnailSrc: "/images/kompani-lauritzen/kompani-lauritzen.jpeg",
+    backgroundSrc: "/images/kompani-lauritzen/kompani-lauritzen-big.jpeg",
     optionalShowLogo: "",
     episodes: [
       {
         id: 1,
-        title: "1. Livet",
+        title: "1. Palmesjokk - del 1",
         episodeText:
-          "Vi blir kjent med manager og familiemann David Eriksen som leder sine mange profiler samtidig som han sjonglerer livet med sin utradisjonelle familie.",
-        imgSrc: "/images/alle-elsker-david/aed-1.jpeg",
+          "En kald og våt overraskelse, beinhard disiplin, orden og total umyndiggjøring preger deltagernes første møte med Dag Ottos opplegg.",
+        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-1.jpeg",
       },
       {
         id: 2,
-        title: "2. Familien",
+        title: "2. Palmesjokk - del 2",
         episodeText:
-          "Lucas fyller 18 år og feirer med familien, til tross for foreldrenes skilsmisse. David blir pushet om familieforøkelse. Dette er et ømt tema, spesielt for Andrea.",
-        imgSrc: "/images/alle-elsker-david/aed-2.jpeg",
+          "De fysiske testene fortsetter på Setnesmoen og rekruttene må lære seg grunnleggende vask og orden på kaserna.",
+        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-2.jpeg",
       },
       {
         id: 3,
-        title: "3. Le Club 53",
+        title: "3. Rekrutten - del 1",
         episodeText:
-          "Andrea og Hedvig planlegger overraskelsesbursdag for David. Stemor og stedatter hadde en trøblete start, men kommer nå nærmere hverandre.",
-        imgSrc: "/images/alle-elsker-david/aed-3.jpeg",
+          "Rekruttene begynner for alvor å kjenne på utfordringene i sin nye militære hverdag og på kaserna sliter de med å innordne seg det strenge disiplinære regimet.",
+        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-3.jpeg",
       },
     ],
   },
-
   {
-    id: 69,
+    id: 72,
     title: "Best før",
     type: "series",
     slug: "best-for",
@@ -2031,7 +2081,7 @@ export const contentData = [
   },
 
   {
-    id: 70,
+    id: 73,
     title: "Bloggerne",
     type: "series",
     slug: "bloggerne",
@@ -2068,7 +2118,7 @@ export const contentData = [
   },
 
   {
-    id: 71,
+    id: 74,
     title: "Funkyfam",
     type: "series",
     slug: "funkyfam",
@@ -2105,7 +2155,7 @@ export const contentData = [
   },
 
   {
-    id: 72,
+    id: 75,
     title: "Hjerteslag",
     type: "series",
     slug: "hjerteslag",
@@ -2140,92 +2190,8 @@ export const contentData = [
       },
     ],
   },
-
   {
-    id: 73,
-    title: "Kompani Lauritzen",
-    type: "series",
-    slug: "kompani-lauritzen",
-    genre: ["Reality"],
-    service: "tv2",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/kompani-lauritzen/kompani-lauritzen.jpeg",
-    backgroundSrc: "/images/kompani-lauritzen/kompani-lauritzen-big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "1. Palmesjokk - del 1",
-        episodeText:
-          "En kald og våt overraskelse, beinhard disiplin, orden og total umyndiggjøring preger deltagernes første møte med Dag Ottos opplegg.",
-        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-1.jpeg",
-      },
-      {
-        id: 2,
-        title: "2. Palmesjokk - del 2",
-        episodeText:
-          "De fysiske testene fortsetter på Setnesmoen og rekruttene må lære seg grunnleggende vask og orden på kaserna.",
-        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-2.jpeg",
-      },
-      {
-        id: 3,
-        title: "3. Rekrutten - del 1",
-        episodeText:
-          "Rekruttene begynner for alvor å kjenne på utfordringene i sin nye militære hverdag og på kaserna sliter de med å innordne seg det strenge disiplinære regimet.",
-        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-3.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 65,
-    title: "Another round",
-    type: "movie",
-    slug: "et-glass-til",
-    genre: ["Comedy", "Drama"],
-    service: "tv2",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/et-glass-til/et-glass-til.jpeg",
-    backgroundSrc: "/images/et-glass-til/et-glass-til-big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Another round",
-        episodeText:
-          "Four friends, all high school teachers, test a theory that they will improve their lives by maintaining a constant level of alcohol in their blood.",
-        imgSrc: "/images/et-glass-til/et-glass-til.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 66,
-    title: "Knives Out",
-    type: "movie",
-    slug: "knives-out",
-    genre: ["Comedy", "Crime", "Drama"],
-    service: "tv2",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/knives-out/knives-out.jpeg",
-    backgroundSrc: "/images/knives-out/knives-out-big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Knives Out",
-        episodeText:
-          "A detective investigates the death of a patriarch of an eccentric, combative family.",
-        imgSrc: "/images/knives-out/knives-out.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 67,
+    id: 79,
     title: "Tomb Raider",
     type: "movie",
     slug: "tomb-raider",
@@ -2246,9 +2212,8 @@ export const contentData = [
       },
     ],
   },
-
   {
-    id: 68,
+    id: 80,
     title: "Alle elsker David",
     type: "series",
     slug: "alle-elsker-david",
@@ -2285,7 +2250,7 @@ export const contentData = [
   },
 
   {
-    id: 78,
+    id: 81,
     title: "Rådebank",
     type: "series",
     slug: "radebank",
@@ -2318,7 +2283,7 @@ export const contentData = [
     ],
   },
   {
-    id: 80,
+    id: 82,
     title: "Exit",
     type: "series",
     slug: "exit",
@@ -2355,7 +2320,7 @@ export const contentData = [
   },
 
   {
-    id: 72,
+    id: 83,
     title: "Hjerteslag",
     type: "series",
     slug: "hjerteslag",
@@ -2392,7 +2357,7 @@ export const contentData = [
   },
 
   {
-    id: 73,
+    id: 84,
     title: "Kompani Lauritzen",
     type: "series",
     slug: "kompani-lauritzen",
@@ -2429,7 +2394,7 @@ export const contentData = [
   },
 
   {
-    id: 74,
+    id: 85,
     title: "Märtha",
     type: "series",
     slug: "martha",
@@ -2466,7 +2431,7 @@ export const contentData = [
   },
 
   {
-    id: 75,
+    id: 86,
     title: "Sommerhytta",
     type: "series",
     slug: "sommerhytta",
@@ -2501,46 +2466,8 @@ export const contentData = [
       },
     ],
   },
-
   {
-    id: 76,
-    title: "The Rookie",
-    type: "series",
-    slug: "the-rookie",
-    genre: ["Comedy", "Crime", "Drama"],
-    service: "tv2",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/the-rookie/the-rookie.jpeg",
-    backgroundSrc: "/images/the-rookie/the-rookie-big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 1: Pilot",
-        episodeText:
-          "Small town guy John Nolan pursues his dream of being a police officer after a life-altering incident. As the force's oldest rookie he's met with skepticism from some higher-ups who see him as a walking mid-life crisis.",
-        imgSrc: "/images/the-rookie/the-rookie-1.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 2: Crash Course",
-        episodeText:
-          "Talia forces Nolan to confront his personal moral inclinations after he encounters a kidnapping victim; Lucy is temporarily placed with a new training officer who tests her patience; and Jackson confronts his short-comings.",
-        imgSrc: "/images/the-rookie/the-rookie-2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 3: The Good, the Bad and the Ugly",
-        episodeText:
-          "After Nolan and Talia lose control of a crime scene, they begin to debate whether people are fundamentally good or bad and what that means for a police officer.",
-        imgSrc: "/images/the-rookie/the-rookie-3.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 77,
+    id: 88,
     title: "The Voice",
     type: "series",
     slug: "the-voice",
@@ -2577,116 +2504,8 @@ export const contentData = [
   },
 
   {
-    id: 78,
-    title: "Rådebank",
-    type: "series",
-    slug: "radebank",
-    genre: ["Drama"],
-    service: "nrk",
-    serviceLogo: "/images/subscriptions/nrk_sub.svg",
-    serviceTitleLogo: "/images/NRK_TV_logo.svg",
-    thumbnailSrc: "/images/radebank/radebank.jpeg",
-    backgroundSrc: "/images/radebank/rb-big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 1: Parkert",
-        episodeText: "Singel og klar for fest.",
-        imgSrc: "/images/radebank/rb-1.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 2: Hvit Poppy",
-        episodeText: "Det som skjer på Grivimoen, blir på Grivimoen.",
-        imgSrc: "/images/radebank/rb-2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 3: Ute og sykler",
-        episodeText: "Forbudt frukt.",
-        imgSrc: "/images/radebank/rb-3.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 79,
-    title: "Normal People",
-    type: "series",
-    slug: "normal-people",
-    genre: ["Drama", "Romance"],
-    service: "nrk",
-    serviceLogo: "/images/subscriptions/nrk_sub.svg",
-    serviceTitleLogo: "/images/NRK_TV_logo.svg",
-    thumbnailSrc: "/images/normal-people/normal-people.jpeg",
-    backgroundSrc: "/images/normal-people/np-big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 1",
-        episodeText:
-          "In modern, rural Ireland, Connell and Marianne, on different ends of their school's social scene, begin an intense, secret affair.",
-        imgSrc: "/images/normal-people/np-1.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 2",
-        episodeText:
-          "Marianne and Connell's affair continues, but the pressures of the outside world start to take their toll.",
-        imgSrc: "/images/normal-people/np-2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 3",
-        episodeText:
-          "Connell betrays Marianne by making a cowardly choice. Marianne withdraws from school, causing Connell intense guilt.",
-        imgSrc: "/images/normal-people/np-3.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 80,
-    title: "Exit",
-    type: "series",
-    slug: "exit",
-    genre: ["Drama"],
-    service: "nrk",
-    serviceLogo: "/images/subscriptions/nrk_sub.svg",
-    serviceTitleLogo: "/images/NRK_TV_logo.svg",
-    thumbnailSrc: "/images/exit/exit.jpeg",
-    backgroundSrc: "/images/exit/exit-big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 1: Steril",
-        episodeText:
-          "Adam's life only looks perfect, as he looks for thrills by drinking and doing drugs with his three best friends, Henrik, Jeppe, and William.",
-        imgSrc: "/images/exit/exit-1.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 2: William",
-        episodeText:
-          "The friends all meet up at William and Celine's party. The guys get high right away, and Jeppe advises Adam to fake impotence, should Hermine's fertility test results turn out as expected.",
-        imgSrc: "/images/exit/exit-2.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 3: Henrik",
-        episodeText:
-          "The guys meet up in William's hospital room and do coke. They give some to William, who wakes from his coma.",
-        imgSrc: "/images/exit/exit-3.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 81,
-    title: "The fall",
+    id: 89,
+    title: "The Fall",
     type: "series",
     slug: "the-fall",
     genre: ["Drama", "Crime", "Thriller"],
@@ -2722,7 +2541,7 @@ export const contentData = [
   },
 
   {
-    id: 82,
+    id: 90,
     title: "Den tynne blå linjen",
     type: "series",
     slug: "den-tynne-bla-linjen",
@@ -2759,7 +2578,7 @@ export const contentData = [
   },
 
   {
-    id: 83,
+    id: 91,
     title: "Førstegangstjenesten",
     type: "series",
     slug: "forstegangstjenesten",
@@ -2796,7 +2615,7 @@ export const contentData = [
   },
 
   {
-    id: 84,
+    id: 92,
     title: "Kongen av Gulset",
     type: "series",
     slug: "kongen-av-gulset",
@@ -2830,7 +2649,7 @@ export const contentData = [
   },
 
   {
-    id: 85,
+    id: 93,
     title: "Maskorama",
     type: "series",
     slug: "maskorama",
@@ -2867,7 +2686,7 @@ export const contentData = [
   },
 
   {
-    id: 86,
+    id: 94,
     title: "Maxitaxi Driver",
     type: "series",
     slug: "maxitaxi-driver",
@@ -2904,7 +2723,7 @@ export const contentData = [
   },
 
   {
-    id: 87,
+    id: 95,
     title: "Norges Tøffeste",
     type: "series",
     slug: "norges-toffeste",
@@ -2939,46 +2758,8 @@ export const contentData = [
       },
     ],
   },
-
   {
-    id: 88,
-    title: "Parterapi",
-    type: "series",
-    slug: "parterapi",
-    genre: ["Comedy"],
-    service: "nrk",
-    serviceLogo: "/images/subscriptions/nrk_sub.svg",
-    serviceTitleLogo: "/images/NRK_TV_logo.svg",
-    thumbnailSrc: "/images/parterapi/parterapi.jpeg",
-    backgroundSrc: "/images/parterapi/parterapi-big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "1. Begynnelsen",
-        episodeText:
-          "Kjell-Simen har fått ny kjæreste, Maiken er høygravid og Marie må lære å slippe kontrollen.",
-        imgSrc: "/images/parterapi/parterapi-1.jpeg",
-      },
-      {
-        id: 2,
-        title: "2. Motivasjonen",
-        episodeText:
-          "Cris er villig til å jobbe steinhard for forholdet, Signe syns Tormod prater for mye og Sara Eline har ikke gjort hjemmeleksen.",
-        imgSrc: "/images/parterapi/parterapi-2.jpeg",
-      },
-      {
-        id: 3,
-        title: "3. Romantikken",
-        episodeText:
-          "Morten prøver å si at han er glad i Randi, Alex gir Sara Eline et ultimatum og Kjell Simen klarer ikke ha sex med Turid-Beate.",
-        imgSrc: "/images/parterapi/parterapi-3.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 89,
+    id: 97,
     title: "Side om side",
     type: "series",
     slug: "side-om-side",
@@ -3014,7 +2795,7 @@ export const contentData = [
   },
 
   {
-    id: 90,
+    id: 98,
     title: "Ulven kommer",
     type: "series",
     slug: "ulven-kommer",
@@ -3051,7 +2832,7 @@ export const contentData = [
   },
 
   {
-    id: 93,
+    id: 99,
     title: "Battle",
     type: "movie",
     slug: "battle",
@@ -3074,7 +2855,7 @@ export const contentData = [
   },
 
   {
-    id: 95,
+    id: 100,
     title: "Psychobitch",
     type: "movie",
     slug: "psychobitch",
@@ -3097,7 +2878,7 @@ export const contentData = [
   },
 
   {
-    id: 96,
+    id: 101,
     title: "Suffragette",
     type: "movie",
     slug: "suffragette",
@@ -3120,8 +2901,8 @@ export const contentData = [
   },
 
   {
-    id: 97,
-    title: "The king's speech",
+    id: 102,
+    title: "The King's Speech",
     type: "movie",
     slug: "the-king's-speech",
     genre: ["Biography", "Drama", "History"],
@@ -3143,7 +2924,7 @@ export const contentData = [
   },
 
   {
-    id: 99,
+    id: 103,
     title: "Silver linings playbook",
     type: "movie",
     slug: "silver-linings-playbook",
