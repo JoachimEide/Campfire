@@ -44,7 +44,6 @@ export default function Home(props) {
           border-radius: 14px;
           background-color: rgba(7, 0, 0, 0.36);
           border: 1px solid #e59740;
-          font-family: din-2014, sans-serif;
         }
 
         input,
