@@ -11,6 +11,10 @@ html {
   background-color: #111820;
 }
 
+html::-webkit-scrollbar {
+  display: none;
+}
+
 h1 {
   color: white;
   font-size: 1.5rem;

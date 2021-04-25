@@ -3,7 +3,7 @@
   bottom: 0;
   right: 5%;
   width: 200px;
-  height: 247px;
+  margin-bottom: 30px;
   border-radius: 7px 7px 0 0;
 }
 
@@ -15,6 +15,11 @@
   border: 1px solid #3ffefb;
   border-radius: 7px 7px 0 0;
   background-color: rgba(17, 24, 32, 0.65);
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
 
 .mini {
@@ -23,8 +28,13 @@
   background-color: white;
 }
 
+.minipadding {
+  padding: 10px;
+}
+
 .allMessages {
   height: 150px;
+  overflow: scroll;
 }
 
 .input {
@@ -37,6 +47,35 @@
   border-radius: 7px;
 }
 
+.message {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.messageFriend {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.messageContainer {
+  display: flex;
+  height: auto;
+  width: 90%;
+  margin: 0 15px;
+  padding: 5%;
+  background-color: rgba(17, 24, 32, 0.65);
+  border: 1px solid #3ffefb;
+  border-radius: 7px;
+}
+
+.message p {
+  margin-left: 10px;
+}
+
 .image {
   border-radius: 50%;
+  border: 1px solid #3ffefb !important;
 }
