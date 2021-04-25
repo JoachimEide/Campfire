@@ -49,6 +49,7 @@ export default function Home(props) {
       friends={props.friendsDataList}
     >
       <Topcarousel shows={topCarouselShows} />
+      <Services subscriptions={props.subscriptions} />
       <ContentRow
         subscriptions={props.subscriptions}
         title={`News`}
