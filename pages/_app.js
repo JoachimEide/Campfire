@@ -5,7 +5,7 @@ const myReviews = [
   {
     id: 1,
     score: 10,
-    reviewText: "Mandalorian is the best show ever! Star Wards is saved",
+    reviewText: "Exciting show with some suprises along the way..",
   },
   {
     id: 28,
@@ -15,7 +15,7 @@ const myReviews = [
   {
     id: 27,
     score: 7,
-    reviewText: "Best show ever... And then the last two seasons happened.",
+    reviewText: "A decent action movie, easy entertainment!",
   },
 ];
 
