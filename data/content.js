@@ -442,7 +442,7 @@ export const contentData = [
         id: 2,
         title: "Episode 2: Exposure",
         episodeText:
-          "With the city reeling from Maladie's opera debut, Mundi takes a personal stake in tracking her down. Amalia launches an investigation of her own and the charitable Lavinia Bidlow seeks to destigmatize the Touched at a society event.",
+          "With the city reeling from Maladie's opera debut, Mundi takes a personal stake in tracking her down. Amalia launches an investigation of her own.",
         imgSrc: "/images/nevers/neversS1E2.jpeg",
       },
     ],
