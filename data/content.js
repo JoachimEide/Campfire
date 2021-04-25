@@ -1,7 +1,7 @@
 export const contentData = [
   {
     id: 1,
-    title: "Big sky",
+    title: "Big Sky",
     type: "series",
     slug: "big-sky",
     genre: ["Crime", "Drama", "Mystery"],
@@ -14,10 +14,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 3: The big Rick",
+        title: "Episode 1: Pilot",
         episodeText:
-          "Cassie grows more suspicious of Legarski after a threatening conversation. Grace manages to make headway on the girls' escape. Helen confronts Ronald about his increasingly bizarre behavior.",
-        imgSrc: "/images/big_sky/big_sky_3.jpeg",
+          "Grace and Danielle are kidnapped by a long haul trucker on a remote stretch of highway. Private detectives Hoyt and Dewell search for the sisters.",
+        imgSrc: "/images/big_sky/big_sky_1.jpeg",
       },
       {
         id: 2,
@@ -28,10 +28,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 1: Pilot",
+        title: "Episode 3: The big Rick",
         episodeText:
-          "Grace and Danielle are kidnapped by a long haul trucker on a remote stretch of highway. Private detectives Hoyt and Dewell search for the sisters.",
-        imgSrc: "/images/big_sky/big_sky_1.jpeg",
+          "Cassie grows more suspicious of Legarski after a threatening conversation. Grace manages to make headway on the girls' escape. Helen confronts Ronald about his increasingly bizarre behavior.",
+        imgSrc: "/images/big_sky/big_sky_3.jpeg",
       },
     ],
   },
@@ -50,10 +50,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 3: Made you look",
+        title: "Episode 1: Pilot",
         episodeText:
-          "Kat starts camming; Jules falls for a boy online; Rue is confronted about her lies at NA; Cassie and McKay spend the weekend at his college.",
-        imgSrc: "/images/euphoria/euphoriaS1E3.jpeg",
+          "Rue returns home from rehab and meets Jules; Nate and Maddy attempt to make each other jealous; Kat is pressured to lose something.",
+        imgSrc: "/images/euphoria/euphoriaS1E1.jpeg",
       },
       {
         id: 2,
@@ -64,10 +64,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 1: Pilot",
+        title: "Episode 3: Made you look",
         episodeText:
-          "Rue returns home from rehab and meets Jules; Nate and Maddy attempt to make each other jealous; Kat is pressured to lose something.",
-        imgSrc: "/images/euphoria/euphoriaS1E1.jpeg",
+          "Kat starts camming; Jules falls for a boy online; Rue is confronted about her lies at NA; Cassie and McKay spend the weekend at his college.",
+        imgSrc: "/images/euphoria/euphoriaS1E3.jpeg",
       },
     ],
   },
@@ -122,10 +122,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 10: War",
+        title: "Episode 8: 48:1",
         episodeText:
-          "Amid a growing challenge to her power, Thatcher fights for her position. Charles grows more determined to separate from Diana as their marriage unravels.",
-        imgSrc: "/images/crown/crownS4E10.jpeg",
+          "As many nations condemn apartheid in South Africa, tensions mounts between Thatcher and Elizabeth about their clashing opinions on applying sanctions.",
+        imgSrc: "/images/crown/crownS4E8.jpeg",
       },
       {
         id: 2,
@@ -136,10 +136,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 8: 48:1",
+        title: "Episode 10: War",
         episodeText:
-          "As many nations condemn apartheid in South Africa, tensions mounts between Thatcher and Elizabeth about their clashing opinions on applying sanctions.",
-        imgSrc: "/images/crown/crownS4E8.jpeg",
+          "Amid a growing challenge to her power, Thatcher fights for her position. Charles grows more determined to separate from Diana as their marriage unravels.",
+        imgSrc: "/images/crown/crownS4E10.jpeg",
       },
     ],
   },
@@ -268,10 +268,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 7: Æsahættr",
+        title: "Episode 5: The scholar",
         episodeText:
-          "As all paths converge on Cittàgazze, Lee is determined to fulfil his quest, whatever the cost. Mrs Coulter's question is answered, and Will takes on his father's mantle.",
-        imgSrc: "/images/his_dark_materials/hdmS2E7.jpeg",
+          "Will and Lyra set out to retrieve what's been lost. Mary takes a leap of faith.",
+        imgSrc: "/images/his_dark_materials/hdmS2E5.jpeg",
       },
       {
         id: 2,
@@ -282,10 +282,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 5: The scholar",
+        title: "Episode 7: Æsahættr",
         episodeText:
-          "Will and Lyra set out to retrieve what's been lost. Mary takes a leap of faith.",
-        imgSrc: "/images/his_dark_materials/hdmS2E5.jpeg",
+          "As all paths converge on Cittàgazze, Lee is determined to fulfil his quest, whatever the cost. Mrs Coulter's question is answered, and Will takes on his father's mantle.",
+        imgSrc: "/images/his_dark_materials/hdmS2E7.jpeg",
       },
     ],
   },
@@ -294,7 +294,7 @@ export const contentData = [
     title: "The Irregulars",
     type: "series",
     slug: "the-irregulars",
-    genre: ["Drama", "Crime", "Fantasy"],
+    genre: ["Drama", "Crime", "Thriller", "Fantasy"],
     service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
@@ -304,10 +304,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Chapter 3: Ipsissimus",
+        title: "Chapter 1: An unkindness in London",
         episodeText:
-          "A gruesome murder sends Bea and her crew undercover at a country estate to determine whether the killer is part of a secret paranormal society.",
-        imgSrc: "/images/irregulars/irregularsS1E3.jpeg",
+          "As Jessie's nightmares grow worse, Bea accepts Dr. Watson's job offer to investigate four kidnapped babies - and receives some unexpectedly posh help.",
+        imgSrc: "/images/irregulars/irregularsS1E1.jpeg",
       },
       {
         id: 2,
@@ -318,10 +318,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Chapter 1: An unkindness in London",
+        title: "Chapter 3: Ipsissimus",
         episodeText:
-          "As Jessie's nightmares grow worse, Bea accepts Dr. Watson's job offer to investigate four kidnapped babies - and receives some unexpectedly posh help.",
-        imgSrc: "/images/irregulars/irregularsS1E1.jpeg",
+          "A gruesome murder sends Bea and her crew undercover at a country estate to determine whether the killer is part of a secret paranormal society.",
+        imgSrc: "/images/irregulars/irregularsS1E3.jpeg",
       },
     ],
   },
@@ -352,7 +352,7 @@ export const contentData = [
     title: "Snowpiercer",
     type: "series",
     slug: "snowpiercer",
-    genre: ["Drama", "Action", "Fantasy", "Sci-fi"],
+    genre: ["Thriller", "Action", "Fantasy", "Sci-Fi"],
     service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
@@ -362,10 +362,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 3: A great odyssey",
+        title: "Episode 1: The time of two engines",
         episodeText:
-          "Melanie embarks on her most dangerous mission yet, while Layton reckons with his personal choices.",
-        imgSrc: "/images/snowpiercer/snowpiercerS2E3.jpeg",
+          "Mr. Wilford has arrived. And as this new threat rattles Snowpiercer to its core, Melanie makes a move that can't be undone.",
+        imgSrc: "/images/snowpiercer/snowpiercerS2E1.jpeg",
       },
       {
         id: 2,
@@ -376,10 +376,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 1: The time of two engines",
+        title: "Episode 3: A great odyssey",
         episodeText:
-          "Mr. Wilford has arrived. And as this new threat rattles Snowpiercer to its core, Melanie makes a move that can't be undone.",
-        imgSrc: "/images/snowpiercer/snowpiercerS2E1.jpeg",
+          "Melanie embarks on her most dangerous mission yet, while Layton reckons with his personal choices.",
+        imgSrc: "/images/snowpiercer/snowpiercerS2E3.jpeg",
       },
     ],
   },
@@ -389,7 +389,7 @@ export const contentData = [
     type: "series",
     slug: "mandalorian",
     watched: true,
-    genre: ["Sci/fi", "Action", "Fantasy"],
+    genre: ["Sci-Fi", "Action", "Fantasy"],
     service: "disney",
     serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
     serviceTitleLogo: "/images/DisneyPlusLogo.svg",
@@ -399,9 +399,9 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Chapter 16: The rescue",
-        episodeText: "The Mandalorian and his allies attempt a daring rescue.",
-        imgSrc: "/images/mandalorian/mandalorianS2E16.jpeg",
+        title: "Chapter 14: The tragedy",
+        episodeText: "The Mandalorian and Child travel to an ancient site.",
+        imgSrc: "/images/mandalorian/mandalorianS2E14.jpeg",
       },
       {
         id: 2,
@@ -412,9 +412,9 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Chapter 14: The tragedy",
-        episodeText: "The Mandalorian and Child travel to an ancient site.",
-        imgSrc: "/images/mandalorian/mandalorianS2E14.jpeg",
+        title: "Chapter 16: The rescue",
+        episodeText: "The Mandalorian and his allies attempt a daring rescue.",
+        imgSrc: "/images/mandalorian/mandalorianS2E16.jpeg",
       },
     ],
   },
@@ -423,7 +423,7 @@ export const contentData = [
     title: "The Nevers",
     type: "series",
     slug: "the-nevers",
-    genre: ["Drama", "Action", "Fantasy"],
+    genre: ["Drama", "Action", "Fantasy", "Sci-Fi"],
     service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
@@ -433,17 +433,17 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 2: Exposure",
-        episodeText:
-          "With the city reeling from Maladie's opera debut, Mundi takes a personal stake in tracking her down. Amalia launches an investigation of her own and the charitable Lavinia Bidlow seeks to destigmatize the Touched at a society event.",
-        imgSrc: "/images/nevers/neversS1E2.jpeg",
-      },
-      {
-        id: 2,
         title: "Episode 1: Touched",
         episodeText:
           "Three years after an inexplicable event suddenly equips them with extraordinary abilities, Amalia True and Penance Adair work to protect their kind from widespread, deepening antipathy.",
         imgSrc: "/images/nevers/neversS1E1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Exposure",
+        episodeText:
+          "With the city reeling from Maladie's opera debut, Mundi takes a personal stake in tracking her down. Amalia launches an investigation of her own and the charitable Lavinia Bidlow seeks to destigmatize the Touched at a society event.",
+        imgSrc: "/images/nevers/neversS1E2.jpeg",
       },
     ],
   },
@@ -453,7 +453,7 @@ export const contentData = [
     type: "series",
     slug: "stranger-things",
     watched: true,
-    genre: ["Drama", "Fantasy", "Horror"],
+    genre: ["Drama", "Fantasy", "Horror", "Sci-Fi"],
     service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
@@ -463,10 +463,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Chapter 8: The battle of starcourt",
+        title: "Chapter 6: E pluribus unum",
         episodeText:
-          "Terror reigns in the food court when the Mind Flayer comes to collect. But down below, in the dark, the future of the world is at stake.",
-        imgSrc: "/images/stranger_things/stranger_thingsS3E8.jpg",
+          "Dr. Alexei reveals what the Russians have been building, and Eleven sees where Billy has been. Dustin and Erica stage a daring rescue.",
+        imgSrc: "/images/stranger_things/stranger_thingsS3E6.jpg",
       },
       {
         id: 2,
@@ -477,10 +477,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Chapter 6: E pluribus unum",
+        title: "Chapter 8: The battle of starcourt",
         episodeText:
-          "Dr. Alexei reveals what the Russians have been building, and Eleven sees where Billy has been. Dustin and Erica stage a daring rescue.",
-        imgSrc: "/images/stranger_things/stranger_thingsS3E6.jpg",
+          "Terror reigns in the food court when the Mind Flayer comes to collect. But down below, in the dark, the future of the world is at stake.",
+        imgSrc: "/images/stranger_things/stranger_thingsS3E8.jpg",
       },
     ],
   },
@@ -499,10 +499,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 22: Founder's Day",
+        title: "Episode 20: Blood Brothers",
         episodeText:
-          "Damon and Alaric try to stop John Gilbert from setting a plan in motion to bring Founder's Day to an end amid chaos, destruction and death.",
-        imgSrc: "/images/thevampirediaries/1.jpeg",
+          "Elena learns what happened when Damon and Stefan were turned. Pearl has an ugly confrontation with John Gilbert. Jeremy and Anna get closer.",
+        imgSrc: "/images/thevampirediaries/3.jpeg",
       },
       {
         id: 2,
@@ -513,10 +513,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 20: Blood Brothers",
+        title: "Episode 22: Founder's Day",
         episodeText:
-          "Elena learns what happened when Damon and Stefan were turned. Pearl has an ugly confrontation with John Gilbert. Jeremy and Anna get closer.",
-        imgSrc: "/images/thevampirediaries/3.jpeg",
+          "Damon and Alaric try to stop John Gilbert from setting a plan in motion to bring Founder's Day to an end amid chaos, destruction and death.",
+        imgSrc: "/images/thevampirediaries/1.jpeg",
       },
     ],
   },
@@ -579,7 +579,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Wonder woman 1984",
+        title: "Wonder Woman 1984",
         episodeText:
           "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.",
         imgSrc: "/images/wonder_woman/ww.jpeg",
@@ -601,10 +601,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 3: Power Broker",
+        title: "Episode 1: New world order",
         episodeText:
-          "To find the source of the Super Soldier Serum, Sam and Bucky must scale a ladder of low-lifes starting in Madripoor with Zemo.",
-        imgSrc: "/images/falcon/falcon_3.jpeg",
+          "Sam Wilson and Bucky Barnes realize that their futures are anything but normal.",
+        imgSrc: "/images/falcon/falcon_1.jpeg",
       },
       {
         id: 2,
@@ -615,10 +615,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 1: New world order",
+        title: "Episode 3: Power Broker",
         episodeText:
-          "Sam Wilson and Bucky Barnes realize that their futures are anything but normal.",
-        imgSrc: "/images/falcon/falcon_1.jpeg",
+          "To find the source of the Super Soldier Serum, Sam and Bucky must scale a ladder of low-lifes starting in Madripoor with Zemo.",
+        imgSrc: "/images/falcon/falcon_3.jpeg",
       },
     ],
   },
@@ -659,10 +659,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 20: The last act",
+        title: "Episode 18: It's only magic",
         episodeText:
-          "The epic saga which began with Ragnar Lothbrok, the first Vikings leader to emerge from the mists of legend, comes to an end in a spectacular and shocking series finale which finds striking the new land and in England.",
-        imgSrc: "/images/vikings/vikingsS6E20.jpeg",
+          "Ubbe and settlers find land but soon realize they are not alone. In Wessex, king Alfred has mustered up a large force to fight the Vikings. Meanwhile in Kattegat, Erik realizes that Ingrid had been using her powers on him",
+        imgSrc: "/images/vikings/vikingsS6E18.jpeg",
       },
       {
         id: 2,
@@ -673,16 +673,16 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 18: It's only magic",
+        title: "Episode 20: The last act",
         episodeText:
-          "Ubbe and settlers find land but soon realize they are not alone. In Wessex, king Alfred has mustered up a large force to fight the Vikings. Meanwhile in Kattegat, Erik realizes that Ingrid had been using her powers on him",
-        imgSrc: "/images/vikings/vikingsS6E18.jpeg",
+          "The epic saga which began with Ragnar Lothbrok, the first Vikings leader to emerge from the mists of legend, comes to an end in a spectacular and shocking series finale which finds striking the new land and in England.",
+        imgSrc: "/images/vikings/vikingsS6E20.jpeg",
       },
     ],
   },
   {
     id: 22,
-    title: "The old guard",
+    title: "The Old Guard",
     type: "movie",
     slug: "the-old-guard",
     genre: ["Action", "Adventure", "Fantasy"],
@@ -695,7 +695,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "The old guard",
+        title: "The Old Guard",
         episodeText:
           "A covert team of immortal mercenaries is suddenly exposed and must now fight to keep their identity a secret just as an unexpected new member is discovered.",
         imgSrc: "/images/old_guard/old_guard.jpeg",
@@ -707,7 +707,7 @@ export const contentData = [
     title: "Wandavision",
     type: "series",
     slug: "wandavision",
-    genre: ["Sci/fi", "Action", "Fantasy"],
+    genre: ["Sci-Fi", "Action", "Fantasy"],
     service: "disney",
     serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
     serviceTitleLogo: "/images/DisneyPlusLogo.svg",
@@ -717,10 +717,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 9: The series finale",
+        title: "Episode 7: Breaking the fourth wall",
         episodeText:
-          "Wanda battles Agatha and Vision fights his S.W.O.R.D. counterpart as Hayward launches an attack on Westview.",
-        imgSrc: "/images/wandavision/wandaS1E9.jpeg",
+          "Monica plots her return, Wanda navigates unsettling complications, and Vision forms a new alliance.",
+        imgSrc: "/images/wandavision/wandaS1E7.jpeg",
       },
       {
         id: 2,
@@ -731,10 +731,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 7: Breaking the fourth wall",
+        title: "Episode 9: The series finale",
         episodeText:
-          "Monica plots her return, Wanda navigates unsettling complications, and Vision forms a new alliance.",
-        imgSrc: "/images/wandavision/wandaS1E7.jpeg",
+          "Wanda battles Agatha and Vision fights his S.W.O.R.D. counterpart as Hayward launches an attack on Westview.",
+        imgSrc: "/images/wandavision/wandaS1E9.jpeg",
       },
     ],
   },
@@ -743,7 +743,7 @@ export const contentData = [
     title: "Killing Eve",
     type: "series",
     slug: "killing-eve",
-    genre: ["Drama", "Action", "Adventure"],
+    genre: ["Drama", "Action", "Thriller"],
     service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
@@ -753,10 +753,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 3: Don't I know you?",
+        title: "Episode 1: Nice face",
         episodeText:
-          "After a killing in Berlin, Eve and Bill travel there to investigate, unaware of how close they are to Villanelle.",
-        imgSrc: "/images/killing_eve/keS1E3.jpeg",
+          "When a Russian politician is murdered, a bored MI5 security officer is tasked with protecting the only witness and soon finds herself on a collision course with a violent and extraordinary assassin.",
+        imgSrc: "/images/killing_eve/keS1E1.jpeg",
       },
       {
         id: 2,
@@ -767,10 +767,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 1: Nice face",
+        title: "Episode 3: Don't I know you?",
         episodeText:
-          "When a Russian politician is murdered, a bored MI5 security officer is tasked with protecting the only witness and soon finds herself on a collision course with a violent and extraordinary assassin.",
-        imgSrc: "/images/killing_eve/keS1E1.jpeg",
+          "After a killing in Berlin, Eve and Bill travel there to investigate, unaware of how close they are to Villanelle.",
+        imgSrc: "/images/killing_eve/keS1E3.jpeg",
       },
     ],
   },
@@ -779,7 +779,7 @@ export const contentData = [
     title: "Love and Monsters",
     type: "movie",
     slug: "love-and-monsters",
-    genre: ["Comedy", "Adventure", "Action"],
+    genre: ["Comedy", "Fantasy", "Action"],
     service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
@@ -789,7 +789,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Love and monsters",
+        title: "Love and Monsters",
         episodeText:
           "In a monster-infested world, Joel learns his girlfriend is just 85 miles away. To make the dangerous journey, Joel discovers his inner hero to be with the girl of his dreams.",
         imgSrc: "/images/love_and_monsters/love_and_monsters.jpeg",
@@ -801,7 +801,7 @@ export const contentData = [
     title: "Prison Break",
     type: "series",
     slug: "prison-break",
-    genre: ["Action", "Crime", "Drama"],
+    genre: ["Action", "Crime"],
     service: "viaplay",
     serviceLogo: "/images/subscriptions/Via.png",
     serviceTitleLogo: "/images/viaplay-logo.png",
@@ -811,10 +811,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 22: Sona",
+        title: "Episode 20: Panama",
         episodeText:
-          "Michael races against the clock to rescue Lincoln and beat Mahone at his own end game.",
-        imgSrc: "/images/prisonbreak/1.jpeg",
+          "Now Caroline Reynolds has stepped down as president, she can no longer sign a pardon, so the brothers must immediately disappear, forever.",
+        imgSrc: "/images/prisonbreak/3.jpeg",
       },
       {
         id: 2,
@@ -825,10 +825,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 20: Panama",
+        title: "Episode 22: Sona",
         episodeText:
-          "Now Caroline Reynolds has stepped down as president, she can no longer sign a pardon, so the brothers must immediately disappear, forever.",
-        imgSrc: "/images/prisonbreak/3.jpeg",
+          "Michael races against the clock to rescue Lincoln and beat Mahone at his own end game.",
+        imgSrc: "/images/prisonbreak/1.jpeg",
       },
     ],
   },
@@ -837,7 +837,7 @@ export const contentData = [
     title: "Gemini Man",
     type: "movie",
     slug: "gemini-man",
-    genre: ["Action", "Sci-fi"],
+    genre: ["Action", "Sci-Fi"],
     service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
@@ -925,7 +925,7 @@ export const contentData = [
     title: "Mulan (2020)",
     type: "movie",
     slug: "mulan",
-    genre: ["Action", "Family", "Drama", "Adventure"],
+    genre: ["Family", "Drama", "Adventure"],
     service: "disney",
     serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
     serviceTitleLogo: "/images/DisneyPlusLogo.svg",
@@ -966,10 +966,10 @@ export const contentData = [
   },
   {
     id: 34,
-    title: "Ghost in the shell",
+    title: "Ghost in the Shell",
     type: "movie",
     slug: "ghost-in-the-shell",
-    genre: ["Action", "Crime", "Drama"],
+    genre: ["Action", "Crime"],
     service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
@@ -979,7 +979,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Ghost in the shell",
+        title: "Ghost in ihe Shell",
         episodeText:
           "In the near future, Major Mira Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.",
         imgSrc: "/images/ghost_in_the_shell/gits.jpeg",
@@ -1058,7 +1058,7 @@ export const contentData = [
     type: "movie",
     slug: "bao",
     watched: true,
-    genre: ["Animation", "Family", "Drama"],
+    genre: ["Animation", "Family"],
     service: "disney",
     serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
     serviceTitleLogo: "/images/DisneyPlusLogo.svg",
@@ -1077,7 +1077,7 @@ export const contentData = [
   },
   {
     id: 42,
-    title: "Eurovision song contest: The story of fire saga",
+    title: "Eurovision Song Contest: The Story Of Fire Saga",
     type: "movie",
     slug: "eurovision-song-contest",
     genre: ["Comedy", "Family", "Music"],
@@ -1090,7 +1090,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Eurovision song contest: The story of fire saga",
+        title: "Eurovision Song Contest: The Story Of Fire Saga",
         episodeText:
           "When aspiring musicians Lars and Sigrit are given the opportunity to represent their country at the world's biggest song competition, they finally have a chance to prove themselves.",
         imgSrc: "/images/eurovision/eurovision.jpeg",
@@ -1099,7 +1099,7 @@ export const contentData = [
   },
   {
     id: 68,
-    title: "Fjols til fjells",
+    title: "Fjols Til Fjells",
     type: "movie",
     slug: "fjols-til-fjells",
     genre: ["Comedy"],
@@ -1112,7 +1112,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Fjols til fjells",
+        title: "Fjols Til Fjells",
         episodeText:
           "Everything that can go wrong goes wrong when care free ski bums, frustrated cabin owners, skiing Danes and partying youngsters team up on a Norwegian mountain resort with a very absent hotel manager.",
         imgSrc: "/images/fjolstilfjells/1.jpeg",
@@ -1143,9 +1143,9 @@ export const contentData = [
   },
   {
     id: 38,
-    title: "Resident",
+    title: "The Resident",
     type: "series",
-    slug: "resident",
+    slug: "the-resident",
     genre: ["Drama"],
     service: "disney",
     serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
@@ -1156,10 +1156,9 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 20: Burn it all down",
-        episodeText:
-          "Just when Derek's condition seems to be improving, a severe complication arises, causing Kitt to fear that he may be the latest victim of Cain's cover-up.",
-        imgSrc: "/images/resident/residentS3E20.jpeg",
+        title: "Episode 18: So long, Dawn Long",
+        episodeText: "Kit faces a personal case.",
+        imgSrc: "/images/resident/residentS3E18.jpeg",
       },
       {
         id: 2,
@@ -1169,9 +1168,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 18: So long, Dawn Long",
-        episodeText: "Kit faces a personal case.",
-        imgSrc: "/images/resident/residentS3E18.jpeg",
+        title: "Episode 20: Burn it all down",
+        episodeText:
+          "Just when Derek's condition seems to be improving, a severe complication arises, causing Kitt to fear that he may be the latest victim of Cain's cover-up.",
+        imgSrc: "/images/resident/residentS3E20.jpeg",
       },
     ],
   },
@@ -1190,10 +1190,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 7: End game",
+        title: "Episode 5: Fork",
         episodeText:
-          "A visit from an old friend forces Beth to reckon with her past and rethink her priorities, just in time for the biggest match of her life.",
-        imgSrc: "/images/queens_gambit/queenS1E7.jpeg",
+          "Back home in Kentucky, a shaken Beth reconnects with a former opponent who offers to help sharpen her game ahead of the U.S. Championship.",
+        imgSrc: "/images/queens_gambit/queenS1E5.jpeg",
       },
       {
         id: 2,
@@ -1204,10 +1204,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 5: Fork",
+        title: "Episode 7: End game",
         episodeText:
-          "Back home in Kentucky, a shaken Beth reconnects with a former opponent who offers to help sharpen her game ahead of the U.S. Championship.",
-        imgSrc: "/images/queens_gambit/queenS1E5.jpeg",
+          "A visit from an old friend forces Beth to reckon with her past and rethink her priorities, just in time for the biggest match of her life.",
+        imgSrc: "/images/queens_gambit/queenS1E7.jpeg",
       },
     ],
   },
@@ -1216,7 +1216,7 @@ export const contentData = [
     title: "The Thunder Force",
     type: "movie",
     slug: "the-thunder-force",
-    genre: ["Action", "Adventure", "Comedy"],
+    genre: ["Action", "Adventure", "Comedy", "Fantasy"],
     service: "netflix",
     serviceLogo: "/images/subscriptions/Netflix_sub.svg",
     serviceTitleLogo: "/images/Netflix_logo.svg",
@@ -1226,7 +1226,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "The thunder force",
+        title: "The Thunder Force",
         episodeText:
           "In a world where supervillains are commonplace, two estranged childhood best friends reunite after one devises a treatment that gives them powers to protect their city.",
         imgSrc: "/images/thunder_force/thunder_force.jpeg",
@@ -1248,7 +1248,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Yes day",
+        title: "Yes Day",
         episodeText:
           "A mom and dad who usually say no decide to say yes to their kids' wildest requests with a few ground rules on a whirlwind day of fun and adventure.",
         imgSrc: "/images/yes_day/yes_day.jpeg",
@@ -1270,7 +1270,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Long shot",
+        title: "Long Shot",
         episodeText:
           "Journalist Fred Flarsky reunites with his childhood crush, Charlotte Field, now one of the most influential women in the world. As she prepares to make a run for the Presidency, Charlotte hires Fred as her speechwriter and sparks fly.",
         imgSrc: "/images/long_shot/long_shot.jpeg",
@@ -1292,7 +1292,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Love guaranteed",
+        title: "Love Guaranteed",
         episodeText:
           "To save her small law firm, earnest lawyer Susan takes a high-paying case from Nick, a charming new client who wants to sue a dating website that guarantees love.",
         imgSrc: "/images/love_guaranteed/love_guaranteed.jpeg",
@@ -1301,11 +1301,11 @@ export const contentData = [
   },
   {
     id: 45,
-    title: "Game of Thrones",
+    title: "Game Of Thrones",
     type: "series",
     slug: "game-of-thrones",
     watched: true,
-    genre: ["Drama", "Fantasy", "Adventure"],
+    genre: ["Drama", "Fantasy", "Adventure", "Sci-Fi"],
     service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
@@ -1315,10 +1315,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 6: The iron throne",
+        title: "Episode 4: The last of the Starks",
         episodeText:
-          "In the aftermath of the devastating attack on King's Landing, Daenerys must face the survivors.",
-        imgSrc: "/images/got/gotS8E6.jpeg",
+          "The Battle of Winterfell is over and a new chapter for Westeros begins.",
+        imgSrc: "/images/got/gotS8E4.jpeg",
       },
       {
         id: 2,
@@ -1329,10 +1329,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 4: The last of the Starks",
+        title: "Episode 6: The iron throne",
         episodeText:
-          "The Battle of Winterfell is over and a new chapter for Westeros begins.",
-        imgSrc: "/images/got/gotS8E4.jpeg",
+          "In the aftermath of the devastating attack on King's Landing, Daenerys must face the survivors.",
+        imgSrc: "/images/got/gotS8E6.jpeg",
       },
     ],
   },
@@ -1351,10 +1351,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 8: Crisis theory",
+        title: "Episode 6: Decoherence",
         episodeText:
-          "Dolores' true intentions are revealed; Bernard confronts a ghost from his past; Maeve is conflicted; Serac's voice is dominant; Caleb's role is revealed; and William faces an unexpected villain.",
-        imgSrc: "/images/westworld/westworldS3E8.jpeg",
+          "As the world falls into chaos, Serac gains control of Delos, changing Charlotte's plan; Maeve gets one last chance to stop Dolores; William starts his therapy.",
+        imgSrc: "/images/westworld/westworldS3E6.jpeg",
       },
       {
         id: 2,
@@ -1365,16 +1365,16 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 6: Decoherence",
+        title: "Episode 8: Crisis theory",
         episodeText:
-          "As the world falls into chaos, Serac gains control of Delos, changing Charlotte's plan; Maeve gets one last chance to stop Dolores; William starts his therapy.",
-        imgSrc: "/images/westworld/westworldS3E6.jpeg",
+          "Dolores' true intentions are revealed; Bernard confronts a ghost from his past; Maeve is conflicted; Serac's voice is dominant; Caleb's role is revealed; and William faces an unexpected villain.",
+        imgSrc: "/images/westworld/westworldS3E8.jpeg",
       },
     ],
   },
   {
     id: 47,
-    title: "The handmaid's tale",
+    title: "The Handmaid's Tale",
     type: "series",
     slug: "the-handmaid's-tale",
     genre: ["Drama", "Thriller", "Fantasy"],
@@ -1387,10 +1387,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 13: Mayday",
+        title: "Episode 11: Liars",
         episodeText:
-          "With her plan in place, June reaches the point of no return on her bold strike against Gilead; Serena Joy and Commander Waterford attempt to find their way forward in their new lives.",
-        imgSrc: "/images/handmaid/handmaidS3E13.jpeg",
+          "A return to Jezebels puts everything in jeopardy; Serena Joy and Commander Waterford take a clandestine trip.",
+        imgSrc: "/images/handmaid/handmaidS3E11.jpeg",
       },
       {
         id: 2,
@@ -1401,16 +1401,16 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 11: Liars",
+        title: "Episode 13: Mayday",
         episodeText:
-          "A return to Jezebels puts everything in jeopardy; Serena Joy and Commander Waterford take a clandestine trip.",
-        imgSrc: "/images/handmaid/handmaidS3E11.jpeg",
+          "With her plan in place, June reaches the point of no return on her bold strike against Gilead; Serena Joy and Commander Waterford attempt to find their way forward in their new lives.",
+        imgSrc: "/images/handmaid/handmaidS3E13.jpeg",
       },
     ],
   },
   {
     id: 48,
-    title: "Big little lies",
+    title: "Big Little Lies",
     type: "series",
     slug: "big-little-lies",
     genre: ["Drama", "Crime", "Mystery"],
@@ -1423,10 +1423,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 7: I want to know",
+        title: "Episode 5: Kill me",
         episodeText:
-          "Celeste questions Mary Louise about a tragic event from Perry's childhood; Madeline worries their lie is tearing the Monterey Five apart.",
-        imgSrc: "/images/big_little_lies/blsS2E7.jpeg",
+          "Renata tries to help Celeste; Bonnie struggles with her mother's recovery; Celeste attends a custody hearing; Josh, Max and Ziggy are bullied by a boy at school.",
+        imgSrc: "/images/big_little_lies/blsS2E5.jpeg",
       },
       {
         id: 2,
@@ -1437,16 +1437,16 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 5: Kill me",
+        title: "Episode 7: I want to know",
         episodeText:
-          "Renata tries to help Celeste; Bonnie struggles with her mother's recovery; Celeste attends a custody hearing; Josh, Max and Ziggy are bullied by a boy at school.",
-        imgSrc: "/images/big_little_lies/blsS2E5.jpeg",
+          "Celeste questions Mary Louise about a tragic event from Perry's childhood; Madeline worries their lie is tearing the Monterey Five apart.",
+        imgSrc: "/images/big_little_lies/blsS2E7.jpeg",
       },
     ],
   },
   {
     id: 49,
-    title: "I may destroy you",
+    title: "I May Destroy You",
     type: "series",
     slug: "i-may-destroy-you",
     genre: ["Drama"],
@@ -1459,10 +1459,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 12: Ego death",
+        title: "Episode 10: The cause the cure",
         episodeText:
-          "When Arabella's memory of her assault comes rushing back to her, she drags the last of her demons out from under the bed - once and for all.",
-        imgSrc: "/images/i_may_destroy_you/imdyS1E12.jpeg",
+          "After Simon drops a bombshell, Arabella attends her mum's birthday dinner, where painful, long-forgotten memories resurface.",
+        imgSrc: "/images/i_may_destroy_you/imdyS1E10.jpeg",
       },
       {
         id: 2,
@@ -1473,10 +1473,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 10: The cause the cure",
+        title: "Episode 12: Ego death",
         episodeText:
-          "After Simon drops a bombshell, Arabella attends her mum's birthday dinner, where painful, long-forgotten memories resurface.",
-        imgSrc: "/images/i_may_destroy_you/imdyS1E10.jpeg",
+          "When Arabella's memory of her assault comes rushing back to her, she drags the last of her demons out from under the bed - once and for all.",
+        imgSrc: "/images/i_may_destroy_you/imdyS1E12.jpeg",
       },
     ],
   },
@@ -1485,7 +1485,7 @@ export const contentData = [
     title: "Zack Snyder's Justice league",
     type: "movie",
     slug: "zack-snyder's-justice-league",
-    genre: ["Fantasy", "Adventure", "Action"],
+    genre: ["Fantasy", "Adventure", "Action", "Sci-Fi"],
     service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
     serviceTitleLogo: "/images/HboLogo.svg",
@@ -1504,7 +1504,7 @@ export const contentData = [
   },
   {
     id: 51,
-    title: "Raya and the last dragon",
+    title: "Raya And The Last Dragon",
     type: "movie",
     slug: "raya-and-the-last-dragon",
     genre: ["Animation", "Family", "Action", "Adventure"],
@@ -1517,7 +1517,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Raya and the last dragon",
+        title: "Raya And The Last Dragon",
         episodeText:
           "In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.",
         imgSrc: "/images/raya/raya.png",
@@ -1526,7 +1526,7 @@ export const contentData = [
   },
   {
     id: 52,
-    title: "The 5th wave",
+    title: "The 5th Wave",
     type: "movie",
     slug: "the-5th-wave",
     genre: ["Action", "Adventure", "Sci-Fi"],
@@ -1539,7 +1539,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "The 5th wave",
+        title: "The 5th Wave",
         episodeText:
           "Four waves of increasingly deadly alien attacks have left most of Earth in ruin. Cassie is on the run, desperately trying to save her younger brother.",
         imgSrc: "/images/the_5th_wave/tfw.jpeg",
@@ -1632,21 +1632,21 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "1. Begynnelsen",
+        title: "Episode 1: Begynnelsen",
         episodeText:
           "Kjell-Simen har fått ny kjæreste, Maiken er høygravid og Marie må lære å slippe kontrollen.",
         imgSrc: "/images/parterapi/parterapi-1.jpeg",
       },
       {
         id: 2,
-        title: "2. Motivasjonen",
+        title: "Episode 2: Motivasjonen",
         episodeText:
           "Cris er villig til å jobbe steinhard for forholdet, Signe syns Tormod prater for mye og Sara Eline har ikke gjort hjemmeleksen.",
         imgSrc: "/images/parterapi/parterapi-2.jpeg",
       },
       {
         id: 3,
-        title: "3. Romantikken",
+        title: "Episode 3: Romantikken",
         episodeText:
           "Morten prøver å si at han er glad i Randi, Alex gir Sara Eline et ultimatum og Kjell Simen klarer ikke ha sex med Turid-Beate.",
         imgSrc: "/images/parterapi/parterapi-3.jpeg",
@@ -1704,10 +1704,10 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 14: Long John Peter",
+        title: "Episode 12: Play It Again, Brian",
         episodeText:
-          "Peter begins to act like a pirate when he gets a parrot, creating havoc in Quahog; Chris falls for vet intern Anna.",
-        imgSrc: "/images/familyguy/1.jpeg",
+          "Brian decides to declare his love for Lois as she and Peter accompany him to a writers' convention, and the Griffin kids are babysat by Herbert.",
+        imgSrc: "/images/familyguy/3.jpeg",
       },
       {
         id: 2,
@@ -1718,10 +1718,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 12: Play It Again, Brian",
+        title: "Episode 14: Long John Peter",
         episodeText:
-          "Brian decides to declare his love for Lois as she and Peter accompany him to a writers' convention, and the Griffin kids are babysat by Herbert.",
-        imgSrc: "/images/familyguy/3.jpeg",
+          "Peter begins to act like a pirate when he gets a parrot, creating havoc in Quahog; Chris falls for vet intern Anna.",
+        imgSrc: "/images/familyguy/1.jpeg",
       },
     ],
   },
@@ -1740,10 +1740,9 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Episode 24: The Replicator",
-        episodeText:
-          "Immediately following the Ecstacy case in New York City, the Replicator has hacked into Garcia's computer system, on which he posts photographs of each of the team members in New York and his 'Zugzwang' calling card.",
-        imgSrc: "/images/criminalminds/1.jpg",
+        title: "Episode 22: #6",
+        episodeText: "George tells Callie of his past indiscretion with Izzie.",
+        imgSrc: "/images/criminalminds/3.jpeg",
       },
       {
         id: 2,
@@ -1754,9 +1753,10 @@ export const contentData = [
       },
       {
         id: 3,
-        title: "Episode 22: #6",
-        episodeText: "George tells Callie of his past indiscretion with Izzie.",
-        imgSrc: "/images/criminalminds/3.jpeg",
+        title: "Episode 24: The Replicator",
+        episodeText:
+          "Immediately following the Ecstacy case in New York City, the Replicator has hacked into Garcia's computer system, on which he posts photographs of each of the team members in New York and his 'Zugzwang' calling card.",
+        imgSrc: "/images/criminalminds/1.jpg",
       },
     ],
   },
@@ -1987,7 +1987,7 @@ export const contentData = [
   },
   {
     id: 69,
-    title: "Another round",
+    title: "Another Round",
     type: "movie",
     slug: "et-glass-til",
     genre: ["Comedy", "Drama"],
@@ -2000,7 +2000,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Another round",
+        title: "Another Round",
         episodeText:
           "Four friends, all high school teachers, test a theory that they will improve their lives by maintaining a constant level of alcohol in their blood.",
         imgSrc: "/images/et-glass-til/et-glass-til.jpeg",
@@ -2022,21 +2022,21 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "1. Palmesjokk - del 1",
+        title: "Episode 1: Palmesjokk - del 1",
         episodeText:
           "En kald og våt overraskelse, beinhard disiplin, orden og total umyndiggjøring preger deltagernes første møte med Dag Ottos opplegg.",
         imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-1.jpeg",
       },
       {
         id: 2,
-        title: "2. Palmesjokk - del 2",
+        title: "Episode 2: Palmesjokk - del 2",
         episodeText:
           "De fysiske testene fortsetter på Setnesmoen og rekruttene må lære seg grunnleggende vask og orden på kaserna.",
         imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-2.jpeg",
       },
       {
         id: 3,
-        title: "3. Rekrutten - del 1",
+        title: "Episode 3: Rekrutten - del 1",
         episodeText:
           "Rekruttene begynner for alvor å kjenne på utfordringene i sin nye militære hverdag og på kaserna sliter de med å innordne seg det strenge disiplinære regimet.",
         imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-3.jpeg",
@@ -2045,7 +2045,7 @@ export const contentData = [
   },
   {
     id: 72,
-    title: "Best før",
+    title: "Best Før",
     type: "series",
     slug: "best-for",
     genre: ["Comedy"],
@@ -2058,21 +2058,21 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "1. Hitler Danielsen",
+        title: "Episode 1: Hitler Danielsen",
         episodeText:
           "Forholdet mellom Lena og Anemone har surnet kraftig etter bryllupet til Morten og Anemone. Morten ber Lena skjerpe seg og slutte å lyve så mye. Lena vedder med Morten om at hun kan være løgnfri i to døgn. Hvis hun taper, må hun flytte fra gården.",
         imgSrc: "/images/best-for/best-for-1.jpeg",
       },
       {
         id: 2,
-        title: "2. Regelmytteri",
+        title: "Episode 2: Regelmytteri",
         episodeText:
           "Anemone gir Lena noen regler for samvær i gården, og truer med politianmeldelse hvis Lena ikke overholder reglene. Siste og desperate utvei for Lena, er å bli venninne med Anemone.",
         imgSrc: "/images/best-for/best-for-2.jpeg",
       },
       {
         id: 3,
-        title: "3. Forbudte følelser",
+        title: "Episode 3: Forbudte følelser",
         episodeText:
           "Lena oppdager at Astrid og Jan er invitert på parmiddag til Morten og Anemone. For å ta hevn på Astrid, blir Lena venninne med Jans ekskjæreste, Silya, som Astrid har et ganske anstrengt forhold til.",
         imgSrc: "/images/best-for/best-for-3.jpeg",
@@ -2095,21 +2095,21 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "1. Æ føle mæ sterk!",
+        title: "Episode 1: Æ føle mæ sterk!",
         episodeText:
           "Sophie Elise er tilbake i Bloggerne! Vi følger hennes varierte hverdag som består av både bondegårdsbesøk og selfie-jakt hos Petter Stordalen.",
         imgSrc: "/images/bloggerne/bloggerne-1.jpeg",
       },
       {
         id: 2,
-        title: "2. Behind all this beauty",
+        title: "Episode 2: Behind all this beauty",
         episodeText:
           "Etter nesten fire år som kjærester skal Sophie Elise og Kasper gjøre sitt aller første intervju sammen og Kasper er spent på møtet med pressen. Tom gir Iselin en viktig påminnelse og vi blir kjent med Skiensjenta Eveline Karlsen.",
         imgSrc: "/images/bloggerne/bloggerne-2.jpeg",
       },
       {
         id: 3,
-        title: "3. It´s Linnéa Myhre, Bitch!",
+        title: "Episode 3: It´s Linnéa Myhre, Bitch!",
         episodeText:
           "Linnéa fyller 30 år og har planer om en fantastisk feiring, men er det i hele tatt mulig med fest og moro under en pandemi? Emma tar med venninnene på hyttetur hvor gutter og forelskelse blir et hett tema.",
         imgSrc: "/images/bloggerne/bloggerne-3.jpeg",
@@ -2132,21 +2132,21 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "1. Vixen Influencer Awards",
+        title: "Episode 1: Vixen Influencer Awards",
         episodeText:
           "«Vixen influencer awards» avholdes i Oslo og Jørgine er nominert til hele tre priser. Hun tar med seg ektemannen Morten og tvillingbrødrene Emil og Silas på den røde løperen.",
         imgSrc: "/images/funkyfam/funkyfam-1.jpeg",
       },
       {
         id: 2,
-        title: "2. La familia",
+        title: "Episode 2: La familia",
         episodeText:
           "Hele huset står på hodet når Jørgine og familien skal på ferie til Italia for å besøke sine slektninger i San Felice a Cancello.",
         imgSrc: "/images/funkyfam/funkyfam-2.jpeg",
       },
       {
         id: 3,
-        title: "3. Viva Italia!",
+        title: "Episode 3: Viva Italia!",
         episodeText:
           "Fremme i Italia er det tid for en fartsfylt ferie, hvor både mat og trening settes like høyt. Jørgine tar med seg Morten til Roma for første gang siden han var der med eksen og tvillingbrødrene krangler om hvem som er mest italiensk.",
         imgSrc: "/images/funkyfam/funkyfam-3.jpeg",
@@ -2169,21 +2169,21 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "1. Rebound",
+        title: "Episode 1: Rebound",
         episodeText:
           "Anders har akkurat blitt dumpa av kjæresten, og kompisene tar han med på byen for å muntre ham opp. Der møter han Mio, en jente som skal snu hele livet hans på hodet.",
         imgSrc: "/images/hjerteslag/hjerteslag-1.jpeg",
       },
       {
         id: 2,
-        title: "2. Mio min Mio",
+        title: "Episode 2: Mio min Mio",
         episodeText:
           "Det er fem uker siden Anders møtte Mio, men han stalker henne fortsatt på Instagram. Mio på sin side, gjør en sjokkerende oppdagelse.",
         imgSrc: "/images/hjerteslag/hjerteslag-2.jpeg",
       },
       {
         id: 3,
-        title: "3. Den andre daten",
+        title: "Episode 3: Den andre daten",
         episodeText:
           "Mio bestemmer seg for å fortelle Anders at hun er gravid. Anders aner fred og ingen fare, og tror han skal på date.",
         imgSrc: "/images/hjerteslag/hjerteslag-3.jpeg",
@@ -2214,7 +2214,7 @@ export const contentData = [
   },
   {
     id: 80,
-    title: "Alle elsker David",
+    title: "Alle Elsker David",
     type: "series",
     slug: "alle-elsker-david",
     genre: ["Reality"],
@@ -2227,21 +2227,21 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "1. Livet",
+        title: "Episode 1: Livet",
         episodeText:
           "Vi blir kjent med manager og familiemann David Eriksen som leder sine mange profiler samtidig som han sjonglerer livet med sin utradisjonelle familie.",
         imgSrc: "/images/alle-elsker-david/aed-1.jpeg",
       },
       {
         id: 2,
-        title: "2. Familien",
+        title: "Episode 2: Familien",
         episodeText:
           "Lucas fyller 18 år og feirer med familien, til tross for foreldrenes skilsmisse. David blir pushet om familieforøkelse. Dette er et ømt tema, spesielt for Andrea.",
         imgSrc: "/images/alle-elsker-david/aed-2.jpeg",
       },
       {
         id: 3,
-        title: "3. Le Club 53",
+        title: "Episode 3: Le Club 53",
         episodeText:
           "Andrea og Hedvig planlegger overraskelsesbursdag for David. Stemor og stedatter hadde en trøblete start, men kommer nå nærmere hverandre.",
         imgSrc: "/images/alle-elsker-david/aed-3.jpeg",
@@ -2318,81 +2318,6 @@ export const contentData = [
       },
     ],
   },
-
-  {
-    id: 83,
-    title: "Hjerteslag",
-    type: "series",
-    slug: "hjerteslag",
-    genre: ["Romance"],
-    service: "tv2",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/hjerteslag/hjerteslag.jpeg",
-    backgroundSrc: "/images/hjerteslag/hjerteslag_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "1. Rebound",
-        episodeText:
-          "Anders har akkurat blitt dumpa av kjæresten, og kompisene tar han med på byen for å muntre ham opp. Der møter han Mio, en jente som skal snu hele livet hans på hodet.",
-        imgSrc: "/images/hjerteslag/hjerteslag-1.jpeg",
-      },
-      {
-        id: 2,
-        title: "2. Mio min Mio",
-        episodeText:
-          "Det er fem uker siden Anders møtte Mio, men han stalker henne fortsatt på Instagram. Mio på sin side, gjør en sjokkerende oppdagelse.",
-        imgSrc: "/images/hjerteslag/hjerteslag-2.jpeg",
-      },
-      {
-        id: 3,
-        title: "3. Den andre daten",
-        episodeText:
-          "Mio bestemmer seg for å fortelle Anders at hun er gravid. Anders aner fred og ingen fare, og tror han skal på date.",
-        imgSrc: "/images/hjerteslag/hjerteslag-3.jpeg",
-      },
-    ],
-  },
-
-  {
-    id: 84,
-    title: "Kompani Lauritzen",
-    type: "series",
-    slug: "kompani-lauritzen",
-    genre: ["Reality"],
-    service: "tv2",
-    serviceLogo: "/images/subscriptions/tv2_sub.svg",
-    serviceTitleLogo: "/images/tv2sumo-logo.svg",
-    thumbnailSrc: "/images/kompani-lauritzen/kompani-lauritzen.jpeg",
-    backgroundSrc: "/images/kompani-lauritzen/kompani-lauritzen-big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "1. Palmesjokk - del 1",
-        episodeText:
-          "En kald og våt overraskelse, beinhard disiplin, orden og total umyndiggjøring preger deltagernes første møte med Dag Ottos opplegg.",
-        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-1.jpeg",
-      },
-      {
-        id: 2,
-        title: "2. Palmesjokk - del 2",
-        episodeText:
-          "De fysiske testene fortsetter på Setnesmoen og rekruttene må lære seg grunnleggende vask og orden på kaserna.",
-        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-2.jpeg",
-      },
-      {
-        id: 3,
-        title: "3. Rekrutten - del 1",
-        episodeText:
-          "Rekruttene begynner for alvor å kjenne på utfordringene i sin nye militære hverdag og på kaserna sliter de med å innordne seg det strenge disiplinære regimet.",
-        imgSrc: "/images/kompani-lauritzen/kompani-lauritzen-3.jpeg",
-      },
-    ],
-  },
-
   {
     id: 85,
     title: "Märtha",
@@ -2408,21 +2333,21 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "1. Veien tilbake",
+        title: "Episode 1: Veien tilbake",
         episodeText:
           "Ari Behns tragiske bortgang kommer som et sjokk på den lille familien. Veien tilbake til hverdagen er tøff, men den knytter også båndene mellom dem enda tettere sammen.",
         imgSrc: "/images/martha/martha-1.jpeg",
       },
       {
         id: 2,
-        title: "2. Tilbake på hesten",
+        title: "Episode 2: Tilbake på hesten",
         episodeText:
           "Etter Märtha sa fra seg tittelen som kongelig høyhet har hun j obbet som frilanser og gründer. Når samfunnet stenger blir dette vanskelig.",
         imgSrc: "/images/martha/martha-2.jpeg",
       },
       {
         id: 3,
-        title: "3. Kjærligheten mot janteloven",
+        title: "Episode 3: Kjærligheten mot janteloven",
         episodeText:
           "Etter mange måneder fra hverandre har Märthas kjæreste Durek endelig kommet til Norge. Nå skal han bo sammen med henne og barna i Lommedalen, og de er svært spent på hvordan han blir tatt imot i Norge.",
         imgSrc: "/images/martha/martha-3.jpeg",
@@ -2445,21 +2370,21 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "1. Episode 1",
+        title: "Episode 1",
         episodeText:
           "Deltagerparene ankommer vakre Mjøsli i Stange kommune. Vi blir kjent med tvillingsøstrene Trude og Trine, far og datter Kurt og Veronica, kjæresteparet Anna og Jone og venneparet Christine og Adrian.",
         imgSrc: "/images/sommerhytta/sh-1.jpeg",
       },
       {
         id: 2,
-        title: "2. Episode 2",
+        title: "Episode 2",
         episodeText:
           "Alle parene har nå valgt hver sin hytte som de skal pusse opp og gjøre til sin egen. Alle er godt i gang med sitt første ukesprosjekt, nemlig å lage et utekjøkken.",
         imgSrc: "/images/sommerhytta/sh-2.jpeg",
       },
       {
         id: 3,
-        title: "3. Episode 3",
+        title: "Episode 3",
         episodeText:
           "Det nye utekjøkkenet begynner å ta form hos flere, mens andre fortsatt har mye igjen. Deltakerne har også fått i oppgave å sette opp og plante vekster i et minidrivhus, noe som viser seg å by på utfordringer for enkelte.",
         imgSrc: "/images/sommerhytta/sh-3.jpeg",
@@ -2760,7 +2685,7 @@ export const contentData = [
   },
   {
     id: 97,
-    title: "Side om side",
+    title: "Side Om Side",
     type: "series",
     slug: "side-om-side",
     genre: ["Comedy"],
@@ -2796,7 +2721,7 @@ export const contentData = [
 
   {
     id: 98,
-    title: "Ulven kommer",
+    title: "Ulven Kommer",
     type: "series",
     slug: "ulven-kommer",
     genre: ["Crime", "Drama", "Mystery"],
@@ -2915,7 +2840,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "The king's speech",
+        title: "The King's Speech",
         episodeText:
           "The story of King George VI, his impromptu ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.",
         imgSrc: "/images/kings_speech/ks.jpeg",
@@ -2925,7 +2850,7 @@ export const contentData = [
 
   {
     id: 103,
-    title: "Silver linings playbook",
+    title: "Silver Linings Playbook",
     type: "movie",
     slug: "silver-linings-playbook",
     genre: ["Drama", "Comedy", "Romance"],
@@ -2938,7 +2863,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Silver lining playbook",
+        title: "Silver Linings Playbook",
         episodeText:
           "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
         imgSrc: "/images/silver/slp.jpeg",
