@@ -52,8 +52,8 @@ export const friendsData = [
   },
   {
     id: 4,
-    name: "Cecilie Wiik",
-    slug: "cecilie-wiik",
+    name: "Cecilie Jensen",
+    slug: "cecilie-jensen",
     online: true,
     imgSrc: "/images/friends/cecilie-wiik.jpeg",
     nowWatching: {
