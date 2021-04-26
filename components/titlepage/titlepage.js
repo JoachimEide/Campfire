@@ -115,6 +115,7 @@ export default function Layout(props) {
           </div>
         </div>
       </div>
+      <footer></footer>
       <style jsx>{`
         .content {
           background-image: linear-gradient(

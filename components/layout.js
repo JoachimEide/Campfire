@@ -32,6 +32,7 @@ export default function Layout(props) {
       />
       <Status status={props.socialStatus} event={props.event} />
       {props.children}
+      <footer></footer>
     </div>
   );
 }

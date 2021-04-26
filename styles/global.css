@@ -90,3 +90,8 @@ h2 {
   top: 0;
   left: 0;
 }
+
+footer {
+  height: 80px;
+  width: auto;
+}
