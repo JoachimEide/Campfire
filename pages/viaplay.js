@@ -17,25 +17,25 @@ export default function Viaplay(props) {
   const topCarouselShows = [
     {
       id: 1,
-      link: "/series/theinvisibleman",
+      link: "/series/the-invisible-man",
       alt: "The Invisible Man",
       src: "/images/theinvisibleman/invisible.jpeg",
     },
     {
       id: 2,
-      link: "series/greysanotomy",
+      link: "series/greys-anotomy",
       alt: "Grey's Anatomy",
       src: "/images/greysanotomy/greys.jpeg",
     },
     {
       id: 3,
-      link: "series/spiderman",
+      link: "series/spider-man-homecoming",
       alt: "Spider-Man: Homecoming",
       src: "/images/spiderman/spiderman_c.jpeg",
     },
     {
       id: 4,
-      link: "/series/theoffice",
+      link: "/series/the-office",
       alt: "The Office",
       src: "/images/theoffice/office.jpeg",
     },

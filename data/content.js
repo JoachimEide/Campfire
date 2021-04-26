@@ -994,7 +994,7 @@ export const contentData = [
   },
   {
     id: 31,
-    title: "Angel has Fallen",
+    title: "Angel Has Fallen",
     type: "movie",
     slug: "angel-has-fallen",
     genre: ["Action", "Thriller"],
@@ -1007,7 +1007,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Angel has Fallen",
+        title: "Angel Has Fallen",
         episodeText:
           "Mike Banning is framed for the attempted assassination of the President and must evade his own agency and the FBI as he tries to uncover the real threat.",
         imgSrc: "/images/angelhasfallen/1.jpeg",
@@ -1016,7 +1016,7 @@ export const contentData = [
   },
   {
     id: 59,
-    title: "How To Be Single",
+    title: "How to Be Single",
     type: "movie",
     slug: "how-to-be-single",
     genre: ["Comedy", "Romance"],
@@ -1029,7 +1029,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "How To Be Single",
+        title: "How to Be Single",
         episodeText:
           "A group of young adults navigate love and relationships in New York City.",
         imgSrc: "/images/howtobesingle/1.jpeg",
@@ -1038,7 +1038,7 @@ export const contentData = [
   },
   {
     id: 40,
-    title: "The Thunder Force",
+    title: "Thunder Force",
     type: "movie",
     slug: "the-thunder-force",
     genre: ["Action", "Adventure", "Comedy", "Fantasy", "New"],
@@ -1051,7 +1051,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "The Thunder Force",
+        title: "Thunder Force",
         episodeText:
           "In a world where supervillains are commonplace, two estranged childhood best friends reunite after one devises a treatment that gives them powers to protect their city.",
         imgSrc: "/images/thunder_force/thunder_force.jpeg",
@@ -1060,7 +1060,7 @@ export const contentData = [
   },
   {
     id: 42,
-    title: "Eurovision Song Contest: The Story Of Fire Saga",
+    title: "Eurovision Song Contest: The Story of Fire Saga",
     type: "movie",
     slug: "eurovision-song-contest",
     genre: ["Comedy", "Family", "Music"],
@@ -1073,7 +1073,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Eurovision Song Contest: The Story Of Fire Saga",
+        title: "Eurovision Song Contest: The Story of Fire Saga",
         episodeText:
           "When aspiring musicians Lars and Sigrit are given the opportunity to represent their country at the world's biggest song competition, they finally have a chance to prove themselves.",
         imgSrc: "/images/eurovision/eurovision.jpeg",
@@ -1193,7 +1193,7 @@ export const contentData = [
   },
   {
     id: 68,
-    title: "Fjols Til Fjells",
+    title: "Fjols til Fjells",
     type: "movie",
     slug: "fjols-til-fjells",
     genre: ["Comedy"],
@@ -1206,7 +1206,7 @@ export const contentData = [
     episodes: [
       {
         id: 1,
-        title: "Fjols Til Fjells",
+        title: "Fjols til Fjells",
         episodeText:
           "Everything that can go wrong goes wrong when care free ski bums, frustrated cabin owners, skiing Danes and partying youngsters team up on a Norwegian mountain resort with a very absent hotel manager.",
         imgSrc: "/images/fjolstilfjells/1.jpeg",
@@ -1373,7 +1373,7 @@ export const contentData = [
   },
   {
     id: 45,
-    title: "Game Of Thrones",
+    title: "Game of Thrones",
     type: "series",
     slug: "game-of-thrones",
     watched: true,
@@ -2461,7 +2461,7 @@ export const contentData = [
   },
   {
     id: 90,
-    title: "Den tynne blå linjen",
+    title: "Den Tynne Blå Linjen",
     type: "series",
     slug: "den-tynne-bla-linjen",
     genre: ["Drama"],
