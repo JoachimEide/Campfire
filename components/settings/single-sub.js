@@ -64,7 +64,13 @@ export default function Sub(props) {
             {props.subscribed[props.service].sub ? "Pause" : "Reactivate"}
           </button>
           <div className={SubStyle.total}>
-            <p>New total: 515,-</p>
+            <p>
+              New total:{" "}
+              {props.subscribed[props.service].sub
+                ? props.total - props.subscribed[props.service].price
+                : props.total + props.subscribed[props.service].price}
+              ,-
+            </p>
             <p>
               <span> per month</span>
             </p>

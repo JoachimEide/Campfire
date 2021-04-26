@@ -30,6 +30,18 @@ export default function Subscriptions(props) {
     setSubToggle(stateCopy);
   };
 
+  const totalPrice = () => {
+    let total = 0;
+    Object.keys(props.subscriptions).forEach((serv) => {
+      if (props.subscriptions[serv].sub) {
+        total += props.subscriptions[serv].price;
+      }
+    });
+    return total;
+  };
+
+  const total = totalPrice();
+
   return (
     <div className={SubscriptionsStyle.container}>
       <h2 className="content-header">Manage subscriptions</h2>
@@ -37,32 +49,35 @@ export default function Subscriptions(props) {
       <div className={SubscriptionsStyle.subContainer}>
         <div className={SubscriptionsStyle.subRow}>
           <SingleSub
+            total={total}
             subscribed={props.subscriptions}
             subEvent={props.subEvent}
             name={"Netflix"}
             service="netflix"
             logoSrc={"/images/subscriptions/Netflix_sub.svg"}
-            price={109}
+            price={props.subscriptions.netflix.price}
             subToggle={subToggle}
             handleButtonStateChange={handleButtonStateChange}
           />
           <SingleSub
+            total={total}
             subscribed={props.subscriptions}
             subEvent={props.subEvent}
             name={"NRK TV"}
             service="nrk"
             logoSrc={"/images/subscriptions/nrk_sub.svg"}
-            price={0}
+            price={props.subscriptions.nrk.price}
             subToggle={subToggle}
             handleButtonStateChange={handleButtonStateChange}
           />
           <SingleSub
+            total={total}
             subscribed={props.subscriptions}
             subEvent={props.subEvent}
             name={"Viaplay"}
             service="viaplay"
             logoSrc={"/images/subscriptions/Via.png"}
-            price={109}
+            price={props.subscriptions.viaplay.price}
             subToggle={subToggle}
             handleButtonStateChange={handleButtonStateChange}
           />
@@ -70,32 +85,35 @@ export default function Subscriptions(props) {
 
         <div className={SubscriptionsStyle.subRow}>
           <SingleSub
+            total={total}
             subscribed={props.subscriptions}
             subEvent={props.subEvent}
             name={"Disney +"}
             service="disney"
             logoSrc={"/images/subscriptions/DisneyPlusLogo.svg"}
-            price={89}
+            price={props.subscriptions.disney.price}
             subToggle={subToggle}
             handleButtonStateChange={handleButtonStateChange}
           />
           <SingleSub
+            total={total}
             subscribed={props.subscriptions}
             subEvent={props.subEvent}
             name={"TV2 Sumo"}
             service="tv2"
             logoSrc={"/images/subscriptions/tv2_sub.svg"}
-            price={109}
+            price={props.subscriptions.tv2.price}
             subToggle={subToggle}
             handleButtonStateChange={handleButtonStateChange}
           />
           <SingleSub
+            total={total}
             subscribed={props.subscriptions}
             subEvent={props.subEvent}
             name={"HBO Nordic"}
             service="hbo"
             logoSrc={"/images/subscriptions/hbo_sub.svg"}
-            price={109}
+            price={props.subscriptions.hbo.price}
             subToggle={subToggle}
             handleButtonStateChange={handleButtonStateChange}
           />
@@ -108,7 +126,7 @@ export default function Subscriptions(props) {
             <p>Add streaming service +</p>
           </div>
           <div className={SubscriptionsStyle.totalPrice}>
-            <p>Total: 416,- NOK</p>
+            <p>Total: {total},- NOK</p>
             <p className={SubscriptionsStyle.smallerText}>per month</p>
           </div>
         </div>
