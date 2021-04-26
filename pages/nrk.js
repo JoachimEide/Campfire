@@ -29,7 +29,7 @@ export default function Nrk(props) {
     },
     {
       id: 3,
-      link: "series/fall",
+      link: "series/the-fall",
       alt: "The Fall",
       src: "/images/fall/fall.jpeg",
     },

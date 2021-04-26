@@ -17,7 +17,7 @@ export default function Netflix(props) {
   const topCarouselShows = [
     {
       id: 1,
-      link: "series/crown",
+      link: "series/the-crown",
       alt: "The Crown",
       src: "/images/crown/crown_big.cms",
     },

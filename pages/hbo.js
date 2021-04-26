@@ -17,7 +17,7 @@ export default function Hbo(props) {
   const topCarouselShows = [
     {
       id: 1,
-      link: "/series/justice_league",
+      link: "/series/zack-snyder's-justice-league",
       alt: "Zack Snyder's Justice League",
       src: "/images/justice_league/justice.webp",
     },
