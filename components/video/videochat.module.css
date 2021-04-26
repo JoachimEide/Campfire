@@ -43,10 +43,11 @@
 }
 
 .videoIcons {
-  margin-top: 10px;
+  margin-top: -30px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   width: 50%;
+  z-index: 2;
 }

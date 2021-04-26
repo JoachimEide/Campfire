@@ -28,9 +28,7 @@ export default function ProfilePageFactory(props) {
   const friends = props.friendsDataList.map((value) => {
     return value;
   });
-  const ids = friends.map((friend) => {
-    return friend.id;
-  });
+  console.log(props);
   return (
     <Layout
       socialStatus={props.socialStatus}
@@ -64,7 +62,7 @@ export default function ProfilePageFactory(props) {
         title={`${props.friend.name}'s watch history`}
         contentArray={props.contentDataList}
         param="id"
-        paramValue={ids}
+        paramValue={props.friend.watchHistory}
         param2={false}
         paramValue2={false}
       />

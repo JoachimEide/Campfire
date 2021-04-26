@@ -44,8 +44,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-.img:hover,
-.img2:hover {
+.logoBox:hover .img {
   transform: scale(1.1);
 }
 
+.logoBox:hover .img2 {
+  transform: scale(1.2);
+}
