@@ -22,7 +22,10 @@ export default function Review(props) {
       </div>
       <div className={ReviewStyle.titleEdit}>
         <p className="thin-text">{props.alt}</p>
-        <div className={ReviewStyle.editContainer}>
+        <div
+          className={ReviewStyle.editContainer}
+          style={props.you ? { display: "flex" } : { display: "none" }}
+        >
           <p>Edit</p>
           <img src="/images/pencil.svg" alt="edit icon" />
         </div>

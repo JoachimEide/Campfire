@@ -41,11 +41,13 @@ export default function ProfilePageFactory(props) {
       <TopFriends
         friends={props.friendsDataList}
         yourFriends={props.friend.friends}
+        you={false}
       />
       <ReviewRow
         title={`${props.friend.name}'s reviews`}
         reviews={props.friend.reviews}
         contentArray={props.contentDataList}
+        you={false}
       />
       <ContentRow
         subscriptions={props.subscriptions}

@@ -33,14 +33,18 @@ export default function TopFriends(props) {
           >
             <p>All friends</p>
           </div>
-          <div className={TopFriendsStyle.addFriends}>
-            <p>Add friends</p>
-            <img
-              className={TopFriendsStyle.addIcon}
-              alt="add icon"
-              src="/images/addIcon.svg"
-            />
-          </div>
+          {props.you ? (
+            <div className={TopFriendsStyle.addFriends}>
+              <p>Add friends</p>
+              <img
+                className={TopFriendsStyle.addIcon}
+                alt="add icon"
+                src="/images/addIcon.svg"
+              />
+            </div>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
       {allFriendsClick ? (

@@ -78,6 +78,7 @@ export default function ContentRow(props) {
               src={rev.imgSrc}
               score={rev.score}
               reviewText={rev.reviewText}
+              you={props.you}
             />
           );
         })}

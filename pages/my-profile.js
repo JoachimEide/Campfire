@@ -26,11 +26,13 @@ export default function Home(props) {
       <TopFriends
         yourFriends={props.yourFriends}
         friends={props.friendsDataList}
+        you={true}
       />
       <ReviewRow
         title="My reviews"
         contentArray={props.contentDataList}
         reviews={props.reviews}
+        you={true}
       />
       <ContentRow
         subscriptions={props.subscriptions}
