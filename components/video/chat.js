@@ -25,7 +25,6 @@ export default function Chat(props) {
     bottom.current.scrollIntoView({ behavior: "smooth" });
   }, [submitMessageHandle]);
 
-  console.log(props);
   return (
     <div
       className={ChatStyle.container}
@@ -58,9 +57,10 @@ export default function Chat(props) {
         </div>
       </div>
       <div className={minified ? ChatStyle.hidden : ChatStyle.allMessages}>
-        {allMessages.map((message) => {
+        {allMessages.map((message, index) => {
           return (
             <div
+              key={index}
               className={
                 message.from === "you"
                   ? ChatStyle.message

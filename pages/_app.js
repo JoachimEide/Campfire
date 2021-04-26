@@ -39,7 +39,6 @@ export default function App({ Component, pageProps }) {
   const subEvent = (serviceProvider) => {
     let subCopy = { ...subscriptions };
     subCopy[serviceProvider].sub = !subCopy[serviceProvider].sub;
-    console.log(subCopy);
     setSubscription(subCopy);
   };
   const reviewEvent = (titleObject) => {

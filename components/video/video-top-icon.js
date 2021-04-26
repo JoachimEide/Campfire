@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Invites from "./invites";
 import TopStyle from "./video-top-icons.module.css";
+import VideoChat from "./videochat";
 
 export default function VideoTop(props) {
   return (
@@ -22,6 +23,7 @@ export default function VideoTop(props) {
         friends={props.friends}
         yourFriends={props.yourFriends}
       />
+      <VideoChat />
       <style jsx>{`
         .container {
           display: flex;

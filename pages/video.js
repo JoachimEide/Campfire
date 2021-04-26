@@ -14,7 +14,6 @@ export const getStaticProps = async () => {
 
 export default function VideoPlayer(props) {
   const [iconClick, setIconClick] = useState(false);
-  console.log(props);
   return (
     <div>
       <VideoTopIcon
