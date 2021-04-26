@@ -55,6 +55,14 @@
   transition: all 0.3s ease-in-out;
 }
 
+.status:hover {
+  border: 1px solid #e59740;
+}
+
+.status h3:hover {
+  color: #e59740;
+}
+
 .statusPrivate {
   margin-top: 10px;
   display: flex;
