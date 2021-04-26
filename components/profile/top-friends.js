@@ -10,7 +10,6 @@ export default function TopFriends(props) {
   });
   const topThreeFriends = topFriendArray.slice(0, 3);
   const restFriends = topFriendArray.slice(3);
-  console.log(restFriends);
   return (
     <div className={TopFriendsStyle.container}>
       <h2 className="content-header">Top friends</h2>

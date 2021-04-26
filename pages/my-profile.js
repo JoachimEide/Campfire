@@ -44,6 +44,7 @@ export default function Home(props) {
       />
       <ContentRow
         subscriptions={props.subscriptions}
+        historyEvent={props.historyEvent}
         title="Public watch history"
         history={true}
         contentArray={props.contentDataList}

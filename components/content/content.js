@@ -3,6 +3,7 @@ import ContentStyle from "./content.module.css";
 import Image from "next/image";
 
 export default function Content(props) {
+  console.log(props);
   return (
     <Link href={props.link}>
       <a style={{ position: "relative" }}>
@@ -11,6 +12,9 @@ export default function Content(props) {
             className={ContentStyle.x}
             src="images/remove_history.svg"
             alt="remove icon"
+            onClick={() => {
+              props.historyEvent(props.watchHistoryAll, true, props.id);
+            }}
           />
         ) : (
           ""

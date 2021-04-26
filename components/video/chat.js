@@ -25,8 +25,12 @@ export default function Chat(props) {
     bottom.current.scrollIntoView({ behavior: "smooth" });
   }, [submitMessageHandle]);
 
+  console.log(props);
   return (
-    <div className={ChatStyle.container}>
+    <div
+      className={ChatStyle.container}
+      style={props.iconClick ? { right: "20%" } : { right: "5%" }}
+    >
       <div
         className={ChatStyle.head}
         onClick={() => {
@@ -70,7 +74,13 @@ export default function Chat(props) {
                 height={50}
                 width={50}
               />
-              <div className={ChatStyle.messageContainer}>
+              <div
+                className={
+                  message.from === "you"
+                    ? ChatStyle.messageContainer
+                    : ChatStyle.messageFriendContainer
+                }
+              >
                 <p>{message.message}</p>
               </div>
             </div>

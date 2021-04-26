@@ -46,10 +46,17 @@ export default function App({ Component, pageProps }) {
     reviewsCopy.push(titleObject);
     setWatchHistory(reviewsCopy);
   };
-  const historyEvent = (titleObject) => {
+  const historyEvent = (titleObject, remove = false, id = false) => {
     let watchHistoryCopy = [...watchHistory];
-    watchHistoryCopy.push(titleObject);
-    setWatchHistory(watchHistoryCopy);
+    if (remove && id) {
+      let arrayWithRemoved = watchHistoryCopy.filter((title) => {
+        return title.id !== id;
+      });
+      setWatchHistory(arrayWithRemoved);
+    } else {
+      watchHistoryCopy.push(titleObject);
+      setWatchHistory(watchHistoryCopy);
+    }
   };
   const watchListEvent = (titleObject) => {
     let watchListCopy = [...watchList];

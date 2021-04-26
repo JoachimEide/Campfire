@@ -14,9 +14,11 @@ export const getStaticProps = async () => {
 
 export default function VideoPlayer(props) {
   const [iconClick, setIconClick] = useState(false);
+  console.log(props);
   return (
     <div>
       <VideoTopIcon
+        status={props.socialStatus}
         event={setIconClick}
         target={iconClick}
         friends={props.friendsDataList}
@@ -35,7 +37,7 @@ export default function VideoPlayer(props) {
           height="100%"
         />
       </div>
-      <Chat />
+      <Chat iconClick={iconClick} event={setIconClick} />
     </div>
   );
 }

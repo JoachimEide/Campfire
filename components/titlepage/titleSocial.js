@@ -30,7 +30,6 @@ export default function Socialbar(props) {
   };
 
   const watchedThisShow = watchedThisShowCheck();
-  console.log(watchedThisShow);
 
   return (
     <div

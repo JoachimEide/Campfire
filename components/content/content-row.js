@@ -90,13 +90,16 @@ export default function ContentRow(props) {
           ({ id, title, slug, service, serviceLogo, thumbnailSrc }) => (
             <Content
               key={id}
+              id={id}
               link={`/series/${slug}`}
               alt={title}
               src={thumbnailSrc}
               serviceSrc={serviceLogo}
               serviceAlt={service}
               history={props.history}
+              historyEvent={props.historyEvent}
               subscriptions={props.subscriptions}
+              watchHistoryAll={filteredContent}
             />
           )
         )}
