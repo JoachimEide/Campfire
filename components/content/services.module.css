@@ -36,8 +36,18 @@
 
 .img {
   height: 40px;
+  transition: all 0.3s ease-in-out;
 }
 
 .img2 {
   width: 80px;
+  transition: all 0.3s ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+
+.img2:hover {
+  transform: scale(1.2);
 }
