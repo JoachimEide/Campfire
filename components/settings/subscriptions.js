@@ -29,6 +29,7 @@ export default function Subscriptions(props) {
     stateCopy[toggleKey] = nextValue;
     setSubToggle(stateCopy);
   };
+
   return (
     <div className={SubscriptionsStyle.container}>
       <h2 className="content-header">Manage subscriptions</h2>

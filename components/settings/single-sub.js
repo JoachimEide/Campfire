@@ -6,7 +6,7 @@ export default function Sub(props) {
       style={{
         display: `${props.subToggle[props.service].display}`,
         border: `solid 0.5px ${
-          props.subscribed[props.service] ? "#2cfffc" : "#fbab29"
+          props.subscribed[props.service].sub ? "#2cfffc" : "#fbab29"
         }`,
       }}
       className={
@@ -33,12 +33,12 @@ export default function Sub(props) {
       <div className={SubStyle.subActiveEdit}>
         <p
           className={
-            props.subscribed[props.service]
+            props.subscribed[props.service].sub
               ? SubStyle.subActiveState
               : SubStyle.subPausedState
           }
         >
-          {props.subscribed[props.service] ? "Active" : "Paused"}
+          {props.subscribed[props.service].sub ? "Active" : "Paused"}
         </p>
         <p>Edit</p>
       </div>
@@ -53,7 +53,7 @@ export default function Sub(props) {
         >
           <button
             className={
-              props.subscribed[props.service]
+              props.subscribed[props.service].sub
                 ? SubStyle.pauseButton
                 : SubStyle.reactivateButton
             }
@@ -61,7 +61,7 @@ export default function Sub(props) {
               props.subEvent(props.service);
             }}
           >
-            {props.subscribed[props.service] ? "Pause" : "Reactivate"}
+            {props.subscribed[props.service].sub ? "Pause" : "Reactivate"}
           </button>
           <div className={SubStyle.total}>
             <p>New total: 515,-</p>

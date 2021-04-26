@@ -7,7 +7,7 @@ export default function Sosialbar({ subscriptions }) {
       <Link href="/disney">
         <a
           className={
-            subscriptions.disney
+            subscriptions.disney.sub
               ? ServiceStyle.logoBox
               : ServiceStyle.logoBoxInActive
           }
@@ -22,7 +22,7 @@ export default function Sosialbar({ subscriptions }) {
       <Link href="/netflix">
         <a
           className={
-            subscriptions.netflix
+            subscriptions.netflix.sub
               ? ServiceStyle.logoBox
               : ServiceStyle.logoBoxInActive
           }
@@ -37,7 +37,7 @@ export default function Sosialbar({ subscriptions }) {
       <Link href="/sumo">
         <a
           className={
-            subscriptions.tv2
+            subscriptions.tv2.sub
               ? ServiceStyle.logoBox
               : ServiceStyle.logoBoxInActive
           }
@@ -52,7 +52,7 @@ export default function Sosialbar({ subscriptions }) {
       <Link href="/viaplay">
         <a
           className={
-            subscriptions.viaplay
+            subscriptions.viaplay.sub
               ? ServiceStyle.logoBox
               : ServiceStyle.logoBoxInActive
           }
@@ -67,7 +67,7 @@ export default function Sosialbar({ subscriptions }) {
       <Link href="/nrk">
         <a
           className={
-            subscriptions.nrk
+            subscriptions.nrk.sub
               ? ServiceStyle.logoBox
               : ServiceStyle.logoBoxInActive
           }
@@ -82,7 +82,7 @@ export default function Sosialbar({ subscriptions }) {
       <Link href="/hbo">
         <a
           className={
-            subscriptions.hbo
+            subscriptions.hbo.sub
               ? ServiceStyle.logoBox
               : ServiceStyle.logoBoxInActive
           }

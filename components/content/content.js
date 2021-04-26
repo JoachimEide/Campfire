@@ -20,7 +20,7 @@ export default function Content(props) {
       <div
         className={ContentStyle.container}
         style={
-          !props.subscriptions[props.serviceAlt]
+          !props.subscriptions[props.serviceAlt].sub
             ? { filter: "grayscale(1)" }
             : { filter: "none" }
         }
@@ -46,7 +46,7 @@ export default function Content(props) {
             src={props.serviceSrc}
             alt={props.serviceAlt}
             style={
-              !props.subscriptions[props.serviceAlt]
+              !props.subscriptions[props.serviceAlt].sub
                 ? { filter: "grayscale(1)" }
                 : { filter: "none" }
             }

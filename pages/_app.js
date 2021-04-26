@@ -22,12 +22,12 @@ const myReviews = [
 export default function App({ Component, pageProps }) {
   const [socialStatus, setSocialStatus] = useState(null);
   const [subscriptions, setSubscription] = useState({
-    netflix: true,
-    disney: true,
-    hbo: false,
-    nrk: true,
-    viaplay: true,
-    tv2: true,
+    netflix: { sub: true, price: 109 },
+    disney: { sub: true, price: 89 },
+    hbo: { sub: false, price: 109 },
+    nrk: { sub: true, price: 0 },
+    viaplay: { sub: true, price: 109 },
+    tv2: { sub: true, price: 109 },
   });
   const [yourFriends, setYourFriends] = useState([5, 3, 1, 2, 4]);
   const [reviews, setReviews] = useState(myReviews);
@@ -38,7 +38,8 @@ export default function App({ Component, pageProps }) {
   };
   const subEvent = (serviceProvider) => {
     let subCopy = { ...subscriptions };
-    subCopy[serviceProvider] = !subCopy[serviceProvider];
+    subCopy[serviceProvider].sub = !subCopy[serviceProvider].sub;
+    console.log(subCopy);
     setSubscription(subCopy);
   };
   const reviewEvent = (titleObject) => {
