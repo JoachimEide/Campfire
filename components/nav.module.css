@@ -21,6 +21,10 @@
   align-items: center;
 }
 
+.menu p:hover {
+  color: #e59740;
+}
+
 .right {
   display: flex;
   flex-direction: row;
