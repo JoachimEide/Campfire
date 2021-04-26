@@ -29,7 +29,7 @@ export default function Disney(props) {
     },
     {
       id: 3,
-      link: "series/the-falcon-and-the-winter-soldier",
+      link: "/series/the-falcon-and-the-winter-soldier",
       alt: "The Falcon and the Winter Soldier",
       src: "/images/falcon/falcon_big.jpeg",
     },

@@ -23,7 +23,7 @@ export default function Hbo(props) {
     },
     {
       id: 2,
-      link: "series/the-nevers",
+      link: "/series/the-nevers",
       alt: "The Nevers",
       src: "/images/nevers/nevers_big.jpg",
     },

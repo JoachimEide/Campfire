@@ -30,13 +30,13 @@ export default function Home(props) {
     },
     {
       id: 3,
-      link: "series/the-falcon-and-the-winter-soldier",
+      link: "/series/the-falcon-and-the-winter-soldier",
       alt: "The Falcon and the Winter Soldier",
       src: "/images/falcon/falcon_big.jpeg",
     },
     {
       id: 4,
-      link: "series/the-nevers",
+      link: "/series/the-nevers",
       alt: "The Nevers",
       src: "/images/nevers/nevers_big.jpg",
     },

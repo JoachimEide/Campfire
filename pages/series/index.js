@@ -24,13 +24,13 @@ export default function Movies(props) {
     },
     {
       id: 2,
-      link: "series/the-nevers",
+      link: "/series/the-nevers",
       alt: "The Nevers",
       src: "/images/nevers/nevers_big.jpg",
     },
     {
       id: 3,
-      link: "series/the-falcon-and-the-winter-soldier",
+      link: "/series/the-falcon-and-the-winter-soldier",
       alt: "The Falcon and the Winter Soldier",
       src: "/images/falcon/falcon_big.jpeg",
     },
@@ -84,7 +84,7 @@ export default function Movies(props) {
         paramValue="Comedy"
         param2="type"
         paramValue2="series"
-      />        
+      />
       <ContentRow
         subscriptions={props.subscriptions}
         contentArray={props.contentDataList}
