@@ -10,7 +10,7 @@ export default function Notifications({ clicked }) {
       }
     >
       <p className={NotificationStyle.text}>
-        You curently have no notifications.
+        You currently have no notifications.
       </p>
     </div>
   );
