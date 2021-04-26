@@ -42,7 +42,15 @@ export default function Content(props) {
       <div className={ContentStyle.titleService}>
         <p className={ContentStyle.title}>{props.alt}</p>
         <div className={ContentStyle.circle}>
-          <img src={props.serviceSrc} alt={props.serviceAlt} />
+          <img
+            src={props.serviceSrc}
+            alt={props.serviceAlt}
+            style={
+              !props.subscriptions[props.serviceAlt]
+                ? { filter: "grayscale(1)" }
+                : { filter: "none" }
+            }
+          />
         </div>
       </div>
     </div>

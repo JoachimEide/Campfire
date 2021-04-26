@@ -24,13 +24,13 @@ export default function TopFriends(props) {
             />
           );
         })}
-        <div
-          className={TopFriendsStyle.buttonContainer}
-          onClick={() => {
-            setAllFriendsClick(!allFriendsClick);
-          }}
-        >
-          <div className={TopFriendsStyle.allFriends}>
+        <div className={TopFriendsStyle.buttonContainer}>
+          <div
+            className={TopFriendsStyle.allFriends}
+            onClick={() => {
+              setAllFriendsClick(!allFriendsClick);
+            }}
+          >
             <p>All friends</p>
           </div>
           <div className={TopFriendsStyle.addFriends}>
