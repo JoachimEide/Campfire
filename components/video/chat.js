@@ -28,7 +28,7 @@ export default function Chat(props) {
   return (
     <div
       className={ChatStyle.container}
-      style={props.iconClick ? { right: "20%" } : { right: "5%" }}
+      style={props.iconClick ? { right: "20%" } : { right: "2%" }}
     >
       <div
         className={ChatStyle.head}
@@ -40,12 +40,19 @@ export default function Chat(props) {
         <img
           src="/images/video_icon.svg"
           alt="video-icon"
-          style={{ height: "17px" }}
+          style={
+            !props.videoChatClick ? { height: "17px" } : { display: "none" }
+          }
+          onClick={() => {
+            props.videoEvent(true);
+          }}
         />
         <img
           src="/images/mic_icon.svg"
           alt="mic-icon"
-          style={{ height: "23px" }}
+          style={
+            !props.videoChatClick ? { height: "23px" } : { display: "none" }
+          }
         />
         <div
           className={ChatStyle.minipadding}

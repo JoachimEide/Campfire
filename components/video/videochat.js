@@ -4,10 +4,6 @@ import VideoChatStyle from "./videochat.module.css";
 export default function VideoChat(props) {
   const videoRef = useRef(null);
 
-  useEffect(() => {
-    getVideo();
-  }, [videoRef]);
-
   const getVideo = () => {
     navigator.mediaDevices
       .getUserMedia({ video: true })
@@ -21,6 +17,24 @@ export default function VideoChat(props) {
       });
   };
 
+  const stop = (e) => {
+    let video = videoRef.current;
+    const stream = video.srcObject;
+    const tracks = stream.getTracks();
+    console.log(tracks);
+
+    for (let i = 0; i < tracks.length; i++) {
+      let track = tracks[i];
+      track.stop();
+      track.enabled = false;
+    }
+    video.srcObject = null;
+  };
+
+  useEffect(() => {
+    getVideo();
+  }, []);
+
   return (
     <div
       className={VideoChatStyle.container}
@@ -30,6 +44,18 @@ export default function VideoChat(props) {
           : { width: "20%", borderLeft: "1px solid #e59740" }
       }
     >
+      <div className={VideoChatStyle.buttonContainer}>
+        <button className={VideoChatStyle.inviteButton}>Invite</button>
+        <button
+          className={VideoChatStyle.leaveButton}
+          onClick={() => {
+            stop();
+            props.videoEvent(false);
+          }}
+        >
+          Leave
+        </button>
+      </div>
       <video
         src="/placeover_vid.mp4"
         className={VideoChatStyle.video}
