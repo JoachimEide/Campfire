@@ -1,3 +1,4 @@
+import Link from "next/link";
 import TitleNav from "./titleNav";
 import Socialbar from "./titleSocial";
 import Status from "../socialbar/status";
@@ -50,23 +51,47 @@ export default function Layout(props) {
       >
         <div className={TitlePageStyle.titleTop}>
           {OptionalLogo(props.show)}
-          <button
-            className={TitlePageStyle.playButton}
-            onClick={() => {
-              if (props.status) {
-                props.historyEvent({
-                  id: props.show.id,
-                  title: props.show.title,
-                  slug: props.show.slug,
-                  service: props.show.service,
-                  serviceLogo: props.show.serviceLogo,
-                  thumbnailSrc: props.show.thumbnailSrc,
-                });
-              }
-            }}
-          >
-            Play
-          </button>
+          {!props.show.link ? (
+            <button
+              className={TitlePageStyle.playButton}
+              onClick={() => {
+                if (props.status) {
+                  props.historyEvent({
+                    id: props.show.id,
+                    title: props.show.title,
+                    slug: props.show.slug,
+                    service: props.show.service,
+                    serviceLogo: props.show.serviceLogo,
+                    thumbnailSrc: props.show.thumbnailSrc,
+                  });
+                }
+              }}
+            >
+              Play
+            </button>
+          ) : (
+            <Link href={props.show.link}>
+              <a>
+                <button
+                  className={TitlePageStyle.playButton}
+                  onClick={() => {
+                    if (props.status) {
+                      props.historyEvent({
+                        id: props.show.id,
+                        title: props.show.title,
+                        slug: props.show.slug,
+                        service: props.show.service,
+                        serviceLogo: props.show.serviceLogo,
+                        thumbnailSrc: props.show.thumbnailSrc,
+                      });
+                    }
+                  }}
+                >
+                  Play
+                </button>
+              </a>
+            </Link>
+          )}
           <button
             className={TitlePageStyle.watchlistButton}
             onClick={() => {

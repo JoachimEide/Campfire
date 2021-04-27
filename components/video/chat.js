@@ -5,7 +5,11 @@ import Image from "next/image";
 export default function Chat(props) {
   const [minified, setMinified] = useState(true);
   const [allMessages, setAllMessages] = useState([
-    { from: "thomas", message: "Hei!" },
+    {
+      from: "thomas",
+      message: "Hei!",
+      imgSrc: "/images/friends/sebastian-ali.jpeg",
+    },
   ]);
   const [message, setMessage] = useState("");
 
@@ -14,7 +18,11 @@ export default function Chat(props) {
   const submitMessageHandle = (e) => {
     e.preventDefault();
     let allMessagesCopy = [...allMessages];
-    allMessagesCopy.push({ from: "you", message: message });
+    allMessagesCopy.push({
+      from: "you",
+      message: message,
+      imgSrc: "/images/profile_pic.png",
+    });
     setMessage("");
     setAllMessages(allMessagesCopy);
     bottom.current.scrollIntoView({ behavior: "smooth" });
@@ -75,7 +83,7 @@ export default function Chat(props) {
             >
               <Image
                 className={ChatStyle.image}
-                src={"/images/profile_pic.png"}
+                src={message.imgSrc}
                 alt="profile picture"
                 height={50}
                 width={50}

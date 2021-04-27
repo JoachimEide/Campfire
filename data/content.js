@@ -505,6 +505,7 @@ export const contentData = [
     type: "series",
     slug: "mandalorian",
     watched: true,
+    link: "/video",
     genre: ["Sci-Fi", "Action", "Fantasy"],
     service: "disney",
     serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",

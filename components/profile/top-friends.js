@@ -49,9 +49,10 @@ export default function TopFriends(props) {
       </div>
       {allFriendsClick ? (
         <div className={TopFriendsStyle.restOfFriends}>
-          {restFriends.map((friend) => {
+          {restFriends.map((friend, index) => {
             return (
               <Friend
+                key={index}
                 name={friend.name}
                 imgSrc={friend.imgSrc}
                 slug={friend.slug}

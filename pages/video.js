@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
 import { friendsData } from "../data/friends";
 import VideoTopIcon from "../components/video/video-top-icon";
@@ -17,9 +17,33 @@ export default function VideoPlayer(props) {
   const [iconClick, setIconClick] = useState(false);
   const [videoChatClick, setVideoChatClick] = useState(false);
   const [ChatActive, setChatActive] = useState(false);
+  const [inactiveMouse, setInactiveMouse] = useState(false);
+
+  let timer = null;
+
+  const handleMouseMove = (e) => {
+    e.preventDefault();
+    if (timer) {
+      clearTimeout(timer);
+      setInactiveMouse(false);
+    }
+    timer = setTimeout(() => {
+      setInactiveMouse(true);
+    }, 3000);
+  };
+
+  useEffect(() => {
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+      if (timer) clearTimeout(timer);
+    };
+  }, []);
+
   return (
     <div>
       <VideoTopIcon
+        inactiveMouse={inactiveMouse}
         status={props.socialStatus}
         event={setIconClick}
         chatEvent={setChatActive}
@@ -44,6 +68,7 @@ export default function VideoPlayer(props) {
       </div>
       {ChatActive ? (
         <Chat
+          inactiveMouse={inactiveMouse}
           iconClick={iconClick}
           event={setIconClick}
           videoChatClick={videoChatClick}

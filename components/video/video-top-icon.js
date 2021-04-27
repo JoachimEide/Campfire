@@ -4,8 +4,15 @@ import TopStyle from "./video-top-icons.module.css";
 
 export default function VideoTop(props) {
   return (
-    <div className="container">
-      <Link href="/">
+    <div
+      className="container"
+      style={
+        props.inactiveMouse
+          ? { opacity: "0", transition: "all 0.3s ease-in-out" }
+          : { opacity: "1", transition: "all 0.3s ease-in-out" }
+      }
+    >
+      <Link href="/series/mandalorian">
         <a className={TopStyle.close}></a>
       </Link>
       <img
