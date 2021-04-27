@@ -19,6 +19,7 @@ export default function VideoTop(props) {
       <Invites
         click={props.target}
         event={props.event}
+        chatEvent={props.chatEvent}
         friends={props.friends}
         yourFriends={props.yourFriends}
       />

@@ -5,8 +5,7 @@ import Image from "next/image";
 export default function Chat(props) {
   const [minified, setMinified] = useState(true);
   const [allMessages, setAllMessages] = useState([
-    { from: "you", message: "test" },
-    { from: "thomas", message: "test" },
+    { from: "thomas", message: "Hei!" },
   ]);
   const [message, setMessage] = useState("");
 
@@ -28,7 +27,7 @@ export default function Chat(props) {
   return (
     <div
       className={ChatStyle.container}
-      style={props.iconClick ? { right: "20%" } : { right: "2%" }}
+      style={props.iconClick ? { right: "22%" } : { right: "2%" }}
     >
       <div
         className={ChatStyle.head}

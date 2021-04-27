@@ -11,7 +11,7 @@ export default function Invite(props) {
       className={InviteStyle.container}
       style={
         props.click
-          ? { width: "15%", borderLeft: "1px solid #e59740" }
+          ? { width: "20%", borderLeft: "1px solid #e59740" }
           : { width: "0" }
       }
     >
@@ -30,6 +30,9 @@ export default function Invite(props) {
               slug={friend.slug}
               imgSrc={friend.imgSrc}
               online={friend.online}
+              click={props.click}
+              closeEvent={props.event}
+              chatEvent={props.chatEvent}
             />
           );
         })}

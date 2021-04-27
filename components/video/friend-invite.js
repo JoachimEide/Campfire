@@ -27,7 +27,13 @@ export default function VideoFriend(props) {
           <p className={FriendStyle.friendName}>{props.name}</p>
           <div className={FriendStyle.friendClick}>
             <button
-              className={FriendStyle.joinButton}
+              onClick={() => {
+                props.closeEvent(!props.click);
+                setTimeout(() => {
+                  props.chatEvent(true);
+                }, 1000);
+              }}
+              className={FriendStyle.inviteButton}
               style={
                 props.online
                   ? { borderColor: "#3ffefb" }

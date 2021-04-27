@@ -16,18 +16,22 @@ export const getStaticProps = async () => {
 export default function VideoPlayer(props) {
   const [iconClick, setIconClick] = useState(false);
   const [videoChatClick, setVideoChatClick] = useState(false);
+  const [ChatActive, setChatActive] = useState(false);
   return (
     <div>
       <VideoTopIcon
         status={props.socialStatus}
         event={setIconClick}
+        chatEvent={setChatActive}
         target={iconClick}
         friends={props.friendsDataList}
         yourFriends={props.yourFriends}
       />
       <div
         className="player-wrapper"
-        style={iconClick ? { width: "85%" } : { width: "100%" }}
+        style={
+          iconClick || videoChatClick ? { width: "80%" } : { width: "100%" }
+        }
       >
         <ReactPlayer
           playing
@@ -38,12 +42,16 @@ export default function VideoPlayer(props) {
           height="100%"
         />
       </div>
-      <Chat
-        iconClick={iconClick}
-        event={setIconClick}
-        videoChatClick={videoChatClick}
-        videoEvent={setVideoChatClick}
-      />
+      {ChatActive ? (
+        <Chat
+          iconClick={iconClick}
+          event={setIconClick}
+          videoChatClick={videoChatClick}
+          videoEvent={setVideoChatClick}
+        />
+      ) : (
+        <></>
+      )}
       {videoChatClick ? (
         <VideoChat
           videoChatClick={videoChatClick}
