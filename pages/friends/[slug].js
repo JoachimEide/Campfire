@@ -28,14 +28,17 @@ export default function ProfilePageFactory(props) {
   const friends = props.friendsDataList.map((value) => {
     return value;
   });
-  console.log(props);
   return (
     <Layout
       socialStatus={props.socialStatus}
       event={props.event}
       friends={props.friendsDataList}
     >
-      <ProfileTop name={props.friend.name} imgSrc={props.friend.imgSrc} />
+      <ProfileTop
+        name={props.friend.name}
+        imgSrc={props.friend.imgSrc}
+        online={props.friend.online}
+      />
       <TopFriends
         friends={props.friendsDataList}
         yourFriends={props.friend.friends}

@@ -21,8 +21,6 @@ export default function VideoChat(props) {
     let video = videoRef.current;
     const stream = video.srcObject;
     const tracks = stream.getTracks();
-    console.log(tracks);
-
     for (let i = 0; i < tracks.length; i++) {
       let track = tracks[i];
       track.stop();
