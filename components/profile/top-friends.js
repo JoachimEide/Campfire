@@ -15,9 +15,10 @@ export default function TopFriends(props) {
       <h2 className="content-header">Top friends</h2>
 
       <div className={TopFriendsStyle.friendContainer}>
-        {topThreeFriends.map((friend) => {
+        {topThreeFriends.map((friend, index) => {
           return (
             <Friend
+              key={index}
               name={friend.name}
               imgSrc={friend.imgSrc}
               slug={friend.slug}

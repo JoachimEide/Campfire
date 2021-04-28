@@ -58,7 +58,6 @@ export default function ProfilePageFactory(props) {
         paramValue={props.friend.watchList}
         param2={false}
         paramValue2={false}
-        arrayParam={props.watchHistory}
       />
       <ContentRow
         subscriptions={props.subscriptions}
