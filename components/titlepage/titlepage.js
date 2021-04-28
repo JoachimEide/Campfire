@@ -51,7 +51,7 @@ export default function Layout(props) {
       >
         <div className={TitlePageStyle.titleTop}>
           {OptionalLogo(props.show)}
-          {!props.show.link ? (
+          {!props.show.video ? (
             <button
               className={TitlePageStyle.playButton}
               onClick={() => {
@@ -70,7 +70,7 @@ export default function Layout(props) {
               Play
             </button>
           ) : (
-            <Link href={props.show.link}>
+            <Link href={`/watch/${props.show.slug}`}>
               <a>
                 <button
                   className={TitlePageStyle.playButton}

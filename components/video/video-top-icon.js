@@ -1,8 +1,9 @@
-import Link from "next/link";
+import { useRouter } from "next/router";
 import Invites from "./invites";
 import TopStyle from "./video-top-icons.module.css";
 
 export default function VideoTop(props) {
+  const router = useRouter();
   return (
     <div
       className="container"
@@ -12,9 +13,14 @@ export default function VideoTop(props) {
           : { opacity: "1", transition: "all 0.3s ease-in-out" }
       }
     >
-      <Link href="/series/mandalorian">
+      <div
+        style={{ cursor: "pointer" }}
+        onClick={() => {
+          router.back();
+        }}
+      >
         <a className={TopStyle.close}></a>
-      </Link>
+      </div>
       {props.status ? (
         <img
           className="icon"
