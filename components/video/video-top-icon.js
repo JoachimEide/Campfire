@@ -15,14 +15,18 @@ export default function VideoTop(props) {
       <Link href="/series/mandalorian">
         <a className={TopStyle.close}></a>
       </Link>
-      <img
-        className="icon"
-        src="/images/social_button.svg"
-        alt="social-icon"
-        onClick={() => {
-          props.event(!props.target);
-        }}
-      />
+      {props.status ? (
+        <img
+          className="icon"
+          src="/images/social_button.svg"
+          alt="social-icon"
+          onClick={() => {
+            props.event(!props.target);
+          }}
+        />
+      ) : (
+        <></>
+      )}
       <Invites
         click={props.target}
         event={props.event}
