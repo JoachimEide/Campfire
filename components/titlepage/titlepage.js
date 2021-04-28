@@ -110,7 +110,7 @@ export default function Layout(props) {
         </div>
         <div className={TitlePageStyle.episodeReviewContainer}>
           <div className={TitlePageStyle.episodesContainer}>
-            <h2>{props.show.type == "series" ? "Season 1" : "Movie"}</h2>
+            <h1>{props.show.title}</h1>
             {props.show.episodes.map(
               ({ title, episodeText, imgSrc }, index) => (
                 <Episode
