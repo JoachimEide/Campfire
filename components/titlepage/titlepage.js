@@ -51,7 +51,7 @@ export default function Layout(props) {
       >
         <div className={TitlePageStyle.titleTop}>
           {OptionalLogo(props.show)}
-          {!props.show.link ? (
+          {!props.show.video ? (
             <button
               className={TitlePageStyle.playButton}
               onClick={() => {
@@ -70,7 +70,7 @@ export default function Layout(props) {
               Play
             </button>
           ) : (
-            <Link href={props.show.link}>
+            <Link href={`/watch/${props.show.slug}`}>
               <a>
                 <button
                   className={TitlePageStyle.playButton}
@@ -110,7 +110,7 @@ export default function Layout(props) {
         </div>
         <div className={TitlePageStyle.episodeReviewContainer}>
           <div className={TitlePageStyle.episodesContainer}>
-            <h2>{props.show.type == "series" ? "Season 1" : "Movie"}</h2>
+            <h1>{props.show.title}</h1>
             {props.show.episodes.map(
               ({ title, episodeText, imgSrc }, index) => (
                 <Episode

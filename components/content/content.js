@@ -4,7 +4,13 @@ import Image from "next/image";
 
 export default function Content(props) {
   return (
-    <div style={{ position: "relative" }}>
+    <div
+      style={
+        !props.subscriptions[props.serviceAlt].sub
+          ? { position: "relative", opacity: "0.5" }
+          : { position: "relative" }
+      }
+    >
       {props.history ? (
         <img
           className={ContentStyle.x}
