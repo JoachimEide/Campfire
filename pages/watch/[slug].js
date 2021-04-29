@@ -8,7 +8,7 @@ import VideoChat from "../../components/video/videochat";
 
 export const getStaticProps = async ({ params }) => {
   const titleData = contentData.filter(
-    (title) => title.slug === params.slug && title.video
+    (title) => title.slug === params.slug && title.video !== "undefined"
   );
   return {
     props: {

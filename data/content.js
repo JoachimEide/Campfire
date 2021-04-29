@@ -41,7 +41,7 @@ export const contentData = [
     title: "Euphoria",
     type: "series",
     slug: "euphoria",
-    video: "https://vimeo.com/336745670",
+    video: "https://vimeo.com/345545787",
     genre: ["Drama"],
     service: "hbo",
     serviceLogo: "/images/subscriptions/hbo_sub.svg",
