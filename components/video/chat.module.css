@@ -8,6 +8,10 @@
   z-index: 2;
 }
 
+.container::-webkit-scrollbar {
+  display: none;
+}
+
 .head {
   display: flex;
   justify-content: space-around;

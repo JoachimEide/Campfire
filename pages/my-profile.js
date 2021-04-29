@@ -40,6 +40,17 @@ export default function Home(props) {
       />
       <ContentRow
         subscriptions={props.subscriptions}
+        title="Continue watching"
+        continueWatching={true}
+        contentArray={props.contentDataList}
+        param={false}
+        paramValue={false}
+        param2={false}
+        paramValue2={false}
+        arrayParam={props.continueWatchingState}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
         title="Watchlist"
         contentArray={props.contentDataList}
         param={false}

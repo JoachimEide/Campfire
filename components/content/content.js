@@ -41,6 +41,13 @@ export default function Content(props) {
               height={288}
               layout="intrinsic"
             />
+            {props.continueWatching ? (
+              <div className={ContentStyle.progressBar}>
+                <div className={ContentStyle.progress}></div>
+              </div>
+            ) : (
+              <></>
+            )}
           </a>
         </Link>
       </div>

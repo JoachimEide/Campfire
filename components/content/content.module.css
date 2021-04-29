@@ -61,3 +61,23 @@
   font-weight: 100;
   margin-top: 34px;
 }
+
+.progressBar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 1px;
+  height: 4px;
+  width: 90%;
+  line-height: 0;
+}
+
+.progress {
+  position: relative;
+  background-color: #3ffefb;
+  height: 100%;
+  width: 20%;
+}

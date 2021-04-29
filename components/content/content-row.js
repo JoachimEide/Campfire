@@ -86,23 +86,50 @@ export default function ContentRow(props) {
     <div className="content-row">
       <h2 className="content-header">{props.title}</h2>
       <Slider {...settings}>
-        {filteredContent.map(
-          ({ id, title, slug, service, serviceLogo, thumbnailSrc }) => (
-            <Content
-              key={id}
-              id={id}
-              link={`/series/${slug}`}
-              alt={title}
-              src={thumbnailSrc}
-              serviceSrc={serviceLogo}
-              serviceAlt={service}
-              history={props.history}
-              historyEvent={props.historyEvent}
-              subscriptions={props.subscriptions}
-              watchHistoryAll={filteredContent}
-            />
-          )
-        )}
+        {!props.continueWatching
+          ? filteredContent.map(
+              ({ id, title, slug, service, serviceLogo, thumbnailSrc }) => (
+                <Content
+                  key={id}
+                  id={id}
+                  link={`/series/${slug}`}
+                  alt={title}
+                  src={thumbnailSrc}
+                  serviceSrc={serviceLogo}
+                  serviceAlt={service}
+                  history={props.history}
+                  historyEvent={props.historyEvent}
+                  subscriptions={props.subscriptions}
+                  watchHistoryAll={filteredContent}
+                />
+              )
+            )
+          : filteredContent.map(
+              ({
+                id,
+                title,
+                slug,
+                service,
+                serviceLogo,
+                thumbnailSrc,
+                continueWatching,
+              }) => (
+                <Content
+                  key={id}
+                  id={id}
+                  continueWatching={props.continueWatching}
+                  link={`/series/${slug}`}
+                  alt={title}
+                  src={thumbnailSrc}
+                  serviceSrc={serviceLogo}
+                  serviceAlt={service}
+                  history={props.history}
+                  historyEvent={props.historyEvent}
+                  subscriptions={props.subscriptions}
+                  watchHistoryAll={filteredContent}
+                />
+              )
+            )}
       </Slider>
       <style jsx>{`
         .content-row {

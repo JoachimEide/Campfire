@@ -33,6 +33,7 @@ export default function App({ Component, pageProps }) {
   const [reviews, setReviews] = useState(myReviews);
   const [watchHistory, setWatchHistory] = useState([]);
   const [watchList, setWatchList] = useState([]);
+  const [continueWatchingState, setContinueWatchingState] = useState([]);
   const statusEvent = (booleanValue) => {
     setSocialStatus(booleanValue);
   };
@@ -56,6 +57,7 @@ export default function App({ Component, pageProps }) {
     } else {
       watchHistoryCopy.push(titleObject);
       setWatchHistory(watchHistoryCopy);
+      setContinueWatchingState(watchHistoryCopy);
     }
   };
   const watchListEvent = (titleObject) => {
@@ -75,6 +77,7 @@ export default function App({ Component, pageProps }) {
       reviewsEvent={reviewEvent}
       watchHistory={watchHistory}
       historyEvent={historyEvent}
+      continueWatchingState={continueWatchingState}
       watchList={watchList}
       watchListEvent={watchListEvent}
     />
