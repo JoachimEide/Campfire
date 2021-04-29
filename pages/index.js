@@ -59,6 +59,13 @@ export default function Home(props) {
       />
       <ContentRow
         subscriptions={props.subscriptions}
+        title="Friends are watching"
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[13, 23, 53, 21, 82]}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
         title="Action"
         contentArray={props.contentDataList}
         param="genre"

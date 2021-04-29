@@ -839,6 +839,42 @@ export const contentData = [
     ],
   },
   {
+    id: 53,
+    title: "The Office",
+    type: "series",
+    slug: "the-office",
+    genre: ["Comedy"],
+    service: "viaplay",
+    serviceLogo: "/images/subscriptions/Via.png",
+    serviceTitleLogo: "/images/viaplay-logo.png",
+    thumbnailSrc: "/images/theoffice/office.jpeg",
+    backgroundSrc: "/images/theoffice/Theoffice.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 3,
+        title: "Episode 1: Pilot",
+        episodeText:
+          "The premiere episode introduces the boss and staff of the Dunder-Mifflin Paper Company in Scranton, Pennsylvania in a documentary about the workplace.",
+        imgSrc: "/images/theoffice/1.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 2: Diversity Day",
+        episodeText:
+          "Michael's off color remark puts a sensitivity trainer in the office for a presentation, which prompts Michael to create his own.",
+        imgSrc: "/images/theoffice/2.jpeg",
+      },
+      {
+        id: 1,
+        title: "Episode 3: Health Care",
+        episodeText:
+          "Michael leaves Dwight in charge of picking the new healthcare plan for the staff, with disastrous results ahead.",
+        imgSrc: "/images/theoffice/3.jpg",
+      },
+    ],
+  },
+  {
     id: 23,
     title: "Wandavision",
     type: "series",
@@ -1688,42 +1724,6 @@ export const contentData = [
         title: "Episode 3: Let the Truth Sting",
         episodeText: "George tells Callie of his past indiscretion with Izzie.",
         imgSrc: "/images/greysanotomy/3.jpeg",
-      },
-    ],
-  },
-  {
-    id: 53,
-    title: "The Office",
-    type: "series",
-    slug: "the-office",
-    genre: ["Comedy"],
-    service: "viaplay",
-    serviceLogo: "/images/subscriptions/Via.png",
-    serviceTitleLogo: "/images/viaplay-logo.png",
-    thumbnailSrc: "/images/theoffice/office.jpeg",
-    backgroundSrc: "/images/theoffice/Theoffice.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 3,
-        title: "Episode 1: Pilot",
-        episodeText:
-          "The premiere episode introduces the boss and staff of the Dunder-Mifflin Paper Company in Scranton, Pennsylvania in a documentary about the workplace.",
-        imgSrc: "/images/theoffice/1.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 2: Diversity Day",
-        episodeText:
-          "Michael's off color remark puts a sensitivity trainer in the office for a presentation, which prompts Michael to create his own.",
-        imgSrc: "/images/theoffice/2.jpeg",
-      },
-      {
-        id: 1,
-        title: "Episode 3: Health Care",
-        episodeText:
-          "Michael leaves Dwight in charge of picking the new healthcare plan for the staff, with disastrous results ahead.",
-        imgSrc: "/images/theoffice/3.jpg",
       },
     ],
   },
