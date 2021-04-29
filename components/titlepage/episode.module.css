@@ -6,6 +6,7 @@
 
 .container {
   cursor: pointer;
+  position: relative;
   border-radius: 6px;
   border: 1px solid #111820;
   overflow: hidden;
@@ -41,8 +42,10 @@
 }
 
 .progressBar {
-  position: relative;
+  position: absolute;
   margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 10px;
   z-index: 1;
   background-color: white;
