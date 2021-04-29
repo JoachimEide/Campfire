@@ -870,6 +870,42 @@ export const contentData = [
     ],
   },
   {
+    id: 47,
+    title: "The Handmaid's Tale",
+    type: "series",
+    slug: "the-handmaid's-tale",
+    genre: ["Drama", "Thriller", "Fantasy"],
+    service: "hbo",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    serviceTitleLogo: "/images/HboLogo.svg",
+    thumbnailSrc: "/images/handmaid/handmaid.png",
+    backgroundSrc: "/images/handmaid/handmaid_big.jpeg",
+    optionalShowLogo: "",
+    episodes: [
+      {
+        id: 1,
+        title: "Episode 11: Liars",
+        episodeText:
+          "A return to Jezebels puts everything in jeopardy; Serena Joy and Commander Waterford take a clandestine trip.",
+        imgSrc: "/images/handmaid/handmaidS3E11.jpeg",
+      },
+      {
+        id: 2,
+        title: "Episode 12: Sacrifice",
+        episodeText:
+          "Gilead leadership is rocked by losses of their own; Luke and Moira adjust to new arrivals in Canada; A tragedy strikes the Lawrence household.",
+        imgSrc: "/images/handmaid/handmaidS3E12.jpeg",
+      },
+      {
+        id: 3,
+        title: "Episode 13: Mayday",
+        episodeText:
+          "With her plan in place, June reaches the point of no return on her bold strike against Gilead; Serena Joy and Commander Waterford attempt to find their way forward in their new lives.",
+        imgSrc: "/images/handmaid/handmaidS3E13.jpeg",
+      },
+    ],
+  },
+  {
     id: 25,
     title: "Love and Monsters",
     type: "movie",
@@ -1442,42 +1478,6 @@ export const contentData = [
         episodeText:
           "Dolores' true intentions are revealed; Bernard confronts a ghost from his past; Maeve is conflicted; Serac's voice is dominant; Caleb's role is revealed; and William faces an unexpected villain.",
         imgSrc: "/images/westworld/westworldS3E8.jpeg",
-      },
-    ],
-  },
-  {
-    id: 47,
-    title: "The Handmaid's Tale",
-    type: "series",
-    slug: "the-handmaid's-tale",
-    genre: ["Drama", "Thriller", "Fantasy"],
-    service: "hbo",
-    serviceLogo: "/images/subscriptions/hbo_sub.svg",
-    serviceTitleLogo: "/images/HboLogo.svg",
-    thumbnailSrc: "/images/handmaid/handmaid.png",
-    backgroundSrc: "/images/handmaid/handmaid_big.jpeg",
-    optionalShowLogo: "",
-    episodes: [
-      {
-        id: 1,
-        title: "Episode 11: Liars",
-        episodeText:
-          "A return to Jezebels puts everything in jeopardy; Serena Joy and Commander Waterford take a clandestine trip.",
-        imgSrc: "/images/handmaid/handmaidS3E11.jpeg",
-      },
-      {
-        id: 2,
-        title: "Episode 12: Sacrifice",
-        episodeText:
-          "Gilead leadership is rocked by losses of their own; Luke and Moira adjust to new arrivals in Canada; A tragedy strikes the Lawrence household.",
-        imgSrc: "/images/handmaid/handmaidS3E12.jpeg",
-      },
-      {
-        id: 3,
-        title: "Episode 13: Mayday",
-        episodeText:
-          "With her plan in place, June reaches the point of no return on her bold strike against Gilead; Serena Joy and Commander Waterford attempt to find their way forward in their new lives.",
-        imgSrc: "/images/handmaid/handmaidS3E13.jpeg",
       },
     ],
   },

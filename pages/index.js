@@ -55,7 +55,7 @@ export default function Home(props) {
         title="Popular now"
         contentArray={props.contentDataList}
         param="id"
-        paramValue={[1, 2, 3, 4, 5]}
+        paramValue={[1, 47, 6, 82, 25]}
       />
       <ContentRow
         subscriptions={props.subscriptions}
