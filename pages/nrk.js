@@ -58,21 +58,24 @@ export default function Nrk(props) {
       <Topcarousel shows={topCarouselShows} />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Movies"
+        title="Popular now"
         contentArray={props.contentDataList}
-        param="service"
-        paramValue="nrk"
-        param2="type"
-        paramValue2="movie"
+        param="id"
+        paramValue={[81, 82, 91, 3, 7, 89, 96]}
       />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Series"
+        title="Drama"
         contentArray={props.contentDataList}
-        param="service"
-        paramValue="nrk"
-        param2="type"
-        paramValue2="series"
+        param="id"
+        paramValue={[81, 82, 90, 98, 99, 100, 101, 102, 103]}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Comedy"
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[91, 92, 94, 97, 96]}
       />
     </Layout>
   );

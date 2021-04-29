@@ -58,21 +58,31 @@ export default function Hbo(props) {
       <Topcarousel shows={topCarouselShows} />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Movies"
+        title="Popular now"
         contentArray={props.contentDataList}
-        param="service"
-        paramValue="hbo"
-        param2="type"
-        paramValue2="movie"
+        param="id"
+        paramValue={[8, 14, 18, 24, 47, 50]}
       />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Series"
+        title="Action"
         contentArray={props.contentDataList}
-        param="service"
-        paramValue="hbo"
-        param2="type"
-        paramValue2="series"
+        param="id"
+        paramValue={[34, 52, 24, 28]}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Fantasy"
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[8, 14, 18, 47, 45, 46, 52]}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Drama"
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[2, 48, 21, 28, 49]}
       />
     </Layout>
   );

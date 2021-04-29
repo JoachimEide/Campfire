@@ -58,21 +58,38 @@ export default function Netflix(props) {
       <Topcarousel shows={topCarouselShows} />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Movies"
+        title="Popular now"
         contentArray={props.contentDataList}
-        param="service"
-        paramValue="netflix"
-        param2="type"
-        paramValue2="movie"
+        param="id"
+        paramValue={[25, 12, 9, 4, 40]}
       />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Series"
+        title="Action"
         contentArray={props.contentDataList}
-        param="service"
-        paramValue="netflix"
-        param2="type"
-        paramValue2="series"
+        param="id"
+        paramValue={[22, 27, 30, 40, 17]}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Fantasy"
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[12, 15, 22, 25, 40, 9]}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Comedy"
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[25, 40, 42, 41, 43, 44]}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Drama"
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[4, 39, 9, 15]}
       />
     </Layout>
   );

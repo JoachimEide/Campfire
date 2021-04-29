@@ -58,21 +58,31 @@ export default function Viaplay(props) {
       <Topcarousel shows={topCarouselShows} />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Movies"
+        title="Popular now"
         contentArray={props.contentDataList}
-        param="service"
-        paramValue="viaplay"
-        param2="type"
-        paramValue2="movie"
+        param="id"
+        paramValue={[5, 55, 16, 53]}
       />
       <ContentRow
         subscriptions={props.subscriptions}
-        title="Series"
+        title="Action"
         contentArray={props.contentDataList}
-        param="service"
-        paramValue="viaplay"
-        param2="type"
-        paramValue2="series"
+        param="id"
+        paramValue={[55, 26, 16, 57]}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Drama"
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[56, 57, 60, 5]}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Comedy"
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[59, 53, 54, 60, 61]}
       />
     </Layout>
   );

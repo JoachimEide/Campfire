@@ -58,21 +58,31 @@ export default function Disney(props) {
       <Topcarousel shows={topCarouselShows} />
       <ContentRow
         subscriptions={props.subscriptions}
+        title="Popular now"
         contentArray={props.contentDataList}
-        title="Movies"
-        param="service"
-        paramValue="disney"
-        param2="type"
-        paramValue2="movie"
+        param="id"
+        paramValue={[51, 19, 13, 1, 32]}
       />
       <ContentRow
         subscriptions={props.subscriptions}
+        title="Animation"
         contentArray={props.contentDataList}
-        title="Series"
-        param="service"
-        paramValue="disney"
-        param2="type"
-        paramValue2="series"
+        param="id"
+        paramValue={[51, 35, 10, 37, 36]}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Fantasy"
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[13, 29, 13, 19, 23]}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title="Drama"
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[38, 1, 104, 105]}
       />
     </Layout>
   );
