@@ -14,11 +14,15 @@
 }
 
 .nameOptionContainer {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .friendName {
-  margin-top: 7px;
+  margin-top: 0px;
+}
+
+.name {
+  font-size: 1.1rem;
 }
 
 .friendOptions {

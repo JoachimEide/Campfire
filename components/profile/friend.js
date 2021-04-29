@@ -16,7 +16,7 @@ export default function Review(props) {
 
       <div className={FriendStyle.nameOptionContainer}>
         <div className={FriendStyle.friendName}>
-          <p>{props.name}</p>
+          <h3 className={FriendStyle.name}>{props.name}</h3>
         </div>
         <div className={FriendStyle.friendOptions}>
           <p className="thin-text">Invite</p>

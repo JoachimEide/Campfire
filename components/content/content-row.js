@@ -52,7 +52,7 @@ export default function ContentRow(props) {
     arrayParam = []
   ) => {
     if (arrayParam.length) {
-      return arrayParam.reverse();
+      return arrayParam;
     }
     let data = props.contentArray.filter((content) => {
       if (param === "genre") {

@@ -11,6 +11,11 @@ export default function Content(props) {
           : { position: "relative" }
       }
     >
+      {!props.subscriptions[props.serviceAlt].sub ? (
+        <img className={ContentStyle.x} src="images/lock.svg" alt="lock icon" />
+      ) : (
+        <></>
+      )}
       {props.history ? (
         <img
           className={ContentStyle.x}
@@ -32,8 +37,28 @@ export default function Content(props) {
             : { filter: "none" }
         }
       >
-        <Link href={props.link}>
-          <a>
+        {props.subscriptions[props.serviceAlt].sub ? (
+          <Link href={props.link}>
+            <a>
+              <Image
+                className={ContentStyle.image}
+                alt={props.alt}
+                src={props.src}
+                width={508}
+                height={288}
+                layout="intrinsic"
+              />
+              {props.continueWatching ? (
+                <div className={ContentStyle.progressBar}>
+                  <div className={ContentStyle.progress}></div>
+                </div>
+              ) : (
+                <></>
+              )}
+            </a>
+          </Link>
+        ) : (
+          <div>
             <Image
               className={ContentStyle.image}
               alt={props.alt}
@@ -49,8 +74,8 @@ export default function Content(props) {
             ) : (
               <></>
             )}
-          </a>
-        </Link>
+          </div>
+        )}
       </div>
 
       <div className={ContentStyle.titleService}>

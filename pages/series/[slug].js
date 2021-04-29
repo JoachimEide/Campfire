@@ -21,6 +21,7 @@ export default function TitlePageFactory(props) {
   return (
     <Titlepage
       key={props.title.id}
+      subscriptions={props.subscriptions}
       show={props.title}
       status={props.socialStatus}
       event={props.event}

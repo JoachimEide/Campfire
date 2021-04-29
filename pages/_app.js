@@ -31,9 +31,83 @@ export default function App({ Component, pageProps }) {
   });
   const [yourFriends, setYourFriends] = useState([5, 3, 1, 2, 4]);
   const [reviews, setReviews] = useState(myReviews);
-  const [watchHistory, setWatchHistory] = useState([]);
+  const [watchHistory, setWatchHistory] = useState([
+    {
+      id: 1,
+      service: "disney",
+      serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+      slug: "big-sky",
+      thumbnailSrc: "/images/big_sky/big_sky.jpeg",
+      title: "Big Sky",
+    },
+    {
+      id: 13,
+      service: "disney",
+      serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+      slug: "mandalorian",
+      thumbnailSrc: "/images/mandalorian/Mandalorian.jpg",
+      title: "Mandalorian",
+    },
+    {
+      id: 15,
+      service: "netflix",
+      serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+      slug: "stranger-things",
+      thumbnailSrc: "/images/stranger_things/stranger_things.png",
+      title: "Stranger Things",
+    },
+    {
+      id: 54,
+      service: "viaplay",
+      serviceLogo: "/images/subscriptions/Via.png",
+      slug: "family-guy",
+      thumbnailSrc: "/images/familyguy/family_guy_c.jpeg",
+      title: "Family Guy",
+    },
+  ]);
   const [watchList, setWatchList] = useState([]);
-  const [continueWatchingState, setContinueWatchingState] = useState([]);
+  const [continueWatchingState, setContinueWatchingState] = useState([
+    {
+      id: 1,
+      service: "disney",
+      serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+      slug: "big-sky",
+      thumbnailSrc: "/images/big_sky/big_sky.jpeg",
+      title: "Big Sky",
+    },
+    {
+      id: 96,
+      service: "nrk",
+      serviceLogo: "/images/subscriptions/nrk_sub.svg",
+      slug: "parterapi",
+      thumbnailSrc: "/images/parterapi/parterapi.jpeg",
+      title: "Parterapi",
+    },
+    {
+      id: 13,
+      service: "disney",
+      serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+      slug: "mandalorian",
+      thumbnailSrc: "/images/mandalorian/Mandalorian.jpg",
+      title: "Mandalorian",
+    },
+    {
+      id: 15,
+      service: "netflix",
+      serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+      slug: "stranger-things",
+      thumbnailSrc: "/images/stranger_things/stranger_things.png",
+      title: "Stranger Things",
+    },
+    {
+      id: 54,
+      service: "viaplay",
+      serviceLogo: "/images/subscriptions/Via.png",
+      slug: "family-guy",
+      thumbnailSrc: "/images/familyguy/family_guy_c.jpeg",
+      title: "Family Guy",
+    },
+  ]);
   const statusEvent = (booleanValue) => {
     setSocialStatus(booleanValue);
   };
@@ -56,8 +130,8 @@ export default function App({ Component, pageProps }) {
       setWatchHistory(arrayWithRemoved);
     } else {
       watchHistoryCopy.push(titleObject);
-      setWatchHistory(watchHistoryCopy);
-      setContinueWatchingState(watchHistoryCopy);
+      setWatchHistory(watchHistoryCopy.reverse());
+      setContinueWatchingState(watchHistoryCopy.reverse());
     }
   };
   const watchListEvent = (titleObject) => {

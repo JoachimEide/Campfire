@@ -48,7 +48,7 @@ export default function Socialbar(props) {
             />
           </a>
         </Link>
-        <h2>{!props.status ? "" : "Pia Eriksen"}</h2>
+        <h2>{!props.status || inSettings ? "" : "Pia Eriksen"}</h2>
       </div>
       <button
         className={

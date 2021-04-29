@@ -8,7 +8,7 @@ export default function Chat(props) {
     {
       from: "thomas",
       message: "Hei!",
-      imgSrc: "/images/friends/sebastian-ali.jpeg",
+      imgSrc: "/images/friends/thomas-lund.jpeg",
     },
   ]);
   const [message, setMessage] = useState("");

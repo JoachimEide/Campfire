@@ -59,7 +59,7 @@ export default function VideoPlayer(props) {
       >
         <ReactPlayer
           playing
-          controls
+          controls={true}
           className="react-player"
           url="https://vimeo.com/372838917"
           width="100%"
