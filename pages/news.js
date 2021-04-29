@@ -52,19 +52,55 @@ export default function Home(props) {
       <Services subscriptions={props.subscriptions} />
       <ContentRow
         subscriptions={props.subscriptions}
-        title={`News`}
+        title={`News on Netflix`}
         contentArray={props.contentDataList}
         param="id"
-        paramValue={[1, 2, 3, 4, 5]}
+        paramValue={[25, 12, 9, 40]}
         param2={false}
         paramValue2={false}
       />
       <ContentRow
         subscriptions={props.subscriptions}
-        title={`News`}
+        title={`News on Disney+`}
         contentArray={props.contentDataList}
         param="id"
-        paramValue={[6, 21, 99, 50, 31]}
+        paramValue={[51, 105, 19, 1]}
+        param2={false}
+        paramValue2={false}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title={`News on NRK`}
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[81, 82, 91, 3, 7, 89]}
+        param2={false}
+        paramValue2={false}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title={`News on TV2 Sumo`}
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[76, 6, 69, 31]}
+        param2={false}
+        paramValue2={false}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title={`News on Viaplay`}
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[5, 55, 16, 53]}
+        param2={false}
+        paramValue2={false}
+      />
+      <ContentRow
+        subscriptions={props.subscriptions}
+        title={`News on Hbo Nordic`}
+        contentArray={props.contentDataList}
+        param="id"
+        paramValue={[8, 14, 18, 24, 47, 50]}
         param2={false}
         paramValue2={false}
       />
