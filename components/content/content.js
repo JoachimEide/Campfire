@@ -16,6 +16,7 @@ export default function Content(props) {
           className={ContentStyle.x}
           src="images/remove_history.svg"
           alt="remove icon"
+          style={{ cursor: "pointer" }}
           onClick={() => {
             props.historyEvent(props.watchHistoryAll, true, props.id);
           }}

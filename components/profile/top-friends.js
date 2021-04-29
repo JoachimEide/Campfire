@@ -12,7 +12,7 @@ export default function TopFriends(props) {
   const restFriends = topFriendArray.slice(3);
   return (
     <div className={TopFriendsStyle.container}>
-      <h2 className="content-header">Top friends</h2>
+      <h2 className={TopFriendsStyle.header}>Top friends</h2>
 
       <div className={TopFriendsStyle.friendContainer}>
         {topThreeFriends.map((friend, index) => {

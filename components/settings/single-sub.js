@@ -18,6 +18,12 @@ export default function Sub(props) {
         props.handleButtonStateChange(props.service);
       }}
     >
+      <img
+        src="/images/close_icon.svg"
+        alt="close"
+        className={SubStyle.closeIcon}
+      />
+
       <div className={SubStyle.logoNamePriceContainer}>
         <img
           className={SubStyle.subLogo}

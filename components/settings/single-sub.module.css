@@ -11,6 +11,7 @@
 
 .subProviderActive {
   justify-content: space-evenly;
+  position: relative;
   align-items: center;
   margin-top: 17px;
   width: 100%;
@@ -121,4 +122,11 @@
   outline: none;
   font-weight: bold;
   border: 1px solid #d3381e;
+}
+
+.closeIcon {
+  position: absolute;
+  width: 30px;
+  top: 7%;
+  left: 3%;
 }

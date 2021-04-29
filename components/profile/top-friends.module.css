@@ -1,3 +1,9 @@
+.header {
+  color: #e59740;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -11,10 +17,10 @@
 .friendContainer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .buttonContainer {
-  margin-top: -17px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +34,6 @@
   border-radius: 24px;
   width: 100%;
   text-align: center;
-  margin-bottom: 15px;
   padding: 8px;
 }
 
