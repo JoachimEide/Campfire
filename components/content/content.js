@@ -12,14 +12,18 @@ export default function Content(props) {
       }
     >
       {!props.subscriptions[props.serviceAlt].sub ? (
-        <img className={ContentStyle.x} src="images/lock.svg" alt="lock icon" />
+        <img
+          className={ContentStyle.x}
+          src="/images/lock.svg"
+          alt="lock icon"
+        />
       ) : (
         <></>
       )}
       {props.history ? (
         <img
           className={ContentStyle.x}
-          src="images/remove_history.svg"
+          src="/images/remove_history.svg"
           alt="remove icon"
           style={{ cursor: "pointer" }}
           onClick={() => {

@@ -22,7 +22,7 @@ export default function Sub(props) {
         src="/images/close_icon.svg"
         alt="close"
         className={
-          props.subscribed[props.service].sub
+          props.subToggle[props.service].toggle
             ? SubStyle.closeIcon
             : SubStyle.hidden
         }
@@ -40,7 +40,13 @@ export default function Sub(props) {
         </div>
       </div>
 
-      <div className={SubStyle.subActiveEdit}>
+      <div
+        className={
+          props.subToggle[props.service].toggle
+            ? SubStyle.subActiveEditClicked
+            : SubStyle.subActiveEdit
+        }
+      >
         <p
           className={
             props.subscribed[props.service].sub
