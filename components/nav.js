@@ -2,7 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import NavStyle from "./nav.module.css";
 import Notifications from "./notifications";
-import SearchIcon from "./svg/search-icon";
+import NotificationIcon from "./svg/notification";
 import SettingsIcon from "./svg/settings-icon";
 
 export default function Nav(props) {
@@ -28,8 +28,9 @@ export default function Nav(props) {
       <div className={NavStyle.menu}>
         <Link href="/search">
           <a
-            className="SearchIcon"
-            style={{ display: "flex", marginTop: "-2px" }}
+            className={NavStyle.searchContainer}
+            id="link"
+            style={{ display: "flex" }}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -37,17 +38,9 @@ export default function Nav(props) {
               height={28}
               viewBox="0 0 28 28"
               focusable="true"
-              className="SearchIcon"
+              className="searchIcon"
             >
-              <defs>
-                <style>
-                  {
-                    ".SearchIcon {fill: #fff; height: 20px;} .SearchIcon:hover {fill: #e59740; transition: all 0.2s ease-in-out;}"
-                  }
-                </style>
-              </defs>
               <path
-                id="search_icon"
                 data-name="search icon"
                 d="M27.658,26.011,19.7,18.049a11.1,11.1,0,1,0-1.65,1.65l7.963,7.962a1.166,1.166,0,1,0,1.65-1.65ZM11.083,19.836a8.75,8.75,0,1,1,8.75-8.75A8.759,8.759,0,0,1,11.083,19.836Z"
                 transform="translate(0 -0.003)"
@@ -83,17 +76,14 @@ export default function Nav(props) {
             <SettingsIcon />
           </a>
         </Link>
-        <div>
-          <img
-            onClick={() => {
-              setNotificationClick(!notificationClick);
-            }}
-            className={NavStyle.notificationIcon}
-            alt="notification"
-            src="/images/notification.svg"
-          />
-          <Notifications clicked={notificationClick} />
+        <div
+          onClick={() => {
+            setNotificationClick(!notificationClick);
+          }}
+        >
+          <NotificationIcon />
         </div>
+        <Notifications clicked={notificationClick} />
       </div>
       <style jsx>{`
         div,

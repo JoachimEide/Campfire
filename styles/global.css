@@ -95,3 +95,7 @@ footer {
   height: 80px;
   width: auto;
 }
+
+.searchIcon:hover #link p {
+  color: #e59740;
+}

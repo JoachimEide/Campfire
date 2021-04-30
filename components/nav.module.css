@@ -56,3 +56,14 @@
 .notificationIcon {
   margin-right: 10px;
 }
+
+.searchContainer svg {
+  fill: #fff;
+  height: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.searchContainer:hover svg {
+  fill: #e59740;
+  transition: all 0.2s ease-in-out;
+}
