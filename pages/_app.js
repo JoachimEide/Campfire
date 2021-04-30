@@ -65,7 +65,38 @@ export default function App({ Component, pageProps }) {
       title: "Family Guy",
     },
   ]);
-  const [watchList, setWatchList] = useState([]);
+  const [watchList, setWatchList] = useState([    {
+    id: 2,
+    service: "disney",
+    serviceLogo: "/images/subscriptions/hbo_sub.svg",
+    slug: "euphoria",
+    thumbnailSrc: "/images/euphoria/euphoria.jpeg",
+    title: "Euphoria",
+  },
+  {
+    id: 4,
+    service: "netflix",
+    serviceLogo: "/images/subscriptions/Netflix_sub.svg",
+    slug: "the-crown",
+    thumbnailSrc: "/images/crown/crown.jpeg",
+    title: "The Crown",
+  },
+  {
+    id: 105,
+    service: "disney",
+    serviceLogo: "/images/subscriptions/DisneyPlusLogo.svg",
+    slug: "911l",
+    thumbnailSrc: "/images/911l/911l.jpeg",
+    title: "911: Lone Star",
+  },
+  {
+    id: 3,
+    service: "nrk",
+    serviceLogo: "//images/subscriptions/nrk_sub.svg",
+    slug: "normal-people",
+    thumbnailSrc: "/images/normal-people/normal-people.jpeg",
+    title: "Normal People",
+  }]);
   const [continueWatchingState, setContinueWatchingState] = useState([
     {
       id: 1,
