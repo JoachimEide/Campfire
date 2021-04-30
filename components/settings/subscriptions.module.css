@@ -20,48 +20,6 @@
   justify-content: center;
 }
 
-.subProviderHbo {
-  border: solid 0.5px #fbab29;
-}
-
-.subLogo {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-}
-
-.subNamePrice {
-  margin-left: 10px;
-  line-height: 1.5;
-}
-
-.subActiveEdit {
-  margin-left: 15px;
-  line-height: 1.5;
-  text-align: center;
-}
-
-.subActiveEditNRK {
-  margin-left: 60px;
-  line-height: 1.5;
-  text-align: center;
-}
-
-.subActiveEditHbo,
-.subActiveEditDisney {
-  margin-left: 23px;
-  line-height: 1.5;
-  text-align: center;
-}
-
-.subActiveState {
-  color: #2cfffc;
-}
-
-.subActiveStateHbo {
-  color: #fbab29;
-}
-
 .subAddTotalRow {
   display: flex;
   justify-content: space-between;
