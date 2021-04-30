@@ -10,7 +10,7 @@ export default function Topcarousel(props) {
     centerMode: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 9000,
+    autoplaySpeed: 6000,
     speed: 500,
     dots: true,
     slidesToShow: 1.72,
