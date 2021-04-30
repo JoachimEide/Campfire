@@ -131,3 +131,7 @@
   left: 3%;
   cursor: pointer;
 }
+
+.hidden {
+  display: none;
+}

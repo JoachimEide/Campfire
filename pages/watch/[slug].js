@@ -69,7 +69,7 @@ export default function VideoPlayer(props) {
       >
         <ReactPlayer
           playing
-          controls={false}
+          controls={true}
           className="react-player"
           url={props.title.video}
           width="100%"

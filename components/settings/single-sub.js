@@ -21,7 +21,11 @@ export default function Sub(props) {
       <img
         src="/images/close_icon.svg"
         alt="close"
-        className={SubStyle.closeIcon}
+        className={
+          props.subscribed[props.service].sub
+            ? SubStyle.closeIcon
+            : SubStyle.hidden
+        }
       />
 
       <div className={SubStyle.logoNamePriceContainer}>
