@@ -105,15 +105,7 @@ export default function ContentRow(props) {
               )
             )
           : filteredContent.map(
-              ({
-                id,
-                title,
-                slug,
-                service,
-                serviceLogo,
-                thumbnailSrc,
-                continueWatching,
-              }) => (
+              ({ id, title, slug, service, serviceLogo, thumbnailSrc }) => (
                 <Content
                   key={id}
                   id={id}
