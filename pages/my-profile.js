@@ -57,7 +57,7 @@ export default function Home(props) {
         paramValue={false}
         param2={false}
         paramValue2={false}
-        arrayParam={props.watchList.reverse()}
+        arrayParam={props.watchList}
       />
       <ContentRow
         subscriptions={props.subscriptions}
