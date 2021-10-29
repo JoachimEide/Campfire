@@ -31,10 +31,7 @@ export const friendsData = [
       { id: 81, seasonAndEpisode: "S1E1", service: "NRK" },
     ],
     reviews: [
-      { id: 1, 
-        score: 9, 
-        reviewText: "I really enjoy this show!" 
-      },
+      { id: 1, score: 9, reviewText: "I really enjoy this show!" },
       {
         id: 13,
         score: 10,
@@ -84,13 +81,9 @@ export const friendsData = [
       { id: 82, seasonAndEpisode: "S1E1", service: "NRK" },
       { id: 96, seasonAndEpisode: "S1E1", service: "NRK" },
       { id: 90, seasonAndEpisode: "S1E1", service: "NRK" },
-      
     ],
     reviews: [
-      { id: 5, 
-        score: 8, 
-        reviewText: "Quite nervewrecking this one!" 
-      },
+      { id: 5, score: 8, reviewText: "Quite nervewrecking this one!" },
       {
         id: 19,
         score: 8,
@@ -135,14 +128,13 @@ export const friendsData = [
       { id: 27, seasonAndEpisode: "", service: "Netflix" },
       { id: 18, seasonAndEpisode: "", service: "HBO Nordic" },
       { id: 24, seasonAndEpisode: "S3E1", service: "HBO Nordic" },
-
     ],
     reviews: [
       {
         id: 37,
         score: 10,
         reviewText:
-          "I love all the Toy Story movies, this did not dissapoint either :)",
+          "I love all the Toy Story movies, this did not dissapoint either :D",
       },
       {
         id: 45,
@@ -150,10 +142,7 @@ export const friendsData = [
         reviewText:
           "Why couldn't they have nailed the ending on this awesome show?",
       },
-      { id: 15, 
-        score: 7, 
-        reviewText: "I really enjoy this show!" 
-      },
+      { id: 15, score: 7, reviewText: "I really enjoy this show!" },
     ],
   },
   {
@@ -245,20 +234,14 @@ export const friendsData = [
       { id: 28, seasonAndEpisode: "", service: "HBO Nordic" },
     ],
     reviews: [
-      { id: 23, 
-        score: 9, 
-        reviewText: "A must if you like Marvel movies!" 
-      },
+      { id: 23, score: 9, reviewText: "A must if you like Marvel movies!" },
       {
         id: 42,
         score: 9,
         reviewText:
           "So funny! Surprised that I liked it that much. JaJa Ding Dong! ",
       },
-      { id: 82, 
-        score: 7, 
-        reviewText: "Dark and twisted, worth a watch." 
-      },
+      { id: 82, score: 7, reviewText: "Dark and twisted, worth a watch." },
     ],
   },
 ];
